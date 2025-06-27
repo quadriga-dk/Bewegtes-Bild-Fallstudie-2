@@ -1,0 +1,195 @@
+[
+ 
+    {
+        "question": "Welches Ziel verfolgt die Datenpublikation in der Wissenschaft?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Maximierung von Gewinn",
+                "correct": false,
+                "feedback": "Leider falsch!"
+            },
+            {
+                "answer": "Sichtbarkeit und Nachnutzbarkeit von Daten",
+                "correct": true,
+                "feedback": "Richtig! Datenpublikation macht Daten sichtbar und nutzbar für weitere Forschungen."
+            },
+            {
+                "answer": "Erstellung von Software",
+                "correct": false,
+                "feedback": "Leider falsch!"
+            },
+            {
+                "answer": "Förderung studentischer Projekte",
+                "correct": false,
+                "feedback": "Leider falsch!"
+            }
+        ]
+    },
+    
+
+ 
+    {
+        "question": "Welche Rolle spielen Repositorien im Forschungsdatenmanagement?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Sie bieten Beratung für Forschende",
+                "correct": false,
+                "feedback": "Leider falsch!"
+            },
+            {
+                "answer": "Sie speichern und veröffentlichen Daten",
+                "correct": true,
+                "feedback": "Richtig! Repositorien sind wichtig für Datenspeicherung und -zugänglichkeit."
+            },
+            {
+                "answer": "Sie finanzieren Forschungsprojekte",
+                "correct": false,
+                "feedback": "Leider falsch!"
+            },
+            {
+                "answer": "Sie bewerten wissenschaftliche Artikel",
+                "correct": false,
+                "feedback": "Leider falsch!"
+            }
+        ]
+    },
+    
+
+    {
+        "question": "Welche Plattform verzeichnet Repositorien für Forschungsdaten?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Open Science Journal",
+                "correct": false,
+                "feedback": "Leider falsch!"
+            },
+            {
+                "answer": "re3data.org",
+                "correct": true,
+                "feedback": "Richtig! re3data.org listet Repositorien weltweit auf."
+            },
+            {
+                "answer": "LinkedIn",
+                "correct": false,
+                "feedback": "Leider falsch!"
+            },
+            {
+                "answer": "Academia.edu",
+                "correct": false,
+                "feedback": "Leider falsch!"
+            }
+        ]
+    },
+
+    {
+        "question": "Warum ist ein Datenmanagementplan wichtig?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Er erhöht die Finanzierungsmöglichkeiten",
+                "correct": false,
+                "feedback": "Leider falsch!"
+            },
+            {
+                "answer": "Er erleichtert die Projektplanung",
+                "correct": true,
+                "feedback": "Richtig! Ein Datenmanagementplan hilft bei der Strukturierung und Verwaltung von Daten."
+            },
+            {
+                "answer": "Er schützt vor Datenverlust",
+                "correct": false,
+                "feedback": "Leider falsch!"
+            },
+            {
+                "answer": "Er fördert Wissenschaftler:innen beruflich",
+                "correct": false,
+                "feedback": "Leider falsch!"
+            }
+        ]
+    },
+
+    {
+        "question": "Was kennzeichnet die Datenformate csv, tsv und xml?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Benutzerfreundliche Oberfläche",
+                "correct": false,
+                "feedback": "Leider falsch!"
+            },
+            {
+                "answer": " Programmunabhängigkeit",
+                "correct": true,
+                "feedback": "Richtig! Diese Formate gewährleisten eine Offenheit für viele Tools zur Datenverarbeitung."
+            },
+            {
+                "answer": "Hohe Sicherheitsvorkehrungen",
+                "correct": false,
+                "feedback": "Leider falsch!"
+            },
+            {
+                "answer": "Verwaltung von Benutzerzugriffen",
+                "correct": false,
+                "feedback": "Leider falsch!"
+            }
+        ]
+    },
+
+    {
+        "question": "Was ist ein 'Codebook' bei der Datenveröffentlichung?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Leitfaden für neue Projekte",
+                "correct": false,
+                "feedback": "Leider falsch!"
+            },
+            {
+                "answer": "Dokument zur Beschreibung von Daten",
+                "correct": true,
+                "feedback": "Richtig! Ein Codebook listet z.B. Variablen und Spaltennamen auf."
+            },
+            {
+                "answer": "Sammlung alter Filmposter",
+                "correct": false,
+                "feedback": "Leider falsch!"
+            },
+            {
+                "answer": "Buch mit Filmkritiken",
+                "correct": false,
+                "feedback": "Leider falsch!"
+            }
+        ]
+    },
+
+
+    {
+        "question": "Was kann in einem Data Paper kritisch reflektiert werden?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Softwareentwicklungsstrategien",
+                "correct": false,
+                "feedback": "Leider falsch!"
+            },
+            {
+                "answer": "Potenziale und Grenzen von Datenmodellen",
+                "correct": true,
+                "feedback": "Richtig! Eine kritische Reflexion von Datenmodellen und der Nachnutzbarkeit von Daten ist zentral bei Data Papers."
+            },
+            {
+                "answer": "Anzahl der Seiten in einem Journal",
+                "correct": false,
+                "feedback": "Leider falsch!"
+            },
+            {
+                "answer": "Farbwahl der Webseiten",
+                "correct": false,
+                "feedback": "Leider falsch!"
+            }
+        ]
+    }
+]

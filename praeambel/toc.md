@@ -1,0 +1,4 @@
+# Präambel
+Diese **Open Educational Resource (OER)** richtet sich in Form eines **Selbstlernkurses** an Wissenschaftler:innen, die sich für die Bearbeitung filmwissenschaftlicher Fragestellungen mithilfe digitaler Methoden und Tools interessieren. **Besondere Vorkenntnisse sind nicht notwendig**. Die OER kann dabei sowohl für das eigene Lernen als auch in der Lehre eingesetzt werden.
+
+Die einzelnen Kapitel sind als eigenständige Lerneinheiten anzusehen und können unabhängig voneinander absolviert werden, insbesondere wenn bereits Vorwissen zum jeweils behandelten Lerninhalt vorhanden ist. Im Regelfall wird jedoch empfohlen, die Kapitel in der hier vorliegenden Reihenfolge zu bearbeiten, da die in den Kapiteln vorgestellten Schritte der Abfolge eines tatsächlichen Forschungsprojekts entsprechen.

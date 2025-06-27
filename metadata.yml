@@ -1,0 +1,68 @@
+# yaml-language-server: $schema=quadriga-schema.json
+schema-version: 1.1-beta2
+book-version: 0.1.0
+title: Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)
+description:
+  introduction: TODO
+  table-of-contents: '- Präambel
+
+    - Filmwissenschaft und Digital Humanities
+
+    - Vorarbeiten und Recherche
+
+    - Datenerhebung und Datenbereinigung
+
+    - Datenauswertung und Datenvisualisierung
+
+    - Datenpublikation
+
+    - Reflexion und Ausblick
+
+    - Epilog'
+discipline:
+- übergreifend
+duration: 10h
+type-of-research-object:
+- übergreifend
+identifier: https://doi.org/10.5281/zenodo.TODOTODO
+url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
+git: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2
+license:
+  code: https://opensource.org/licenses/AGPL-3.0
+  content:
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+    name: CC BY-SA 4.0
+date-of-last-change: '2025-06-03'
+publication-date: 2025-06-03
+target-group:
+- Forschende (PostDoc)
+- Forschende (Projektleitung)
+- Promovierende
+- Hochschullehrende
+authors:
+- given-names: Thomas
+  family-names: Schick
+  orcid: https://orcid.org/0009-0007-3292-8611
+- given-names: Marco
+  family-names: Winter
+- given-names: Skadi
+  family-names: Loist
+  orcid: https://orcid.org/0000-0002-8299-4103
+- given-names: Lena
+  family-names: Gieseke
+  orcid: https://orcid.org/0000-0001-8421-103X
+chapters:
+- description: TODO
+  title: Einleitung
+  learning-goal: TODO
+  duration: 1h
+  learning-objectives:
+  - learning-objective: TODO
+    competency: 1 Basiskompetenz
+    data-flow: Grundlagen
+    focus: Wissen
+    blooms-category: 1 Erinnern
+context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
+  Datenkompetenzzentrum QUADRIGA erstellt.
+
+  Förderkennzeichen: 16DKZ1034'

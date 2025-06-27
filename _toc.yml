@@ -1,0 +1,54 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+options:
+  numbered: 3
+chapters:
+  - file: praeambel/toc.md
+    sections:
+      - file: praeambel/lernziele
+      - file: praeambel/technische_voraussetzungen
+  - file: einleitung/filmwissenschaft
+  - file: recherche/toc
+    sections:
+      - file: recherche/material
+      - file: recherche/metadaten
+      - file: recherche/operationalisierung
+      - file: recherche/resumee_recherche
+  - file: bereinigung/toc
+    sections:
+      - file: bereinigung/modell
+      - file: bereinigung/datenquelle
+      - file: bereinigung/openRefine/0_datenbereinigung
+        sections:
+          - file: bereinigung/openRefine/1_einführung
+          - file: bereinigung/openRefine/2_import
+          - file: bereinigung/openRefine/3_sichtung
+          - file: bereinigung/openRefine/4_spalten
+          - file: bereinigung/openRefine/5_zellen
+            sections:
+              - file: bereinigung/openRefine/5.1_jahre
+              - file: bereinigung/openRefine/5.2_titel
+          - file: bereinigung/openRefine/6_export
+      - file: bereinigung/resumee_bereinigung 
+  - file: auswertung/toc
+    sections:
+      - file: auswertung/visualisierung
+      - file: auswertung/datenvisualisierung
+      - file: auswertung/resumee_auswertung
+  - file: publikation/toc
+    sections:
+      - file: publikation/forschungsdaten
+      - file: publikation/publikationsformen
+      - file: publikation/problemfelder
+      - file: publikation/resumee_publikation
+  - file: zusammenfassung/reflexion
+  - file: epilog/toc
+    sections:
+      - file: epilog/fragen_und_feedback
+      - file: epilog/literaturverzeichnis
+      - file: epilog/authors
+      - file: epilog/quadriga
+      - file: epilog/impressum

@@ -1,0 +1,48 @@
+# yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
+cff-version: 1.2.0
+title: Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)
+abstract: TODO
+type: software
+message: Please cite this software using the metadata from `preferred-citation` in
+  `CITATION.cff`.
+authors: &id001
+- given-names: Thomas
+  family-names: Schick
+  orcid: https://orcid.org/0009-0007-3292-8611
+- given-names: Marco
+  family-names: Winter
+- given-names: Skadi
+  family-names: Loist
+  orcid: https://orcid.org/0000-0002-8299-4103
+- given-names: Lena
+  family-names: Gieseke
+  orcid: https://orcid.org/0000-0001-8421-103X
+identifiers:
+- type: doi
+  value: 10.5281/zenodo.TODOTODO
+  description: Zenodo
+repository-code: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2
+url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
+keywords:
+- Open Educational Resource
+license: CC-BY-SA-4.0
+references:
+- title: Jupyter Book
+  type: software
+  authors:
+  - name: The Jupyter Book Community
+    website: https://github.com/jupyter-book/jupyter-book/graphs/contributors
+preferred-citation:
+  year: 2025
+  authors: *id001
+  title: Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)
+  type: book
+  doi: 10.5281/zenodo.TODOTODO
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
+  repository-code: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2
+  license: CC-BY-SA-4.0
+  languages:
+  - deu
+  copyright: CC-BY-SA-4.0
+  keywords:
+  - Open Educational Resource
