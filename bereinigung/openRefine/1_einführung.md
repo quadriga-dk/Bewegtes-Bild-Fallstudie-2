@@ -15,6 +15,10 @@ OpenRefine Logo (2018-heute), übernommen von <a href="https://commons.wikimedia
 Zwischen 2010 und 2012 wurde *OpenRefine* als *GoogleRefine* von *Google* entwickelt. Nach dem Ende der Unterstützung durch Google wurde *OpenRefine* als freie Software veröffentlicht und weiterentwickelt, teilweise finden sich noch Artikel und Tutorials unter dem Namen *GoogleRefine*. 
 Im Folgenden wird wiederholt auf die <a href="https://openrefine.org/docs" class="external-link" target="_blank">*OpenRefine* Dokumentation</a> verlinkt – in dieser werden Sie bei Fragen bezüglich des Programms schnell fündig.
 
+```{admonition} OpenRefine Versionen
+:class: keypoint
+Für diese OER wurde die zum Zeitpunkt derer Erstellung aktuelle *OpenRefine* Version **3.9.3** vom **17.04.2025** verwendet. Ältere und neuere Versionen weisen ggf. Unterschiede in Interface und Funktionalität auf. Sie finden sämtliche Versionen von *OpenRefine* <a href="https://github.com/OpenRefine/OpenRefine/releases" class="external-link" target="_blank">im GitHub Repositorium des Projekts</a>. 
+```
 ## Installation
 
 *OpenRefine* kann von der <a href="https://openrefine.org/download" class="external-link" target="_blank">Website des Projekts</a> heruntergeladen werden. Die Software wird lokal installiert, aber ähnlich wie die Office Produkte von *Google* über einen Browser ausgeführt. Als lokaler Webserver benötigt das Programm dabei keine aktive Internetverbindung. Unterstützt werden WebKit basierte Browser wie etwa

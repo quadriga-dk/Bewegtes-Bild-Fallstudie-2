@@ -101,28 +101,52 @@ Die *Undo / Redo* Liste
 
 Mit Klick auf einen vorherigen Schritt in der Liste kann zu einem früheren Arbeitsstand zurückgekehrt werden. In OpenRefine ist damit kein Wiederholen von *STRG Z* und *STRG Y* nötig wie man es aus anderen Programmen kennt.
 
-Außerdem lassen sich über das Feld *Extract* die aufgelisteten  Arbeitsschritte im *JSON* Format exportieren. In dem sich öffnenden Export-Fenstern können durch setzen eines Hakens einzelne Schritte ausgewählt werden, die Teil des *JSON*-Exports auf der rechten Seite werden sollen. Standardmäßig werden alle Schritte ausgewählt. Durch einen Klick auf *Export* öffnet sich ein Fenster zur Speicherung der JSON-Datei. Alternativ können die JSON-Angaben im rechten Feld auch in die Zwischenablage kopiert werden, um sie an anderer Stelle des Projekts oder in ein anderes geöffnetes OpenRefine-Projekt einzufügen.
+Außerdem lassen sich über das Feld *Extract* die aufgelisteten  Arbeitsschritte im *JSON* Format extrahieren:
 
-```{figure} ../../assets/bereinigung/openRefine/spalten/undoRedo_export.png
+```{figure} ../../assets/bereinigung/openRefine/spalten/undoRedo_extractButton.png
+---
+align: center
+width: 50%
+name: undoRedo_extractButton
+alt: Der Button zum Extrahieren der Arbeitsschritte
+---
+Der Button zum Extrahieren der Arbeitsschritte
+```
+
+In dem sich öffnenden *Extract*-Fenstern können durch setzen eines Hakens einzelne Schritte ausgewählt werden, die Teil des *JSON*-Exports auf der rechten Seite werden sollen. Standardmäßig werden alle Schritte ausgewählt. Durch einen Klick auf *Export* können Sie die *JSON*-Datei herunterladen. Alternativ können den Inhalt im rechten Feld auch in die Zwischenablage kopieren, um ihn nach einem späteren oder früheren *Undo/Redo* Schritt anzuwenden oder in ein anderes OpenRefine-Projekt einzufügen.
+
+```{figure} ../../assets/bereinigung/openRefine/spalten/undoRedo_extract.png
 ---
 align: center
 width: 75%
 name: undoRedo_export
-alt: Das Fenster zum Export der Arbeitsschritte
+alt: Das Fenster zum Extrahieren der Arbeitsschritte
 ---
-Das Fenster zum Export der Arbeitsschritte
+Das Fenster zum Extrahieren der Arbeitsschritte
 ```
 
-Der Button *Apply* öffnet das hierfür notwendige Menü. Es kann entweder eine *JSON*-Datei ausgewählt oder es können JSON-Inhalte aus der Zwischenablage hineinkopiert werden. 
+Der Button *Apply* öffnet das hierfür notwendige Menü. 
+
+```{figure} ../../assets/bereinigung/openRefine/spalten/undoRedo_applyButton.png
+---
+align: center
+width: 50%
+name: undoRedo_extractButton
+alt: Der Button zum Anwenden der Arbeitsschritte
+---
+Der Button zum Anwenden der Arbeitsschritte
+```
+
+Es kann entweder eine *JSON*-Datei über den *Choose File*-Button ausgewählt oder es können *JSON*-Inhalte aus der Zwischenablage in dem Textfeld abgelegt werden. Mit Klick auf den *Run operations*-Button werden die Änderungen angewendet.
 
 ```{figure} ../../assets/bereinigung/openRefine/spalten/undoRedo_apply.png
 ---
 align: center
 width: 75%
 name: undoRedo_apply
-alt: Das Fenster zur Anwendung von exportierten Arbeitsschritten 
+alt: Das Fenster zur Anwendung von Arbeitsschritten 
 ---
-Das Fenster zur Anwendung von exportierten Arbeitsschritten 
+Das Fenster zur Anwendung von Arbeitsschritten 
 ```
 
 Neben der Übertragung von Arbeitsschritten auf andere Projekte ist diese Funktion besonders praktisch, um nachträglich an einem vorherigen Arbeitsstands des Projekts eine Änderung vorzunehmen und anschließend die später erfolgten Schritte erneut anzuwenden. 

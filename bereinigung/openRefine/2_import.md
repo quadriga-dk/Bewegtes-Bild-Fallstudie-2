@@ -77,7 +77,7 @@ alt: Das Importmenü
 ---
 Die Optionen zum Datenimport
 ```
-
+Durch vertikales und horizontales Scrollen können Sie sich hier sämtliche Spalten ansehen.
 Gehen wir diese Optionen nun Schritt für Schritt durch. Als erstes ist bei der Vergabe des Projektnamens auffällig, dass hierfür der Namen der Datensatz-Datei verwendet wurde und alle Unterstriche im Dateinamen automatisch durch Leerzeichen ersetzt wurden. Bei der Arbeit mit Daten sollten Leerzeichen generell vermieden werden, da dies zu Problemen beim Einlesen der Datensätze in Bearbeitungs- und Auswertungssoftware führen kann. Daher sollten die Unterstriche anstatt der Leerzeichen wieder eingesetzt werden. Zudem macht es Sinn, den Titel mit zusätzlichen Informationen zu ergänzen, etwa dem Erstellungsdatum, einer Versionsnummer oder einem Personenkürzel. Dies erleichtert später die Unterscheidung verschiedener Fassungen eines OpenRefine Projekts, etwa von gespeicherten Zwischenstufen vor größeren Bearbeitungsschritten. Hier fällt die Wahl auf den Namen **20250609_Datensatz_Uebung_OER_V1**.
 
 Im Feld *Tags* können alternativ durch Leerzeichen getrennte Schlagworte angegeben werden, die gemeinsam mit dem Rest des Projekts im **TAR** Dateiformat gespeichert und später in der Übersicht der Projekte in "Open Project" mit angezeigt werden.
@@ -103,7 +103,7 @@ alt: Die Importeinstellungen
 ---
 Die Importeinstellungen
 ```
-Generell ist *OpenRefine* sehr kompetent in der automatischen Erkennung der korrekten Einstellungen, hier wurde allerdings fälschlicherweise das Komma (*CSV*) als Trennzeichen ausgewählt – wechseln sie stattdessen zu *TSV*. Die Spalten sind nun korrekt voneinander getrennt, allerdings enthält die Kopfzeile noch eine Beschreibung des Datensatzes an dessen Anfang:
+Generell ist *OpenRefine* sehr kompetent in der automatischen Erkennung der korrekten Einstellungen – sollte bei Ihnen allerdings ein anderes Trennzeichen ausgewählt worden sein, wählen sie bitte stattdessen *TSV* aus. Die Spalten sind nun korrekt voneinander getrennt, allerdings enthält die Kopfzeile noch eine Beschreibung des Datensatzes an dessen Anfang:
 
 ```{figure} ../../assets/bereinigung/openRefine/import/import_5.png
 ---
@@ -128,6 +128,41 @@ Die Optionen zum Überspringen einer Zeile
 
 Mit dieser Einstellung sollten nun die korrekten Spaltennamen ausgewählt sein. 
 
+```{admonition} Übung
+:class: exercise
+Es liegt noch ein weiteres Problem bezüglich der korrekten Zuweisung der Spalten vor – können Sie es identifizieren? 
+```
+
+```{admonition}  Lösungen
+:class: solution, dropdown
+Beim Scrollen durch den Datensatz können Sie feststellen, dass Einträge aus der Spalte *Stichwort* fälschlicherweise in mehrere Spalten aufgeteilt wurden, wodurch vier zusätzliche Spalten entstanden sind:
+
+````{figure} ../../assets/bereinigung/openRefine/import/import_error.png
+---
+align: left
+width: 75%
+name: import_error
+alt: Ein fälschlicherweise aufgeteilter Eintrag
+---
+Ein fälschlicherweise aufgeteilter Eintrag
+
+Innerhalb des Eintrags wurde ebenfalls das *Tab* Zeichen verwendet, um einzelne Stichwörter voneinander zu trennen – diese wurden fälschlicherweise als Trennzeichen für weitere Spalten interpretiert.
+
+Wählen Sie 	die Option **Use character *"*  to enclose cells containing column separators** aus, um das Problem zu lösen:
+
+````{figure} ../../assets/bereinigung/openRefine/import/import_error_solution.png
+---
+align: left
+width: 50%
+name: import_error_solution
+alt: Die Option Use character "  to enclose cells containing column separators zur Lösung des Problems
+---
+Die Option **Use character *"*  to enclose cells containing column separators** zur Lösung des Problems
+
+Die zuvor aufgetrennten Einträge mit mehreren Stichwörtern werden im Datensatz durch Anführungszeichen (*"*) gekennzeichnet. Durch die Auswahl der obigen Option interpretiert *OpenRefine* diese Anführungszeichen korrekt und trennt die einzelnen Stichworte nicht mehr voneinander. 
+
+```
+
 Die übrigen Einstellungen können für den Import des Übungsdatensatzes so übernommen werden. Der Import wird mit einem Klick auf **"Create project"** in der oberen rechten Ecke der Eingabeoberfläche abgeschlossen. Es lohnt sich dennoch, die einzelnen Einstellungsmöglichkeiten kurz zu erläutern, da sie für das Einlesen komplexer strukturierter Datensätze nützlich sein können. Falls Sie direkt mit dem Übungsdatensatz weiterarbeiten möchten, können Sie die folgenden Ausführungen auch überspringen und mit dem Abschnitt zur [Sichtung des Datensatzes](3_sichtung.md) fortfahren.
 
 **Character encoding**
@@ -140,8 +175,8 @@ Hier kann das Trennzeichen des Datensatzes ausgewählt werden. Neben dem Komma (
 
 **Use character " to enclose cells containing column separators**
 
-Manchmal werden Einträge, die ggf. Trennzeichen wie das Komma enthalten, durch Anführungszeichen gekennzeichnet, um so eine versehentliche Aufteilung des Eintrags zu vermeiden.
-Diese Einstellung funktioniert etwas missverständlich: Wird sie ausgewählt, werden die Anführungszeichen bei solchen Einträgen entfernt und nicht mehr in *OpenRefine* angezeigt, andernfalls bleiben sie erhalten. Da idealerweise ein eindeutiges Trennzeichen beim Export aus OpenRefine verwendet wird, können die Anführungszeichen entfernt werden. 
+Manchmal werden Einträge, die das generelle Trennzeichen des Datensatzes enthalten durch Anführungszeichen gekennzeichnet, um so eine versehentliche Aufteilung des Eintrags zu vermeiden – wie Sie in der vorherigen Übung bereits gesehen haben, ist dies auch für diesen Datensatz der Fall.
+Diese Einstellung funktioniert etwas missverständlich: Wird sie ausgewählt, werden die Anführungszeichen als Kennzeichen interpretiert, den entsprechenden Eintrag nicht aufzuteilen und nicht mehr angezeigt, andernfalls bleiben sie erhalten und die Einträge werden getrennt. 
 
 <b>Trim leading & trailing whitespace from strings<br>
 Escape special characters with \ </b>
