@@ -77,7 +77,7 @@ alt: Re-Import eines Projekts
 Re-Import eines Projekts
 ```
 
-Im sich nun wieder öffnenden Hauptfenster benennen Sie nun mit einem Klick auf den aktuellen Namen das Projekt um. Geben Sie hierfür einen neuen oder modifizierten Projektnamen ein, z.B. mit angepasster Datumsangabe:
+Im sich nun wieder öffnenden Hauptfenster benennen Sie mit einem Klick auf den aktuellen Namen das Projekt um. Geben Sie hierfür einen neuen oder modifizierten Projektnamen ein, z.B. mit angepasster Datumsangabe:
 
 ```{figure} ../../assets/bereinigung/openRefine/sichtung/reimport_2.png
 ---

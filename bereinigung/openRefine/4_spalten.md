@@ -54,7 +54,7 @@ Der Menüpunkt zur Löschung einer Spalte
 ```
 
 Neben dem Spalten-Dropdown-Menü gibt es noch eine eigene Oberfläche zum Löschen und Umordnen von Spalten.
-Dieses *Re-oder / Remove columns* Menü wird über das Dropdown-Menü der Spalte *all* und den Reiter *Edit columns* geöffnet. 
+Dieses *Re-oder / Remove columns* Menü wird über das Dropdown-Menü der Spalte *All* und den Reiter *Edit columns* geöffnet. 
 
 ```{figure} ../../assets/bereinigung/openRefine/spalten/reorder_columns_1.png
 ---
@@ -113,7 +113,7 @@ alt: Der Button zum Extrahieren der Arbeitsschritte
 Der Button zum Extrahieren der Arbeitsschritte
 ```
 
-In dem sich öffnenden *Extract*-Fenstern können durch setzen eines Hakens einzelne Schritte ausgewählt werden, die Teil des *JSON*-Exports auf der rechten Seite werden sollen. Standardmäßig werden alle Schritte ausgewählt. Durch einen Klick auf *Export* können Sie die *JSON*-Datei herunterladen. Alternativ können den Inhalt im rechten Feld auch in die Zwischenablage kopieren, um ihn nach einem späteren oder früheren *Undo/Redo* Schritt anzuwenden oder in ein anderes OpenRefine-Projekt einzufügen.
+In dem sich öffnenden *Extract*-Fenstern können durch setzen eines Hakens einzelne Schritte ausgewählt werden, die Teil des *JSON*-Exports auf der rechten Seite werden sollen. Standardmäßig werden alle Schritte ausgewählt. Durch einen Klick auf *Export* können Sie die *JSON*-Datei herunterladen. Alternativ können Sie den Inhalt im rechten Feld auch in die Zwischenablage kopieren, um ihn nach einem späteren oder früheren *Undo/Redo* Schritt anzuwenden oder in ein anderes OpenRefine-Projekt einzufügen.
 
 ```{figure} ../../assets/bereinigung/openRefine/spalten/undoRedo_extract.png
 ---
@@ -131,7 +131,7 @@ Der Button *Apply* öffnet das hierfür notwendige Menü.
 ---
 align: center
 width: 50%
-name: undoRedo_extractButton
+name: undoRedo_apply
 alt: Der Button zum Anwenden der Arbeitsschritte
 ---
 Der Button zum Anwenden der Arbeitsschritte
@@ -143,7 +143,7 @@ Es kann entweder eine *JSON*-Datei über den *Choose File*-Button ausgewählt od
 ---
 align: center
 width: 75%
-name: undoRedo_apply
+name: undoRedo_apply_run
 alt: Das Fenster zur Anwendung von Arbeitsschritten 
 ---
 Das Fenster zur Anwendung von Arbeitsschritten 
@@ -172,7 +172,7 @@ alt: Das Text Facet der Spalte Bib._Nummer
 Das *Text Facet* der Spalte *Bib._Nummer*
 ```
 
-Für die Beantwortung der Forschungsfrage sind die Einträge nicht relevant und sie Spalte kann somit gelöscht werden. Wählen Sie hierfür im Dropdown-Menü "Edit Column" und "Remove Column" aus (siehe {numref}`remove_column`).
+Für die Beantwortung der Forschungsfrage sind die Einträge nicht relevant und die Spalte kann somit gelöscht werden. Wählen Sie hierfür im Dropdown-Menü "Edit column" und "Remove this column" aus (siehe {numref}`remove_column`).
 ````
 `````
 
