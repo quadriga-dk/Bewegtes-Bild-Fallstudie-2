@@ -10,14 +10,14 @@ OpenRefine Logo (2018-heute), übernommen von <a href="https://commons.wikimedia
 **"A power tool for working with messy data."**
 ```
 
-*OpenRefine* ist eine OpenSource Software für die Bereinigung, Formatierung und Anreicherung von Datensätzen. Sie präsentiert die Datensätze in einer grafischen Benutzeroberfläche, die in ihrer tabellarischen Ansicht an Excel erinnert. In *OpenRefine* stehen jedoch eine Vielzahl an Bearbeitungsfunktionen zur Verfügung, die weit über die Möglichkeiten von Excel hinausgehen und sonst nur durch die Anwendung verschiedener Programmiersprachen umgesetzt werden können. Zudem ist OpenRefine in der Lage, eine Vielzahl von Datei- und Datenformaten (z.B. csv, txt, xls) für die Verarbeitung einzulesen und später zu exportieren.[^1]
+*OpenRefine* ist eine OpenSource Software für die Bereinigung, Formatierung und Anreicherung von Datensätzen. Sie präsentiert die Datensätze in einer grafischen Benutzeroberfläche, die in ihrer tabellarischen Ansicht an Excel erinnert. In *OpenRefine* stehen jedoch zahlreiche Bearbeitungsfunktionen zur Verfügung, die weit über die Möglichkeiten von Excel hinausgehen und sonst nur durch die Anwendung verschiedener Programmiersprachen umgesetzt werden können. Zudem ist OpenRefine in der Lage, eine Vielzahl von Datei- und Datenformaten (z.B. csv, txt, xls) für die Verarbeitung einzulesen und später zu exportieren.[^1]
 
 Zwischen 2010 und 2012 wurde *OpenRefine* als *GoogleRefine* von *Google* entwickelt. Nach dem Ende der Unterstützung durch Google wurde *OpenRefine* als freie Software veröffentlicht und weiterentwickelt, teilweise finden sich noch Artikel und Tutorials unter dem Namen *GoogleRefine*. 
 Im Folgenden wird wiederholt auf die <a href="https://openrefine.org/docs" class="external-link" target="_blank">*OpenRefine* Dokumentation</a> verlinkt – in dieser werden Sie bei Fragen bezüglich des Programms schnell fündig.
 
 ```{admonition} OpenRefine Versionen
 :class: keypoint
-Für diese OER wurde die zum Zeitpunkt derer Erstellung aktuelle *OpenRefine* Version **3.9.3** vom **17.04.2025** verwendet. Ältere und neuere Versionen weisen ggf. Unterschiede in Interface und Funktionalität auf. Sie finden sämtliche Versionen von *OpenRefine* <a href="https://github.com/OpenRefine/OpenRefine/releases" class="external-link" target="_blank">im GitHub Repositorium des Projekts</a>. 
+Für diese OER wurde die zum Zeitpunkt derer Erstellung aktuelle *OpenRefine* Version **3.9.3** vom **17.04.2025** verwendet. Ältere und neuere Versionen weisen ggf. Unterschiede bei der Arbeitsoberfläche und bei den Funktionalitäten auf. Sie finden sämtliche Versionen von *OpenRefine* <a href="https://github.com/OpenRefine/OpenRefine/releases" class="external-link" target="_blank">im GitHub Repositorium des Projekts</a>. 
 ```
 ## Installation
 
