@@ -66,7 +66,7 @@ Im Startmenü kann die Sprache von *OpenRefine* auf Deutsch geändert werden. Da
 
 Über den Startbildschirm von *OpenRefine* werden durch Anklicken von "Create Project" neue Projekte erstellt ({numref}`import_window_OpenRefine`). Neben lokalen Dateien ("Choose Files") können über die Importoptionen *URLs*, *Database* und *Google Data* auch Datensätze aus dem Internet importiert werden. In der *Clipboard* Ansicht ist es möglich, ganze Datensätze per *Copy-and-Paste* über die Zwischenablage einzulesen.
 
-Nach dem erfolgreichen Einlesen eines Datensatzes öffnet sich das folgende Menü für die Importoptionen:
+Wählen sie nun durch *Choose files* die Datei *Synthetischer_Datensatz_Uebung_OER.tsv* aus. Navigieren sie hierzu zu dem Speicherort, an dem Sie den Download auf Ihren Computer abgelegt haben. Klicken Sie auf *Next*. Nach dem erfolgreichen Einlesen des Datensatzes öffnet sich das folgende Menü für die Importoptionen:
 
 ```{figure} ../../assets/bereinigung/openRefine/import/import_2.png
 ---
@@ -175,7 +175,7 @@ Hier kann das Trennzeichen des Datensatzes ausgewählt werden. Neben dem Komma (
 
 **Use character " to enclose cells containing column separators**
 
-Manchmal werden Einträge, die das generelle Trennzeichen des Datensatzes enthalten durch Anführungszeichen gekennzeichnet, um so eine versehentliche Aufteilung des Eintrags zu vermeiden – wie Sie in der vorherigen Übung bereits gesehen haben, ist dies auch für diesen Datensatz der Fall.
+Manchmal werden Einträge, die das generelle Trennzeichen des Datensatzes enthalten durch Anführungszeichen gekennzeichnet, um so eine versehentliche Aufteilung des Eintrags zu vermeiden. Wie Sie in der vorherigen Übung bereits gesehen haben, ist dies auch für diesen Datensatz der Fall.
 Diese Einstellung funktioniert etwas missverständlich: Wird sie ausgewählt, werden die Anführungszeichen als Kennzeichen interpretiert, den entsprechenden Eintrag nicht aufzuteilen und nicht mehr angezeigt, andernfalls bleiben sie erhalten und die Einträge werden getrennt. 
 
 <b>Trim leading & trailing whitespace from strings<br>
