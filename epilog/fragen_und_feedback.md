@@ -4,7 +4,7 @@ lang: de-DE
 (fragen_feedback)=
 # Fragen und Feedback
 
-Wir freuen uns auf Ihre Rückmeldungen!
+Wir freuen uns auf Ihre Rückmeldungen!   
 Fragen oder Feedback?
 
 <a href="https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
@@ -13,5 +13,7 @@ Fragen oder Feedback?
 <a href="https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2/issues/new?assignees=&labels=feedback&projects=&template=feedback.yml" class="external-link" target="_blank">
     Geben Sie uns Feedback
 </a>
+<br>
+<br>
 
 Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre Bedürfnisse anpassen.
