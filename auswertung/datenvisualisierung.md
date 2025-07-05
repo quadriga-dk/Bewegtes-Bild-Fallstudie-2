@@ -20,14 +20,14 @@ Im Folgenden stellen wir nun exemplarisch einige mögliche Vorgehensweisen für 
 ## Import des Datensatzes in Excel
 Der synthetische Datensatz liegt, wie ursprünglich der originale bereinigte Datensatz, als *tsv*-Datei vor. In diesem Format wurden die Daten nach der Bereinigung aus *OpenRefine* exportiert. Dieser Datensatz muss nun für die Visualisierungen und Auswertungen in Excel importiert werden.
 
-Ausgangspunkt für den Import in Excel ist die Datei **Synthetischer_Datensatz_Auswertung_OER.tsv**. Sie können den Datensatz [hier](../assets/daten/Synthetischer_Datensatz_Auswertung_OER.tsv) (rechte Maustaste und *Ziel speichern unter* auswählen) herunterladen. Die tsv-Datei weist vor dem eigentlichen Datensatz eine Zeile mit dem Hinweis auf, dass es sich um einen synthetischen Datensatz für Unterrichtszwecke handelt, der keine personenbezogene Daten enthält. Diese erste Zeile muss vom Import ausgeschlossen werden. Nur dann werden die Daten mit den korrekten Spaltennamen richtig in die Datei übernommen. Hierfür sind folgende Excel-Einstellungen notwendig.
+Ausgangspunkt für den Import in Excel ist die Datei **Synthetischer_Datensatz_Auswertung_OER.tsv**. Sie können den Datensatz [hier](../assets/daten/Synthetischer_Datensatz_Auswertung_OER.tsv) (rechte Maustaste und *Ziel speichern unter* auswählen) herunterladen. Die tsv-Datei weist vor dem eigentlichen Datensatz eine Zeile mit dem Hinweis auf, dass es sich um einen synthetischen Datensatz für Unterrichtszwecke handelt, der keine personenbezogene Daten enthält. Diese erste Zeile muss vom Import ausgeschlossen werden. Nur dann werden die Daten mit den richtigen Spaltennamen korrekt in die Datei übernommen. Hierfür sind folgende Excel-Einstellungen notwendig.
 
 Öffnen Sie Excel mit einer leeren Arbeitsmappe. Gehen Sie im Reiter *Datei* auf *Optionen* und im sich öffnenden Optionen-Fenster auf den Punkt *Daten*. Wählen Sie dort unter *Legacy-Datenimport-Assistenten anzeigen* das Kästchen *Aus Text (Legacy)* an. Bestätigen Sie die Auswahl mit *OK*. ({numref}`excel_optionen`)
 
 ```{figure} ../assets/auswertung/excel_optionen.png
 ---
 align: center
-width: 100%
+width: 80%
 name: excel_optionen
 alt: Darstellung der Einstellungen in Optionen für den Datenimport in Excel. Die Auswahlfelder sind mit roten Kreisen gekennzeichnet.
 ---
@@ -39,7 +39,7 @@ Gehen Sie nun auf den Reiter *Daten* und dort auf *Daten abrufen*. Unter *Legacy
 ```{figure} ../assets/auswertung/excel_legacy_assistent_text.png
 ---
 align: center
-width: 100%
+width: 80%
 name: excel_legacy
 alt: Darstellung der Schritte zum Starten des Text-Legacy-Assistenten. Die Auswahlfelder sind mit roten Kreisen gekennzeichnet.
 ---
@@ -51,7 +51,7 @@ Im Datei-Import Fenster navigieren Sie zum Speicherort der Datei *Synthetischer_
 ```{figure} ../assets/auswertung/excel_textdatei_importieren.png
 ---
 align: center
-width: 100%
+width: 80%
 name: excel_dateiimport
 alt: Darstellung der Auswahl der Import-Datei. Die Auswahlfelder sind mit roten Kreisen gekennzeichnet.
 ---
@@ -63,7 +63,7 @@ Im ersten Schritt des Textkonvertierungs-Assistenten ist unter Datentyp der Punk
 ```{figure} ../assets/auswertung/excel_texkonvertierungsassistent_1.png
 ---
 align: center
-width: 100%
+width: 80%
 name: excel_assistent_1
 alt: Darstellung des Textkonvertierungs-Assistenten - Schritt 1. Die Auswahlfelder sind mit roten Kreisen gekennzeichnet.
 ---
@@ -75,7 +75,7 @@ Im zweiten Schritt des Assistenten wird *Tabstopp* als *Trennzeichen* korrekt er
 ```{figure} ../assets/auswertung/excel_texkonvertierungsassistent_2.png
 ---
 align: center
-width: 100%
+width: 80%
 name: excel_assistent_2
 alt: Darstellung des Textkonvertierungs-Assistenten - Schritt 2. Die Auswahlfelder sind mit roten Kreisen gekennzeichnet.
 ---
@@ -87,7 +87,7 @@ Auch im dritten Schritt des Assistenten kann die Einstellung *Datenformat der Sp
 ```{figure} ../assets/auswertung/excel_texkonvertierungsassistent_3.png
 ---
 align: center
-width: 100%
+width: 80%
 name: excel_assistent_3
 alt: Darstellung des Textkonvertierungs-Assistenten - Schritt 3. Die Auswahlfelder sind mit roten Kreisen gekennzeichnet.
 ---
@@ -99,7 +99,7 @@ Sie können nun den Ort in der Excel-Arbeitsmappe auswählen, an dem der Import 
 ```{figure} ../assets/auswertung/excel_import_ort.png
 ---
 align: center
-width: 100%
+width: 80%
 name: excel_import_ort
 alt: Darstellung Ort des Datenimports festlegen. Die Auswahlfelder sind mit roten Kreisen gekennzeichnet.
 ---
@@ -248,7 +248,7 @@ Im erscheinenden Feld wählen Sie als Diagrammtyp *Linie* an und klicken auf *OK
 ```{figure} ../assets/auswertung/titel_jahr_diagrammtyp_ändern_2.png
 ---
 align: left
-width: 100%
+width: 80%
 align: center
 name: titel_jahr_aendern_2
 alt: Darstellung Auswahlmenüs, mit dem der Diagrammtyp geändert werden kann. Die notwendige Auswahl ist rot umkreist.
@@ -279,7 +279,7 @@ Das Vorgehen ist zunächst gleich wie bei der Darstellung der Titel pro Jahr. W�
 ```{figure} ../assets/auswertung/gattung_jahr_felder_auswahl_1.png
 ---
 align: center
-width: 100%
+width: 50%
 name: gattung_jahr_felder1
 alt: Darstellung der Auswahl PivotChart-Felder *Gattung* und "Jahr_1*. Einzelne Eingaben sind mit roten Kreisen gekennzeichnet.
 ---
@@ -291,7 +291,7 @@ Aus diesen automatisch ausgewählten Einträge in die Felder ergibt sich jedoch 
 ```{figure} ../assets/auswertung/gattung_jahr_felder_auswahl_2.png
 ---
 align: center
-width: 100%
+width: 50%
 name: gattung_jahr_felder2
 alt: Darstellung der Auswahl PivotChart-Felder *Legende (Reihe)*, *Achse (Rubriken)* und *Werte*. Einzelne Eingaben sind mit roten Kreisen gekennzeichnet.
 ---
@@ -348,7 +348,7 @@ Säulendiagramm Gattungen pro Jahr mit Datentabelle
 
 Was ergibt sich nun aus dieser visuellen Darstellung der Daten zu den Gattungen pro Jahr als Säulendiagramm? Auffallend ist, dass der Anteil an Dokumentarfilmen bereits ab dem Jahr 1985 sehr hoch ist im Vergleich zu den Spielfilmen und Animationsfilmen. Rund um die Jahre der Wende 1987, 1988 und 1989 ist im Diagramm nochmals eine deutliche Zunahme der dokumentarischen Arbeiten erkennbar. Dies kann darauf hindeuten, dass es den Studierenden (und evtl. auch den Lehrenden) wichtig war, die Ereignisse dieser Umbruchsjahre zu dokumentieren und kritisch zu begleiten. In den 1990er Jahren wiederum nimmt die Zahl der Dokumentarfilme ab, während mehr Spielfilme und Animationsfilme produziert wurden. Ob dies auf die veränderten politischen Bedingungen und sich wandelnde Strukturen im Studium zurückzuführen ist, müsste näher beleuchtet werden.
 
-Insgesamt sind die Daten zu den Gattungen und damit auch ihre visuellen Darstellung jedoch mit Vorsicht zu betrachten. Wie im Kapitel zur Analyse der [Datenquelle](/bereinigung/datenquelle.md) dargelegt wurde, sind nicht alle Filmtitel mit Angaben zu ihrer jeweiligen Gattung versehen. Viele Titel sind hinsichtlich ihrer Zugehörigkeit zu Spielfilm, Dokumentarfilm oder Animationsfilm nicht klassifiziert. Hier ist also eine genauere Recherche im Archiv unumgänglich. Dennoch können wir die visuelle Auswertung der Daten mit in diese Recherche nehmen - z.B. indem wir überprüfen, wieviele Dokmentarfilme in den Jahren 1987 bis 1999 im Filmarchiv der Filmuniversität vorhanden sind. Diese Recherche kann dann mit den bereits vorhandenen Daten und deren visuellen Darstellung abgeglichen werden.
+Insgesamt sind die Daten zu den Gattungen und damit auch ihre visuellen Darstellung jedoch mit Vorsicht zu betrachten. Wie im Kapitel zur Analyse der [Datenquelle](/bereinigung/datenquelle.md) dargelegt wurde, sind nicht alle Filmtitel mit Angaben zu ihrer jeweiligen Gattung versehen. Viele Titel sind hinsichtlich ihrer Zugehörigkeit zu Spielfilm, Dokumentarfilm oder Animationsfilm nicht klassifiziert. Hier ist also eine genauere Recherche im Archiv unumgänglich. Dennoch können wir die visuelle Auswertung der Daten mit in diese Recherche nehmen - z.B. indem wir überprüfen, wieviele Dokmentarfilme in den Jahren 1987 bis 1989 im Filmarchiv der Filmuniversität vorhanden sind. Diese Recherche kann dann mit den bereits vorhandenen Daten und deren visuellen Darstellung abgeglichen werden.
 
 ## Projektarten pro Jahr
 Die visuelle Darstellung der Projektarten pro Jahr wird als Übung realisiert. Sie können dabei Ihr im letzten Kapitel erworbenes Wissen anwenden.
@@ -367,7 +367,7 @@ Klicken Sie nun in den *PivotChart-Feldern* die Spalten *Projektart_1* und *Jahr
 ```{figure} ../assets/auswertung/projektart_jahr_felder_auswahl.png
 ---
 align: center
-width: 100%
+width: 50%
 name: projektart_auswahl
 alt: Darstellung der Auswahl Projektart_1 und Jahr_1. Einzelne Eingaben sind mit roten Kreisen gekennzeichnet.
 ---
@@ -384,7 +384,7 @@ Ordnen Sie nun in den Feldern die jeweiligen Einträge zu:
 ```{figure} ../assets/auswertung/projektart_jahr_felder_auswahl_2.png
 ---
 align: center
-width: 100%
+width: 50%
 name: projektart_auswahl_2
 alt: Darstellung der Einträge in den Feldern. Einzelne Eingaben sind mit roten Kreisen gekennzeichnet.
 ---
@@ -436,3 +436,182 @@ alt: Darstellung Säulendiagramm Projektarten "Übung" pro Jahr.
 Säulendiagramm Projektarten "Übung" pro Jahr
 ```
 Hier fällt auf, dass die Anzahl der *Kameraübungen* und *TV-Übungen* in den Jahren 1988 und 1989 deutlich ansteigt, 1988 auch die Anzahl der Lichtübungen. Ein Grund hierfür könnte sein, dass innerhalb dieser Übungsformen aktuelle Ereignisse der Wendezeit besonders unkompliziert dokumentiert werden konnten. Auch Anfang der 1990er Jahre ist die Anzahl der Kameraübungen relativ hoch, wird aber noch von den Lichtübungen übertroffen. Diese Veränderungen könnten wiederum auf neue Unterrichtsstrukturen hindeuten. In beiden Fällen ist eine fundierte Recherche im Filmarchiv notwendig, um mögliche Ursachen für den Anstieg der Zahlen zu erforschen. Die Visualisierungen aus dem Datensatz können als Ausgangspunkt für diese Recherchen dienen.
+
+
+## Anzahl der verantwortlichen Gewerke
+Im nächsten Schritt soll der Datensatz hinsichtlich der Angaben zu den verantwortlichen Gewerken ausgewertet werden. Die Daten hierzu sind auf vier Spalten verteilt (verantw._Gewerk 1 bis 4). Für eine Visualisierung der Anzahl der Gewerke müssen die Inhalte der Spalten zunächst in eine Spalte zusammengeführt werden. Wählen Sie dafür im Reiter Daten die Option *Aus Tabelle/Bereich* an. ({numref}`excel_tabelle_bereich`)
+
+```{figure} ../assets/auswertung/Excel_Daten_Tabelle_Bereich.png
+---
+align: center
+width: 100%
+name: excel_tabelle_bereich
+alt: Auswahl im Reiter Daten: Aus Tabelle/Bereich. Einzelne Eingaben sind mit roten Kreisen gekennzeichnet.
+---
+Auswahl im Reiter Daten: Aus Tabelle/Bereich
+```
+
+Es öffnet sich der *Power Query-Editor* in Excel. Klicken Sie dort auf *Spalten auswählen*. ({numref}`excel_spalten_auswahl`)
+
+```{figure} ../assets/auswertung/excel_spalten_auswaehlen.png
+---
+align: center
+width: 100%
+name: excel_spalten_auswahl
+alt: Darstellung Option Spalten auswählen. Einzelne Eingaben sind mit roten Kreisen gekennzeichnet.
+---
+Option *Spalten auswählen*
+```
+
+Es öffnet sich ein Fenster zur Auswahl der Spalten. Wählen Sie zunächst zu Beginn der Liste alle Spalten ab und klicken sie anschließend auf *verantw,_Gewerk_1 bis 4*. Beenden Sie die Eingabe mit *OK*. ({numref}`excel_spalten_gewerk`)
+
+```{figure} ../assets/auswertung/excel_auswahl_gewerk.PNG
+---
+align: center
+width: 50%
+name: excel_spalten_gewerk
+alt: Darstellung Auswahl der Spalten. Einzelne Eingaben sind mit roten Kreisen gekennzeichnet.
+---
+Auswahl der Spalten
+```
+
+Wählen Sie in der Arbeitsoberfläche alle Spalten aus, indem Sie auf den Spaltentitel klicken und dabei die *Strg-Taste* gedrückt halten. Die Spalten sind nun farbig hervorgehoben. Ein Rechtsklick auf einen der Spaltentitel öffnet ein Menü, in dem Sie *Nur ausgewählte Spalten entpivotieren* anwählen. ({numref}`excel_entpivotieren`)
+
+
+```{figure} ../assets/auswertung/excel_spalten_entpivotieren.png
+---
+align: center
+width: 100%
+name: excel_entpivotieren
+alt: Darstellung Markierte Spalten entpiovotieren. Einzelne Eingaben sind mit roten Kreisen gekennzeichnet.
+---
+Markierte Spalten entpiovotieren
+```
+
+Es entstehen zwei Spalten. *Attribut* enthält die Angaben zum *verantw._Gewerk 1 bis 4*, in *Wert* wurden die Inhalte der Spalten jeweils unteinandern aufgeführt übernommen. Wählen Sie nun *Schließen und Laden* an. Der *Power Query-Editor* wird geschhlossen und die Inhalte der Spalten in ein neues Excel-Arbeitsblatt eingefügt. ({numref}`excel_query_ende`)
+
+```{figure} ../assets/auswertung/excel_power_query_schließen.png
+---
+align: center
+width: 50%
+name: excel_query_ende
+alt: Darstellung Markierte Spalten entpiovotieren. Einzelne Eingaben sind mit roten Kreisen gekennzeichnet.
+---
+Neue Spalten und Schließen des *Power-Query-Editors*
+```
+
+Im neuen Excel-Arbeitsblatt benennen Sie die zwei Spalten um, damit sie für eine mögliche spätere Verwendung besser unterschieden werden können, z.B. in *Attribut_verant._Gewerk* und *Wert_verantw._Gewerk*. Ausgehend von dieser Excel-Tabelle können sie mit dem bereits bekannten Vorgehen mit der Visualisierung der Daten zu den verantwortlichen Gewerken beginnen.
+
+Markieren Sie die beiden Spalten und Wählen Sie im Reiter *Einfügen* die Option *PivotChart und PivotTabelle* aus. Bestätigen Sie die Eingabe im folgenden Feld und wählen Sie in den *PivotChart-Feldern* beide Spalten an. (vgl. {numref}`excel_pivot_chart` bis {numref}`excel_pivot_felder`). Auf das Feld *Achse (Rubriken)* ziehen Sie den Eintrag *Wert_verantw_Gewerk*, auf *Werte* den Eintrag *Anzahl von Attributen_verantw_Gewerk*. ({numref}`excel_felder_gewerke`)
+
+
+```{figure} ../assets/auswertung/excel_chart_felder_gewerke.png
+---
+align: center
+width: 50%
+name: excel_felder_gewerke
+alt: Darstellung Einträge in die PivotChart-Felder. Einzelne Eingaben sind mit roten Kreisen gekennzeichnet.
+---
+Einträge in die PivotChart-Felder
+```
+
+Die Grafik zeigt nun die Anzahl der verantwortlichen Gewerke für alle entsprechenden Einträge im Datensatz an. Für eine bessere Übersichtlichkeit der Visualisierung sollte diese noch angepasst werden. ({numref}`gewerke_roh`)
+
+```{figure} ../assets/auswertung/Gewerke_verantwortlich_roh.png
+---
+align: center
+width: 100%
+name: gewerke_roh
+alt: Darstellung der Grafik Erste Visualisierung der Anzahl der verantwortlichen Gewerke
+---
+Erste Visualisierung der Anzahl der verantwortlichen Gewerke
+```
+
+Dies geschieht über das Dropdown-Menu *Wert_verantw_Gewerk* im Chart. Beschränken Sie z.B. die Auswahl der in der Grafik dargestellten Gewerke auf diejenigen, die am häufigsten aufgeführt werden oder die für die Fragestellung interessant sind. Die Werte können Sie der Pivot-Tabelle entnehmen, die gleichezitig mit dem Pivot-Chart erzeugt wurde. Dies kann z.B. eine Beschränkung auf Animation, Buch, Kamera, Kameraübung und Regie sein. Für eine weitere Auswertung können sie die Auswahl der angezeigten Gewerke variieren. ({numref}`gewerke_auswahl`)
+
+
+```{figure} ../assets/auswertung/gewerke_auswahl.png
+---
+align: center
+width: 100%
+name: gewerke_auswahl
+alt: Darstellung Auswahl der Gewerke für die Visualisierung und Weitere Sortieroptionen. Einzelne Eingaben sind mit rot gekennzeichnet.
+---
+Auswahl der Gewerke für die Visualisierung und *Weitere Sortieroptionen*
+```
+
+Zusätzlich ist es möglich, die Reihenfolge der Gewerke in der Grafik zu verändern. Wählen Sie hierfür ebenfalls im Dropdown-Menu *Wert_verantw_Gewerk* den Punkt *weitere Sortieroptionen* aus. Im sich öffnenden Fenster zu *Sortieroptionen* entscheiden Sie sich bei *Absteigend (Z bis A) nach:* für die Option *Anzahl von Attribut_verantw-Gewerk*. ({numref}`gewerke_sortieren`)
+
+```{figure} ../assets/auswertung/gewerke_sortieren.png
+---
+align: center
+width: 50%
+name: gewerke_sortieren
+alt: Darstellung Auswahl aus Sortieroptionen. Einzelne Eingaben sind mit roten Kreisen gekennzeichnet.
+---
+Auswahl aus Sortieroptionen
+```
+ 
+In der Grafik werden nun die verantwortlichen Gewerke absteigend nach der Anzahl ihrer Nennung im Datensatz dargestellt. Versehen Sie die Grafik nun mit einer Beschriftung und blenden Sie die Feldschaltflächen aus (vgl. {numref}`titel_jahr_roh` und {numref}`titel_jahr_ausblenden`). Per *Copy & Paste* können Sie die Grafik in andere Anwendungen einfügen. ({numref}`gewerke_verantwortlich`)
+
+```{figure} ../assets/auswertung/Gewerke_verantwortlich.png
+---
+align: center
+width: 100%
+name: gewerke_verantwortlich
+alt: Darstellung Grafik Anzahl der verantwortlichen Gewerke
+---
+Anzahl der verantwortlichen Gewerke
+```
+
+Eine Dominanz der Regie ist hier deutlich ersichtlich, gefolgt von der Kamera. Diese Unterschiede lassen sich durch einen anderen Diagrammtyp noch besser erfassen.
+
+`````{admonition} Übung
+:class: exercise
+Wandeln Sie das Säulendiagramm zu *Anzahl der verantwortlichen Gewerke* in ein Kreisdiagramm um.
+
+````{admonition} Lösung
+    :class: solution, dropdown
+
+Öffnen Sie mit einem Rechtsklick in die Grafik das Kontextmenü. Wählen Sie dort die Option *Diagrammtyp ändern* aus. ({numref}`gewerke_diagrammtyp_1`)
+
+```{figure} ../assets/auswertung/gewerke_diagrammtyp_1.png
+---
+align: center
+width: 100%
+name: gewerke_diagrammtyp_1
+alt: Darstellung *Diagrammtyp ändern*. Einzelne Eingaben sind mit roten Kreisen gekennzeichnet.
+---
+Auswahl *Diagrammtyp ändern*
+```
+
+Im sich öffnenden Fenster wählen Sie den Diagrammtyp *Kreis* aus. ({numref}`gewerke_diagrammtyp_2`)
+
+```{figure} ../assets/auswertung/gewerke_diagrammtyp_2.png
+---
+align: center
+width: 80%
+name: gewerke_diagrammtyp_2
+alt: Darstellung Auswahl Diagrammtyp Kreis. Einzelne Eingaben sind mit roten Kreisen gekennzeichnet.
+---
+Auswahl Diagrammtyp Kreis
+```
+
+Das Säulendiagramm wird in ein Kreisdiagramm umgewandelt.
+
+````
+`````
+
+Im Kreisdiagramm wird die Dominanz der Regie im Rahmen der verantwortlichen Gewerke noch deutlicher. ({numref}`gewerke_verantwortlich_kreis`)
+
+```{figure} ../assets/auswertung/Gewerke_verantwortlich_kreis.png
+---
+align: center
+width: 100%
+name: gewerke_verantwortlich_kreis
+alt: Darstellung der Anzahl der verantwortlichen Gewerke als Kreisdiagramm
+---
+Anzahl der verantwortlichen Gewerke als Kreisdiagramm
+```
+
+Wie auch bei den bisherigen Visualisierungen und Auswertungen zum Datensatz muss bedacht werden, dass nicht für alle Titel die jeweils verantwortlichen Gewerke bei der Datenerfassung in die filmografischen Angaben aufgenommen wurden. Weiterführende Recherchen im Filmarchiv und in weiteren Archiven mit Informationen zu Entstehungskontexten der Filme sind also notwendig. Die Domianz der Regie in der Anzahl der für die Filme verantwortlichen Gewerke ist nicht weiter verwunderlich, wird die Regie - dem Auteur-Gedanken folgend - doch meist als die für den gesamten künstlerischen Prozess verantwortliche Instanz angesehen. Die Zuordnung verantwortlicher Gewerke zu studentischen Produktionen kann aber auch mit Lehrplänen und Studienordnungen zusammenhängen. Diese sollten in eine genauere Analyse der Zahlen zu den verantwortlichen Gewerken einbezogen werden.
