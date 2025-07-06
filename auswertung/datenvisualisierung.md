@@ -616,7 +616,7 @@ Anzahl der verantwortlichen Gewerke als Kreisdiagramm
 
 Wie auch bei den bisherigen Visualisierungen und Auswertungen zum Datensatz muss bedacht werden, dass nicht für alle Titel die jeweils verantwortlichen Gewerke bei der Datenerfassung in die filmografischen Angaben aufgenommen wurden. Weiterführende Recherchen im Filmarchiv und in weiteren Archiven mit Informationen zu Entstehungskontexten der Filme sind also notwendig. Die Domianz der Regie in der Anzahl der für die Filme verantwortlichen Gewerke ist nicht weiter verwunderlich, wird die Regie - dem Auteur-Gedanken folgend - doch meist als die für den gesamten künstlerischen Prozess verantwortliche Instanz angesehen. Die Zuordnung verantwortlicher Gewerke zu studentischen Produktionen kann aber auch mit Lehrplänen und Studienordnungen zusammenhängen. Diese sollten in eine genauere Analyse der Zahlen zu den verantwortlichen Gewerken einbezogen werden.
 
-## Schlagworte pro Jahr
+## Anzahl der Schlagworte pro Jahr
 Die Visuallsierung und Auswertung der Anzahl der Schlagworte pro Jahr folgt einem ähnlichen Vorgehen wie im letzten Abschnitt zu den verantwortlichen Gewerken. Die Schlagworte sind auf sechs Spalten verteilt (*Schlagwort_1* bis *Schlagwort_6*), die zur weiteren Verabeitung in eine Spalte überführt werden müssen. Für die Visualisierung ist zusätzlich noch die Spalte *Jahr_1* notwendig.
 
 Ausgangspunkt ist der in die Excel-Tabelle importierte [Übungs-Datensatz](#import-des-datensatzes-in-excel). Wählen Sie dort im Reiter *Daten* die Option *Aus Tabelle/Bereich* aus. Der *Power Query-Editor* öffnet sich. Gehen Sie im Reiter *Start* auf *Spalten auswählen* und setzten Sie im sich öffnenden Fenster bei den Spalten *Jahr_1* und den Spalten *Schlagwort_1* bis *Schlagwort_6* einen Haken. Beenden Sie die Spaltenauswahl mit *OK*. (Vgl. {numref}`excel_tabelle_bereich` bis {numref}`excel_spalten_gewerk`)
@@ -659,7 +659,7 @@ alt: Darstellung der Visualisierung der Anzahl der Schlagworte pro Jahr
 Erste Visualisierung der Anzahl der Schlagworte pro Jahr
 ```
 
-Wie im Kapitel zur Analyse der [Datenquelle](../bereinigung/datenquelle.md#schlagwort-stichwörter-zusammenfassung) dargelegt, werden bei der Erfassung der filmografischen Angaben für den Bibliothekskatalog die Gattungen als Schlagworte aufgenommen. Die Anzahl der [Gattungen pro Jahr](#anzahl-der-gattungen-pro-jahr) im Datensatz wurde bereits visualisiert und ausgewertet, die Schlagworte *Spielfilm*, *Dokumentarfilm* und *Animationsfilm* können also bei dieser Auswertung ausgeschlossen werden. Des weiteren bietet es sich, an sich auf solche Schlagworte zu konzentrieren, die besonders häufig vorkommen und solche, die für die Forschungsfrage relevant erscheinen. Wählen Sie daher im Dropdown-Menü *Wert Schlagwort* in der Grafik zunächst alle Inhalte ab und dann die Schlagworte *Arbeit, Frauen, Porträtfilm* und *Wende* an. (Vgl. {numref}`gewerke_auswahl`) Dadurch ergibt sich bereits eine übersichtlichere Grafik. ({numref}`schlagworte_jahr_auswahl`)
+Wie im Kapitel zur Analyse der [Datenquelle](../bereinigung/datenquelle.md#schlagwort-stichworter-zusammenfassung) dargelegt, werden bei der Erfassung der filmografischen Angaben für den Bibliothekskatalog die Gattungen als Schlagworte aufgenommen. Die Anzahl der [Gattungen pro Jahr](#anzahl-der-gattungen-pro-jahr) im Datensatz wurde bereits visualisiert und ausgewertet, die Schlagworte *Spielfilm*, *Dokumentarfilm* und *Animationsfilm* können also bei dieser Auswertung ausgeschlossen werden. Des weiteren bietet es sich, an sich auf solche Schlagworte zu konzentrieren, die besonders häufig vorkommen und solche, die für die Forschungsfrage relevant erscheinen. Wählen Sie daher im Dropdown-Menü *Wert Schlagwort* in der Grafik zunächst alle Inhalte ab und dann die Schlagworte *Arbeit, Frauen, Porträtfilm* und *Wende* an. (Vgl. {numref}`gewerke_auswahl`) Dadurch ergibt sich bereits eine übersichtlichere Grafik. ({numref}`schlagworte_jahr_auswahl`)
 
 ```{figure} ../assets/auswertung/schlagworte_jahr_auswahl.png
 ---
@@ -688,3 +688,107 @@ Anzahl ausgewählter Schlagworte pro ausgewählte Jahre
 Aus der Grafik ist ersichtlich, dass das Schlagwort *Wende* - wie zu erwarten war - erst im Jahr 1989 auftritt, im Jahr 1990 seinen Höhepunkt hat und ab 1991 wieder abflacht. Hier wäre es interessant, diese Auswertung mit in eine genauerer Recherche im Archiv zu nehmen und sich z.B. gezielt die studentischen Filme anzusehen, die mit dem Schlagwort *Wende* versehen sind. Auch wäre es sinnvoll, im Archiv dem auffallend häufigen Auftreten des Schlagworts *Porträtfilm* in den Jahren 1987 bis 1989 nachzugehen. 
 
 Für eine weitere Auswertung sollte mit der Visualisierung weiterer, unterschiedlicher Schlagwortkombinationen fortgefahren werden. Wiederum ist anzumerken, dass nicht alle Filme mit Schlagworten versehen wurden, die Auswertung der Anzahl der Schlagworte also mit Bedacht vonstatten gehen sollte.
+
+## Darstellung der Schlagworte mit Voyant Tools
+Abschließend soll nun darauf eingegangen werden, wie mit *Voyant Tools* Visualisierungen der Schlagworte erstellt werden, die für eine weitere Auswertung hilfreich sein können, z.B. mit den bereits vorgestellten Möglichkeiten mit Excel. *Voyant Tools* ist webbassiert und wurde für die Auswertung größerer Textkoropra entwickelt. An dieser Stelle können wir nur einige grundlegende Funktionen von *Voyant Tools* vorstellen: Wir werden eine *Wortwolke* mit den Schlagworten aus unserem Datenset erzeugen, aus der die Häufigkeit der einzelnen Worte durch die Größe der Darstellung hervorgeht.
+
+Öffnen Sie hierfür das im letzten Abschnitt zur Visualisierung der [Anzahl der Schlagworte pro Jahr](#anzahl-der-schlagworte-pro-jahr) erstellte Excel-Arbeitsblatt, markieren Sie die Spalte *Wert_Schlagwort* und kopieren Sie die Inhalte mit der Tastenkombination *Strg + C* in die Zwischenablage. ({numref}`voyant_schlagworte_excel_copy`)
+
+```{figure} ../assets/auswertung/voyant_schlagwort_copy_excel.PNG
+---
+align: center
+width: 100%
+name: voyant_schlagworte_excel_copy
+alt: Darstellung Kopieren der Spalte *Wert_Schlagwort* in die Zwischenablage
+---
+Kopieren der Spalte *Wert_Schlagwort* in die Zwischenablage
+```
+
+Gehen Sie nun zur Webseite von <a href="https://voyant-tools.org/?lang=de" class="external-link" target="_blank">Voyant Tools</a>. Fügen Sie in das Feld *Text hinzufügen* den Inhalt der Zwischenablage ein (Tastenkombination *Strg + V*) und klicken sie anschließend auf *Anzeigen*. ({numref}`voyant_eingabe_text`)
+
+```{figure} ../assets/auswertung/voyant_eingabe_text.png
+---
+align: center
+width: 100%
+name: voyant_eingabe_text
+alt: Darstellung Einfügen der Schlagworte aus der Zwischenablage. Einzelne Eingaben sind mit roten Kreisen gekennzeichnet.
+---
+Einfügen der Schlagworte aus der Zwischenablage
+```
+
+Die Arbeitsoberfläche von *Voyant Tools* zur Auswertung des eingelesenen Textes wird geföffnet. Setzen Sie in ihrem Browser ein Lesezeichen zu dieser Seite. Ihr Textkorpus - in diesem Fall die Schlagworte aus unserem Datensatz - wird hier gespeichert und kann später unter dieser URL weiter ausgewertet werden. Für jedes eingelesene Korpus wird eine einzigartige URL erzeugt.
+
+Die Arbeitsoberfläche von *Voyant Tools* enthält mehrere Fenster, in denen Auswertungen zum eingelesenen Korpus vorgenommen werden können. Wir werden uns auf das Fenster links oben konzentrieren, in dem *Cirrus* aktviert ist. Es enthält bereits eine Wortwolke aus den eingelesenen Schlagworten. Die am häufigsten vorkommenden Worte werden größer dargesellt. 
+
+In der Wortwolke treten *Spielfilm, Dokumentarfilm* und *Animationsfilm* als häufige Worte besonders hervor. ({numref}`voyant_eingabe_start`) Im Kapitel zur Analyse der [Datenquelle](../bereinigung/datenquelle.md#schlagwort-stichworter-zusammenfassung) haben wir bereits darauf hingeweisen, dass diese Gattungen ebenfalls in den Schlagworten erfasst werden. Für eine weitere Auswertung möchten wir die Gattungsbezeichnungen von der Visualisierung ausnehmen. Zeigen Sie hierfür mit der Maus in die Zeile, in der *Cirrus* über der Wortwolke aufgeführt wird. Bei den erscheinenden Eingabemöglichkeiten klicken Sie auf den Button neben dem Fragezeichen, für den *Optionen für dieses Tool definieren* angezeigt wird.
+
+```{figure} ../assets/auswertung/voyant_start_eingabe.png
+---
+align: center
+width: 100%
+name: voyant_eingabe_start
+alt: Darstellung Eingabeoptionen in Voyant Tools definieren. Einzelne Eingaben sind mit roten Kreisen gekennzeichnet.
+---
+Eingabeoptionen in Voyant Tools definieren
+```
+
+Im sich öffnenden Optionen-Eingabefenster wählen Sie in der Zeile *Stopwords* den Punkt *Liste bearbeiten*. ({numref}`voyant_eingabe_option`)
+
+```{figure} ../assets/auswertung/voyant_eingabe_optionen.png
+---
+align: center
+width: 50%
+name: voyant_eingabe_option
+alt: Darstellung Eingabeoption Liste bearbeiten. Einzelne Eingaben sind mit roten Kreisen gekennzeichnet.
+---
+Eingabeoption *Liste bearbeiten*
+```
+
+Es öffnet sich eine vordefinierte Liste mit *Stopwords*, die Worte enthält, die nicht in eine Auswertung eines Textkorpus mit *Voyant Tools* einfließen sollen. Dies sind Worte wie Artikel oder ausgeschriebene Zahlen, die häufig in Texten vorkommen, aber z.B. für Visualisierung hinderlich sind. Dieser Liste fügen Sie *Dokumentarfilm*, *Spielfilm* und *Animationsfilm* hinzu. Beenden Sie die Eingabe mit *Speichern*. ({numref}`voyant_eingabe_stopword`) Sie gelangen zurück zum Optionen Eingabefenster, wählen sie dort *Bestätigen* aus.
+
+```{figure} ../assets/auswertung/voyant_eingabe_stopword.png
+---
+align: center
+width: 50%
+name: voyant_eingabe_stopword
+alt: Darstellung Eingabe zusätzlicher Stopwords. Einzelne Eingaben sind mit roten Kreisen gekennzeichnet.
+---
+Eingabe zusätzlicher Stopwords
+```
+
+Im linken oberen Fenster ist eine neue Wortwolke entstanden, die die Schlagworte *Spielfilm*, *Dokumentarfilm* und *Animationsfilm* nicht mehr enthält. An der Größe der Darstellung der Worte ist erkennbar, dass die Schlagworte *Adaption, Porträtfilm, Wende, Arbeit* und *Frauen* besonders häufig im Textkorpus der Schlagworte vorkommen. ({numref}`voyant_wortwolke_regler`) Wenn Sie mit dem Mauszeiger über die entsprechenden Schlagworte fahren, wird die Anzahl der Nennungen im Korpus angezeigt, die der Anzahl der Einträge in unserem synthetischen Datensatz entspricht.
+
+```{figure} ../assets/auswertung/voyant_wortwolke_regler.png
+---
+align: center
+width: 100%
+name: voyant_wortwolke_regler
+alt: Darstellung Wortwolke zu Schlagworten mit Regler für die Anzahl der Begriffe. Einzelne Eingaben sind mit roten Kreisen gekennzeichnet.
+---
+Wortwolke zu Schlagworten mit Regler für die Anzahl der Begriffe
+```
+
+Links unter der Wortwolke finden Sie einen Regler, mit dem die Anzahl der in die Visualisierung in Form einer Wortwolke einbezogenen Begriffe verändert werden kann. Experimentieren Sie mit der Anzahl der Begriffe. Stellen Sie ihn z.B. auf das Maximum ein. ({numref}`voyant_wortwolke_regler_max`)
+
+```{figure} ../assets/auswertung/voyant_wortwolke_regler_max.png
+---
+align: center
+width: 100%
+name: voyant_wortwolke_regler_max
+alt: Darstellung Wortwolke zu Schlagworten mit maximaler Anzahl der Begriffe. Einzelne Eingaben sind mit roten Kreisen gekennzeichnet.
+---
+Wortwolke zu Schlagworten mit maximaler Anzahl der Begriffe
+```
+
+Auch in dieser Darstellung werden die bereits genannten Begriffe besonders groß dargestellt, es treten aber auch weitere Schlagworte wie *Satire* (mit 10 Nennungen), *Komödie* (ebenfalls 10 Nennungen) oder *Krankheit* (5 Nennungen) hervor. Mit diesen und weiteren in der Wortwolke erkennbaren Schlagworten kann in weiteren Visualisierungen mit Excel experimentiert werden, wie sie im vorigen Abschnitt erläutert wurden.
+
+In der Kopfzeile über der Wortwolke gibt es die Möglichkeit, die Wortwolke als png- oder svg-Datei zu exportieren. Die Exportfunktion erscheint, wenn Sie mit der Maus in die Kopfzeile deuten.
+
+*Voyant Tools* bietet zahlreiche weitere Auswertungsmöglichkeiten, auf die wir hier nicht genauer eingehen können. Experimentieren Sie mit den verschiedenen Tools. Sie könnten z.B. für die Auswertung von Inhaltsbeschreibungen zu den studentischen Filmen aus dem Archiv hilfreich sein, oder auch von Rezensionen zu den Filmen.
+
+## Fazit
+In diesem Kapitel haben wir Möglichkeiten der Visualisierung und Auswertung unseres (synthetischen) Datensatzes aufgezeigt, die für die Beantwortung der in der Fallstudie entwickelten Fragestellungen nützlich sein können. Für die Visualisierungen haben wir *Microsoft Excel* und abschließend *Voyant Tools* verwendet, die leicht zugänglich sind. 
+
+Es hat sich gezeigt, dass durch Visualisierungen eine explorative Auswertung des Datensatzes möglich ist. Es wurde u.a. deutlich, dass Ende der 1980er Jahre die Anzahl der Titel im Datensatz ansteigt, verstärkt dokumentarische Formen entstanden sind und die Anzahl bestimmter Projektarten größer wird. Diese Auswertungen und Visualisierungen können eine gute Grundlage für weitere Recherchen im Filmarchiv der Filmuniversität und weiteren Archiven bilden.
+
+Dabei muss im Blick behalten werden, dass im Datensatz nicht alle Angaben vollständig enthalten sind. So werden Gattungen oder Projektakrten nicht immer in die filmografischen Angaben im Archivkatalog aufgenommen. Die erstellten Visualisierungen und die Datengrundlage, auf der sie basieren, müssen also immer kritisch hinterfragt werden. Dennoch bieten sie gute und hilfreiche Ausgangspunkte für die weitere Arbeit an den Fragestellungen.
