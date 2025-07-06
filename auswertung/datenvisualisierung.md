@@ -615,3 +615,76 @@ Anzahl der verantwortlichen Gewerke als Kreisdiagramm
 ```
 
 Wie auch bei den bisherigen Visualisierungen und Auswertungen zum Datensatz muss bedacht werden, dass nicht für alle Titel die jeweils verantwortlichen Gewerke bei der Datenerfassung in die filmografischen Angaben aufgenommen wurden. Weiterführende Recherchen im Filmarchiv und in weiteren Archiven mit Informationen zu Entstehungskontexten der Filme sind also notwendig. Die Domianz der Regie in der Anzahl der für die Filme verantwortlichen Gewerke ist nicht weiter verwunderlich, wird die Regie - dem Auteur-Gedanken folgend - doch meist als die für den gesamten künstlerischen Prozess verantwortliche Instanz angesehen. Die Zuordnung verantwortlicher Gewerke zu studentischen Produktionen kann aber auch mit Lehrplänen und Studienordnungen zusammenhängen. Diese sollten in eine genauere Analyse der Zahlen zu den verantwortlichen Gewerken einbezogen werden.
+
+## Schlagworte pro Jahr
+Die Visuallsierung und Auswertung der Anzahl der Schlagworte pro Jahr folgt einem ähnlichen Vorgehen wie im letzten Abschnitt zu den verantwortlichen Gewerken. Die Schlagworte sind auf sechs Spalten verteilt (*Schlagwort_1* bis *Schlagwort_6*), die zur weiteren Verabeitung in eine Spalte überführt werden müssen. Für die Visualisierung ist zusätzlich noch die Spalte *Jahr_1* notwendig.
+
+Ausgangspunkt ist der in die Excel-Tabelle importierte [Übungs-Datensatz](#import-des-datensatzes-in-excel). Wählen Sie dort im Reiter *Daten* die Option *Aus Tabelle/Bereich* aus. Der *Power Query-Editor* öffnet sich. Gehen Sie im Reiter *Start* auf *Spalten auswählen* und setzten Sie im sich öffnenden Fenster bei den Spalten *Jahr_1* und den Spalten *Schlagwort_1* bis *Schlagwort_6* einen Haken. Beenden Sie die Spaltenauswahl mit *OK*. (Vgl. {numref}`excel_tabelle_bereich` bis {numref}`excel_spalten_gewerk`)
+
+Wählen Sie nun die Spalten *Schlagwort_1* bis *Schlagwort_6* aus, indem Sie in den Spaltentitel klicken und die *Strg-Taste* gedrückt halten. Achten Sie darauf, die Spalte *Jahr_1* nicht mit auszuwählen. Ein Rechtsklick auf einen der markierten Spaltentitel öffnet ein Menü, dort entscheiden Sie sich für die Option *Nur ausgewählte Spalten entpivotieren*. ({numref}`excel_spalten_schlagworte`)
+
+```{figure} ../assets/auswertung/excel_spalten_schlagwort.png
+---
+align: center
+width: 100%
+name: excel_spalten_schlagworte
+alt: Darstellung Auswahl der Schlagwort-Spalten und Option *Entpiovtieren*. Einzelne Eingaben sind mit roten Kreisen gekennzeichnet.
+---
+Auswahl der Schlagwort-Spalten und Option *Entpivotieren*
+```
+
+Mit einem Klick auf *Schließen & Laden* beenden Sie den *Power Query-Editor*, die neu erstellten Spalten werden zusammen mit der Spalte *Jahr_1* in ein neues Excel-Arbeitsblatt übernommen. (Vgl. {numref}`excel_query_ende`) Benennen Sie die Spalten *Attribut* und *Wert* um, damit diese für eine mögliche spätere Verwendung besser zuordenbar sind, z.B. in *Attribut_Schlagwort* und *Wert_Schlagwort*. Ausgehend von diesem Excel-Arbeitsblatt können Sie mit der Visualisierung der Daten beginnen. Das Vorgehen folgt dabei Schritten, die bereits in den letzten Abschnitten dargestellt wurden.
+
+Klicken Sie auf den ersten Eintrag der Spalte *Jahr_1* und wählen Sie im Reiter *Einfügen* die Option *PivotChart und PivotTabelle* aus. Bestätigen Sie die Eingabe im folgenden Feld und wählen Sie in den *PivotChart-Feldern* die Spalten *Jahr_1* und *Wert_Schlagwort* an. (Vgl. {numref}`excel_pivot_chart` bis {numref}`excel_pivot_felder`) Auf das Feld *Achse (Rubriken)* ziehen Sie den Eintrag *Jahr_1*, auf *Werte* den Eintrag *Anzahl von Wert_Schlagwort* und auf das Feld *Legende (Reihe)* den Eintrag *Wert_Schlagwort*. ({numref}`excel_felder_schlagwort`)
+
+```{figure} ../assets/auswertung/excel_chart_felder_schlagwort.png
+---
+align: center
+width: 50%
+name: excel_felder_schlagwort
+alt: Darstellung Einträge in die PivotChart-Felder. Einzelne Eingaben sind mit roten Kreisen gekennzeichnet.
+---
+Einträge in die PivotChart-Felder
+```
+
+Wie bereits bei der Auswertung der verantwortlichen Gewerke ergibt sich hier aufgrund der hohen Anzahl an Schlagworten eine recht unübersichtliche Darstellung. ({numref}`schlagworte_jahr_roh`) Die Grafik sollte also weiter bearbeitet werden.
+
+```{figure} ../assets/auswertung/schlagworte_jahr_roh.png
+---
+align: center
+width: 100%
+name: schlagworte_jahr_roh
+alt: Darstellung der Visualisierung der Anzahl der Schlagworte pro Jahr
+---
+Erste Visualisierung der Anzahl der Schlagworte pro Jahr
+```
+
+Wie im Kapitel zur Analyse der [Datenquelle](../bereinigung/datenquelle.md#schlagwort-stichwörter-zusammenfassung) dargelegt, werden bei der Erfassung der filmografischen Angaben für den Bibliothekskatalog die Gattungen als Schlagworte aufgenommen. Die Anzahl der [Gattungen pro Jahr](#anzahl-der-gattungen-pro-jahr) im Datensatz wurde bereits visualisiert und ausgewertet, die Schlagworte *Spielfilm*, *Dokumentarfilm* und *Animationsfilm* können also bei dieser Auswertung ausgeschlossen werden. Des weiteren bietet es sich, an sich auf solche Schlagworte zu konzentrieren, die besonders häufig vorkommen und solche, die für die Forschungsfrage relevant erscheinen. Wählen Sie daher im Dropdown-Menü *Wert Schlagwort* in der Grafik zunächst alle Inhalte ab und dann die Schlagworte *Arbeit, Frauen, Porträtfilm* und *Wende* an. (Vgl. {numref}`gewerke_auswahl`) Dadurch ergibt sich bereits eine übersichtlichere Grafik. ({numref}`schlagworte_jahr_auswahl`)
+
+```{figure} ../assets/auswertung/schlagworte_jahr_auswahl.png
+---
+align: center
+width: 100%
+name: schlagworte_jahr_auswahl
+alt: Darstellung der Anzahl ausgewählter Schlagworte pro Jahr
+---
+Anzahl ausgewählter Schlagworte pro Jahr
+```
+
+Es zeigt sich, dass das Schlagwort *Arbeit* insbesondere 1987, aber auch 1988 und 1989 besonders häufig auftritt und danach fast verschwindet. Dies könnte mit sich verändernden politischen Bedingungen zu tun haben. Zu Zeiten der DDR hatte das Thema Arbeit einen hohen Stellenwert, was sich auch in der Anzahl der Schlagworte bzw. der Themenwahl, die sich in den Schlagworten spiegelt, zum Ausdruck kommen kann. Während der Wendezeit können sich die Themen und damit die Schlagworte zu den studentischen Filmen verändert haben. Für eine genauere Analyse sind jedoch Archiv-Recherchen notwendig, da die Häufung des Schlagwortes *Arbeit* auch mit speziellen Film-Übungen in den ensprechenden Jahren verbunden sein kann.
+
+Um noch tiefer in eine Auswertung einsteigen zu können, soll nun die Darstellung der Jahre noch reduziert werden. Wählen Sie dazu im Dropdown-Menü *Jahr_1* in der Grafik die Jahren *1987 bis 1992* an. (Vgl. {numref}`gewerke_auswahl`)
+
+```{figure} ../assets/auswertung/schlagworte_jahr_auswahl_2.png
+---
+align: center
+width: 100%
+name: schlagworte_jahr_auswahl_2
+alt: Anzahl ausgewählter Schlagworte pro ausgewählte Jahre
+---
+Anzahl ausgewählter Schlagworte pro ausgewählte Jahre
+```
+
+Aus der Grafik ist ersichtlich, dass das Schlagwort *Wende* - wie zu erwarten war - erst im Jahr 1989 auftritt, im Jahr 1990 seinen Höhepunkt hat und ab 1991 wieder abflacht. Hier wäre es interessant, diese Auswertung mit in eine genauerer Recherche im Archiv zu nehmen und sich z.B. gezielt die studentischen Filme anzusehen, die mit dem Schlagwort *Wende* versehen sind. Auch wäre es sinnvoll, im Archiv dem auffallend häufigen Auftreten des Schlagworts *Porträtfilm* in den Jahren 1987 bis 1989 nachzugehen. 
+
+Für eine weitere Auswertung sollte mit der Visualisierung weiterer, unterschiedlicher Schlagwortkombinationen fortgefahren werden. Wiederum ist anzumerken, dass nicht alle Filme mit Schlagworten versehen wurden, die Auswertung der Anzahl der Schlagworte also mit Bedacht vonstatten gehen sollte.
