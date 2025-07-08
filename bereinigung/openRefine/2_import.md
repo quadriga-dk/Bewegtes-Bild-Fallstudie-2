@@ -64,7 +64,7 @@ Im Startmenü kann die Sprache von *OpenRefine* auf Deutsch geändert werden. Da
 ```
 ````
 
-Über den Startbildschirm von *OpenRefine* werden durch Anklicken von *Create Project* neue Projekte erstellt ({numref}`import_window_OpenRefine`). Neben lokalen Dateien (*Choose Files*) können über die Importoptionen *URLs*, *Database* und *Google Data* auch Datensätze aus dem Internet importiert werden. In der *Clipboard* Ansicht ist es möglich, ganze Datensätze per *Copy-and-Paste* über die Zwischenablage einzulesen.
+Über den Startbildschirm von *OpenRefine* werden durch Anklicken von *Create Project* neue Projekte erstellt ({numref}`main_window_OpenRefine`). Neben lokalen Dateien (*Choose Files*) können über die Importoptionen *URLs*, *Database* und *Google Data* auch Datensätze aus dem Internet importiert werden. In der *Clipboard* Ansicht ist es möglich, ganze Datensätze per *Copy-and-Paste* über die Zwischenablage einzulesen.
 
 Wählen sie nun durch *Choose files* die Datei *Synthetischer_Datensatz_Uebung_OER.tsv* aus. Navigieren sie hierzu zu dem Speicherort, an dem Sie den Download auf Ihren Computer abgelegt haben. Klicken Sie auf *Next*. Nach dem erfolgreichen Einlesen des Datensatzes öffnet sich das folgende Menü für die Importoptionen:
 
@@ -149,6 +149,7 @@ align: center
 width: 50%
 name: numeric_import
 alt: Die Spalte Jahr vor und nach Auswahl der Option Attempt to parse cell text into numbers
+---
 Die Spalte Jahr vor und nach Auswahl der Option **Attempt to parse cell text into numbers**
 ```
 Wie Sie feststellen können, haben sich einige der Jahreszahlen grün gefärbt. 
@@ -165,9 +166,10 @@ Die übrigen Einstellungen können für den Import des Übungsdatensatzes so üb
 ```{figure} ../../assets/bereinigung/openRefine/import/final_options.png
 ---
 align: center
-width: 50%
+width: 100%
 name: final_options
 alt: Die vollständigen Importoptionen
+---
 Die vollständigen Importoptionen
 ```
 
