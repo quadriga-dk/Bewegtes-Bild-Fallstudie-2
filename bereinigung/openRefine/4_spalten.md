@@ -172,7 +172,7 @@ alt: Das Text Facet der Spalte Bib._Nummer
 Das *Text Facet* der Spalte *Bib._Nummer*
 ```
 
-Für die Beantwortung der Forschungsfrage sind die Einträge nicht relevant und die Spalte kann somit gelöscht werden. Wählen Sie hierfür im Dropdown-Menü "Edit column" und "Remove this column" aus (siehe {numref}`remove_column`).
+Für die Beantwortung der Forschungsfrage sind die Einträge nicht relevant und die Spalte kann somit gelöscht werden. Wählen Sie hierfür im Dropdown-Menü *Edit column* und *Remove this column* aus (siehe {numref}`remove_column`).
 ````
 `````
 
@@ -222,7 +222,7 @@ Die neuen Spalten mit den getrennten Einträgen
 Die Anzahl an neuen Spalten ergibt sich aus der maximalen Anzahl an getrennten Einträgen. Es genügt also, wenn nur für einen einzigen Film zwei Verlage genannt sind, um zwei Spalten zu erzeugen.
 
 ## Umbenennung von Spalten
-Leider verwendet *OpenRefine* in der automatischen Nummerierung der neuen Spalten ein Leerzeichen zwischen dem ursprünglichen Spaltennamen und der Zahl. Da Leerzeichen bei der Weiterverarbeitung des Datensatzes durch zusätzliche Programme, z.B. zur Visualisierung des Datensatzes, zu Fehlern führen können, sollten Sie die neuen Spalten umbenennen und die Leerzeichen durch einen Unterstrich ersetzen. Wählen Sie *Rename this column* über das Dropdown-Menü der Spalte und den Reiter *Edit columns* aus.
+Leider verwendet *OpenRefine* in der automatischen Nummerierung der neuen Spalten ein Leerzeichen zwischen dem ursprünglichen Spaltennamen und der Zahl. Da Leerzeichen bei der Weiterverarbeitung des Datensatzes durch zusätzliche Programme, z.B. zur Visualisierung des Datensatzes, zu Fehlern führen können, sollten Sie die neuen Spalten umbenennen und die Leerzeichen durch einen Unterstrich ersetzen. Wählen Sie *Rename column* über das Dropdown-Menü der Spalte und den Reiter *Edit columns* aus.
 
 ```{figure} ../../assets/bereinigung/openRefine/spalten/rename.png
 ---
