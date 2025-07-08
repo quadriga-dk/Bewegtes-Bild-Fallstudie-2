@@ -8,7 +8,7 @@ Gehen Sie bei der Bereinigung eines Datensatzes mit Vorsicht und Bedacht vor. Sp
 
 Auch die Vereinheitlichung von Schreibweisen (z.B. von Institutionen, Berufsbezeichnungen etc.) kann sich als problematisch erweisen, etwa wenn sich Schreibweisen oder Bezeichnungen im Laufe der Zeit verändert haben und sich dies später als relevant für die Forschungsfrage herausstellt.
 
-Schritte in der Datenbereinigung sind immer mit Interpretationsprozessen verbunden, die gut überlegt und reflektiert werden müssen. Denken sie daher daran, regelmäßig Zwischenversionen Ihres OpenRefine-Projekts zu [exportieren und abzuspeichern](3_sichtung.md#export-eines-openrefine-projekts). 
+Schritte in der Datenbereinigung sind immer mit Interpretationsprozessen verbunden, die gut überlegt und reflektiert werden müssen. Denken Sie daher daran, regelmäßig Zwischenversionen Ihres OpenRefine-Projekts zu [exportieren und abzuspeichern](3_sichtung.md#export-eines-openrefine-projekts). 
 ```
 
 
@@ -19,9 +19,9 @@ Ein häufiges Problem in unbereinigten Datensätzen sind Spalten, die etwa
 - keine oder wenige Einträge,
 - oder Einträge aus Eingabefehlern
 
-enthalten. Letzteres ist für die Spalte *Column 8* unseres Übungsdatensatzes der Fall.
+enthalten. Letzteres ist für die Spalte *Column 8* des Übungsdatensatzes der Fall.
 
-In der Anwendung des *Text Facet* zeigt sich, dass diese Spalte nur zwei Einträge aufweist, die für Filme wenig Sinn machen.
+In der Anwendung des *Text Facet* zeigt sich, dass diese Spalte nur zwei Einträge aufweist, die für Filme wenig Sinn ergeben:
 
 ````{margin} 
 ```{admonition} Hinweis
@@ -182,7 +182,7 @@ Im [Kapitel zur Datenquelle](../datenquelle.md) wurde auf die Entstehung des Fil
 
 Grundsätzlich sollte jedoch im Sinne der Auswertung des Datensatzes mit digitalen Tools jede Zelle nur einen Eintrag enthalten. Die Einträge in einzelnen Zellen einer Spalte müssen also aufgeteilt und in zusätzlich erzeugte neue Spalten überführt werden.
 
-Beim Übungsdatensatz tritt dieses Problem bei den drei Spalten *Verlag*, *Schlagwort* und *Stichwort* auf. *OpenRefine* bietet glücklicherweise eine einfache Lösung, da die einzelnen Einträge innerhalb der Zellen durch Trennzeichen wie in einer Liste voneinander abgegrenzt sind, etwa "*Filmische Initiativ Cottbus ; Filmproduktion Potsdam-Bornstedt*" in der Spalte *Verlag*. Entlang des Semikolons lassen sich hier die Einträge voneinander unterscheiden. 
+Beim Übungsdatensatz tritt dieses Problem bei den drei Spalten *Verlag*, *Schlagwort* und *Stichwort* auf. *OpenRefine* bietet glücklicherweise eine einfache Lösung, da die einzelnen Einträge innerhalb der Zellen durch Trennzeichen wie in einer Liste voneinander abgegrenzt sind, etwa "*Kollektiv Bild und Ton Potsdam ; Atelier für Dokumentar-Film Babelsberg*" in der Spalte *Verlag*. Entlang des Semikolons lassen sich hier die Einträge voneinander unterscheiden. 
 
 Für das Aufteilen der Mehrfach-Einträge in einer Spalte gehen Sie nun folgendermaßen vor. Öffnen Sie das Dropdown-Menü der aufzuteilenden Spalte und wähle sie im Reiter *Edit column* die erste Option *Split into several columns* aus. 
 
@@ -196,7 +196,7 @@ alt: Das Öffnen des Menüs zum Aufteilen von Spalten
 Das Öffnen des Menüs zum Aufteilen von Spalten
 ```
 
-Im anschließenden Fenster kann das Trennzeichen ausgewählt werden. Für die Spalte *Verlag* ist ` ; ` das passende Trennzeichen, also das Semikolon mit einem vorangestellten und folgenden Leerzeichen. Zwar würde auch `;`, also nur das Semikolon ohne die Leerzeichen, zu einem ähnlichen Ergebnis führen, allerdings blieben dabei die Leerzeichen am Anfang bzw. am Ende der getrennten Einträge enthalten. Ggf. ist es sinnvoll die Option *Remove this column* zu deaktivieren, um die ursprüngliche Spalte nach der Aufteilung zu erhalten.
+Im anschließenden Fenster kann das Trennzeichen ausgewählt werden. Für die Spalte *Verlag* ist ` ; ` das passende Trennzeichen, also das Semikolon mit einem vorangestellten und folgenden Leerzeichen. Zwar würde auch `;`, also nur das Semikolon ohne die Leerzeichen, zu einem ähnlichen Ergebnis führen, allerdings blieben dabei die Leerzeichen am Anfang bzw. am Ende der getrennten Einträge enthalten. Ggf. ist es sinnvoll die Option *Remove this column* zu deaktivieren, um die ursprüngliche Spalte nach der Aufteilung zu erhalten. Die Option *Guess cell type* wählt für jeden Eintrag den passenden Dateityp aus, so werden Zahlen etwa automatisch als numerischer Dateityp interpretiert (siehe [Numeric Facet](./3_sichtung.md#numeric-facet)).
 
 ```{figure} ../../assets/bereinigung/openRefine/spalten/split_column_2.png
 ---

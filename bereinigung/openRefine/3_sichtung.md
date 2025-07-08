@@ -42,7 +42,7 @@ Menü-Elemente zur Zeilen-Navigation
 Datensätze können im *Row* und *Record* Format dargestellt werden. Die meisten Datensätze liegen im Row-Format vor, wie auch der Übungsdatensatz. Im Record-Format  können mehrere Zeilen zu einem Tabellensatz, einem *Record*, zusammengefasst werden. In der *OpenRefine* Dokumentation finden sie mehr Informationen zum Unterschied der Darstellung in <a href="https://openrefine.org/docs/manual/exploring#rows-vs-records" class="external-link" target="_blank">Rows und Records</a> und zur Umwandlung von <a href="https://openrefine.org/docs/manual/cellediting#fill-down-and-blank-down" class="external-link" target="_blank">Rows in Records</a>.
 ```
 ````
-Innerhalb der Spalte *All* werden die Zeilen nummeriert und können für ein besseres Auffinden mit einer Flagge oder einem Stern markiert werden. Weder diese Markierungen noch die Nummerierung sind Teil das Datensatzes und werden beim Export des bearbeiteten Datensatzes nicht mit eingeschlossen. 
+Innerhalb der Spalte *All* werden die Zeilen nummeriert und können für ein besseres Auffinden mit einer Flagge oder einem Stern markiert werden. Weder diese Markierungen noch die Nummerierung sind Teil das Datensatzes und werden nicht exportiert. 
 
 ### Export eines OpenRefine Projekts
 Während Ihrer Arbeit an dem Datensatz möchten Sie ggf. einen Zwischenschritt des *OpenRefine*-Projekts speichern.
@@ -166,7 +166,7 @@ Invertierung des *Text Filter*
 ```
 Ein Klick auf den Button *reset* hebt die Filterung auf. 
 
-Bei der Erkundung eines Datensatzes haben *Text Facets* damit v.a. zwei Funktionen:
+Bei der Erkundung eines Datensatzes haben *Text Facets* damit vor allem zwei Funktionen:
 - Sichtung des Inhalts von Spalten eines Datensatzes und von dort auftretenden Werthäufungen
 - Filterung des Datensatzes nach einzelnen Spalteninhalten, um nur eine Auswahl des Datensatzes zu betrachten und zu bearbeiten
 
@@ -179,7 +179,8 @@ Mehr zu den übrigen *Facets* finden Sie auf
 ```
 ````
 
-Über das *Facet* Dropdown-Menü können auch andere Arten von *Facets* ausgewählt werden. 
+Über das *Facet* Dropdown-Menü können auch andere Arten von *Facets* ausgewählt werden. Anders als das *Text Facet*, das auf Text und Zahlen angewandt werden kann, funktioniert das *Numeric Facet* nur für Zahlen.
+
 Das *Numeric Facet* ist praktisch, um den Datensatz hinsichtlich eines Zahlenraums zu filtern, etwa nach dem Zeitraum der Jahre *1989* bis *1994*:
 
 ```{figure} ../../assets/bereinigung/openRefine/sichtung/numericfacet.png
@@ -191,7 +192,37 @@ alt: Numeric Facet zur Auswahl des Zeitraums 1989 bis 1994
 ---
 *Numeric Facet* zur Auswahl des Zeitraums *1989* bis *1994*
 ```
-Anders als das *Text Facet*, das auf Text und Zahlen angewandt werden kann, funktioniert das *Numeric Facet* nur für Zahlen. 
+
+Der Unterschied zwischen numerischen und textbasierten Datentypen besteht darin, dass Zahlen (numerische Datentype wie *Integer* oder *Float*) mathematisch interpretierbar sind – etwa zum Rechnen oder Vergleichen –, während Textwerte (*Strings*) lediglich als Zeichenfolgen behandelt werden. So kann etwa der Eintrag *1990* entweder als Text oder als Zahl vorliegen: Ist er als Text formatiert, erkennt OpenRefine ihn nicht als numerischen Wert – der Eintrag wird in diesem Fall von dem *Numeric Facet* nicht erfasst und auch Rechenoperationen lassen sich nicht auf ihn anwenden. Erst wenn der Eintrag korrekt in einen Zahlentyp konvertiert wurde, kann er als Zahl interpretiert werden.
+
+Vermutlich ist Ihnen schon aufgefallen, dass in der Spalte *Jahr* manche Einträge grün markiert sind und andere nicht. Diese Einträge wurden bereits als Zahl erkannt und korrekt konvertiert, da beim Import die Option *Attempt to parse cell text into numbers* ausgewählt wurde (siehe [Vorbereitung und Import des Datensatzes](./2_import.md#import-des-datensatzes-in-openrefine). Manche der Einträge konnten allerdings nicht als Zahl interpretiert werden, da sie nichtnumerische Zeichen wie Schrägstriche enthalten:
+
+```{figure} ../../assets/bereinigung/openRefine/sichtung/numericfacet_datatypes.png
+---
+align: center
+width: 10%
+name: datatypes
+alt: Die unterschiedlichen Datentypen innerhalb der Spalte Jahr
+---
+Die unterschiedlichen Datentypen innerhalb der Spalte *Jahr*
+```
+
+Sie können die Transformation *To Number* nutzen, um auch nachträglich die passenden Einträge innerhalb einer Spalte in numerische Werte umzuwandeln:
+```{margin} 
+```{admonition} Hinweis
+:class: hinweis
+Die Transformation *To Date* ist für vollständige Datumsangaben wie *01.01.2001* vorgesehen und funktioniert nicht mit den reinen Jahresangaben.
+```
+
+```{figure} ../../assets/bereinigung/openRefine/sichtung/to_number.png
+---
+align: center
+width: 50%
+name: to_number
+alt: Die Transformation To Number
+---
+Die Transformation *To Number*
+```
 
 ### Text filter
 Mit einem *Text Filter* können Sie Spalten nach einem Text durchsuchen und den Datensatz nach den Ergebnissen filtern. Der *Text Filter* findet sich im Dropdown-Menü der Spalten unter den *Facets*:
