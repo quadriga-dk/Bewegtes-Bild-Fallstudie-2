@@ -224,6 +224,8 @@ alt: Die Transformation To Number
 Die Transformation *To Number*
 ```
 
+Auf die Spalte *Jahr* in ihrer aktuellen Form hat diese Transformation allerdings keine Wirkung. Die Einträge mit nicht-numerischen Zeichen wie Schrägstrichen werden weiterhin nicht als Zahlen erkannt, während jene Einträge, die nur aus Zahlen bestehen, bereits als solche während des Import des Datensatzes identifiziert wurden. 
+
 ### Text filter
 Mit einem *Text Filter* können Sie Spalten nach einem Text durchsuchen und den Datensatz nach den Ergebnissen filtern. Der *Text Filter* findet sich im Dropdown-Menü der Spalten unter den *Facets*:
 
