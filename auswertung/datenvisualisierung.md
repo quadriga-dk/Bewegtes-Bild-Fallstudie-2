@@ -15,6 +15,11 @@ Wie bereits an mehreren Stellen der OER angesprochen wurde, können wir aus rech
 
 Im Rahmen der Fallstudie verwenden wir <a href="https://www.microsoft.com/de-de/microsoft-365/excel?market=de" class="external-link" target="_blank">Mircosoft Excel</a> als Tool zur Visualisierung und Auswertung. Dabei handelt es sich zwar nicht um ein frei zugängliches, sondern kommerzielles Produkt, jedoch haben zahlreiche Nutzer:innen das *Microsoft-Office-Paket* mit *Excel* auf ihren Computern installiert. Alternativ können auch Open-Source Office-Pakete wie z.B. <a href="https://de.libreoffice.org" class="external-link" target="_blank">LibreOffice</a>verwendet werden. Diese beinhalten ebenfalls für Datenvisualisierungen geeignete Tools und Funktionalitäten.
 
+```{admonition} Achtung
+:class: caution
+In den folgenden Beschreibungen und für die Screenshots wird *Microsoft Excel* in der Version *2019* unter *Windows* verwendet. In der *Excel* Version für *Mac* weicht die Menüführung teilweise von der hier dargestellten ab und einzelne Funktionen sind dort nicht vorhanden.
+```
+
 Im Folgenden stellen wir nun exemplarisch einige mögliche Vorgehensweisen für die Visualisierung und Auswertung unseres synthetischen Datensatzes dar. Ausgangspunkt sind dabei die vorher erarbeiteten Teilfragestellungen. Die verwendeten Screenshots stammen dabei aus der Excel-Arbeitsoberfläche.
 
 ## Import des Datensatzes in Excel
@@ -22,7 +27,19 @@ Der synthetische Datensatz liegt, wie ursprünglich der originale bereinigte Dat
 
 Ausgangspunkt für den Import in Excel ist die Datei **Synthetischer_Datensatz_Auswertung_OER.tsv**. Sie können den Datensatz [hier](../assets/daten/Synthetischer_Datensatz_Auswertung_OER.tsv) (rechte Maustaste und *Ziel speichern unter* auswählen) herunterladen. Die tsv-Datei weist vor dem eigentlichen Datensatz eine Zeile mit dem Hinweis auf, dass es sich um einen synthetischen Datensatz für Unterrichtszwecke handelt, der keine personenbezogene Daten enthält. Diese erste Zeile muss vom Import ausgeschlossen werden. Nur dann werden die Daten mit den richtigen Spaltennamen korrekt in die Excel-Datei übernommen. Hierfür sind folgende Excel-Einstellungen notwendig.
 
-Öffnen Sie Excel mit einer leeren Arbeitsmappe. Gehen Sie im Reiter *Datei* auf *Optionen* und im sich öffnenden Optionen-Fenster auf den Punkt *Daten*. Wählen Sie dort unter *Legacy-Datenimport-Assistenten anzeigen* das Kästchen *Aus Text (Legacy)* an. Bestätigen Sie die Auswahl mit *OK*. ({numref}`excel_optionen`)
+Öffnen Sie Excel mit einer leeren Arbeitsmappe. Gehen Sie im Reiter *Datei* auf *Optionen*. ({numref}`excel_datei_optionen`)
+
+```{figure} ../assets/auswertung/excel_datei_optionen.png
+---
+align: center
+width: 40%
+name: excel_datei_optionen
+alt: Darstellung der Navigation über Datei zu Optionen Excel. Die Auswahlfelder sind mit roten Kreisen gekennzeichnet.
+---
+Navigation über *Datei* zu *Optionen*
+```
+
+Im sich öffnenden Optionen-Fenster gehen Sie zum Punkt *Daten*. Wählen Sie dort unter *Legacy-Datenimport-Assistenten anzeigen* das Kästchen *Aus Text (Legacy)* an. Bestätigen Sie die Auswahl mit *OK*. ({numref}`excel_optionen`)
 
 ```{figure} ../assets/auswertung/excel_optionen.png
 ---
