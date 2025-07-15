@@ -18,7 +18,12 @@ from quadriga import colors
 ```
 
 # Filmwissenschaft und Digital Humanities
-Im folgenden Kapitel werden einige Grundzüge der Digital Humanities und deren Rolle in der Filmwissenschaft vorgestellt. Dadurch sollen Grundlagen für das Verständnis der Fallstudie gelegt werden, auf die sich die vorliegende _Open Educational Resource_ bezieht.
+Im folgenden Kapitel werden einige Grundzüge der Digital Humanities und deren Rolle in der Filmwissenschaft vorgestellt. Dadurch sollen Grundlagen für das Verständnis der Fallstudie gelegt werden, auf die sich die vorliegende _Open Educational Resource_ bezieht. Dabei werden folgende Lernziele verfolgt:
+
+```{admonition} Grundzüge der Digital Humanities und deren Rolle in der Filmwissenschaft
+:class: lernziele
+1. Die Lernenden sind mit Definitionsansätzen und Arbeitsbereichen der Digital Humanities vertraut.
+```
 
 ## Digital Humanities
 Immer mehr Quellen aus den geisteswissenschaftlichen Disziplinen liegen mittlerweile in digitaler Form vor. Gedruckte Zeitungsartikel, Bücher oder Fotomaterial werden digitalisiert, Informationen zu kulturellen Artefakten in Online-Datenbanken zugänglich gemacht und kulturelle, politische oder geschichtliche Themen in wissenschaftlichen Blogs und speziellen Portalen im Internet aufbereitet. Durch diese **Retrodigitalisierung** analoger Materialien und die wachsende Anzahl genuin digitaler Quellen ergeben sich neue Chancen, aber auch Herausforderungen für die Geisteswissenschaften. Für die Geschichtsforschung stellt Peter Haber angesichts der "Digitalität von immer mehr zeithistorischen Quellen" die Frage in den Raum, ob nicht mehr wie früher ein Mangel, sondern mittlerweile vielmehr ein Überfluss an verfügbaren Informationen und Quellen herrsche. {cite}`Haber_2012`

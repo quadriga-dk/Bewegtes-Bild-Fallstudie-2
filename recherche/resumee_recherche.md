@@ -17,7 +17,7 @@ sys.path.append("..")
 from quadriga import colors
 ```
 
-# Resümee Vorarbeiten und Recherche
+# Resümee
 Im Zentrum dieses Kapitels stehen zwei Lernziele. Zum einen werden Kenntnisse vermittelt, wie eine filmwissenschaftliche Fragestellung konzipiert wird, die mit digitalen Tools bearbeitet werden kann. Zum anderen wird der Prozess zur Bildung eines zur Fragestellung passenden Korpus aufgezeigt. Hierfür behandeln wir im Kapitel verschiedene Teilbereiche:
 
 ```{admonition} Teilbereiche des Kapitels

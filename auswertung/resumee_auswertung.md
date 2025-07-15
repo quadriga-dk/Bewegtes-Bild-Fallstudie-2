@@ -17,7 +17,7 @@ sys.path.append("..")
 from quadriga import colors
 ```
 
-# Resümee Datenauswertung und Datenvisualisierung
+# Resümee
 Als Lernziel soll in diesem Kapitel die Fähigkeit vermittelt werden, einen Datensatz mithilfe von Visualisierungen und weiteren digitalen Tools hinsichtlich einer Fragestellung auszuwerten. Grundlage für die Auswertung ist der bereinigte Datensatz zum Filmkorpus unserer Fallstudie. Dabei werden folgende Teilbereiche behandelt:
 
 ```{admonition} Teilbereiche des Kapitels

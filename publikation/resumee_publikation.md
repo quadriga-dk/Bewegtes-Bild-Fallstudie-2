@@ -17,7 +17,7 @@ sys.path.append("..")
 from quadriga import colors
 ```
 
-# Resümee Datenpublikation
+# Resümee
 In diesem Kapitel soll als Lernziel die Fähigkeit vermittelt werden, einen Datensatz für eine Datenpublikation vorzubereiten und ein passendes Repositorium für die Veröffentlichung auszuwählen. Dabei werden im Kapitel folgenden Teilbereichen behandelt:
 
 ```{admonition} Teilbereiche des Kapitels

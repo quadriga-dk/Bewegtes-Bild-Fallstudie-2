@@ -17,7 +17,7 @@ sys.path.append("..")
 from quadriga import colors
 ```
 
-# Resümee Datenerhebung und Datenbereinigung
+# Resümee
 Das Lernziel dieses Kapitels ist, die Aufbereitung der Daten eines Korpus von Filmen mit passenden Tools zu vermitteln. Der Zweck und die Schritte einer Datenbereinigung werden anhand des Korpus der Fallstudie aufgezeigt. Hierfür haben wir diesen Themenbereich in einzelne Teilbereiche aufgeteilt:
 
 ```{admonition} Teilbereiche des Kapitels
