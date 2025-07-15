@@ -17,7 +17,7 @@ Im Rahmen der Fallstudie verwenden wir <a href="https://www.microsoft.com/de-de/
 
 ```{admonition} Achtung
 :class: caution
-In den folgenden Beschreibungen und für die Screenshots wird *Microsoft Excel* in der Version *2019* unter *Windows* verwendet. In der *Excel* Version für *Mac* weicht die Menüführung teilweise von der hier dargestellten ab und einzelne Funktionen sind dort nicht vorhanden.
+In den folgenden Beschreibungen und für die Screenshots wird *Microsoft Excel* in der Version *2019* unter *Windows* verwendet. In der *Excel* Version für *Mac* weicht die Menüführung teilweise von der hier dargestellten ab und einzelne Funktionen sind dort nicht vorhanden. Neuere *Excel*-Versionen unter *Windows* weisen jedoch in der Regel die gleiche wie hier beschriebene Benutzeroberfläche mit identischen Funktionen auf.
 ```
 
 Im Folgenden stellen wir nun exemplarisch einige mögliche Vorgehensweisen für die Visualisierung und Auswertung unseres synthetischen Datensatzes dar. Ausgangspunkt sind dabei die vorher erarbeiteten Teilfragestellungen. Die verwendeten Screenshots stammen dabei aus der Excel-Arbeitsoberfläche.
@@ -291,7 +291,7 @@ Im Liniendiagramm ist der sprunghafte Anstieg der Anzahl der Filmtitel im Jahr 1
 ## Anzahl der Gattungen pro Jahr
 Im nächsten Schritt soll nun eine visuelle Darstellung der Anzahl der Gattungen pro Jahr erstellt werden, die auf den Angaben in unserem synthetischen Datensatz beruht. Um die Übersichtlichkeit zu gewährleisten bietet es sich an, sich auf die Hauptgattungen Spielfilm, Dokumentarfilm und Animationsfilm zu konzentrieren und Mischformen oder andersartige Bezeichnungen außen vor zu lassen.
 
-Das Vorgehen ist zunächst gleich wie bei der Darstellung der Titel pro Jahr. Wählen Sie im Reiter *Einfügen* den Punkt *PivotChart und PivotTable* aus. In den *PivotChart-Feldern* auf der rechten Seite der Oberfläche wählen sie dieses Mal jedoch nicht *Titel* und *Jahr_1*, sondern *Gattung* und *Jahr_1* aus. (siehe {numref}`excel_pivot_chart` bis {numref}`excel_pivot_felder`). Die angewählten Spalten werden wieder automatisch den PivotChart-Feldern *Achse (Rubriken)* und *Werte* zugeordnet. ({numref}`gattung_jahr_felder1`)
+Das Vorgehen ist zunächst gleich wie bei der Darstellung der Titel pro Jahr. Gehen Sie in der Excel-Datei zum Arbeitsblatt, das die aus der [tsv-Datei importierten Daten](#import-des-datensatzes-in-excel) enthält. Wählen Sie im Reiter *Einfügen* den Punkt *PivotChart und PivotTable* aus. In den *PivotChart-Feldern* auf der rechten Seite der Oberfläche wählen sie dieses Mal jedoch nicht *Titel* und *Jahr_1*, sondern *Gattung* und *Jahr_1* aus. (siehe {numref}`excel_pivot_chart` bis {numref}`excel_pivot_felder`). Die angewählten Spalten werden wieder automatisch den PivotChart-Feldern *Achse (Rubriken)* und *Werte* zugeordnet. ({numref}`gattung_jahr_felder1`)
 
 ```{figure} ../assets/auswertung/gattung_jahr_felder_auswahl_1.png
 ---
@@ -532,7 +532,20 @@ alt: Darstellung Einträge in die PivotChart-Felder. Einzelne Eingaben sind mit 
 Einträge in die PivotChart-Felder
 ```
 
-Die Grafik zeigt nun die Anzahl der verantwortlichen Gewerke für alle entsprechenden Einträge im Datensatz an. Für eine bessere Übersichtlichkeit der Visualisierung sollte diese noch angepasst werden. ({numref}`gewerke_roh`)
+Die Grafik zeigt nun die Anzahl der verantwortlichen Gewerke für alle entsprechenden Einträge im Datensatz an. Blenden Sie ggf. die Legende zur Grafik durch einen Klick auf das grüne Kreuz und das Setzen eines Hakens bei *Legende* ein. ({numref}`excel_legende`)
+
+
+```{figure} ../assets/auswertung/excel_legende_einblenden.png
+---
+align: center
+width: 40%
+name: excel_legende
+alt: Darstellung der Einblendung der Legende zur Grafik.  Einzelne Eingaben sind mit rot gekennzeichnet.
+---
+Einblendung der Legende zur Grafik
+```
+
+Für eine bessere Übersichtlichkeit der Visualisierung sollte diese noch angepasst werden. ({numref}`gewerke_roh`)
 
 ```{figure} ../assets/auswertung/Gewerke_verantwortlich_roh.png
 ---
@@ -636,7 +649,7 @@ Wie auch bei den bisherigen Visualisierungen und Auswertungen zum Datensatz muss
 ## Anzahl der Schlagworte pro Jahr
 Die Visuallsierung und Auswertung der Anzahl der Schlagworte pro Jahr folgt einem ähnlichen Vorgehen wie im letzten Abschnitt zu den verantwortlichen Gewerken. Die Schlagworte sind auf sechs Spalten verteilt (*Schlagwort_1* bis *Schlagwort_6*), die zur weiteren Verabeitung in eine Spalte überführt werden müssen. Für die Visualisierung ist zusätzlich noch die Spalte *Jahr_1* notwendig.
 
-Ausgangspunkt ist der in die Excel-Tabelle importierte [Übungs-Datensatz](#import-des-datensatzes-in-excel). Wählen Sie dort im Reiter *Daten* die Option *Aus Tabelle/Bereich* aus. Der *Power Query-Editor* öffnet sich. Gehen Sie im Reiter *Start* auf *Spalten auswählen* und setzten Sie im sich öffnenden Fenster bei den Spalten *Jahr_1* und den Spalten *Schlagwort_1* bis *Schlagwort_6* einen Haken. Beenden Sie die Spaltenauswahl mit *OK*. (Vgl. {numref}`excel_tabelle_bereich` bis {numref}`excel_spalten_gewerk`)
+Ausgangspunkt ist der in die Excel-Tabelle importierte [Auswertungs-Datensatz](#import-des-datensatzes-in-excel). Wählen Sie dort im Reiter *Daten* die Option *Aus Tabelle/Bereich* aus. Der *Power Query-Editor* öffnet sich. Gehen Sie im Reiter *Start* auf *Spalten auswählen* und setzten Sie im sich öffnenden Fenster bei den Spalten *Jahr_1* und den Spalten *Schlagwort_1* bis *Schlagwort_6* einen Haken. Beenden Sie die Spaltenauswahl mit *OK*. (Vgl. {numref}`excel_tabelle_bereich` bis {numref}`excel_spalten_gewerk`)
 
 Wählen Sie nun die Spalten *Schlagwort_1* bis *Schlagwort_6* aus, indem Sie in den Spaltentitel klicken und die *Strg-Taste* gedrückt halten. Achten Sie darauf, die Spalte *Jahr_1* nicht mit auszuwählen. Ein Rechtsklick auf einen der markierten Spaltentitel öffnet ein Menü, dort entscheiden Sie sich für die Option *Nur ausgewählte Spalten entpivotieren*. ({numref}`excel_spalten_schlagworte`)
 
@@ -676,7 +689,7 @@ alt: Darstellung der Visualisierung der Anzahl der Schlagworte pro Jahr
 Erste Visualisierung der Anzahl der Schlagworte pro Jahr
 ```
 
-Wie im Kapitel zur Analyse der [Datenquelle](../bereinigung/datenquelle.md#schlagwort-stichworter-zusammenfassung) dargelegt, werden bei der Erfassung der filmografischen Angaben für den Bibliothekskatalog die Gattungen als Schlagworte aufgenommen. Die Anzahl der [Gattungen pro Jahr](#anzahl-der-gattungen-pro-jahr) im Datensatz wurde bereits visualisiert und ausgewertet, die Schlagworte *Spielfilm*, *Dokumentarfilm* und *Animationsfilm* können also bei dieser Auswertung ausgeschlossen werden. Des Weiteren bietet es sich an, sich auf Schlagworte zu konzentrieren, die besonders häufig vorkommen und solche, die für die Forschungsfrage relevant erscheinen. Wählen Sie daher bei der Feldschaltfläche *Wert Schlagwort* in der Grafik zunächst alle Inhalte ab und dann die Schlagworte *Arbeit, Frauen, Porträtfilm* und *Wende* an. (Vgl. {numref}`gewerke_auswahl`) Dadurch ergibt sich bereits eine übersichtlichere Grafik. ({numref}`schlagworte_jahr_auswahl`)
+Wie im Kapitel zur Analyse der [Datenquelle](../bereinigung/datenquelle.md#schlagwort-stichworter-zusammenfassung) dargelegt, werden bei der Erfassung der filmografischen Angaben für den Bibliothekskatalog die Gattungen als Schlagworte aufgenommen. Die Anzahl der [Gattungen pro Jahr](#anzahl-der-gattungen-pro-jahr) im Datensatz wurde bereits visualisiert und ausgewertet, die Schlagworte *Spielfilm*, *Dokumentarfilm* und *Animationsfilm* können also bei dieser Auswertung ausgeschlossen werden. Des Weiteren bietet es sich an, sich auf Schlagworte zu konzentrieren, die besonders häufig vorkommen und solche, die für die Forschungsfrage relevant erscheinen. Wählen Sie daher bei der Feldschaltfläche *Wert Schlagwort* in der Grafik zunächst alle Inhalte ab und dann die Schlagworte *Arbeit, Frauen, Porträtfilm* und *Wende* an. (Vgl. {numref}`gewerke_auswahl`) Blenden sie zusätzlich eine Datentabelle ein. (Vgl. {numref}`gattung_jahr_säule_daten_auswahl`) Dadurch ergibt sich bereits eine übersichtlichere Grafik. ({numref}`schlagworte_jahr_auswahl`)
 
 ```{figure} ../assets/auswertung/schlagworte_jahr_auswahl.png
 ---
