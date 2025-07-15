@@ -17,6 +17,7 @@ chapters:
       - file: recherche/metadaten
       - file: recherche/operationalisierung
       - file: recherche/resumee_recherche
+      - file: recherche/assessment_recherche
   - file: bereinigung/toc
     sections:
       - file: bereinigung/modell
@@ -33,17 +34,20 @@ chapters:
               - file: bereinigung/openRefine/5.2_titel
           - file: bereinigung/openRefine/6_export
       - file: bereinigung/resumee_bereinigung 
+      - file: bereinigung/assessment_bereinigung
   - file: auswertung/toc
     sections:
       - file: auswertung/visualisierung
       - file: auswertung/datenvisualisierung
       - file: auswertung/resumee_auswertung
+      - file: auswertung/assessment_auswertung
   - file: publikation/toc
     sections:
       - file: publikation/forschungsdaten
       - file: publikation/publikationsformen
       - file: publikation/problemfelder
       - file: publikation/resumee_publikation
+      - file: publikation/assessment_publikation
   - file: zusammenfassung/reflexion
   - file: epilog/toc
     sections:
