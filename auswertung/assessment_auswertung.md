@@ -17,7 +17,7 @@ sys.path.append("..")
 from quadriga import colors
 ```
 
-# Selbsttest: Wissen und Praxis
+# 🏆Selbsttest: Wissen und Praxis
 
 ````{admonition} Hinweis
 :class: hinweis
