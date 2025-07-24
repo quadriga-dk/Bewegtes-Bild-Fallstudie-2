@@ -3,7 +3,7 @@
 
 title: Studentische Filme
 author: Thomas Schick, Marco Winter, Skadi Loist & Lena Gieseke
-logo: logo.jpg
+logo: Bild2Logo.png
 copyright: "2024"
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", conda, venv, .venv, README.md, LICENSE.md]
 
