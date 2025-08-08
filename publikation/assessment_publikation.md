@@ -32,13 +32,7 @@ Sie können die Fragen in beliebiger Reihenfolge bearbeiten und die Beantwortung
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels nochmals zu bearbeiten. 
 
-**Geschätzte Zeit**: 20 min
+**Geschätzte Zeit**: XX
 
 Viel Erfolg!
 ````
-
-## Fragen
-```{code-cell} ipython3
-:tags: [remove-input]
-display_quiz("../assets/assessment/publikation/publikation_quiz.json", colors = colors.jupyterquiz)
-```
