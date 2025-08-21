@@ -49,24 +49,138 @@ research-object-type:
 - Bewegtes Bild
 chapters:
 - title: Präambel
-  url: https://quadriga-dk.github.io/Book_Template/präambel/toc.html
-  description: Präambel des Templates. Gibt grundlegende Informationen zu Lernzielen,
-    Voraussetzungen und Vorkenntnissen.
-  learning-goal: Überblick über Template
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/praeambel/toc.html
+  description: Präambel der Fallstudie zu studentischen Filmen. Gibt grundlegende
+    Informationen zu Lernzielen, Voraussetzungen und Vorkenntnissen.
+  learning-goal: Verständnis der Lernziele des Buchs
   duration: 15min
   educational-level: Basis
   learning-objectives:
-  - learning-objective: Verständnis der Lernziele des Templates
+  - learning-objective: Verständnis der Lernziele des Buchs
     competency: 1 Basiskompetenz
     data-flow: Grundlagen
     focus: Wissen
     blooms-category: 1 Erinnern
+- title: Filmwissenschaft und Digital Humanities
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/einleitung/filmwissenschaft.html
+  description: Im folgenden Kapitel werden einige Grundzüge der Digital Humanities
+    und deren Rolle in der Filmwissenschaft vorgestellt. Dadurch sollen Grundlagen
+    für das Verständnis der Fallstudie gelegt werden, auf die sich die vorliegende
+    Open Educational Resource bezieht.
+  learning-goal: Überblick über Template
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Die Lernenden sind mit Definitionsansätzen und Arbeitsbereichen der Digital Humanities vertraut.
+    competency: TODO
+    data-flow: TODO
+    blooms-category: TODO
+- title: Vorarbeiten und Recherche
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/recherche/toc.html
+  description: Die vorliegende Fallstudie befasst sich mit den studentischen Filmproduktionen aus dem Filmarchiv der Filmuniversität Babelsberg KONRAD WOLF.
+  learning-goal: Schritte zur Findung einer Fragestellung
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Das Vorgehen bei der Materialrecherche ist bekannt.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+  - learning-objective: Die Konzepte Daten und Metadaten werden kritisch reflektiert.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+  - learning-objective: Eine Fragestellung kann operationalisiert und eingrenzt werden.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+  - learning-objective: Ein zur Fragestellung passendes Korpus kann gebildet werden.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+- title: Datenerhebung und Datenbereinigung
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/bereinigung/toc.html
+  description: TODO
+  learning-goal: Prozess der Datenerhebung und Datenbereinigung
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Der Begriff Datenmodell kann definiert werden.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+  - learning-objective: Die Fähigkeit zur Beschreibung und Analyse einer Datenquelle wird erworben
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+  - learning-objective: Ein Datensatz kann mithilfe des Tools OpenRefine bereinigt werden.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+- title: Datenauswertung und Datenvisualisierung
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/auswertung/toc.html
+  description: TODO
+  learning-goal: Datenauswertung und Datenvisualisierung mithilfe digitaler Ansätze und Werkzeuge
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Die Lernenden sind mit den Grundlagen der Datenvisualisierung vertraut.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+  - learning-objective: Anhand exemplarischer Beispiele werden die Schritte bei der Datenvisualisierung und Datenauswertung vermittelt.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+- title: Datenpublikation
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/publikation/toc.html
+  description: TODO
+  learning-goal: Grundlagen für die Publikation von Forschungsdaten
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Die Grundzüge des Forschungsdatenmanagements in der Filmwissenschaft können benannt werden.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+  - learning-objective: Die Lernenden kennen verschiedene Formen der Datenpublikation.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+  - learning-objective: Die Problemfelder und rechtliche Voraussetzungen bei der Datenpublikation können erläutert werden.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+- title: Reflexion und Ausblick
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/zusammenfassung/reflexion.html
+  description: TODO
+  learning-goal: TODO
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: TODO
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
 target-group:
 - Forschende (PostDoc)
 - Forschende (Projektleitung)
 - Promovierende
 - Hochschullehrende
-duration: 10h
+duration: TODO
 date-published: '2025-06-03'
 date-modified: '2025-06-03'
 context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
