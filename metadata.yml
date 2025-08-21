@@ -1,20 +1,24 @@
 # yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0-alpha/schema.json
 schema-version: 1.0.0-alpha
 book-version: 1.0.0-beta
-title: Studentische Filme
+title: Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)
 identifier: https://doi.org/10.5281/zenodo.TODOTODO
 authors:
 - given-names: Thomas
   family-names: Schick
   orcid: https://orcid.org/0009-0007-3292-8611
+  affiliation: Filmuniversität Babelsberg KONRAD WOLF
 - given-names: Marco
   family-names: Winter
+  affiliation: Filmuniversität Babelsberg KONRAD WOLF
 - given-names: Skadi
   family-names: Loist
   orcid: https://orcid.org/0000-0002-8299-4103
+  affiliation: Filmuniversität Babelsberg KONRAD WOLF / Norwegian University for Science and Technology (NTNU)
 - given-names: Lena
   family-names: Gieseke
   orcid: https://orcid.org/0000-0001-8421-103X
+  affiliation: Filmuniversität Babelsberg KONRAD WOLF
 contributors:
 - given-names: Hannes
   family-names: Schnaitter
