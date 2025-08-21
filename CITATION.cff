@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
-title: Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)
+title: Studentische Filme
 abstract: TODO
 type: software
 message: Please cite this software using the metadata from `preferred-citation` in
@@ -9,14 +9,19 @@ authors: &id001
 - given-names: Thomas
   family-names: Schick
   orcid: https://orcid.org/0009-0007-3292-8611
+  affiliation: Filmuniversität Babelsberg KONRAD WOLF
 - given-names: Marco
   family-names: Winter
+  affiliation: Filmuniversität Babelsberg KONRAD WOLF
 - given-names: Skadi
   family-names: Loist
   orcid: https://orcid.org/0000-0002-8299-4103
+  affiliation: Filmuniversität Babelsberg KONRAD WOLF / Norwegian University for Science
+    and Technology (NTNU)
 - given-names: Lena
   family-names: Gieseke
   orcid: https://orcid.org/0000-0001-8421-103X
+  affiliation: Filmuniversität Babelsberg KONRAD WOLF
 identifiers:
 - type: doi
   value: 10.5281/zenodo.TODOTODO
@@ -33,9 +38,9 @@ references:
   - name: The Jupyter Book Community
     website: https://github.com/jupyter-book/jupyter-book/graphs/contributors
 preferred-citation:
-  year: 2025
+  year: '2025'
   authors: *id001
-  title: Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)
+  title: Studentische Filme
   type: book
   doi: 10.5281/zenodo.TODOTODO
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
@@ -46,3 +51,5 @@ preferred-citation:
   copyright: CC-BY-SA-4.0
   keywords:
   - Open Educational Resource
+  version: 0.1.0
+version: 0.1.0

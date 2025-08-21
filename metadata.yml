@@ -1,30 +1,201 @@
-# yaml-language-server: $schema=quadriga-schema.json
+# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0-alpha/schema.json
 schema-version: 1.1-beta2
 book-version: 0.1.0
-title: Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)
-description:
-  introduction: TODO
-  table-of-contents: '- Präambel
+title: Studentische Filme
+identifier: https://doi.org/10.5281/zenodo.TODOTODO
+authors:
+- given-names: Thomas
+  family-names: Schick
+  orcid: https://orcid.org/0009-0007-3292-8611
+  affiliation: Filmuniversität Babelsberg KONRAD WOLF
+  credit:
+  - TODO
+- given-names: Marco
+  family-names: Winter
+  affiliation: Filmuniversität Babelsberg KONRAD WOLF
+  credit:
+  - TODO
+- given-names: Skadi
+  family-names: Loist
+  orcid: https://orcid.org/0000-0002-8299-4103
+  affiliation: Filmuniversität Babelsberg KONRAD WOLF / Norwegian University for Science
+    and Technology (NTNU)
+  credit:
+  - TODO
+- given-names: Lena
+  family-names: Gieseke
+  orcid: https://orcid.org/0000-0001-8421-103X
+  affiliation: Filmuniversität Babelsberg KONRAD WOLF
+  credit:
+  - TODO
+contributors:
+- TODO
+table-of-contents: '- Präambel
 
-    - Filmwissenschaft und Digital Humanities
+  - Filmwissenschaft und Digital Humanities
 
-    - Vorarbeiten und Recherche
+  - Vorarbeiten und Recherche
 
-    - Datenerhebung und Datenbereinigung
+  - Datenerhebung und Datenbereinigung
 
-    - Datenauswertung und Datenvisualisierung
+  - Datenauswertung und Datenvisualisierung
 
-    - Datenpublikation
+  - Datenpublikation
 
-    - Reflexion und Ausblick
+  - Reflexion und Ausblick
 
-    - Epilog'
+  - Epilog'
+description: TODO
 discipline:
 - übergreifend
-duration: 10h
-type-of-research-object:
+research-object-type:
 - übergreifend
-identifier: https://doi.org/10.5281/zenodo.TODOTODO
+chapters:
+- title: Präambel
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/praeambel/toc.html
+  description: Beschreibung der Lernziele und technischer Voraussetzungen der Fallstudie.
+  learning-goal: Die Teilnehmenden verstehen die Lernziele und technischen Voraussetzungen
+    der Fallstudie.
+  duration: 5min
+  educational-level: Basis
+  learning-objectives:
+  - learning-objective: Die Teilnehmenden kennen die Lernziele und technischen Voraussetzungen
+      der Fallstudie.
+    competency: nicht anwendbar
+    data-flow: nicht anwendbar
+    blooms-category: 2 Verstehen
+- title: Filmwissenschaft und Digital Humanities
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/einleitung/filmwissenschaft.html
+  description: TODO
+  learning-goal: Grundzüge der Digital Humanities und deren Rolle in der Filmwissenschaft
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Die Lernenden sind mit Definitionsansätzen und Arbeitsbereichen
+      der Digital Humanities vertraut.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+- title: Vorarbeiten und Recherche
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/recherche/toc.html
+  description: TODO
+  learning-goal: Schritte zur Findung einer Fragestellung
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Das Vorgehen bei der Materialrecherche ist bekannt.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+  - learning-objective: Die Konzepte Daten und Metadaten werden kritisch reflektiert.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+  - learning-objective: Eine Fragestellung kann operationalisiert und eingrenzt werden.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+  - learning-objective: Ein zur Fragestellung passendes Korpus kann gebildet werden.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+- title: Datenerhebung und Datenbereinigung
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/bereinigung/toc.html
+  description: TODO
+  learning-goal: Prozess der Datenerhebung und Datenbereinigung
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Der Begriff Datenmodell kann definiert werden.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+  - learning-objective: Die Fähigkeit zur Beschreibung und Analyse einer Datenquelle
+      wird erworben.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+  - learning-objective: Ein Datensatz kann mithilfe des Tools OpenRefine bereinigt
+      werden.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+- title: Datenauswertung und Datenvisualisierung
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/auswertung/toc.html
+  description: TODO
+  learning-goal: Datenauswertung und Datenvisualisierung mithilfe digitaler Ansätze
+    und Werkzeuge
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Die Lernenden sind mit den Grundlagen der Datenvisualisierung
+      vertraut.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+  - learning-objective: Anhand exemplarischer Beispiele werden die Schritte bei der
+      Datenvisualisierung und Datenauswertung vermittelt.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+- title: Datenpublikation
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/publikation/toc.html
+  description: TODO
+  learning-goal: Grundlagen für die Publikation von Forschungsdaten
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: Die Grundzüge des Forschungsdatenmanagements in der Filmwissenschaft
+      können benannt werden.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+  - learning-objective: Die Lernenden kennen verschiedene Formen der Datenpublikation.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+  - learning-objective: Die Problemfelder und rechtliche Voraussetzungen bei der Datenpublikation
+      können erläutert werden.
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+- title: Reflexion und Ausblick
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/zusammenfassung/reflexion.html
+  description: TODO
+  learning-goal: TODO
+  duration: TODO
+  educational-level: TODO
+  learning-objectives:
+  - learning-objective: TODO
+    competency: TODO
+    data-flow: TODO
+    focus: TODO
+    blooms-category: TODO
+target-group:
+- Forschende (PostDoc)
+- Forschende (Projektleitung)
+- Promovierende
+- Hochschullehrende
+duration: 10h
+date-published: '2025-06-03'
+date-modified: '2025-06-03'
+context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
+  Datenkompetenzzentrum QUADRIGA erstellt.
+
+  Förderkennzeichen: 16DKZ1034'
 url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
 git: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2
 license:
@@ -32,37 +203,3 @@ license:
   content:
     url: https://creativecommons.org/licenses/by-sa/4.0/
     name: CC BY-SA 4.0
-date-of-last-change: '2025-06-03'
-publication-date: 2025-06-03
-target-group:
-- Forschende (PostDoc)
-- Forschende (Projektleitung)
-- Promovierende
-- Hochschullehrende
-authors:
-- given-names: Thomas
-  family-names: Schick
-  orcid: https://orcid.org/0009-0007-3292-8611
-- given-names: Marco
-  family-names: Winter
-- given-names: Skadi
-  family-names: Loist
-  orcid: https://orcid.org/0000-0002-8299-4103
-- given-names: Lena
-  family-names: Gieseke
-  orcid: https://orcid.org/0000-0001-8421-103X
-chapters:
-- description: TODO
-  title: Einleitung
-  learning-goal: TODO
-  duration: 1h
-  learning-objectives:
-  - learning-objective: TODO
-    competency: 1 Basiskompetenz
-    data-flow: Grundlagen
-    focus: Wissen
-    blooms-category: 1 Erinnern
-context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
-  Datenkompetenzzentrum QUADRIGA erstellt.
-
-  Förderkennzeichen: 16DKZ1034'
