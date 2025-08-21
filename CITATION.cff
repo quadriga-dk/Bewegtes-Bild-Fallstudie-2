@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
-title: Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)
+title: Studentische Filme
 abstract: TODO
 type: software
 message: Please cite this software using the metadata from `preferred-citation` in
@@ -33,9 +33,9 @@ references:
   - name: The Jupyter Book Community
     website: https://github.com/jupyter-book/jupyter-book/graphs/contributors
 preferred-citation:
-  year: 2025
+  year: '2025'
   authors: *id001
-  title: Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)
+  title: Studentische Filme
   type: book
   doi: 10.5281/zenodo.TODOTODO
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
@@ -46,3 +46,5 @@ preferred-citation:
   copyright: CC-BY-SA-4.0
   keywords:
   - Open Educational Resource
+  version: 1.0.0-beta
+version: 1.0.0-beta
