@@ -51,6 +51,5 @@ Dies gilt insbesondere auch für die filmografischen Angaben zu studentischen Fi
 ## Literatur
 ```{bibliography}
 :filter: docname in docnames
-:labelprefix: B
 :keyprefix: b-
 ```
