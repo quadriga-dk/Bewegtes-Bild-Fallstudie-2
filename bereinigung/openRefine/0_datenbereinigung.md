@@ -13,6 +13,7 @@ alt: Screenshot Webseite OpenRefine mit den Merkmalen der Software
 ---
 Screenshot von der <a href="https://openrefine.org/" class="external-link" target="_blank">*OpenRefine*-Webseite</a> mit den Merkmalen der Software
 ```
+<span style="font-size:24pt;">Ziele der Datenbereinigung</span>
 
 ## Ziele der Datenbereinigung
 ````{margin} 
