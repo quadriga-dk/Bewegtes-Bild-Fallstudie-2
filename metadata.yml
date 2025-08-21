@@ -71,13 +71,15 @@ chapters:
   duration: TODO
   educational-level: TODO
   learning-objectives:
-  - learning-objective: Die Lernenden sind mit Definitionsansätzen und Arbeitsbereichen der Digital Humanities vertraut.
+  - learning-objective: Die Lernenden sind mit Definitionsansätzen und Arbeitsbereichen
+      der Digital Humanities vertraut.
     competency: TODO
     data-flow: TODO
     blooms-category: TODO
 - title: Vorarbeiten und Recherche
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/recherche/toc.html
-  description: Die vorliegende Fallstudie befasst sich mit den studentischen Filmproduktionen aus dem Filmarchiv der Filmuniversität Babelsberg KONRAD WOLF.
+  description: Die vorliegende Fallstudie befasst sich mit den studentischen Filmproduktionen
+    aus dem Filmarchiv der Filmuniversität Babelsberg KONRAD WOLF.
   learning-goal: Schritte zur Findung einer Fragestellung
   duration: TODO
   educational-level: TODO
@@ -114,12 +116,14 @@ chapters:
     data-flow: TODO
     focus: TODO
     blooms-category: TODO
-  - learning-objective: Die Fähigkeit zur Beschreibung und Analyse einer Datenquelle wird erworben
+  - learning-objective: Die Fähigkeit zur Beschreibung und Analyse einer Datenquelle
+      wird erworben
     competency: TODO
     data-flow: TODO
     focus: TODO
     blooms-category: TODO
-  - learning-objective: Ein Datensatz kann mithilfe des Tools OpenRefine bereinigt werden.
+  - learning-objective: Ein Datensatz kann mithilfe des Tools OpenRefine bereinigt
+      werden.
     competency: TODO
     data-flow: TODO
     focus: TODO
@@ -127,16 +131,19 @@ chapters:
 - title: Datenauswertung und Datenvisualisierung
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/auswertung/toc.html
   description: TODO
-  learning-goal: Datenauswertung und Datenvisualisierung mithilfe digitaler Ansätze und Werkzeuge
+  learning-goal: Datenauswertung und Datenvisualisierung mithilfe digitaler Ansätze
+    und Werkzeuge
   duration: TODO
   educational-level: TODO
   learning-objectives:
-  - learning-objective: Die Lernenden sind mit den Grundlagen der Datenvisualisierung vertraut.
+  - learning-objective: Die Lernenden sind mit den Grundlagen der Datenvisualisierung
+      vertraut.
     competency: TODO
     data-flow: TODO
     focus: TODO
     blooms-category: TODO
-  - learning-objective: Anhand exemplarischer Beispiele werden die Schritte bei der Datenvisualisierung und Datenauswertung vermittelt.
+  - learning-objective: Anhand exemplarischer Beispiele werden die Schritte bei der
+      Datenvisualisierung und Datenauswertung vermittelt.
     competency: TODO
     data-flow: TODO
     focus: TODO
@@ -148,7 +155,8 @@ chapters:
   duration: TODO
   educational-level: TODO
   learning-objectives:
-  - learning-objective: Die Grundzüge des Forschungsdatenmanagements in der Filmwissenschaft können benannt werden.
+  - learning-objective: Die Grundzüge des Forschungsdatenmanagements in der Filmwissenschaft
+      können benannt werden.
     competency: TODO
     data-flow: TODO
     focus: TODO
@@ -158,7 +166,8 @@ chapters:
     data-flow: TODO
     focus: TODO
     blooms-category: TODO
-  - learning-objective: Die Problemfelder und rechtliche Voraussetzungen bei der Datenpublikation können erläutert werden.
+  - learning-objective: Die Problemfelder und rechtliche Voraussetzungen bei der Datenpublikation
+      können erläutert werden.
     competency: TODO
     data-flow: TODO
     focus: TODO
