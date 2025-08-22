@@ -15,7 +15,6 @@ Screenshot von der <a href="https://openrefine.org/" class="external-link" targe
 ```
 <span style="font-size:24pt;">Ziele der Datenbereinigung</span>
 
-## Ziele der Datenbereinigung
 ````{margin} 
 ```{admonition} Hinweis
 :class: hinweis
@@ -29,7 +28,8 @@ Für eine solche Bereinigung des Datensatzes unserer Fallstudie sind zahlreiche 
 Neben OpenRefine wurde bei der Bereinigung des originalen Datensatzes auch die Programmiersprache *Python* genutzt. Eine genaue Einführung in die Pythonprogrammierung ist im Rahmen dieser OER nicht zielführend. Als Einführung zu *Python* und der Arbeit mit Datensätzen ist der Kurs <a href="https://programming-24.mooc.fi" class="external-link" target="_blank"> "Python Programming MOOC 2024"</a> der Universität Helsinki zu empfehlen.
 
 
-## Datenbasis und synthetische Datensätze
+<span style="font-size:24pt;">Datenbasis und synthetische Datensätze</span>
+
 Die Datenbasis für die Bereinigung bildet ein Auszug aus der OPAC-Datenbank, den wir vom Systembibliothekar der Universitätsbibliothek erhalten haben. Der Auszug liegt uns als Datei im tsv-Format vor (siehe auch Kapitel [Datenformte](/bereinigung/openRefine/2_import.md#datenformate)) und enthält sämtliche OPAC-Einträge für unser Korpus aus dem Untersuchungszeitraum - also zu den studentischen Filmen der Jahre 1985 bis 1999 aus dem Filmarchiv der Filmuniversität. Auf der Grundlage dieser Datenbasis haben wir die Daten bereinigt.
 
 ```{admonition} Achtung
@@ -54,8 +54,8 @@ Beide synthetischen Datensätze stellen wir für Übungszwecke zum Download zur 
 
 In den folgenden Abschnitten werden wir für die Demonstration des Vorgehens bei einer Datenbereinigung und der Funktionen von *OpenRefine* zunächst mit dem reduzierten *synthetischen Übungsdatensatz* arbeiten. Einige bisher nicht bereinigte Spalten wurden für die Darstellung der Arbeitsschritte und die Übungen wieder in den Datensatz aufgenommen. Ein Großteil der Spalten, die nicht für die Beschreibung des Bereinigungsprozesses notwendig sind, wurden gelöscht, z.B. solche, die Informationen zu beteiligten Personen und Gewerke enthalten. Dadurch soll die Übersichtlichkeit und die Handhabbarkeit des Datensatzes im Rahmen der OER gewährleistet werden.
 
+<span style="font-size:24pt;">Das weitere Vorgehen</span>
 
-## Das weitere Vorgehen
 Wie soll nun im Folgenden weiter vorgegangen werden? Die ersten beiden Abschnitte widmen sich der Installation des Programms und dem Import eines Datensatzes, der anschließend im dritten Abschnitt mit den Funktionen von *OpenRefine* gesichtet wird. In den nächsten beiden Abschnitten wird auf die Bereinigung von Spalten und Zellen bzw. Einträgen eingegangen, bevor der Datensatz im letzten Abschnitt für die Auswertung exportiert wird. 
 
 ```{figure} ../../assets/bereinigung/openRefine/Vorgehen_Abschnitt.png
