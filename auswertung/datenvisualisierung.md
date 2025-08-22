@@ -17,7 +17,22 @@ Im Rahmen der Fallstudie verwenden wir <a href="https://www.microsoft.com/de-de/
 
 ```{admonition} Achtung
 :class: caution
-In den folgenden Beschreibungen und für die Screenshots wird *Microsoft Excel* in der Version *2019* unter *Windows* verwendet. In der *Excel* Version für *Mac* weicht die Menüführung teilweise von der hier dargestellten ab und einzelne Funktionen sind dort nicht vorhanden. Neuere *Excel*-Versionen unter *Windows* weisen jedoch in der Regel die gleiche wie hier beschriebene Benutzeroberfläche mit identischen Funktionen auf.
+In den folgenden Beschreibungen und für die Screenshots wird *Microsoft Excel* in der Version *2019* unter *Windows* verwendet. In der *Excel*-Version für *macOS* gibt es Abweichungen in der Menüführung und einige Funktionen sind nur eingeschränkt oder gar nicht verfügbar. Insbesondere gilt:
+
+- Der **Legacy-Textimport-Assistent** (Import aus *Text/CSV* mit Überspringen von Zeilen) ist auf dem *Mac* nicht verfügbar. Stattdessen muss der Import über *Daten* > *Aus Text/CSV* erfolgen; eine manuelle Nachbearbeitung der ersten Zeilen ist erforderlich.
+- **Power Query** wird unter *macOS* nur in den neueren Versionen von *Excel* (365/2021) unterstützt und ist dort in seinen Funktionen eingeschränkt. In *Excel 2019* für *Mac* steht *Power Query* nicht zur Verfügung.
+- In **PivotCharts** sind bestimmte Optionen wie das Ausblenden von Feldschaltflächen oder erweiterte Sortieroptionen nicht verfügbar. Die Ergebnisse können jedoch durch Anpassungen in den *PivotTables* oder manuelles Bearbeiten erreicht werden.
+- Die Benutzeroberfläche von **PivotTables** und **PivotCharts** weicht leicht von der Windows-Version ab (z. B. andere Position der Feldlisten).
+
+Die grundlegenden Visualisierungen lassen sich dennoch nachvollziehen, erfordern aber Umwege. Für volle Funktionalität und Kompatibilität wird die Arbeit mit Excel unter **Windows** empfohlen.
+```
+
+```{admonition} Achtung
+:class: caution
+Eine native Desktop-Version von *Excel* für *Linux* existiert nicht. Die Nutzung ist nur möglich über:
+- **Excel Online (Webversion)** – kostenlos nutzbar, aber eingeschränkter Funktionsumfang (kein *Power Pivot*, reduzierte Datenimport-Optionen).
+- **Virtualisierung oder Emulation** (z. B. *Windows* in einer *VM* oder *Wine/Crossover*) – dadurch ist die vollständige Windows-Version verwendbar, aber mit zusätzlichem Aufwand.
+Für volle Funktionalität und Kompatibilität wird die Arbeit mit Excel unter **Windows** empfohlen.
 ```
 
 Im Folgenden stellen wir nun exemplarisch einige mögliche Vorgehensweisen für die Visualisierung und Auswertung unseres synthetischen Datensatzes dar. Ausgangspunkt sind dabei die vorher erarbeiteten Teilfragestellungen. Die verwendeten Screenshots stammen dabei aus der Excel-Arbeitsoberfläche.
