@@ -113,7 +113,7 @@
     },
     
     {
-        "question": "Welche Tool wird zur Visualisierung von Netzwerken genutzt?",
+        "question": "Welches Tool wird zur Visualisierung von Netzwerken genutzt?",
         "type": "many_choice",
         "answers": [
             {
