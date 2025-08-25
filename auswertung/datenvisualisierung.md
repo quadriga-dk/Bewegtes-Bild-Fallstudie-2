@@ -90,16 +90,16 @@ alt: Darstellung der Auswahl der Import-Datei. Die Auswahlfelder sind mit roten 
 Auswahl der Import-Datei
 ```
 
-Im ersten Schritt des Textkonvertierungs-Assistenten ist unter Datentyp der Punkt *Getrennt* (also mit Tabulatoren getrennt) bereits korrekt ausgewählt und kann so übernommen werden. *Import beginnen in Zeile* stellen Sie von *1* auf *2* ein, da beim Import ja die erste Zeile mit dem Hinweis auf die Übungsdatei übersprungen werden soll. Für *Dateiursprung* wählen Sie *65001 : Unicode (UTF-8)* aus - dies ist die Zeichen-Codierung, die beim Export aus *OpenRefine* verwendet wurde. Rufen Sie den zweiten Schritt durch Klick auf *Weiter* auf. ({numref}`excel_assistent_1`)
+Im ersten Schritt des Textkonvertierungs-Assistenten ist unter Datentyp der Punkt *Getrennt* (also mit Tabulatoren getrennt) bereits korrekt ausgewählt und kann so übernommen werden. *Import beginnen in Zeile* stellen Sie von *1* auf *2* ein, da beim Import ja die erste Zeile mit dem Hinweis auf die Übungsdatei übersprungen werden soll. Für *Dateiursprung* wählen Sie *65001 : Unicode (UTF-8)* aus – dies ist die Zeichen-Codierung, die beim Export aus *OpenRefine* verwendet wurde. Rufen Sie den zweiten Schritt durch Klick auf *Weiter* auf. ({numref}`excel_assistent_1`)
 
 ```{figure} ../assets/auswertung/excel_texkonvertierungsassistent_1.png
 ---
 align: center
 width: 80%
 name: excel_assistent_1
-alt: Darstellung des Textkonvertierungs-Assistenten - Schritt 1. Die Auswahlfelder sind mit roten Kreisen gekennzeichnet.
+alt: Darstellung des Textkonvertierungs-Assistenten – Schritt 1. Die Auswahlfelder sind mit roten Kreisen gekennzeichnet.
 ---
-Textkonvertierungs-Assistent - Schritt 1
+Textkonvertierungs-Assistent – Schritt 1
 ```
 
 Im zweiten Schritt des Assistenten wird *Tabstopp* als *Trennzeichen* korrekt erkannt und kann mit *Weiter* übernommen werden. ({numref}`excel_assistent_2`)
@@ -109,9 +109,9 @@ Im zweiten Schritt des Assistenten wird *Tabstopp* als *Trennzeichen* korrekt er
 align: center
 width: 80%
 name: excel_assistent_2
-alt: Darstellung des Textkonvertierungs-Assistenten - Schritt 2. Die Auswahlfelder sind mit roten Kreisen gekennzeichnet.
+alt: Darstellung des Textkonvertierungs-Assistenten – Schritt 2. Die Auswahlfelder sind mit roten Kreisen gekennzeichnet.
 ---
-Textkonvertierungs-Assistent - Schritt 2
+Textkonvertierungs-Assistent – Schritt 2
 ```
 
 Auch im dritten Schritt des Assistenten kann die Einstellung *Datenformat der Spalten* -> *Standard* beibehalten werden. Schließen Sie den Textkonvertierungs-Assistenten mit *Fertig stellen* ab. ({numref}`excel_assistent_3`)
@@ -121,9 +121,9 @@ Auch im dritten Schritt des Assistenten kann die Einstellung *Datenformat der Sp
 align: center
 width: 80%
 name: excel_assistent_3
-alt: Darstellung des Textkonvertierungs-Assistenten - Schritt 3. Die Auswahlfelder sind mit roten Kreisen gekennzeichnet.
+alt: Darstellung des Textkonvertierungs-Assistenten – Schritt 3. Die Auswahlfelder sind mit roten Kreisen gekennzeichnet.
 ---
-Textkonvertierungs-Assistent - Schritt 3
+Textkonvertierungs-Assistent – Schritt 3
 ```
 
 Sie können nun den Ort in der Excel-Arbeitsmappe auswählen, an dem der Import durchgeführt werden soll. Auch hier können sie die Vorgabe *Bestehendes Arbeitsblatt* übernehmen und die Daten mit einem Klick auf *OK* aus der tsv-Datei in Excel importieren. ({numref}`excel_import_ort`)
@@ -495,7 +495,7 @@ alt: Darstellung Option Spalten auswählen. Einzelne Eingaben sind mit roten Kre
 Option *Spalten auswählen*
 ```
 
-Es öffnet sich ein Fenster zur Auswahl der Spalten. Wählen Sie zunächst zu Beginn der Liste alle Spalten ab und klicken sie anschließend auf *verantw,_Gewerk_1 bis 4*. Beenden Sie die Eingabe mit *OK*. ({numref}`excel_spalten_gewerk`)
+Es öffnet sich ein Fenster zur Auswahl der Spalten. Wählen Sie zunächst zu Beginn der Liste alle Spalten ab und klicken sie anschließend auf *verantw._Gewerk_1 bis 4*. Beenden Sie die Eingabe mit *OK*. ({numref}`excel_spalten_gewerk`)
 
 ```{figure} ../assets/auswertung/excel_auswahl_gewerk.PNG
 ---
@@ -659,7 +659,7 @@ alt: Darstellung der Anzahl der verantwortlichen Gewerke als Kreisdiagramm
 Anzahl der verantwortlichen Gewerke als Kreisdiagramm
 ```
 
-Wie auch bei den bisherigen Visualisierungen und Auswertungen zum Datensatz muss bedacht werden, dass nicht für alle Titel die jeweils verantwortlichen Gewerke bei der Datenerfassung in die filmografischen Angaben aufgenommen wurden. Weiterführende Recherchen im Filmarchiv und in weiteren Archiven mit Informationen zu Entstehungskontexten der Filme sind also notwendig. Die Domianz der Regie in der Anzahl der für die Filme verantwortlichen Gewerke ist nicht weiter verwunderlich, wird die Regie - dem Auteur-Gedanken folgend - doch meist als die für den gesamten künstlerischen Prozess verantwortliche Instanz angesehen. Die Zuordnung verantwortlicher Gewerke zu studentischen Produktionen kann aber auch mit Lehrplänen und Studienordnungen zusammenhängen. Diese sollten in eine genauere Analyse der Zahlen zu den verantwortlichen Gewerken einbezogen werden.
+Wie auch bei den bisherigen Visualisierungen und Auswertungen zum Datensatz muss bedacht werden, dass nicht für alle Titel die jeweils verantwortlichen Gewerke bei der Datenerfassung in die filmografischen Angaben aufgenommen wurden. Weiterführende Recherchen im Filmarchiv und in weiteren Archiven mit Informationen zu Entstehungskontexten der Filme sind also notwendig. Die Domianz der Regie in der Anzahl der für die Filme verantwortlichen Gewerke ist nicht weiter verwunderlich, wird die Regie – dem Auteur-Gedanken folgend – doch meist als die für den gesamten künstlerischen Prozess verantwortliche Instanz angesehen. Die Zuordnung verantwortlicher Gewerke zu studentischen Produktionen kann aber auch mit Lehrplänen und Studienordnungen zusammenhängen. Diese sollten in eine genauere Analyse der Zahlen zu den verantwortlichen Gewerken einbezogen werden.
 
 ## Anzahl der Schlagworte pro Jahr
 Die Visuallsierung und Auswertung der Anzahl der Schlagworte pro Jahr folgt einem ähnlichen Vorgehen wie im letzten Abschnitt zu den verantwortlichen Gewerken. Die Schlagworte sind auf sechs Spalten verteilt (*Schlagwort_1* bis *Schlagwort_6*), die zur weiteren Verabeitung in eine Spalte überführt werden müssen. Für die Visualisierung ist zusätzlich noch die Spalte *Jahr_1* notwendig.
@@ -730,7 +730,7 @@ alt: Anzahl ausgewählter Schlagworte pro ausgewählte Jahre
 Anzahl ausgewählter Schlagworte pro ausgewählte Jahre
 ```
 
-Aus der Grafik ist ersichtlich, dass das Schlagwort *Wende* - wie zu erwarten war - erst im Jahr 1989 auftritt, im Jahr 1990 seinen Höhepunkt erreicht und ab 1991 wieder abflacht. Hier wäre es interessant, diese Auswertung mit in eine genauerer Recherche im Archiv zu nehmen und sich z.B. gezielt die studentischen Filme anzusehen, die mit dem Schlagwort *Wende* versehen sind. Auch wäre es sinnvoll, im Archiv dem auffallend häufigen Auftreten des Schlagworts *Porträtfilm* in den Jahren 1987 bis 1989 nachzugehen. 
+Aus der Grafik ist ersichtlich, dass das Schlagwort *Wende* – wie zu erwarten war – erst im Jahr 1989 auftritt, im Jahr 1990 seinen Höhepunkt erreicht und ab 1991 wieder abflacht. Hier wäre es interessant, diese Auswertung mit in eine genauerer Recherche im Archiv zu nehmen und sich z.B. gezielt die studentischen Filme anzusehen, die mit dem Schlagwort *Wende* versehen sind. Auch wäre es sinnvoll, im Archiv dem auffallend häufigen Auftreten des Schlagworts *Porträtfilm* in den Jahren 1987 bis 1989 nachzugehen. 
 
 Für eine weitere Auswertung sollte mit der Visualisierung weiterer, unterschiedlicher Schlagwortkombinationen fortgefahren werden. Wiederum ist anzumerken, dass nicht alle Filme mit Schlagworten versehen wurden, die Auswertung der Anzahl der Schlagworte also mit Bedacht vonstatten gehen sollte.
 
@@ -761,7 +761,7 @@ alt: Darstellung Einfügen der Schlagworte aus der Zwischenablage. Einzelne Eing
 Einfügen der Schlagworte aus der Zwischenablage
 ```
 
-Die Arbeitsoberfläche von *Voyant Tools* zur Auswertung des eingelesenen Textes wird geföffnet. Setzen Sie in ihrem Browser ein Lesezeichen zu dieser Seite. Ihr Textkorpus - in diesem Fall die Schlagworte aus unserem Datensatz - wird hier gespeichert und kann später unter dieser URL weiter ausgewertet werden. Für jedes Auswertungs-Projekt wird eine einzigartige URL erzeugt.
+Die Arbeitsoberfläche von *Voyant Tools* zur Auswertung des eingelesenen Textes wird geföffnet. Setzen Sie in ihrem Browser ein Lesezeichen zu dieser Seite. Ihr Textkorpus – in diesem Fall die Schlagworte aus unserem Datensatz – wird hier gespeichert und kann später unter dieser URL weiter ausgewertet werden. Für jedes Auswertungs-Projekt wird eine einzigartige URL erzeugt.
 
 Die Arbeitsoberfläche von *Voyant Tools* enthält mehrere Fenster, in denen Auswertungen zum eingelesenen Korpus vorgenommen werden können. Wir werden uns auf das Fenster links oben konzentrieren, in dem *Cirrus* aktviert ist. Es enthält bereits eine Wortwolke aus den eingelesenen Schlagworten. Die am häufigsten vorkommenden Worte werden größer dargesellt. 
 
