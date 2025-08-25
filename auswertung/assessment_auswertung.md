@@ -415,7 +415,7 @@ display_quiz(true_false5_5, colors=colors.jupyterquiz)
 
 ### Aufgabe 6
 
-**Szenario:** Sie sollen für die Fallstudie zu studentischen Filmen (1985-1999) Visualisierungen zu folgenden Teilfragestellungen entwickeln:
+**Szenario:** Sie sollen für die Fallstudie zu studentischen Filmen (1985–1999) Visualisierungen zu folgenden Teilfragestellungen entwickeln:
 - Zeitliche Verteilung der Filmproduktion
 - Gattungsverteilung (Spiel-, Dokumentar-, Animationsfilm)
 - Häufigste Schlagworte und deren zeitliche Entwicklung
