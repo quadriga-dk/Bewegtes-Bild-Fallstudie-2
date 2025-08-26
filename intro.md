@@ -31,7 +31,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```{literalinclude} /CITATION.bib
 :language: bibtex
 ```
-Schick,T., Winter, M., Loist, S. & Gieseke, L. (2025). _Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)_.   
+Schick, T., Winter, M., Loist, S. & Gieseke, L. (2025). _Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985–1999)_.   
 
 ````
 `````

@@ -16,7 +16,7 @@ Eine eigenständige automatisierte Verarbeitung der Daten aus der Oberfläche de
 Bei unserer weiteren Arbeit mit dem auf dem Auszug basierenden Datensatz zu den studentischen Filmen zur Wendezeit stellte sich heraus, dass dieser in den filmografischen Angaben personenbezogene Daten enthält. Da für diese Angaben nicht gesichert ist, dass die betroffenen Personen einer Veröffentlichung zugestimmt haben, können wir diesen Datensatz nun nicht publizieren. Auf die genauen Probleme die sich ergeben haben und die geltenden rechtlichen Rahmenbedingungen gehen wir im Kapitel zu [Problemfeldern](/publikation/problemfelder) bei der Datenpublikation noch ein. Für die Veranschaulichung der weiteren Arbeitsschritte verwenden wir einen synthetischen Datensatz, der im Kapitel zur [Datenbereinigung](/bereinigung/openRefine/0_datenbereinigung) besprochen wird.
 ```
 
-Auch wenn der originale Datensatz im Rahmen unserer Fallstudie nicht veröffentlicht werden kann, stellen wir im Folgenden dennoch unsere weitere Vorgehensweise dar. Als Screenshots werden Einträge zu einem Werk genutzt, das später auf DVD veröffentlicht wurde - Andreas Dresens Film "Stilles Land" (1992). In diesem Fall kann davon ausgegangen werden, dass die Zustimmung der beteiligten Mitwirkenden für eine Veröffentlichung ihrer personenbezogenen Daten erteilt wurde.
+Auch wenn der originale Datensatz im Rahmen unserer Fallstudie nicht veröffentlicht werden kann, stellen wir im Folgenden dennoch unsere weitere Vorgehensweise dar. Als Screenshots werden Einträge zu einem Werk genutzt, das später auf DVD veröffentlicht wurde – Andreas Dresens Film "Stilles Land" (1992). In diesem Fall kann davon ausgegangen werden, dass die Zustimmung der beteiligten Mitwirkenden für eine Veröffentlichung ihrer personenbezogenen Daten erteilt wurde.
 
 Der Auszug aus der Datenbank des Bibliothekskatalogs liegt uns als tsv-Datei vor, also in Form einer Text-Datei, bei der die einzelnen Einträge zu den Filmtiteln durch Tabulatoren voneinander getrennt werden.[^2] Dabei sind die Informationen in einzelne Felder untergliedert, die innerhalb des OPACs unter "Vollanzeige des Titels" angezeigt werden. ({numref}`opac_vollanzeige_standard`)
 
@@ -82,7 +82,7 @@ Weitere Hinweise darauf, was eine effiziente Datenstruktur auszeichnet, finden s
 ```
 ````
 
-Bereitet man die Daten zu den Filmen in Form einer Tabelle auf, enthält eine Zelle der Tabelle mehrere Informationen. Für eine Datenstruktur, die maschinell ausgewertet werden kann, darf jede Zelle lediglich einen eindeutigen Wert bzw. Eintrag aufweisen. Dies deutet darauf hin, dass der Datenauszug aus dem OPAC der Filmuniversität noch bearbeitet - also "bereinigt" werden muss, z.B. indem mehrere Werte in einer Zelle jeweils auf einzelne neue Zellen aufgeteilt werden. Für diese Bereinigung, aber auch für die weitere Arbeit mit dem Datensatz, ist es sinnvoll zu verstehen, nach welchen Kriterien die Erfassung der filmografischen Daten im Bibliothekskatalog stattgefunden hat, und warum diese Struktur gewählt wurde. Darauf wird im folgenden Abschnitt eingegangen.
+Bereitet man die Daten zu den Filmen in Form einer Tabelle auf, enthält eine Zelle der Tabelle mehrere Informationen. Für eine Datenstruktur, die maschinell ausgewertet werden kann, darf jede Zelle lediglich einen eindeutigen Wert bzw. Eintrag aufweisen. Dies deutet darauf hin, dass der Datenauszug aus dem OPAC der Filmuniversität noch bearbeitet – also "bereinigt" werden muss, z.B. indem mehrere Werte in einer Zelle jeweils auf einzelne neue Zellen aufgeteilt werden. Für diese Bereinigung, aber auch für die weitere Arbeit mit dem Datensatz, ist es sinnvoll zu verstehen, nach welchen Kriterien die Erfassung der filmografischen Daten im Bibliothekskatalog stattgefunden hat, und warum diese Struktur gewählt wurde. Darauf wird im folgenden Abschnitt eingegangen.
 
 
 ## Literatur
@@ -94,6 +94,6 @@ Bereitet man die Daten zu den Filmen in Form einer Tabelle auf, enthält eine Ze
 
 
 [^1]: Auf die genaue Funktionsweise von "Web Scraping" und die damit verbundenen rechtlichen und ethischen Fragen einzugehen, würde hier zu weit führen. Einen ersten Überblick liefert der <a href="https://de.wikipedia.org/wiki/Screen_Scraping" target="_blank">Wikipedia-Artikel</a> zum Thema.
-[^2]: Die genauen Unterschiede zwischen verschiedenen Dateitypen, in denen Datensätze vorliegen (z.B. csv oder tsv) werden hier nicht weiter behandelt. Im Abschnitt zur [Datenbereinigung](openRefine/0_datenbereinigung) werden diese noch genauer dargestellt.
+[^2]: Die genauen Unterschiede zwischen verschiedenen Dateitypen, in denen Datensätze vorliegen (z.B. csv oder tsv), werden hier nicht weiter behandelt. Im Abschnitt zur [Datenbereinigung](openRefine/0_datenbereinigung) werden diese noch genauer dargestellt.
 
 
