@@ -1,0 +1,18 @@
+# Digital Humanities
+Immer mehr Quellen aus den geisteswissenschaftlichen Disziplinen liegen mittlerweile in digitaler Form vor. Gedruckte Zeitungsartikel, Bücher oder Fotomaterial werden digitalisiert, Informationen zu kulturellen Artefakten in Online-Datenbanken zugänglich gemacht und kulturelle, politische oder geschichtliche Themen in wissenschaftlichen Blogs und speziellen Portalen im Internet aufbereitet. Durch diese **Retrodigitalisierung** analoger Materialien und die wachsende Anzahl genuin digitaler Quellen ergeben sich neue Chancen, aber auch Herausforderungen für die Geisteswissenschaften. Für die Geschichtsforschung stellt Peter Haber angesichts der "Digitalität von immer mehr zeithistorischen Quellen" die Frage in den Raum, ob nicht mehr wie früher ein Mangel, sondern mittlerweile vielmehr ein Überfluss an verfügbaren Informationen und Quellen herrsche. {cite}`aa-Haber_2012`
+
+## Definitionsansätze
+
+Angesichts der rasant voranschreitenden Digitalisierung, die auch geisteswissenschaftliche Arbeitsfelder betrifft, sind neue Herangehensweisen und Methoden notwendig, die dieser immer weiter wachsenden Anzahl an potentiell zur Verfügung stehenden Daten und Quellen Rechnung trägt. Immer häufiger ist die Rede von **"Digital Humanities"** - auch wenn es nach wie vor schwer fällt, diesen Begriff zu definieren. Manfred Thaller versteht die Digital Humanities zunächst "als die Summe aller Versuche, die Informationstechniken auf den Gegenstandsbereich der Geisteswissenschaften anzuwenden." {cite}`aa-Thaller_2017` Es tut sich für ihn somit ein recht breites Feld an möglichen Untersuchungsgegenständen auf: Angefangen bei Texten über nicht-textuelle Medien wie Tonaufnahmen, Noten, Bilder oder Filme und geografischen Informationen bis hin zu den neuen Technologien selbst als Gegenstand. Aus den jeweiligen Quellen müssen Daten extrahiert und in eine gut strukturierte Form gebracht werden, damit sie mit digitalen Methoden und Werkzeugen ausgewertet werden können.
+
+Auch Mareike König betont, dass eine einheitliche Definition von Digital Humanities nicht existiert. Ihr Definitionsversuch lautet, "dass die Digital Humanities die Entwicklung, Anwendung und Erforschung von digitalen Techniken, Methoden und Medien zur Beantwortung geisteswissenschaftlicher Fragestellungen umfassen." {cite}`aa-König_2021` Wichtiger Bestandteil der Digital Humanities ist für sie die Selbstreflexion digitaler Forschungs- und Publikationsprozesse sowie eine entsprechende Theoriebildung.
+
+## Nutzen digitaler Verfahren
+
+Welche Chancen bieten die Digital Humanities? Ein Vorteil von digitalen Herangehensweisen ist, dass nicht nur immer größere Mengen an digitalen Quellen zur Verfügung stehen, sondern diese auch auf eine Art und Weise ausgewertet werden können, die bisher nicht möglich war. In sehr großen Textmengen kann etwa nach wiederkehrenden Mustern, Wortgruppen oder Motiven gesucht werden, die der menschlichen Wahrnehmung sonst verborgen bleiben - allein schon deshalb, weil niemand diese Menge an Texten selbst lesen, geschweige denn aufbereiten könnte. Durch diese digitale Art der Auswertung können sich neue Fragestellungen ergeben, sowie bisherige Annahmen aufgrund dieser quantitativen Untersuchungen überprüft und neu beleuchtet werden. Im Idealfall ergänzen sich neuere quantitative und klassische qualitative geisteswissenschaftliche Herangehensweisen und können so zu neuen Erkenntnissen führen. Nicht zuletzt werden die digitalisierten Quellen und erarbeiteten Forschungsdaten in Repositorien und Datenbanken öffentlich zugänglich gemacht und leisten somit einen Beitrag auf dem Weg zur Nachnutzbarkeit in Open Science.
+
+## Literatur
+```{bibliography}
+:filter: docname in docnames
+:keyprefix: aa-
+```

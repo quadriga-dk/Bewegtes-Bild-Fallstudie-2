@@ -10,8 +10,11 @@ chapters:
     sections:
       - file: praeambel/lernziele
       - file: praeambel/technische_voraussetzungen
-  - file: einleitung/filmwissenschaft
+  - file: einleitung/toc
     sections:
+      - file: einleitung/digital_humanities
+      - file: einleitung/filmwissenschaft
+      - file: einleitung/filmgeschichtsschreibung
       - file: einleitung/assessment
   - file: recherche/toc
     sections:
