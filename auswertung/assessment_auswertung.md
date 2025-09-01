@@ -9,6 +9,13 @@ kernelspec:
   language: python
   name: python3
 ---
+```{code-cell} ipython3
+:tags: [remove-cell]
+from jupyterquiz import display_quiz
+import sys
+sys.path.append("..")
+from quadriga import colors
+```
 
 
 # 🏆Selbsttest: Wissen und Praxis
@@ -32,6 +39,12 @@ Viel Erfolg!
 ````
 
 ### Aufgabe 1
+```{code-cell} ipython3
+:tags: [remove-input]
+display_quiz("../assets/assessment/auswertung/auswertung_quiz.json", colors = colors.jupyterquiz)
+```
+
+### Aufgabe 2
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -70,7 +83,7 @@ multiple_choice1 = [{
 display_quiz(multiple_choice1, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 2
+### Aufgabe 3
 
 **Beispiele:**
 1. Ein Balkendiagramm zeigt die Ergebnisse einer Studie in einer Publikation
@@ -123,7 +136,7 @@ multiple_choice2 = [{
 display_quiz(multiple_choice2, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 3
+### Aufgabe 4
 
 Bewerten Sie folgende Aussagen zu Visualisierungen und Interpretation:
 
@@ -235,7 +248,7 @@ true_false4 = [{
 display_quiz(true_false4, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 4
+### Aufgabe 5
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -274,7 +287,7 @@ multiple_choice4 = [{
 display_quiz(multiple_choice4, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 5
+### Aufgabe 6
 
 Bewerten Sie Manovichs zwei Schlüsselprinzipien klassischer Informationsvisualisierung:
 
@@ -413,7 +426,7 @@ true_false5_5 = [{
 display_quiz(true_false5_5, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 6
+### Aufgabe 7
 
 **Szenario:** Sie sollen für die Fallstudie zu studentischen Filmen (1985-1999) Visualisierungen zu folgenden Teilfragestellungen entwickeln:
 - Zeitliche Verteilung der Filmproduktion
@@ -452,7 +465,7 @@ create_answer_box('Assessment_E-6')
 - Grenzen: Qualität der Metadaten, Interpretation der Kategorisierungen, fehlende Kontextualisierung
 ````
 
-### Aufgabe 7
+### Aufgabe 8
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -491,7 +504,7 @@ single_choice7 = [{
 display_quiz(single_choice7, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 8
+### Aufgabe 9
 
 **Tools:**
 1. Gephi

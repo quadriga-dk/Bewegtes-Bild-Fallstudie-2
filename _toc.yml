@@ -21,7 +21,6 @@ chapters:
       - file: recherche/material
       - file: recherche/metadaten
       - file: recherche/operationalisierung
-      - file: recherche/ubung_recherche
       - file: recherche/resumee_recherche
       - file: recherche/assessment_recherche
   - file: bereinigung/toc
@@ -39,14 +38,12 @@ chapters:
               - file: bereinigung/openRefine/5.1_jahre
               - file: bereinigung/openRefine/5.2_titel
           - file: bereinigung/openRefine/6_export
-      - file: bereinigung/ubung_bereinigung
       - file: bereinigung/resumee_bereinigung 
       - file: bereinigung/assessment_bereinigung
   - file: auswertung/toc
     sections:
       - file: auswertung/visualisierung
       - file: auswertung/datenvisualisierung
-      - file: auswertung/ubung_auswertung
       - file: auswertung/resumee_auswertung
       - file: auswertung/assessment_auswertung
   - file: publikation/toc
@@ -54,7 +51,6 @@ chapters:
       - file: publikation/forschungsdaten
       - file: publikation/publikationsformen
       - file: publikation/problemfelder
-      - file: publikation/ubung_publikation
       - file: publikation/resumee_publikation
       - file: publikation/assessment_publikation
   - file: zusammenfassung/reflexion
