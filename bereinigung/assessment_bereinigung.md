@@ -9,6 +9,13 @@ kernelspec:
   language: python
   name: python3
 ---
+```{code-cell} ipython3
+:tags: [remove-cell]
+from jupyterquiz import display_quiz
+import sys
+sys.path.append("..")
+from quadriga import colors
+```
 
 # 🏆Selbsttest: Wissen und Praxis
 
@@ -29,8 +36,14 @@ Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses 
 
 Viel Erfolg!
 ````
-
 ### Aufgabe 1
+
+```{code-cell} ipython3
+:tags: [remove-input]
+display_quiz("../assets/assessment/bereinigung/bereinigung_quiz.json", colors = colors.jupyterquiz)
+```
+
+### Aufgabe 2
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -69,7 +82,7 @@ multiple_choice1 = [{
 display_quiz(multiple_choice1, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 2
+### Aufgabe 3
 
 Bewerten Sie folgende Aussagen zu Datenmodellen:
 
@@ -236,7 +249,7 @@ display_quiz(true_false6, colors=colors.jupyterquiz)
 ```
 
 
-### Aufgabe 3
+### Aufgabe 4
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -275,7 +288,7 @@ multiple_choice3 = [{
 display_quiz(multiple_choice3, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 4
+### Aufgabe 5
 
 **Szenario:** Sie erhalten einen OPAC-Datenauszug mit folgenden Beispieleinträgen:
 
@@ -322,7 +335,7 @@ create_answer_box('Assessment_4')
 - Technische Angaben zum Filmwerk sind vorhanden
 ````
 
-### Aufgabe 5
+### Aufgabe 6
 
 **Szenario:** In einem Datensatz finden Sie folgende problematische Jahresangaben:
 
@@ -373,7 +386,7 @@ create_answer_box('Assessment_-5')
 - „Split into several columns" für Aufteilung der Spalten
 ````
 
-### Aufgabe 6
+### Aufgabe 7
 
 Bewerten Sie folgende Aussagen zu OpenRefine:
 
@@ -513,7 +526,7 @@ display_quiz(true_false5, colors=colors.jupyterquiz)
 ```
 
 
-### Aufgabe 7
+### Aufgabe 8
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -552,7 +565,7 @@ multiple_choice7 = [{
 display_quiz(multiple_choice7, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 8
+### Aufgabe 9
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -591,7 +604,7 @@ single_choice8 = [{
 display_quiz(single_choice8, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 9
+### Aufgabe 10
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -630,7 +643,7 @@ multiple_choice9 = [{
 display_quiz(multiple_choice9, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 10
+### Aufgabe 11
 
 Bewerten Sie folgende Aussagen zu GREL-Methoden:
 

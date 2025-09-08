@@ -9,7 +9,13 @@ kernelspec:
   language: python
   name: python3
 ---
-
+```{code-cell} ipython3
+:tags: [remove-cell]
+from jupyterquiz import display_quiz
+import sys
+sys.path.append("..")
+from quadriga import colors
+```
 # 🏆Selbsttest: Wissen und Praxis
 
 ````{admonition} Hinweis
@@ -29,8 +35,14 @@ Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses 
 
 Viel Erfolg!
 ````
-
 ### Aufgabe 1
+
+```{code-cell} ipython3
+:tags: [remove-input]
+display_quiz("../assets/assessment/recherche/recherche_quiz.json", colors = colors.jupyterquiz)
+```
+
+### Aufgabe 2
 
 **Szenario:** Sie möchten eine eigene Fallstudie zu studentischen Animationsfilmen der 1990er Jahre durchführen. Beschreiben Sie systematisch Ihr Vorgehen bei der Materialrecherche im OPAC der Filmuniversität.
 
@@ -75,7 +87,7 @@ create_answer_box('Assessment-1')
 - Kombination verschiedener Suchparameter
 ````
 
-### Aufgabe 2
+### Aufgabe 3
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -124,7 +136,7 @@ multiple_choice1 = [{
 display_quiz(multiple_choice1, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 3
+### Aufgabe 4
 
 Analysieren Sie anhand des Beispiels von Lotte Reiniger (Dang/Junginger, 2024) die Problematik der vermeintlichen "Neutralität" von Metadaten. Gehen Sie dabei auf folgende Aspekte ein:
 
@@ -160,7 +172,7 @@ create_answer_box('Assessment_C-3')
 - Notwendigkeit der Kontextualisierung und Reflexion der Entstehungsbedingungen
 ````
 
-### Aufgabe 4
+### Aufgabe 5
 
 A. Erstellung von Visualisierungen zur zeitlichen Verteilung  
 B. Suche nach Stichworten "Grenze", "Mauer", "Grenzübertritt"  
@@ -212,7 +224,7 @@ multiple_choice2 = [{
 display_quiz(multiple_choice2, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 5
+### Aufgabe 6
 
 Vergleichen Sie die Herangehensweise dieser Fallstudie („Studentische Filme der Filmuniversität zur Wendezeit") mit einer hypothetischen Studie zu "Studentischen Filmen während der COVID-19-Pandemie (2020-2022)". Analysieren Sie:
 
