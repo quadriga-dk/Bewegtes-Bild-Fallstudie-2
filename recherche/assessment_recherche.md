@@ -111,7 +111,7 @@ multiple_choice1 = [{
             "feedback": """✓ Richtig: Schlagworte wie "Dokumentarfilm/B" folgen der festgelegten Systematik der Bibliothek."""
         },
         {
-            "answer": "Zeiträume werden mit einfachen Bindestrichen \"-\" eingegeben",
+            "answer": "Zeiträume werden mit einfachen Bindestrichen \"–\" eingegeben",
             "correct": False,
             "feedback": """× Falsch: Zeiträume werden mit Pfeil-Syntax eingegeben: "1985->1999"."""
         },
@@ -178,7 +178,7 @@ A. Erstellung von Visualisierungen zur zeitlichen Verteilung
 B. Suche nach Stichworten "Grenze", "Mauer", "Grenzübertritt"  
 C. Sichtung ausgewählter Filme zur Vertiefung  
 D. Definition der Suchbegriffe und Synonyme  
-E. Eingrenzung des Grundkorpus (1985-1999)  
+E. Eingrenzung des Grundkorpus (1985–1999)  
 F. Export der Metadaten  
 
 ```{code-cell} ipython3
@@ -226,7 +226,7 @@ display_quiz(multiple_choice2, colors=colors.jupyterquiz)
 
 ### Aufgabe 6
 
-Vergleichen Sie die Herangehensweise dieser Fallstudie („Studentische Filme der Filmuniversität zur Wendezeit") mit einer hypothetischen Studie zu "Studentischen Filmen während der COVID-19-Pandemie (2020-2022)". Analysieren Sie:
+Vergleichen Sie die Herangehensweise dieser Fallstudie („Studentische Filme der Filmuniversität zur Wendezeit") mit einer hypothetischen Studie zu "Studentischen Filmen während der COVID-19-Pandemie (2020–2022)". Analysieren Sie:
 
 1. Ähnlichkeiten in der Methodik
 2. Unterschiede in den Herausforderungen
