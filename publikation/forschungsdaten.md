@@ -100,6 +100,5 @@ Im nächsten Abschnitt werden nun verschiedene Formen der Datenpublikation vorge
 ## Literatur
 ```{bibliography}
 :filter: docname in docnames
-:labelprefix: F
 :keyprefix: f-
 ```

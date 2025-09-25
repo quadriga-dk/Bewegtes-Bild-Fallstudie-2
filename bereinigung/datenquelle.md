@@ -98,6 +98,5 @@ Die genauere Betrachtung des Datenmodells hat ebenfalls ergeben, dass die Daten 
 ## Literatur
 ```{bibliography}
 :filter: docname in docnames
-:labelprefix: D
 :keyprefix: d-
 ```

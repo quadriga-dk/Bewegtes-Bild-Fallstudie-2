@@ -88,7 +88,6 @@ Bereitet man die Daten zu den Filmen in Form einer Tabelle auf, enthält eine Ze
 ## Literatur
 ```{bibliography}
 :filter: docname in docnames
-:labelprefix: C
 :keyprefix: c-
 ```
 

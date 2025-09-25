@@ -90,6 +90,5 @@ Nachdem nun einige Grundlagen der Datenvisualisierung dargelegt wurden, werden i
 ## Literatur
 ```{bibliography}
 :filter: docname in docnames
-:labelprefix: E
 :keyprefix: e-
 ```

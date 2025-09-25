@@ -73,7 +73,6 @@ In einem [abschließenden Kapitel](zusammenfassung/reflexion) werden die Ergebni
 ## Literatur
 ```{bibliography}
 :filter: docname in docnames
-:labelprefix: F
 :keyprefix: f-
 ```
 

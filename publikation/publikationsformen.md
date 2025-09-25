@@ -75,6 +75,5 @@ Auf die Diskussion folgt eine Zusammenfassung der Ergebnisse des Papers, die auc
 ## Literatur
 ```{bibliography}
 :filter: docname in docnames
-:labelprefix: G
 :keyprefix: g-
 ```
