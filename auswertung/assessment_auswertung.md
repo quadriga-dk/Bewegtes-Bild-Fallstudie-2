@@ -85,56 +85,36 @@ display_quiz(multiple_choice1, colors=colors.jupyterquiz)
 
 ### Aufgabe 3
 
-**Beispiele:**
-1. Ein Balkendiagramm zeigt die Ergebnisse einer Studie in einer Publikation
-2. Verschiedene Grafiken werden erstellt, um eine Hypothese zu Genderverteilungen zu überprüfen
-3. Ein Datensatz wird untersucht, um unbekannte Muster zu entdecken
-4. Eine Timeline visualisiert chronologische Entwicklungen für Konferenzteilnehmer
-
-**Funktionen:**  
-A. Präsentation  
-B. Konfirmative Analyse  
-C. Explorative Analyse  
-
 ```{code-cell} ipython3
 :tags: [remove-input]
-from jupyterquiz import display_quiz
 import sys
-sys.path.append("..")
-from quadriga import colors
+sys.path.append("../quadriga")
+from assessment import DragDropQuiz
 
-multiple_choice2 = [{
-    "question": """Ordnen Sie die Beispiele den entsprechenden Funktionen von Visualisierungen zu:""",
-    "type": "multiple_choice",
-    "answers": [
-        {
-            "answer": "1-A, 2-B, 3-C, 4-A",
-            "correct": True,
-            "feedback": """✓ Ausgezeichnet! Korrekte Zuordnung:
-- Präsentation (1,4): Wissenschaftliche Erkenntnisse werden anschaulich kommuniziert
-- Konfirmative Analyse (2): Visualisierungen dienen zur Verifizierung/Falsifizierung von Hypothesen
-- Explorative Analyse (3): Suche nach latent vorhandenen Strukturen und Mustern ohne vorgefasste Hypothese"""
-        },
-        {
-            "answer": "1-B, 2-A, 3-C, 4-B",
-            "correct": False,
-            "feedback": """× Nicht korrekt. Überprüfen Sie die Funktionen: Publikationen dienen der Präsentation, Hypothesenprüfung ist konfirmative Analyse."""
-        },
-        {
-            "answer": "1-C, 2-B, 3-A, 4-C",
-            "correct": False,
-            "feedback": """× Nicht korrekt. Ein Balkendiagramm in einer Publikation dient der Präsentation, nicht der Exploration."""
-        },
-        {
-            "answer": "1-A, 2-C, 3-B, 4-A",
-            "correct": False,
-            "feedback": """× Nicht korrekt. Die Überprüfung einer Hypothese ist konfirmative, nicht explorative Analyse."""
-        }
-    ]
-}]
+# Create a quiz instance
+quiz = DragDropQuiz()
 
-display_quiz(multiple_choice2, colors=colors.jupyterquiz)
+quiz.create_matching_quiz(
+    title="Ordnen Sie die Beispiele den entsprechenden Funktionen von Visualisierungen zu:",
+    descriptions=[
+        "Balkendiagramm zeigt Studienergebnisse / Timeline visualisiert chronologische Entwicklungen für Konferenzteilnehmer",
+        "Verschiedene Grafiken werden erstellt, um eine Hypothese zu Genderverteilungen zu überprüfen",
+        "Ein Datensatz wird untersucht, um unbekannte Muster zu entdecken"
+    ],
+    options=[
+        "Präsentation",
+        "Konfirmative Analyse", 
+        "Explorative Analyse",
+        "Deskriptive Analyse"
+    ],
+    correct_mapping={
+        "Ein Balkendiagramm zeigt die Ergebnisse einer Studie in einer Publikation": "Präsentation",
+        "Verschiedene Grafiken werden erstellt, um eine Hypothese zu Genderverteilungen zu überprüfen": "Konfirmative Analyse",
+        "Ein Datensatz wird untersucht, um unbekannte Muster zu entdecken": "Explorative Analyse"
+    }
+)
 ```
+
 
 ### Aufgabe 4
 
