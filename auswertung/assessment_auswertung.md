@@ -108,7 +108,7 @@ quiz.create_matching_quiz(
         "Deskriptive Analyse"
     ],
     correct_mapping={
-        "Ein Balkendiagramm zeigt die Ergebnisse einer Studie in einer Publikation": "Präsentation",
+        "Balkendiagramm zeigt Studienergebnisse / Timeline visualisiert chronologische Entwicklungen für Konferenzteilnehmer": "Präsentation",
         "Verschiedene Grafiken werden erstellt, um eine Hypothese zu Genderverteilungen zu überprüfen": "Konfirmative Analyse",
         "Ein Datensatz wird untersucht, um unbekannte Muster zu entdecken": "Explorative Analyse"
     }
