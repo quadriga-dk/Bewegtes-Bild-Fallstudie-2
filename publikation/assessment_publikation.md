@@ -222,57 +222,35 @@ display_quiz(multiple_choice3, colors=colors.jupyterquiz)
 
 ### Aufgabe 5
 
-**Beschreibungen:**  
-1. Wissenschaftlicher Artikel mit Verweis auf extern gespeicherte Daten
-2. Datensatz mit kompakter Beschreibung in einem Repositorium
-3. Ausführliche Beschreibung und Analyse des Datensatz-Potentials
-
-**Publikationsformen:**  
-A. Data Paper  
-B. Artikel mit Datenverweis  
-C. Reine Datenpublikation  
-
-
 ```{code-cell} ipython3
 :tags: [remove-input]
-from jupyterquiz import display_quiz
 import sys
-sys.path.append("..")
-from quadriga import colors
+sys.path.append("../quadriga")
+from assessment import DragDropQuiz
 
-multiple_choice4 = [{
-    "question": """Ordnen Sie die Beschreibungen den entsprechenden Publikationsformen zu:""",
-    "type": "multiple_choice",
-    "answers": [
-        {
-            "answer": "1-B, 2-C, 3-A",
-            "correct": True,
-            "feedback": """✓ Ausgezeichnet! Korrekte Zuordnung:
-- Artikel mit Datenverweis: Die Forschungsergebnisse werden in einem Artikel publiziert, die Daten sind extern verfügbar
-- Reine Datenpublikation: Ein Datensatz wird eigenständig mit einer Beschreibung veröffentlicht
-- Data Paper: Der Fokus liegt auf der Datenaufbereitung und Beschreibung des Potentials eines Datensatzes"""
-        },
-        {
-            "answer": "1-A, 2-B, 3-C",
-            "correct": False,
-            "feedback": """× Nicht korrekt. Ein Data Paper fokussiert sich auf die ausführliche Beschreibung des Datensatzes."""
-        },
-        {
-            "answer": "1-C, 2-A, 3-B",
-            "correct": False,
-            "feedback": """× Nicht korrekt. Eine reine Datenpublikation enthält den Datensatz mit kompakter Beschreibung."""
-        },
-        {
-            "answer": "1-B, 2-A, 3-C",
-            "correct": False,
-            "feedback": """× Nicht korrekt. Überprüfen Sie die charakteristischen Merkmale der verschiedenen Publikationsformen."""
-        }
-    ]
-}]
+# Create a quiz instance
+quiz = DragDropQuiz()
 
-display_quiz(multiple_choice4, colors=colors.jupyterquiz)
+quiz.create_matching_quiz(
+    title="Ordnen Sie die Beschreibungen den entsprechenden Publikationsformen zu:",
+    descriptions=[
+        "Wissenschaftlicher Artikel mit Verweis auf extern gespeicherte Daten",
+        "Datensatz mit kompakter Beschreibung in einem Repositorium",
+        "Ausführliche Beschreibung und Analyse des Datensatz-Potentials"
+    ],
+    options=[
+        "Data Paper",
+        "Artikel mit Datenverweis",
+        "Reine Datenpublikation",
+        "Metadaten-Publikation"
+    ],
+    correct_mapping={
+        "Wissenschaftlicher Artikel mit Verweis auf extern gespeicherte Daten": "Artikel mit Datenverweis",
+        "Datensatz mit kompakter Beschreibung in einem Repositorium": "Reine Datenpublikation",
+        "Ausführliche Beschreibung und Analyse des Datensatz-Potentials": "Data Paper"
+    }
+)
 ```
-
 
 ### Aufgabe 6
 

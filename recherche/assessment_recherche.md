@@ -174,54 +174,41 @@ create_answer_box('Assessment_C-3')
 
 ### Aufgabe 5
 
-A. Erstellung von Visualisierungen zur zeitlichen Verteilung  
-B. Suche nach Stichworten "Grenze", "Mauer", "Grenzübertritt"  
-C. Sichtung ausgewählter Filme zur Vertiefung  
-D. Definition der Suchbegriffe und Synonyme  
-E. Eingrenzung des Grundkorpus (1985–1999)  
-F. Export der Metadaten  
-
 ```{code-cell} ipython3
 :tags: [remove-input]
-from jupyterquiz import display_quiz
 import sys
-sys.path.append("..")
-from quadriga import colors
+sys.path.append("../quadriga")
+from assessment import DragDropQuiz
 
-multiple_choice2 = [{
-    "question": """Welche Schritte sind für die Bildung eines thematischen Teilkorpus zum Thema "Grenze" notwendig? Bringen Sie die Schritte in die richtige Reihenfolge:""",
-    "type": "multiple_choice",
-    "answers": [
-        {
-            "answer": "E → D → B → F → A → C",
-            "correct": True,
-            "feedback": """✓ Richtig! Die korrekte Reihenfolge ist:
-1. E - Grundkorpus definieren: Zeitliche und institutionelle Eingrenzung
-2. D - Suchbegriffe definieren: Systematische Begriffsfindung zum Themenfeld
-3. B - Suchvorgang: Anwendung der Suchstrategie
-4. F - Datenexport: Strukturierte Datensammlung für die weitere Verarbeitung
-5. A - Visualisierung: Erste quantitative Analyse
-6. C - Qualitative Validierung: Vertiefung und Konkretisierung der Ergebnisse"""
-        },
-        {
-            "answer": "D → E → B → A → F → C",
-            "correct": False,
-            "feedback": """× Falsch: Der Grundkorpus sollte vor der Definition der Suchbegriffe eingegrenzt werden, um den thematischen Rahmen zu bestimmen."""
-        },
-        {
-            "answer": "E → B → D → F → A → C",
-            "correct": False,
-            "feedback": """× Falsch: Die Definition der Suchbegriffe sollte vor der eigentlichen Suche erfolgen, um eine systematische Strategie zu entwickeln."""
-        },
-        {
-            "answer": "B → D → E → F → A → C",
-            "correct": False,
-            "feedback": """× Falsch: Ohne vorherige Eingrenzung des Grundkorpus und Definition der Suchbegriffe wäre die Suche unsystematisch."""
-        }
-    ]
-}]
+quiz = DragDropQuiz()
 
-display_quiz(multiple_choice2, colors=colors.jupyterquiz)
+quiz.create_matching_quiz(
+    title="""Welche Schritte sind für die Bildung eines thematischen Teilkorpus zum Thema "Grenze" notwendig? Bringen Sie die Schritte in die richtige Reihenfolge:""",
+    descriptions=[
+        "Erstellung von Visualisierungen zur zeitlichen Verteilung",
+        "Suche nach Stichworten 'Grenze', 'Mauer', 'Grenzübertritt'", 
+        "Sichtung ausgewählter Filme zur Vertiefung",
+        "Definition der Suchbegriffe und Synonyme",
+        "Eingrenzung des Grundkorpus (1985–1999)",
+        "Export der Metadaten"
+    ],
+    options=[
+        "1", 
+        "2", 
+        "3", 
+        "4", 
+        "5", 
+        "6"
+    ],
+    correct_mapping={
+        "Eingrenzung des Grundkorpus (1985–1999)": "1",
+        "Definition der Suchbegriffe und Synonyme": "2", 
+        "Suche nach Stichworten 'Grenze', 'Mauer', 'Grenzübertritt'": "3",
+        "Export der Metadaten": "4",
+        "Erstellung von Visualisierungen zur zeitlichen Verteilung": "5",
+        "Sichtung ausgewählter Filme zur Vertiefung": "6"
+    }
+)
 ```
 
 ### Aufgabe 6

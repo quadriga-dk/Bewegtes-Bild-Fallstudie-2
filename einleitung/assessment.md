@@ -75,65 +75,45 @@ multiple_choice9 = [{
 display_quiz(multiple_choice9, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 2
-**Tools/Datenbanken:**  
-1. Cinemetrics
-2. ELAN
-3. Distant Viewing Toolkit
-4. Media History Digital Library (MHDL)
-5. Women Film Pioneers Explorer
-6. VIAN
-
-**Arbeitsbereiche:**  
-A. Statistische Filmanalyse  
-B. Digitale Filmanalyse/Annotation  
-C. Automatisierte Analyse großer Filmkorpora  
-D. Digitale Archive und Datenbanken  
-E. Feministische Filmgeschichtsschreibung  
-F. Farbanalyse im Film  
-
+### Aufgabe 2 
 
 ```{code-cell} ipython3
 :tags: [remove-input]
-from jupyterquiz import display_quiz
 import sys
-sys.path.append("..")
-from quadriga import colors
+sys.path.append("../quadriga")
+from assessment import DragDropQuiz
 
-multiple_choice10 = [{
-    "question": """Ordnen Sie die folgenden Tools/Datenbanken den entsprechenden Arbeitsbereichen der Digital Humanities in der Filmwissenschaft zu:""",
-    "type": "multiple_choice",
-    "answers": [
-        {
-            "answer": "1-A, 2-B, 3-C, 4-D, 5-E, 6-F",
-            "correct": True,
-            "feedback": """✓ Ausgezeichnet! Sie haben alle Tools korrekt zugeordnet:
-- Cinemetrics → Statistische Filmanalyse: Ermöglicht die Erfassung von Schnittdaten und berechnet statistische Werte wie die Average Shot Length (ASL)
-- ELAN → Digitale Filmanalyse: Annotationstool, das ursprünglich für linguistische Analysen entwickelt und für Filmannotationen adaptiert wurde
-- Distant Viewing Toolkit → Automatisierte Analyse: Ermöglicht die automatisierte Annotation und Analyse großer Mengen von Filmen
-- MHDL → Digitale Archive: Wichtige digitale Ressource mit fast drei Millionen gescannten Seiten von Materialien zur Film- und Mediengeschichte
-- Women Film Pioneers Explorer → Feministische Filmgeschichtsschreibung: Visualisiert Daten aus dem Women Film Pioneers Project
-- VIAN → Farbanalyse: Entwickelt für die automatisierte Analyse von Farbe im Film"""
-        },
-        {
-            "answer": "1-B, 2-A, 3-C, 4-D, 5-E, 6-F",
-            "correct": False,
-            "feedback": """× Nicht korrekt. Überprüfen Sie die Zuordnung von Cinemetrics und ELAN. Cinemetrics ist speziell für statistische Filmanalyse (ASL-Berechnung) konzipiert, während ELAN ein allgemeines Annotationstool ist."""
-        },
-        {
-            "answer": "1-A, 2-C, 3-B, 4-D, 5-E, 6-F",
-            "correct": False,
-            "feedback": """× Nicht korrekt. Überprüfen Sie die Zuordnung von ELAN und Distant Viewing Toolkit. ELAN ist für detaillierte manuelle Annotation gedacht, während das Distant Viewing Toolkit automatisierte Analyse großer Korpora ermöglicht."""
-        },
-        {
-            "answer": "1-A, 2-B, 3-F, 4-D, 5-E, 6-C",
-            "correct": False,
-            "feedback": """× Nicht korrekt. Überprüfen Sie die Zuordnung von Distant Viewing Toolkit und VIAN. Das Distant Viewing Toolkit ist für automatisierte Analyse großer Filmkorpora konzipiert, während VIAN speziell für Farbanalyse entwickelt wurde."""
-        }
-    ]
-}]
+# Create a quiz instance
+quiz = DragDropQuiz()
 
-display_quiz(multiple_choice10, colors=colors.jupyterquiz)
+quiz.create_matching_quiz(
+    title="Ordnen Sie die folgenden Tools/Datenbanken den entsprechenden Arbeitsbereichen der Digital Humanities in der Filmwissenschaft zu:",
+    descriptions=[
+        "Statistische Filmanalyse",
+        "Digitale Filmanalyse/Annotation", 
+        "Automatisierte Analyse großer Filmkorpora",
+        "Digitale Archive und Datenbanken",
+        "Feministische Filmgeschichtsschreibung",
+        "Farbanalyse im Film"
+    ],
+    options=[
+        "Cinemetrics", 
+        "ELAN", 
+        "Distant Viewing Toolkit", 
+        "Media History Digital Library (MHDL)", 
+        "Women Film Pioneers Explorer", 
+        "VIAN"
+    ],
+    correct_mapping={
+        "Statistische Filmanalyse": "Cinemetrics",
+        "Digitale Filmanalyse/Annotation": "ELAN", 
+        "Automatisierte Analyse großer Filmkorpora": "Distant Viewing Toolkit",
+        "Digitale Archive und Datenbanken": "Media History Digital Library (MHDL)",
+        "Feministische Filmgeschichtsschreibung": "Women Film Pioneers Explorer",
+        "Farbanalyse im Film": "VIAN"
+    }
+)
+
 ```
 
 ### Aufgabe 3
