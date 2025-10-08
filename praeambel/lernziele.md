@@ -4,13 +4,13 @@ Das hier vorliegende interaktive Lehrbuch verfolgt folgende Lernziele:
 
 ```{admonition} [Grundzüge der Digital Humanities und deren Rolle in der Filmwissenschaft](../einleitung/toc.md)
 :class: lernziele
-1. Die Lernenden sind mit Definitionsansätzen und Arbeitsbereichen der Digital Humanities vertraut.
+1. Verschiedene Definitionsansätze und Arbeitsbereiche der Digital Humanities können benannt werden.
 ```
 
 ```{admonition} [Schritte zur Findung einer Fragestellung](../recherche/toc.md)
 :class: lernziele
-1. Das Vorgehen bei der Materialrecherche ist bekannt.
-2. Die Konzepte Daten und Metadaten werden kritisch reflektiert.
+1. Das Vorgehen bei der Materialrecherche kann beschrieben und angewendet werden.
+2. Die Konzepte Daten und Metadaten können kritisch reflektiert werden.
 3. Eine Fragestellung kann operationalisiert und eingegrenzt werden.
 4. Ein zur Fragestellung passendes Korpus kann gebildet werden.
 ```
@@ -24,14 +24,14 @@ Das hier vorliegende interaktive Lehrbuch verfolgt folgende Lernziele:
 
 ```{admonition} [Datenauswertung und Datenvisualisierung mithilfe digitaler Ansätze und Werkzeuge](../auswertung/toc.md)
 :class: lernziele
-1. Die Lernenden sind mit den Grundlagen der Datenvisualisierung vertraut.
-2. Anhand exemplarischer Beispiele werden die Schritte bei der Datenvisualisierung und Datenauswertung vermittelt.
+1. Die Grundlagen der Datenvisualisierung können beschrieben werden.
+2. Die Schritte bei der Datenvisualisierung und Datenauswertung können anhand exemplarischer Beispiele dargestellt werden.
 ```
 
 ```{admonition} [Grundlagen für die Publikation von Forschungsdaten](../publikation/toc.md)
 :class: lernziele
 1. Die Grundzüge des Forschungsdatenmanagements in der Filmwissenschaft können benannt werden.
-2. Die Lernenden kennen verschiedene Formen der Datenpublikation.
+2. Verschiedene Formen der Datenpublikation können unterschieden werden.
 3. Die Problemfelder und rechtliche Voraussetzungen bei der Datenpublikation können erläutert werden.
 ```
 
