@@ -3,7 +3,7 @@ Im folgenden Kapitel werden einige Grundzüge der Digital Humanities und deren R
 
 ```{admonition} Grundzüge der Digital Humanities und deren Rolle in der Filmwissenschaft
 :class: lernziele
-1. Verschiedene Definitionsansätze und Arbeitsbereiche der Digital Humanities können benannt werden.
+1. Verschiedene Definitionsansätze und Arbeitsbereiche der Digital Humanities können unterschieden werden.
 ```
 
 ```{admonition} Bearbeitungszeit
