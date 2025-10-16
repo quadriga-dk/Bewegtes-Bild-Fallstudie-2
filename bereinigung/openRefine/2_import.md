@@ -15,7 +15,7 @@ Für die Bereinigung von Datensätzen müssen diese in das Programm importiert w
 
 **Daten- und Metadatenformate**  
 - **JSON** – Kompaktes, strukturiertes Datenformat.  
-- **RDF/XML, JSON-LD, N3, N-Triples, Turtle** – Linked Data-Formate.  
+- **RDF/XML, JSON-LD, N3, N-Triples, Turtle** – Linked-Data-Formate.
 - **PC-Axis (PX)** – Statistische Daten.  
 - **MARC** – Bibliothekskataloge.  
 
@@ -28,7 +28,7 @@ Im Kapitel zum [Datenmodell](../modell.md) wurde bereits kurz auf das Format *TS
 Im Grunde handelt es sich bei *TSV* und *CSV* ebenfalls um *TXT* Dateien, also einfache Textdateien, die jede Art von Zeichen und Text enthalten können, einschließlich unstrukturierter oder formatierter Daten.
 Um Daten zu formatieren, müssen einzelne Einträge, wie etwa die einzelnen Zellen in einer Tabelle, im Text erkennbar voneinander getrennt werden. Zu diesem Zweck haben sich als gängige Trennzeichen (engl. **separator** oder konkreter **delimiter**) das Tabulatorzeichen und das Komma durchgesetzt. Aus ihnen erklären sich die Namen der anderen oben genannten Formate: "**T**ab **S**eparated **V**alues" und "**C**omma **S**eparated **V**alues".
 
-Für das Arbeiten mit Datensätzen, die ausschließlich aus Zahlen bestehen, ist das Komma als Trennzeichen vollkommen ausreichend. In den *Digital Humanities* wird allerdings typischerweise mit Daten gearbeitet, die neben Zahlen auch Texte enthalten, etwa Filmtitel oder Beschreibungen. In einem *CSV*-Datensatz würde ein Filmtitel wie "*The Good, the Bad and the Ugly*" als zwei getrennte Einträge interpretiert werden, nämlich "*The Good*" und "*the Bad and the Ugly*", da das Komma als Zeichen für einen neuen Eintrag gelesen würde. Daher ist  zu empfehlen, stattdessen bei der Erstellung von Datensätzen ein eindeutiges, in Texten selten auftretendes Zeichen als Trennzeichen einzusetzen - wie etwa das Tabulatorzeichen oder den senkrechten Strich `|` (engl. **Pipe**). Unter Windows wird dieser senkrechte Strich mit der Tastenkombination `Alt Gr`+`<` erzeugt, auf dem Mac mit `option`+`7`.
+Für das Arbeiten mit Datensätzen, die ausschließlich aus Zahlen bestehen, ist das Komma als Trennzeichen vollkommen ausreichend. In den _Digital Humanities_ wird allerdings typischerweise mit Daten gearbeitet, die neben Zahlen auch Texte enthalten, etwa Filmtitel oder Beschreibungen. In einem _CSV_-Datensatz würde ein Filmtitel wie `The Good, the Bad and the Ugly` als zwei getrennte Einträge interpretiert werden, nämlich `The Good` und `the Bad and the Ugly`, da das Komma als Zeichen für einen neuen Eintrag gelesen würde. Daher ist zu empfehlen, stattdessen bei der Erstellung von Datensätzen ein eindeutiges, in Texten selten auftretendes Zeichen als Trennzeichen einzusetzen - wie etwa das Tabulatorzeichen oder den senkrechten Strich `|` (engl. **Pipe**). Unter Windows wird dieser senkrechte Strich mit der Tastenkombination `Alt Gr`+`<` erzeugt, auf dem Mac mit `option`+`7`.
 
 Für den Übungsdatensatz zu diesem Kapitel der OER haben wir das Tabulatorzeichen verwendet, in einem herkömmlichen Texteditor sieht die Darstellung des Datensatzes folgendermaßen aus:
 
