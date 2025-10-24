@@ -41,7 +41,7 @@ sys.path.append("..")
 from quadriga import colors
 
 multiple_choice9 = [{
-    "question": """Welche der folgenden Aussagen zu Digital Humanities sind korrekt? (Mehrere Antworten möglich)""",
+    "question": """Welche der folgenden Aussagen zu Digital Humanities sind korrekt?""",
     "type": "multiple_choice",
     "answers": [
         {
