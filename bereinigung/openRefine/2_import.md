@@ -219,7 +219,7 @@ Da der Datensatz keine leeren Zeilen und Spalten enthält, macht diese Option f�
 **Store blank cells as nulls**
 
 Bei *blank cells* handelt es sich um leere Text- oder Zahlen-Einträge. *Null* ist ein eigener Datentyp der anzeigt, dass eine Zelle keinen Eintrag enthält. Wo genau liegt nun der Unterschied?
-Nehmen wir an, dass Sie einen Eintrag `12345`in `1_2_3_4_5`umwandeln wollen. Sie würden jede Leerstelle durch einen Unterstrich ersetzen, allerdings würde dies auch alle *blanks cells* in einen Eintrag verwandeln, der einen Unterstrich `_` enthält. Indem die leeren Einträge als *null* gespeichert werden, lassen sich solche Fehler vermeiden – die Option sollte daher ausgewählt werden. 
+In vielen Situationen müssen alle Text- oder Zahlen-Einträge auf einmal bearbeitet werden, etwa um Nachkommastellen hinzuzufügen. In solchen Fällen sollten leere Einträge i.d.R. übersprungen werden, weshalb der Import von leeren Einträgen als *Nulls* in den meisten Fällen sinnvoll ist – so auch hier. 
 
 **Store file source & Store archive file**
 Diese Optionen dienen der Archivierung des originalen unbereinigten Datensatzes innerhalb des *OpenRefine* Projekts. Die erste Option **Store file source** speichert den Ursprung des Datensatzes, etwa die *URL*. Die Option **Store archive file** speichert den ursprünglichen Datensatz selbst als Archivdatei. Sie können beide Optionen in diesem Fall deaktivieren.
