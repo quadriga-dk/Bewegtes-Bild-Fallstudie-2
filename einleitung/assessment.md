@@ -17,7 +17,7 @@ kernelspec:
 
 Diese Übungsaufgaben dienen Ihrer Selbsteinschätzung und helfen Ihnen, das im Kapitel Gelernte zu reflektieren.
 
-Sie können die Fragen in beliebiger Reihenfolge beantworten und es auch mehrfach versuchen. 
+Sie können die Fragen in beliebiger Reihenfolge beantworten und die Beantwortung auch mehrfach versuchen. 
 
 **So funktioniert es:**
 - Wählen Sie bei jeder Frage die Antwort(en), die Sie für richtig halten
