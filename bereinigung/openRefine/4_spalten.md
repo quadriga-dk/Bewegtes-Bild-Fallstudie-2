@@ -54,7 +54,7 @@ Der Menüpunkt zur Löschung einer Spalte
 ```
 
 Neben dem Spalten-Dropdown-Menü gibt es noch eine eigene Oberfläche zum Löschen und Umordnen von Spalten.
-Dieses *Re-oder / Remove columns* Menü wird über das Dropdown-Menü der Spalte *All* und den Reiter *Edit columns* geöffnet. 
+Dieses *Re-order / Remove columns* Menü wird über das Dropdown-Menü der Spalte *All* und den Reiter *Edit columns* geöffnet. 
 
 ```{figure} ../../assets/bereinigung/openRefine/spalten/reorder_columns_1.png
 ---
