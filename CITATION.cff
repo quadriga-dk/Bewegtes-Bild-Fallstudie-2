@@ -28,7 +28,7 @@ identifiers:
   description: Zenodo
 repository-code: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2
 url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
-keywords:
+keywords: &id002
 - Open Educational Resource
 license: CC-BY-SA-4.0
 references:
@@ -49,7 +49,6 @@ preferred-citation:
   languages:
   - deu
   copyright: CC-BY-SA-4.0
-  keywords:
-  - Open Educational Resource
+  keywords: *id002
   version: 1.0.0-beta
 version: 1.0.0-beta
