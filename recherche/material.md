@@ -61,6 +61,11 @@ Suche nach allen Einträgen im Archivkatalog für den Zeitraum 1985–1999
 
 Als Ergebnis der Suche erscheint die _Anzahl der Treffer_ von "_1366_" oben rechts in der Anzeige der Suchmaske. Durch einen Klick auf diese Trefferanzahl wird eine Trefferliste ausgegeben ({numref}`opac_trefferliste`). Die Anzahl der Treffer bedeutet jedoch noch nicht, dass für den abgefragten Zeitraum auch 1366 Filme im Archiv vorhanden sind: Vielmehr verweist dies auf die Anzahl der bibliographischen Einträge zu Filmen auf verschiedenen Datenträgern. Dies umfasst auch, dass einzelne Filmtitel mehrfach katalogisiert wurden, z.B. als Teil von Kompilationen von Filmen auf einem Datenträger (etwa für Festivals oder Fernsehsender), die ebenfalls im Archivkatalog verzeichnet sind.
 
+```{admonition} Hinweis zur Anzahl der Treffer
+:class: hinweis
+Da die Einträge für das Filmarchiv im Bibliothekskatalog weiter gepflegt und aktualisiert werden, können sich bei den in dieser OER aufgeführten Anzahlen der Treffer leichte Variationen ergeben. Es können z.B. durch Digitalisierungen von Archivbeständen neue oder veränderte Einträge entstehen. Das Prinzip, wie nach bestimmten Aspekten zu einer Fragestellung recherchiert werden kann, sollte jedoch deutlich werden.
+```
+
 ```{figure} ../assets/recherche/Opac_Trefferliste.jpg
 ---
 align: left
@@ -97,7 +102,7 @@ alt: Darstellung der Anzeige Suche nach Schlagwort Dokumentarfilm. Anzahl der Tr
 Anzeige der Suche nach Schlagwort "Dokumentarfilm"
 ```
 
-Für diese Suchanfrage ergibt sich als "_Anzahl der Treffer: 0_". Wie kann dies sein? Es ist sehr unwahrscheinlich, dass im abgefragten Zeitraum keine Dokumentarfilme bzw. als Dokumentarfilm verschlagtwortete Filme im Katalog des Filmarchivs vorhanden sind. Hierzu ist wichtig zu wissen, dass auch der Eintrag der Gattungen nach der festgelegten Systematik der Bibliothek der Filmuniversität erfolgt. Die <a href="https://server8.bibl.filmuniversitaet.de" class="external-link" target="_blank">alphabetische Liste aller Schlagworte</a> ist unten links auf der Startseite des Bibliothekskatalogs anklickbar. Aus der Liste ergibt sich, dass Dokumentarfilme unter dem Schlagwort "Dokumentarfilm/B" eingetragen wurden. Eine Suche mit dem angepassten Suchbegriff _"Dokumentarfilm/B"_ ergibt _329 Treffer_. Im Unterschied zu Schlagworten werden Stichworte frei vergeben und müssen nicht einer vorgegebenen Liste folgen.
+Für diese Suchanfrage ergibt sich als "_Anzahl Treffer: 0_". Wie kann dies sein? Es ist sehr unwahrscheinlich, dass im abgefragten Zeitraum keine Dokumentarfilme bzw. als Dokumentarfilm verschlagtwortete Filme im Katalog des Filmarchivs vorhanden sind. Hierzu ist wichtig zu wissen, dass auch der Eintrag der Gattungen nach der festgelegten Systematik der Bibliothek der Filmuniversität erfolgt. Die <a href="https://server8.bibl.filmuniversitaet.de" class="external-link" target="_blank">alphabetische Liste aller Schlagworte</a> ist unten links auf der Startseite des Bibliothekskatalogs anklickbar. Aus der Liste ergibt sich, dass Dokumentarfilme unter dem Schlagwort "Dokumentarfilm/B" eingetragen wurden. Eine Suche mit dem angepassten Suchbegriff _"Dokumentarfilm/B"_ ergibt _329 Treffer_. Im Unterschied zu Schlagworten werden Stichworte frei vergeben und müssen nicht einer vorgegebenen Liste folgen.
 
 ```{figure} ../assets/recherche/OPAC_erweiterte_Suche_Dokfilm_mit_Treffer.jpg
 ---
@@ -219,7 +224,7 @@ Denkbar sind aber auch Parameter, die sich eher auf die Auswertung filmischer Mi
 * Anzahl der einzelnen Einstellungsgrößen
 * Farbgestaltung des Films
 
-Diese Auflistung erhebt keinen Anspruch auf Vollständigkeit und kann durch zahlreiche weitere Parameter ergänzt werden. Zu klären ist, mit welchen digitalen Tools die notwendigen quantitativen Daten erhoben werden können.
+Diese Auflistung erhebt keinen Anspruch auf Vollständigkeit und kann durch zahlreiche weitere Parameter ergänzt werden. Zu klären ist, mit welchen digitalen Tools die notwendigen quantitativen Daten erhoben werden können. Weitere Überlegungen hierzu finden sich im Kapitel zur [Operationalisierung der Fragestellung](../recherche/operationalisierung.md).
 
 In den oben erwähnten ersten Beobachtungen zu den gesichteten Filmen scheint aber auch bereits auf, dass eine rein quantitative Auswertung von Daten zu den Filmen nicht ausreichen wird, um erkannte Phänomene hinreichend zu klären. So müsste neben der Ermittlung der Anzahl von Filmen, in denen Übergänge von Traum und Realität oder Rückblenden vorkommen, zusätzlich geklärt werden, ob der Einsatz dieser Mittel eine individuelle künstlerische Entscheidung war oder etwa auf die Vorgaben einer Übungsaufgabe zurückgehen. Für die Interpretation der gewählten Gestaltungsmittel muss der Kontext also berücksichtigt werden. In vielen Fällen bietet es sich daher an, **quantitative Vorgehensweisen mit qualitativen zu ergänzen und zu kombinieren** – z.B. indem gesellschaftliche, ökonomische und politische Aspekte in den Forschungsprozess einbezogen werden. Durch die Auswertung der Schlagworte, Stichworte und Beschreibungstexte zu den Filmen mit digitalen Tools können sich Informationen zu möglichen Inhalten ergeben, die zueinander in Beziehung gesetzt werden können und anhand der Sichtung einzelner Werke verifiziert werden müssen. Aufgrund des beschränkten Umfangs dieser Fallstudie werden wir jedoch nur sehr punktuell auf diese Verbindung von quantitativen mit qualitativen Vorgehensweisen eingehen können.
 
@@ -235,4 +240,3 @@ Grundlage für die Beantwortung dieser und vieler anderer Fragen ist zunächst e
 :filter: docname in docnames
 :keyprefix: a-
 ```
-

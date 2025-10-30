@@ -6,9 +6,9 @@ Die vorliegende Fallstudie zu Studierendenfilmen im Archiv der Filmuniversität 
 Welche Veränderungen lassen sich in den studentischen Filmen der Jahre 1985 bis 1999 erkennen, die auf die deutsche Einheit verweisen?
 ```
 
-Die Zusammenstellung des Korpus und die hierfür durchgeführte [Recherche](material) haben ergeben, dass genügend Werke für den angedachten Untersuchungszeitraum vorhanden sind. Die Zahl von 1366 bibliografischen Einträgen zu studentischen Filmen im Bibliothekskatalog für den Untersuchungszeitraum weist darauf hin, dass eine quantitative Auswertung der Filme bzw. der Metadaten zu den Filmen mit digitalen Tools sinnvoll möglich ist. In einem nächsten Schritt soll nun die Fragestellung operationalisiert werden.
+Die Zusammenstellung des Korpus und die hierfür durchgeführte [Recherche](material) haben ergeben, dass für den angedachten Untersuchungszeitraum ausreichend Werke vorhanden sind, um die Fragestellung zu bearbeiten. Die Anzahl der bibliografischen Einträgen zu studentischen Filmen im Bibliothekskatalog ist groß genug, um eine sinnvolle quantitative Auswertung der Filme bzw. der Metadaten zu den Filmen mit digitalen Tools zu ermöglichen. In einem nächsten Schritt soll nun die Fragestellung operationalisiert werden.
 
-Was ist damit gemeint? Allgemein gesprochen geht es darum, zu bestimmen, welche Daten für die Beantwortung einer Fragestellung hilfreich sind und ggf. erhoben werden müssen, und welche Variablen dabei eine Rolle spielen können. Im Rahmen dieser Operationalisierung werden theoretische Ansätze berücksichtigt, gleichzeitig soll die Verbindung von quantitativen und qualitativen Herangehensweisen in die Überlegungen mit einbezogen werden.
+Was ist damit gemeint? Allgemein gesprochen geht es darum, zu bestimmen, welche Daten für die Beantwortung einer Fragestellung hilfreich sind und ggf. erhoben werden müssen, und welche Variablen dabei eine Rolle spielen können. Wie können also verschiedene Aspekte der Fragestellung quantitativ erfassbar gemacht werden? Im Rahmen dieser Operationalisierung werden theoretische Ansätze berücksichtigt, gleichzeitig soll die Verbindung von quantitativen und qualitativen Herangehensweisen in die Überlegungen mit einbezogen werden.
 
 Durch die Operationalisierung wird die filmwissenschaftliche Fragestellung weiter konkretisiert und eingegrenzt. Dabei ist wichtig, dass _verschiedene Perspektiven_ und _film- und kulturwissenschaftliche Herangehensweisen_ eingenommen werden können, die sich auf unterschiedliche Daten beziehen, die für die Beantwortung der Fragestellung relevant sind. Die Daten können dabei aus verschiedenen Quellen stammen: Für die Auswertung ästhetischer Merkmale müssen mithilfe digitaler Tools Annotationen zu den Filmen erstellt werden, Daten zur Rezeption wie Besucher:innenzahlen können aus Datenbanken im Internet entnommen werden und mit den Metadaten aus dem OPAC der Filmuniversität kann etwa die Anzahl von Filmen in einem bestimmtem Zeitraum oder die Projektart von Filmen bestimmt werden.
 
@@ -23,7 +23,7 @@ Die **ästhetisch-analytische** Perspektive nimmt stilistische Merkmale der Film
 - Schnittfrequenzen
 - Farbgestaltungen
 
-Die quantitative Erfassung solcher Merkmale ermöglicht einen Vergleich verschiedener Filme. Diese Erfassung müsste mithilfe digitaler filmanalytischer Tools geschehen, indem Annotationen zu den Filmen erstellt werden. Hierbei ist wie bei allen anderen noch besprochenen Perspektiven wichtig, diese Merkmale und deren Auftreten zu kontextualisieren. Aus welchen Gründen treten sie auf? Und welche Filme werden überhaupt sinnvollerweise miteinander in Beziehung gesetzt oder verglichen?
+Die quantitative Erfassung solcher Merkmale ermöglicht einen Vergleich verschiedener Filme. Diese Erfassung müsste mithilfe digitaler filmanalytischer Tools geschehen, indem Annotationen zu den Filmen erstellt werden. Hierbei ist wie bei allen anderen noch besprochenen Perspektiven wichtig, diese Merkmale und deren Auftreten zu kontextualisieren. Aus welchen Gründen treten sie auf? Zu welcher Zeit werden sie eingesetzt? Und welche Filme werden überhaupt sinnvollerweise miteinander in Beziehung gesetzt oder verglichen?
 
 ## Narrative Strukturen
 
@@ -32,7 +32,6 @@ Die quantitative Erfassung solcher Merkmale ermöglicht einen Vergleich verschie
 - Wie sind die Filme in Sequenzen strukturiert?
 - Wie beeinflussen Muster von Einstellungslängen die narrative Struktur?
 - Welche Figuren nehmen die größte Leinwandzeit ein und erweisen sich dadurch als möglicherweise zentral für die Narration?
-- Welche Dialoge mit welchem Inhalt finden statt?
 - An welchen Stellen treten Plot Points auf?
 
 
@@ -82,7 +81,7 @@ Wie deutlich geworden sein sollte stehen diese Perspektiven nicht allein oder sc
 ```{admonition} Aufgliederung der Fragestellung
 :class: keypoint
 
-Aufbauend auf den Erkenntnissen aus der Korpusbildung, der Recherche im Bibliothekskatalog und den ersten Sichtungen exemplarischer Filme (siehe Kapitel [Materialrecherche](material)) bieten sich für eine weitere Bearbeitung der grundlegenden Fragestellung der Fallstudie u.a. folgenden Teilfragen an, die auf _die Erfassung von quantitativen Aspekten_ ausgerichtet sind:
+Aufbauend auf den Erkenntnissen aus der Korpusbildung, der Recherche im Bibliothekskatalog und den ersten Sichtungen exemplarischer Filme (siehe Kapitel [Materialrecherche](material)) bieten sich für eine weitere Bearbeitung der grundlegenden Fragestellung der Fallstudie u.a. folgenden Teilfragen an.  Diese sind auf _die Erfassung von quantitativen Aspekten_ auf der Grundlage der filmografischen Angaben, also den Metadaten aus dem Katalog, ausgerichtet:
 - Wie viele Filme sind zu welchen Zeitpunkten entstanden?
 - Welchen Gattungen (Spielfilm, Dokumentarfilm, Animationsfilm) können diese Filme zugeordnet werden?
 - Welchen Projektarten (Übung, Diplomfilm etc.) werden die Filme zugeordnet?
@@ -91,7 +90,7 @@ Aufbauend auf den Erkenntnissen aus der Korpusbildung, der Recherche im Biblioth
 - Welche Wort(felder) treten in den Beschreibungen zu den Filmen auf? Ergibt sich eine auffällige zeitliche Verteilung?
 ```
 
-Diese Teilfragen können mit den Metadaten zu den Filmen bzw. den filmografischen Angaben aus dem Bibliothekskatalog bearbeitet werden. Anhand der erfassten _Stichworte_ und _Schlagworte_, die bei der Katalogisierung der Filme vergeben wurden, und der _Wortfelder_ in Beschreibungstexten sowie den Titeln kann z.B. versucht werden, Rückschlüsse auf bestimmte in den Filmen verhandelte Themen zu ziehen: Treten bestimmte Wörter oder Wortgruppen auf, die auf Themen hindeuten (wie Wende, Mauer, Grenze etc.). Interessant wäre u.a. auch zu untersuchen, ob um die Wendezeit 1989 verstärkt dokumentarische Arbeiten entstanden sind, um die Ereignisse in dieser Umbruchszeit festzuhalten.
+Steigt die Anzahl der im Katalog verzeichneten Titel zur Wendezeit kann dies darauf hindeuten, dass mehr studentische Filme produziert wurden und sich diese Arbeiten speziell den Ereignissen dieser Umbruchsjahre widmen. Interessant wäre u.a. auch zu untersuchen, ob um die Wendezeit 1989 verstärkt dokumentarische Arbeiten entstanden sind, um die gesellschaftlichen und politischen Veränderungen festzuhalten. Eine erhöhte Anzahl bestimmter Projektarten wie Übungen könnte darauf hindeuten, das diese besonders geeignet waren, spontan auf das politische Geschehen zu reagieren und dieses filmisch einzufangen. Anhand der erfassten _Stichworte_ und _Schlagworte_, die bei der Katalogisierung der Filme vergeben wurden, und der _Wortfelder_ in Beschreibungstexten sowie den Titeln kann z.B. versucht werden, Rückschlüsse auf bestimmte in den Filmen verhandelte Themen zu ziehen: Treten bestimmte Wörter oder Wortgruppen auf, die auf Themen hindeuten (wie Wende, Mauer, Grenze etc.). 
 
 ````{margin} 
 ```{admonition} Hinweis
@@ -106,6 +105,6 @@ Für all diese Perspektiven und mögliche Fragestellungen, die auch auf quantita
 
 ## Exploratives Vorgehen
 
-Auf der Grundlage eines bereinigten Datensatzes zu den studentischen Filmen, die an der Filmuniversität Babelsberg bzw. der HFF Potsdam in der Zeit von 1985 bis 1999 entstanden sind, bietet sich auch ein _exploratives Vorgehen_ für die Beantwortung der grundlegenden Fragestellung an. Im Datensatz wird nach auftretenden Mustern, Strukturen, Zusammenhängen und Besonderheiten gesucht, aus denen sich neue Fragestellungen und Hypothesen ergeben können, die weiter verfolgt werden sollen. Eine solche explorative Auswertung des Datensatzes kann z.B. durch das Erstellen und die Interpretation von _Visualisierungen_ zu den Daten erfolgen.
+Auf der Grundlage eines bereinigten Datensatzes zu den studentischen Filmen, die an der Filmuniversität Babelsberg bzw. der HFF Potsdam in der Zeit von 1985 bis 1999 entstanden sind, bietet sich auch ein _exploratives Vorgehen_ für die Beantwortung der grundlegenden Fragestellung an. Im Datensatz wird nach auftretenden Mustern, Strukturen, Zusammenhängen und Besonderheiten gesucht, aus denen sich neue Fragestellungen und Hypothesen ergeben können, die weiter verfolgt werden sollen. Eine solche explorative Auswertung des Datensatzes kann z.B. durch das Erstellen und die Interpretation von [_Visualisierungen_](../auswertung/datenvisualisierung.md) zu den Daten erfolgen.
 
 Wichtig ist hierbei die Verbindung der aus der quantitativen Auswertung herausgearbeiteten Muster und Besonderheiten in Bezug auf den Datensatz mit qualitativen Vorgehensweisen. Die Ursachen für das Auftreten bestimmter Strukturen und Muster müssen im jeweiligen Kontext der Entstehung der Filme gesucht werden.

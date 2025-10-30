@@ -17,7 +17,7 @@ kernelspec:
 
 Diese Übungsaufgaben dienen Ihrer Selbsteinschätzung und helfen Ihnen, das im Kapitel Gelernte zu reflektieren.
 
-Sie können die Fragen in beliebiger Reihenfolge beantworten und es auch mehrfach versuchen. 
+Sie können die Fragen in beliebiger Reihenfolge beantworten und die Beantwortung auch mehrfach versuchen. 
 
 **So funktioniert es:**
 - Wählen Sie bei jeder Frage die Antwort(en), die Sie für richtig halten
@@ -41,7 +41,7 @@ sys.path.append("..")
 from quadriga import colors
 
 multiple_choice9 = [{
-    "question": """Welche der folgenden Aussagen zu Digital Humanities sind korrekt? (Mehrere Antworten möglich)""",
+    "question": """Welche der folgenden Aussagen zu Digital Humanities sind korrekt?""",
     "type": "multiple_choice",
     "answers": [
         {

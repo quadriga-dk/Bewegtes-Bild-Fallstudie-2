@@ -31,7 +31,7 @@ Sie können die Fragen in beliebiger Reihenfolge bearbeiten und die Beantwortung
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels nochmals zu bearbeiten. 
 
-**Geschätzte Zeit**: XX
+**Geschätzte Zeit**: 30 Minuten
 
 Viel Erfolg!
 ````
@@ -39,12 +39,54 @@ Viel Erfolg!
 
 ```{code-cell} ipython3
 :tags: [remove-input]
-display_quiz("../assets/assessment/recherche/recherche_quiz.json", colors = colors.jupyterquiz)
+from jupyterquiz import display_quiz
+import sys
+sys.path.append("..")
+from quadriga import colors
+
+multiple_choice1 = [{
+    "question": """Welche Aussagen zur OPAC-Recherche sind korrekt?""",
+    "type": "multiple_choice",
+    "answers": [
+        {
+            "answer": "Die Trefferanzahl entspricht immer der exakten Anzahl vorhandener Filme",
+            "correct": False,
+            "feedback": """× Falsch: Die Trefferanzahl umfasst bibliographische Einträge, nicht unbedingt einzelne Filme. Mehrfachkatalogisierung ist möglich."""
+        },
+        {
+            "answer": "Schlagworte folgen einem kontrollierten Vokabular der Bibliothek",
+            "correct": True,
+            "feedback": """✓ Richtig: Schlagworte wie "Dokumentarfilm/B" folgen der festgelegten Systematik der Bibliothek."""
+        },
+        {
+            "answer": "Zeiträume werden mit einfachen Bindestrichen \"–\" eingegeben",
+            "correct": False,
+            "feedback": """× Falsch: Zeiträume werden mit Pfeil-Syntax eingegeben: "1985->1999"."""
+        },
+        {
+            "answer": "Stichworte werden frei vergeben und folgen keiner vorgegebenen Liste",
+            "correct": True,
+            "feedback": """✓ Richtig: Im Unterschied zu Schlagworten werden Stichworte frei vergeben."""
+        },
+        {
+            "answer": "Einzelne Filme können mehrfach katalogisiert sein",
+            "correct": True,
+            "feedback": """✓ Richtig: Filme können als Teil von Kompilationen oder auf verschiedenen Datenträgern mehrfach verzeichnet sein."""
+        },
+        {
+            "answer": "Die Vollanzeige enthält nur technische Informationen",
+            "correct": False,
+            "feedback": """× Falsch: Die Vollanzeige enthält umfassende Informationen: Personen, Gewerke, Projektart, Inhaltsangabe etc."""
+        }
+    ]
+}]
+
+display_quiz(multiple_choice1, colors=colors.jupyterquiz)
 ```
 
 ### Aufgabe 2
 
-**Szenario:** Sie möchten eine eigene Fallstudie zu studentischen Animationsfilmen der 1990er Jahre durchführen. Beschreiben Sie systematisch Ihr Vorgehen bei der Materialrecherche im OPAC der Filmuniversität.
+**Szenario:** Sie möchten eine eigene Fallstudie zu studentischen Animationsfilmen der 1990er Jahre realisieren. Beschreiben Sie systematisch Ihr Vorgehen bei der Materialrecherche und wie Sie diese Recherche im OPAC der Filmuniversität durchführen.
 
 Ihre Antwort sollte folgende Schritte umfassen:  
 1. Datenbankauswahl 
@@ -87,58 +129,10 @@ create_answer_box('Assessment-1')
 - Kombination verschiedener Suchparameter
 ````
 
+
 ### Aufgabe 3
 
-```{code-cell} ipython3
-:tags: [remove-input]
-from jupyterquiz import display_quiz
-import sys
-sys.path.append("..")
-from quadriga import colors
-
-multiple_choice1 = [{
-    "question": """Welche Aussagen zur OPAC-Recherche sind korrekt? (Mehrere Antworten möglich)""",
-    "type": "multiple_choice",
-    "answers": [
-        {
-            "answer": "Die Trefferanzahl entspricht immer der exakten Anzahl vorhandener Filme",
-            "correct": False,
-            "feedback": """× Falsch: Die Trefferanzahl umfasst bibliographische Einträge, nicht unbedingt einzelne Filme. Mehrfachkatalogisierung ist möglich."""
-        },
-        {
-            "answer": "Schlagworte folgen einem kontrollierten Vokabular der Bibliothek",
-            "correct": True,
-            "feedback": """✓ Richtig: Schlagworte wie "Dokumentarfilm/B" folgen der festgelegten Systematik der Bibliothek."""
-        },
-        {
-            "answer": "Zeiträume werden mit einfachen Bindestrichen \"–\" eingegeben",
-            "correct": False,
-            "feedback": """× Falsch: Zeiträume werden mit Pfeil-Syntax eingegeben: "1985->1999"."""
-        },
-        {
-            "answer": "Stichworte werden frei vergeben und folgen keiner vorgegebenen Liste",
-            "correct": True,
-            "feedback": """✓ Richtig: Im Unterschied zu Schlagworten werden Stichworte frei vergeben."""
-        },
-        {
-            "answer": "Einzelne Filme können mehrfach katalogisiert sein",
-            "correct": True,
-            "feedback": """✓ Richtig: Filme können als Teil von Kompilationen oder auf verschiedenen Datenträgern mehrfach verzeichnet sein."""
-        },
-        {
-            "answer": "Die Vollanzeige enthält nur technische Informationen",
-            "correct": False,
-            "feedback": """× Falsch: Die Vollanzeige enthält umfassende Informationen: Personen, Gewerke, Projektart, Inhaltsangabe etc."""
-        }
-    ]
-}]
-
-display_quiz(multiple_choice1, colors=colors.jupyterquiz)
-```
-
-### Aufgabe 4
-
-Analysieren Sie anhand des Beispiels von Lotte Reiniger (Dang/Junginger, 2024) die Problematik der vermeintlichen "Neutralität" von Metadaten. Gehen Sie dabei auf folgende Aspekte ein:
+Analysieren Sie anhand des Beispiels von Lotte Reiniger {cite}`bb-Dang_Junginger_2024` die Problematik der vermeintlichen "Neutralität" von Metadaten. Gehen Sie dabei auf folgende Aspekte ein:
 
 1. Subjektivität in der Datenerfassung
 2. Rolle kontrollierter Vokabulare
@@ -172,7 +166,7 @@ create_answer_box('Assessment_C-3')
 - Notwendigkeit der Kontextualisierung und Reflexion der Entstehungsbedingungen
 ````
 
-### Aufgabe 5
+### Aufgabe 4
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -211,7 +205,7 @@ quiz.create_matching_quiz(
 )
 ```
 
-### Aufgabe 6
+### Aufgabe 5
 
 Vergleichen Sie die Herangehensweise dieser Fallstudie („Studentische Filme der Filmuniversität zur Wendezeit") mit einer hypothetischen Studie zu "Studentischen Filmen während der COVID-19-Pandemie (2020–2022)". Analysieren Sie:
 
@@ -248,4 +242,8 @@ create_answer_box('Assessment_C-5')
 - Unterschiedliche thematische Schwerpunkte
 ````
 
-
+## Literatur
+```{bibliography}
+:filter: docname in docnames
+:keyprefix: bb-
+```

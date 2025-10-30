@@ -3,13 +3,30 @@ In den letzten Abschnitten wurde eine filmwissenschaftliche Fragestellung entwic
 
 ## Datensätze aus dem Bibliothekskatalog
 
-Bisher wurden die Datensätze zu einzelnen oder einer Gruppe von Filmen über den <a href="http://server8.bibl.filmuniversitaet.de/" class="external-link" target="_blank">Online-Bibliothekskatalog (OPAC)</a> der Filmuniversität mittels gezielter Suchanfragen abgerufen (vgl. Abschnitt [Materialrecherche](/recherche/material)). Im Rahmen dieser ersten Überblicks-Recherche zum vorhandenen Filmmaterial war es ausreichend, die filmografischen Daten per "Copy and Paste" aus der Trefferanzeige des Katalogs zu kopieren, z.B. in ein Textverarbeitungsprogramm oder ein Programm zur Tabellenkalkulation. Die Menge der recherchierten Filme blieb dabei übersichtlich, daher konnte auf diese Weise ein erster Vergleich und eine erste stichpunktartige Auswertung bezüglich potenzieller Gemeinsamkeiten stattfinden.
+Bisher wurden die Datensätze zu einzelnen oder einer Gruppe von Filmen über den <a href="http://server8.bibl.filmuniversitaet.de/" class="external-link" target="_blank">Online-Bibliothekskatalog (OPAC)</a> der Filmuniversität mittels gezielter Suchanfragen abgerufen (vgl. Kapitel [Materialrecherche](/recherche/material)). Im Rahmen dieser ersten Überblicks-Recherche zum vorhandenen Filmmaterial war es ausreichend, die filmografischen Daten per "Copy and Paste" aus der Trefferanzeige des Katalogs zu kopieren, z.B. in ein Textverarbeitungsprogramm oder ein Programm zur Tabellenkalkulation. Die Menge der recherchierten Filme blieb dabei übersichtlich, daher konnte auf diese Weise wie im Kapitel Materialrecherche im Abschnitt zur [Sichtung von Filmen](/recherche/material.md#sichtung-von-filmen) beschriebenen ein erster Vergleich und eine erste stichpunktartige Auswertung bezüglich potenzieller Gemeinsamkeiten stattfinden.
 
-Für das gesamte Korpus der Filme wäre diese Vorgehensweise nicht durchzuführen: Bei der Überblicks-Recherche ergab sich auf die Suchanfrage nach studentischen Filmen aus den Jahren 1985 bis 1999 im Katalog eine Trefferanzahl von 1366 bibliografischen Einträgen. Welche alternativen Möglichkeiten zum manuellen Kopieren der Daten aus den OPAC in eine Datei gibt es nun? Um Informationen aus Webseiten zu extrahieren und zu speichern wird häufig das sogenannte "Web Scraping"[^1] angewendet, für das verschiedene Software-Tools zur Verfügung stehen. Web Scraping kann jedoch aus technischen Gründen nicht bei allen Web-Ressourcen eingesetzt werden.
+Für das gesamte Korpus der Filme wäre diese Vorgehensweise nicht durchzuführen: Bei der Überblicks-Recherche ergab sich auf die Suchanfrage nach studentischen Filmen aus den Jahren 1985 bis 1999 im Katalog eine Trefferanzahl von 1366 bibliografischen Einträgen. Welche alternativen Möglichkeiten gibt es nun, einen Datensatz mit den Metadaten bzw. filmografischen Daten zum Filmkorpus unserer Fallstudie zu erstellen?
+
+````{margin} 
+```{admonition} Hinweis
+:class: hinweis
+Eine Anleitung zu "Scarping als Methode zum Korpusaufbau" findet sich bei <a href="https://quadriga-dk.github.io/Text-Fallstudie-2/scraping_intro/scraping_intro.html" target="_blank">Fallstudie II - Text</a>.
+```
+````
+
+Um Informationen aus Webseiten zu extrahieren und zu speichern wird häufig das sogenannte "Web Scraping"[^1] angewendet. Hierfür stehen verschiedene Software-Tools zur Verfügung, die jedoch meist Programmierkenntnisse und ein grundlegendes Wissen über den technischen Aufbau und die Abfrage von Webseiten voraussetzen. Häufig sind auch ethische und rechtliche Aspekte zu beachten, wie z.B. Fragen des Urheber- und Persönlichkeitsrechtes. Zudem kann Web Scraping aus technischen Gründen nicht bei allen Web-Ressourcen eingesetzt werden. Insgesamt erscheint uns daher im Rahmen dieser OER Web Scarping nicht als das geeignete Mittel, den erforderlichen Datensatz zu erheben.
+
+Für die Abfrage von filmografischen Daten stehen im Internet verschiedene nicht-kommerzielle und kommerzielle [Datenbanken](../einleitung/filmwissenschaft.md#datenbanken-und-digitale-tools) zu Verfügung. Deren Daten können meist durch vorhandene Schnittstellen abgerufen und in einen Datensatz zusammengestellt werden. Hierfür sind wiederum Programmierkenntnisse und technisches Wissen über die Funktionsweisen und den Aufbau von Datenbanken notwendig. Insbesondere bei kommerziellen Datenbanken wie <a href="https://www.imdb.com/" class="external-link" target="_blank">IMDb</a> ist oft nur ein Teil der Informationen frei in Form von Datensätzen erhältlich, für zusätzliche Informationen muss bezahlt werden. Einige filmbezogene Datenbanken stellen ihre Einträge als (Teil)datensätze in verschiedenen Formaten frei zum Download zur Verfügung, wie z.B. die <a href="https://www.omdb.org/de/de/content/Help:DataDownload" class="external-link" target="_blank">omdb</a>. In allen diesen Fällen müssen für die Arbeit mit diesen Daten und insbesondere bei der weiteren Publikation der erstellten Datensätze [Rechtliche Rahmenbedingungen](../publikation/problemfelder.md) wie Urheberrechte und vorhandene Lizenzen beachtet werden.
+
+Ein Großteil der studentischen Produktionen in unserem Untersuchungszeitraum sind in diesen Datenbanken jedoch nicht erfasst, da es sich um unveröffentlichte Werke wie Übungen handelt, die nur im Archiv der Filmuniversität vorhanden und auch nur dort verzeichnet sind. Die Zusammenstellung eines Datensatzes mit den filmografischen Angaben zu unserer Fallstudie ist über diese Datenbanken also nicht möglich.
+
+Gerade bei Datensätzen, die sehr spezielle Informationen enthalten, die evtl. nur in einer bestimmten Datenbank oder bei einer bestimmten Institution vorgehalten werden, bietet es sich an, dort direkt anzufragen. Insbesondere bei nicht-kommerziellen Organisationen ist es für Forschungszwecke häufig möglich, einen Auszug mit den für die eigene Arbeit notwendigen Daten aus der Datenbank zu erhalten. Wir haben daher bei der Bibliothek der Filmuniversität angefragt, ob uns die Daten aus dem Katalog des Filmarchivs für unseren Untersuchungszeitraum 1985 bis 1999 zur Verfügung gestellt werden können.
+
+
 
 ## Auszug aus der Datenbank des Bibliothekskatalogs
 
-Eine eigenständige automatisierte Verarbeitung der Daten aus der Oberfläche des OPACs war nicht möglich. Daher wurde der Systembibliothekar der Filmuniversität angefragt, ob er uns die OPAC-Daten zu den studentischen Filmen unseres Untersuchungszeitraums zur Verfügen stellen kann. Er erklärte sich bereit, für die Fallstudie einen Auszug aus der Datenbank des Bibliothekskatalogs zu erstellen, der alle Einträge aus dem OPAC für die Filme des Korpus enthält.
+Der Systembibliothekar der Filmuniversität erklärte sich bereit, für unsere Fallstudie einen Auszug aus der Datenbank des Bibliothekskatalogs zu erstellen, der alle Einträge aus dem OPAC für die Filme unseres Korpus enthält.
 
 ```{admonition} Achtung
 :class: caution
@@ -42,9 +59,9 @@ alt: Darstellung der Vollanzeige eines Einzeltitels im Katalog der Bibliothek de
 Ausschnitt aus der Vollanzeige eines Einzeltitels im Anzeigeformat "Feldnummern" im OPAC der Filmuniversität.
 ```
 
-In der Vollanzeige des Titels und in den verschiedenen Anzeigeformaten wird deutlich, dass die filmografischen Daten und damit die Metadaten zu den Titeln einer bestimmten Struktur, einem bestimmten Modell folgen. Auf die Funktion und auf den Aufbau solcher Datenmodelle geht Johanna Drucker ein. {cite}`c-Drucker_2021` Sie weist darauf hin, dass jede Erzeugung von Daten eine Modellierung beinhaltet. Durch ein Modell wird festgelegt, was als Merkmal des Datenobjekts – hier des jeweiligen Films – aufgeführt wird, d.h. was für die Charakterisierung als notwendig erachtet wird. Zudem muss entschieden werden, in welchem Format diese Informationen vorliegen sollen.
+In der Vollanzeige des Titels und in den verschiedenen Anzeigeformaten wird deutlich, dass die filmografischen Daten und damit die Metadaten zu den Titeln einer bestimmten Struktur, einem bestimmten Modell folgen. Auf die Funktion und auf den Aufbau solcher Datenmodelle geht Johanna Drucker ein {cite}`c-Drucker_2021`. Sie weist darauf hin, dass jede Erzeugung von Daten eine Modellierung beinhaltet. Durch ein Modell wird festgelegt, was als Merkmal des Datenobjekts – hier des jeweiligen Films – aufgeführt wird, d.h. was für die Charakterisierung als notwendig erachtet wird. Zudem muss entschieden werden, in welchem Format diese Informationen vorliegen sollen.
 
-Mit Bezug auf Herbert Stachowiak führt Fotis Jannidis genauer aus, was mit dem Oberbegriff "Modell" gemeint ist. {cite}`c-Jannidis_2017` Er nennt drei Aspekte:
+Mit Bezug auf Herbert Stachowiak führt Fotis Jannidis genauer aus, was mit dem Oberbegriff "Modell" gemeint ist {cite}`c-Jannidis_2017`. Er nennt drei Aspekte:
 
 ```{admonition} Aspekte eines Modells
 :class: keypoint
@@ -53,13 +70,13 @@ Mit Bezug auf Herbert Stachowiak führt Fotis Jannidis genauer aus, was mit dem 
 - Ein Modell hat einen oder mehrere Verwendungszwecke.
 ```
 
-Dass eine Auswahl aus Merkmalen getroffen wird, impliziert auch, dass Modelle und damit Datenmodelle, wie schon im Abschnitt zu [Metadaten](/recherche/metadaten) ausgeführt, bestimmte Weltanschauungen, Werte und Werturteile enthalten. {cite}`c-Drucker_2021` 
+Dass eine Auswahl aus Merkmalen getroffen wird, impliziert auch, dass Modelle und damit Datenmodelle, wie schon im Abschnitt zu [Metadaten](/recherche/metadaten) ausgeführt, bestimmte Weltanschauungen, Werte und Werturteile enthalten {cite}`c-Drucker_2021`.
 
 ## Analyse des Modells als Ausgangspunkt
 
 Bevor existierende Daten – in dieser Fallstudie die Daten zu den Filmen aus dem OPAC der Filmuniversität – verwendet werden, sollte daher nach Drucker immer das zugrundeliegende Modell analysiert und verstanden werden. Welche Merkmale wurden aufgenommen? Fehlen evtl. bestimmte Merkmale? Wie sind Felder benannt und welche Klassifikationssysteme sind erkennbar?
 
-Eine tiefgreifende Analyse des Datenmodells und der Struktur der OPAC-Daten kann an dieser Stelle nicht erfolgen. Auf Teile dieses Themenbereichs wird im folgenden Abschnitt zur Analyse der [Datenquelle](datenquelle) und im Abschnitt [Datenbereinigung](openRefine/0_datenbereinigung) nochmals eingegangen. Einen ausführlichen Überblick über die Prozesse bei der Erschließung von Metadaten zu Filmen für Kataloge liefert Anna Bohn. {cite}`c-Bohn_2018` 
+Eine tiefgreifende Analyse des Datenmodells und der Struktur der OPAC-Daten kann an dieser Stelle nicht erfolgen. Auf Teile dieses Themenbereichs wird im folgenden Abschnitt zur Analyse der [Datenquelle](datenquelle) und im Abschnitt [Datenbereinigung](openRefine/0_datenbereinigung) nochmals eingegangen. Einen ausführlichen Überblick über die Prozesse bei der Erschließung von Metadaten zu Filmen für Kataloge liefert Anna Bohn {cite}`c-Bohn_2018`.
 
 Da es sich bei den OPAC-Daten um Daten aus einer existierenden Datenbank handelt, liegen diese in einer strukturierten Form vor. Aus der Vollanzeige des Titels im Bibliothekskatalog wird etwa deutlich, dass der Datensatz Informationen zu beteiligten Personen, Titel, Jahr und Format enthalten sollte. Zudem sind Schlagworte, Stichwörter und eine Inhaltsbeschreibung aufgeführt. Es zeigt sich jedoch auch, dass in einem Feld häufig mehrere Einträge aufgeführt werden. In dem jeweiligen Feld für "sonstige Personen" ist z.B. sowohl der Name der Person als auch deren Funktion(en) eingetragen (z.B. Regie, Drehbuch, Kamera, Darsteller:in etc.). Und das Feld "Umfang/Format" führt neben dem Filmformat (16mm, 35mm etc.) u.a. die Dauer in Minuten auf. ({numref}`opac_ausschnitt_vollanzeige`)
 
@@ -78,7 +95,7 @@ Felder in der Vollansicht eines Eintrags des Bibliothekskatalogs
 ````{margin} 
 ```{admonition} Hinweis
 :class: hinweis
-Weitere Hinweise darauf, was eine effiziente Datenstruktur auszeichnet, finden sich bei <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/20_Datenstruktur.html#" target="_blank">Fallstudie I - Tabelle</a>. 
+Weitere Hinweise darauf, was eine effiziente Datenstruktur auszeichnet, finden sich bei <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/6_1_Datenstruktur.html" target="_blank">Fallstudie I - Tabelle</a>. 
 ```
 ````
 
@@ -92,7 +109,7 @@ Bereitet man die Daten zu den Filmen in Form einer Tabelle auf, enthält eine Ze
 ```
 
 
-[^1]: Auf die genaue Funktionsweise von "Web Scraping" und die damit verbundenen rechtlichen und ethischen Fragen einzugehen, würde hier zu weit führen. Einen ersten Überblick liefert der <a href="https://de.wikipedia.org/wiki/Screen_Scraping" target="_blank">Wikipedia-Artikel</a> zum Thema.
-[^2]: Die genauen Unterschiede zwischen verschiedenen Dateitypen, in denen Datensätze vorliegen (z.B. csv oder tsv), werden hier nicht weiter behandelt. Im Abschnitt zur [Datenbereinigung](openRefine/0_datenbereinigung) werden diese noch genauer dargestellt.
+[^1]: Auf die genaue Funktionsweise von "Web Scraping" einzugehen, würde hier zu weit führen. Einen ersten Überblick liefert der <a href="https://de.wikipedia.org/wiki/Screen_Scraping" class="external-link" target="_blank">Wikipedia-Artikel</a> zum Thema.
+[^2]: Die genauen Unterschiede zwischen verschiedenen Dateitypen, in denen Datensätze vorliegen (z.B. csv oder tsv), werden hier nicht weiter behandelt. Im Abschnitt zur [Datenbereinigung](../bereinigung/openRefine/2_import.md/) werden diese noch genauer dargestellt.
 
 
