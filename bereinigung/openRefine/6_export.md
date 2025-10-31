@@ -43,3 +43,6 @@ Das Menü *custom tabular*
 Über den Button *Preview* können Sie eine Vorschau des Datensatzes ansehen, die sich in einem neuen Fenster öffnet. Sind sie zufrieden, kann der bereinigte Datensatz mit einem Klick auf den *Download* Button heruntergeladen und abgespeichert werden.
 
 Damit ist die Bereinigung des Datensatzes erfolgreich abgeschlossen!
+
+Sie können Ihre Ergebnisse mit [dieser Musterlösung des *OpenRefine*-Projekts](../../assets/daten/Synthetischer_Datensatz_Uebung_OER_final.tar) und [dieser TSV-Exportdatei](../../assets/daten/Synthetischer_Datensatz_Uebung_OER_final.tsv) (rechte Maustaste und *Ziel speichern unter* auswählen) vergleichen.
+
