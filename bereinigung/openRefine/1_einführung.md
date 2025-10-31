@@ -37,5 +37,10 @@ Zum Beenden von *OpenRefine* schließen Sie zunächst alle Tabs des Browsers in 
 
 Zusätzliche Informationen zur Installationen und den Systemvoraussetzungen finden Sie auf <a href="https://openrefine.org/docs/manual/installing" class="external-link" target="_blank">dieser Seite der OpenRefine Dokumentation</a>.
 
-[^1]: Eine Auflistung der mit *OpenRefine* einlesbaren Datenformate und Quellen findet sich in Abschnitt [Vorbereitung und Import des Datensatzes](2_import.md) und in der <a href="https://openrefine.org/docs/manual/starting" class="external-link" target="_blank">*OpenRefine* Dokumentation</a>. 
+# Limitierungen
 
+Neben OpenRefine wurde bei der Bereinigung des originalen Datensatzes auch die Programmiersprache *Python* genutzt, um die grundlegende Struktur des Datensatzes zu ändern. Zwar wären diese Änderungen auch innerhalb von OpenRefine möglich gewesen, jedoch auch mit einem erheblich höheren, manuellen Aufwand und entsprechend hoher Fehleranfälligkeit verbunden. So ist es etwa in OpenRefine nicht möglich, auf der Grundlage von Spalten-übergreifenden Regeln neue Spalten zu erstellen oder Einträge zu verschieben. Die Stärke von *OpenRefine* liegt weniger in solchem <a href="https://en.wikipedia.org/wiki/Data_wrangling" class="external-link" target="_blank">*Data wrangling*/a>, als vielmehr in der genauen Bereinigung der Einträge selbst. 
+
+Eine genaue Einführung in die Programmierung mit *Python* ist im Rahmen dieser OER nicht zielführend. Als Einführung zu *Python* und der Arbeit mit Datensätzen ist der Kurs <a href="https://programming-24.mooc.fi" class="external-link" target="_blank"> "Python Programming MOOC 2024"</a> der Universität Helsinki zu empfehlen.
+
+[^1]: Eine Auflistung der mit *OpenRefine* einlesbaren Datenformate und Quellen findet sich in Abschnitt [Vorbereitung und Import des Datensatzes](2_import.md) und in der <a href="https://openrefine.org/docs/manual/starting" class="external-link" target="_blank">*OpenRefine* Dokumentation</a>. 

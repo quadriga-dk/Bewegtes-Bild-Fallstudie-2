@@ -25,8 +25,6 @@ Die Ziele der Datenbereinigung werden bereits im Abschnitt zum [Datenmodell](../
 
 Für eine solche Bereinigung des Datensatzes unserer Fallstudie sind zahlreiche Bearbeitungsschritte notwendig, die wir hier nicht alle darstellen und für Sie nachvollziehbar machen können. Dieses Vorgehen wäre zu kleinteilig und würde das Verständnis des Ablaufs eines Bereinigungsprozesses erschweren. Wir beschränken uns daher auf einige exemplarische Schritte bei der Bereinigung mit *OpenRefine*. Diese wurden jedoch so ausgewählt, dass das Vorgehen auch auf Probleme übertragen werden kann, die bei der Bearbeitung anderer Datensätze auftreten. Zudem verweisen wir im Folgenden auf passende weiterführende Informationen in der <a href="https://openrefine.org/docs" class="external-link" target="_blank">*OpenRefine* Dokumentation</a>.
 
-Neben OpenRefine wurde bei der Bereinigung des originalen Datensatzes auch die Programmiersprache *Python* genutzt. Eine genaue Einführung in die Pythonprogrammierung ist im Rahmen dieser OER nicht zielführend. Als Einführung zu *Python* und der Arbeit mit Datensätzen ist der Kurs <a href="https://programming-24.mooc.fi" class="external-link" target="_blank"> "Python Programming MOOC 2024"</a> der Universität Helsinki zu empfehlen.
-
 
 <span style="font-size:24pt;">Datenbasis und synthetische Datensätze</span>
 
