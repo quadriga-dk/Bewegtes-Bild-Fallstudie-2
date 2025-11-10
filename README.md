@@ -1,6 +1,6 @@
-# QUADRIGA OER 
+# Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)
 
-## Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)
+## QUADRIGA OER 
 
 Dieses interaktive Lehrbuch ist im Rahmen des Projekts <a href="https://www.quadriga-dk.de" class="external-link" target="_blank">QUADRIGA</a> als 2. Fallstudie des Datentyps Bewegtes Bild entstanden.
 
