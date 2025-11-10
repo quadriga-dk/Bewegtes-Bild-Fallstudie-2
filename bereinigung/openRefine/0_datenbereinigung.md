@@ -1,5 +1,5 @@
 # Datenbereinigung
-Im letzten Abschnitt wird deutlich, dass unser Datensatz zu den studentischen Filmen im Archiv der Filmuniversität inkonsistent ist und z.B. Doppelungen enthält. Daher muss der Datensatz noch **bereinigt** werden. Erst dann kann er fundiert ausgewertet werden. Für diesen Prozess stehen verschiedene Softwarelösungen zur Verfügung. So können mit <a href="https://www.microsoft.com/de-de/microsoft-365/excel?market=de" class="external-link" target="_blank">*Microsoft Excel*</a> Schritte der Datenbereinigung durchgeführt werden. Das Programm ist zwar kostenpflichtig, viele haben es jedoch bereits auf ihren Computern installiert. Zudem existieren zahlreiche kommerzielle Produkte, die speziell für die Vorbereitung von Datensätzen zur Auswertung mit digitalen Tools entwickelt wurden – wie z.B. <a href="https://www.tableau.com/de-de/products/prep" class="external-link" target="_blank">*Tableau Prep*</a>.
+Im letzten Abschnitt wird deutlich, dass unser Datensatz zu den studentischen Filmen im Archiv der Filmuniversität inkonsistent ist und z.B. Doppelungen enthält. Daher muss der Datensatz noch **bereinigt** werden. Erst dann kann er fundiert hinsichtlich der Fragestellung unserer Fallstudie ausgewertet werden. Für diesen Prozess stehen verschiedene Softwarelösungen zur Verfügung. So können mit <a href="https://www.microsoft.com/de-de/microsoft-365/excel?market=de" class="external-link" target="_blank">*Microsoft Excel*</a> Schritte der Datenbereinigung durchgeführt werden. Das Programm ist zwar kostenpflichtig, viele haben es jedoch bereits auf ihren Computern installiert. Zudem existieren zahlreiche kommerzielle Produkte, die speziell für die Vorbereitung von Datensätzen zur Auswertung mit digitalen Tools entwickelt wurden – wie z.B. <a href="https://www.tableau.com/de-de/products/prep" class="external-link" target="_blank">*Tableau Prep*</a>.
 
 Für die Bereinigung des Datensatzes zu unserer Fallstudie haben wir mit <a href="https://openrefine.org/" class="external-link" target="_blank">*OpenRefine*</a> gearbeitet, einer frei zugänglichen Open-Source-Software, die speziell für die Datenbereinigung entwickelt wurde. Sie weist einen großen Funktionsumfang auf und verfügt über eine hilfreiche <a href="https://openrefine.org/docs" class="external-link" target="_blank">Dokumentation</a>. Die grundlegenden Schritte zur Bedienung des Programms sind leicht erlernbar.
 
@@ -28,7 +28,7 @@ Für eine solche Bereinigung des Datensatzes unserer Fallstudie sind zahlreiche 
 
 <span style="font-size:24pt;">Datenbasis und synthetische Datensätze</span>
 
-Die Datenbasis für die Bereinigung bildet ein Auszug aus der OPAC-Datenbank, den wir vom Systembibliothekar der Universitätsbibliothek erhalten haben. Der Auszug liegt uns als Datei im tsv-Format vor (siehe auch Kapitel [Datenformte](/bereinigung/openRefine/2_import.md#datenformate)) und enthält sämtliche OPAC-Einträge für unser Korpus aus dem Untersuchungszeitraum – also zu den studentischen Filmen der Jahre 1985 bis 1999 aus dem Filmarchiv der Filmuniversität. Auf der Grundlage dieser Datenbasis haben wir die Daten bereinigt.
+Die Datenbasis für die Bereinigung bildet ein [Auszug aus der OPAC-Datenbank](/bereinigung/modell.md#auszug-aus-der-datenbank-des-bibliothekskatalogs), den wir vom Systembibliothekar der Universitätsbibliothek erhalten haben. Der Auszug liegt uns als Datei im tsv-Format vor (siehe auch Kapitel [Datenformte](/bereinigung/openRefine/2_import.md#datenformate)) und enthält sämtliche OPAC-Einträge für unser Korpus aus dem Untersuchungszeitraum – also zu den studentischen Filmen der Jahre 1985 bis 1999 aus dem Filmarchiv der Filmuniversität. Auf der Grundlage dieser Datenbasis haben wir die Daten bereinigt.
 
 ```{admonition} Achtung
 :class: caution
@@ -41,10 +41,21 @@ Daher ist es uns leider nicht möglich, die Datenbasis oder den bereinigten Date
 
 In diesem Kapitel wollen wir dennoch die wichtigsten Schritte einer Datenbereinigung mit *OpenRefine* anhand eines Beispiels darstellen und für Sie nachvollziehbar machen. Daher haben wir vom bereinigten Originaldatensatz ausgehend einen **synthetischen Datensatz** erstellt, in dem ein Personenbezug nicht mehr besteht. Für diesen Datensatz haben wir die Filmtitel und die Namen der Personen durch fiktive Einträge ersetzt. Die Zuordnung der fiktiven Personennamen zu den fiktiven Filmtiteln wurde zufällig vorgenommen, ebenso wurden Schlagworte und Stichworte nach dem Zufallsprinzip durchmischt. Die proportionale Verteilung einzelner Einträge innerhalb eines Jahres sollte dabei annäherungsweise erhalten bleiben.
 
+````{margin} 
+```{admonition} Links zum Download
+:class: hinweis
+Link zum Download des [synthetischen Auswertungsdatensatzes](/assets/daten/Synthetischer_Datensatz_Auswertung_OER.tsv)
+
+Link zum Download des [synthetischen Übungsdatensatzes](/assets/daten/Synthetischer_Datensatz_Uebung_OER.tsv)
+
+Die Links finden sich auch in den Kapiteln der OER, in denen mit den Datensätzen gearbeitet wird.
+```
+````
+
 ```{admonition} Synthetische Datensätze
 :class: keypoint
 Auf dieser Grundlage haben sich zwei synthetische Datensätze für den weiteren Einsatz in der OER ergeben
-* ein **synthetischer Auswertungsdatensatz**, der dem bereinigten Originaldatensatz in seiner Struktur nachgebildet ist und im Kapitel zur [Datenauswertung und Datenvisualisierung](/auswertung/visualisierung.md) zum Einsatz kommen wird
+* ein **synthetischer Auswertungsdatensatz**, der dem bereinigten Originaldatensatz in seiner Struktur nachgebildet ist und im Kapitel zur [Datenauswertung und Datenvisualisierung](/auswertung/toc.md) zum Einsatz kommen wird
 * ein **synthetischer Übungsdatensatz**, der für die Darstellung der Arbeitsschritte mit *OpenRefine* bei der Datenbereinigung verwendet wird und auf dem Auswertungsdatensatz basiert.
 
 Beide synthetischen Datensätze stellen wir für Übungszwecke zum Download zur Verfügung.
