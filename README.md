@@ -7,7 +7,7 @@ Dieses interaktive Lehrbuch ist im Rahmen des Projekts <a href="https://www.quad
 ## Datenkompetenzzentrum QUADRIGA
 
 QUADRIGA ist das Berlin-Brandenburgische Datenkompetenzzentrum für Digital Humanities, Verwaltungswissenschaften, Informatik und Informationswissenschaft. 
-Es wird gefördert im Rahmen der <a href="https://www.bmbf.de/SharedDocs/Bekanntmachungen/DE/2022/06/2022-06-21-Bekanntmachung-Datenkompetenzzentren.html" class="external-link" target="_blank">Richtlinie</a> zur Förderung von Projekten zum Aufbau von Datenkompetenzzentren in der Wissenschaft des Bundesministeriums für Bildung und Forschung.
+Es wird gefördert im Rahmen der <a href="https://www.bmftr.bund.de/DE/Forschung/Wissenschaftssystem/Forschungsdaten/DatenkompetenzenInDerWissenschaft/datenkompetenzeninderwissenschaft_node.html" class="external-link" target="_blank">Richtlinie</a> zur Förderung von Projekten zum Aufbau von Datenkompetenzzentren in der Wissenschaft des Bundesministeriums für Forschung, Technologie und Raumfahrt (BMFTR, vormals BMBF).
 Anhand modellhafter Forschungsfragen werden für die drei Datentypen Bewegtes Bild, Tabelle und Text Fallstudien entworfen, die Forschenden der angesprochenen Fachrichtungen Kompetenzen im Bereich der Datenanwendung disziplinspezifisch näher bringen.
 
 ## Nutzung dieser OER
