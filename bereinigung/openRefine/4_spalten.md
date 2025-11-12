@@ -41,7 +41,7 @@ alt: Text Facet der Spalte Column 8 des Übungsdatensatzes
 ```
 
 Diese Spalte soll nun gelöscht werden. 
-Öffnen Sie dazu das Dropdown-Menü der Spalte, wählen Sie *Edit column* aus und anschließend *Remove column*.
+Öffnen Sie dazu das Dropdown-Menü der Spalte, wählen Sie *Edit column* aus und anschließend *Remove this column*.
 
 ```{figure} ../../assets/bereinigung/openRefine/spalten/remove_column.png
 ---
@@ -113,7 +113,7 @@ alt: Der Button zum Extrahieren der Arbeitsschritte
 Der Button zum Extrahieren der Arbeitsschritte
 ```
 
-In dem sich öffnenden *Extract*-Fenstern können durch setzen eines Hakens einzelne Schritte ausgewählt werden, die Teil des *JSON*-Exports auf der rechten Seite werden sollen. Standardmäßig werden alle Schritte ausgewählt. Durch einen Klick auf *Export* können Sie die *JSON*-Datei herunterladen. Alternativ können Sie den Inhalt im rechten Feld auch in die Zwischenablage kopieren, um ihn nach einem späteren oder früheren *Undo/Redo* Schritt anzuwenden oder in ein anderes OpenRefine-Projekt einzufügen.
+In dem sich öffnenden *Extract*-Fenstern können durch setzen eines Hakens einzelne Schritte ausgewählt werden, die Teil des *JSON*-Exports auf der rechten Seite werden sollen. Standardmäßig werden alle Schritte ausgewählt. Durch einen Klick auf *Export* können Sie die *JSON*-Datei herunterladen. Alternativ können Sie den Inhalt im rechten Feld auch in die Zwischenablage kopieren, um ihn nach einem späteren oder früheren *Undo/Redo* Schritt anzuwenden oder in ein anderes *OpenRefine*-Projekt einzufügen.
 
 ```{figure} ../../assets/bereinigung/openRefine/spalten/undoRedo_extract.png
 ---
