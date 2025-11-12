@@ -187,7 +187,7 @@ alt: Create Project
 ---
 *Create Project*
 ```
-Es öffnet sich das Hauptfenster von *OpenRefine*, in dem Sie während der Bereinigung eines Datensatzes die meiste Zeit verbringen werden. Falls Sie direkt mit dem Übungsdatensatz weiterarbeiten möchten, können Sie die folgenden Ausführungen überspringen und mit dem Abschnitt zur [Sichtung des Datensatzes](3_sichtung.md) fortfahren. Es lohnt sich dennoch, die einzelnen Einstellungsmöglichkeiten kurz zu erläutern, da sie für das Einlesen komplexer strukturierter Datensätze nützlich sein können.
+Es öffnet sich das [Hauptfenster](/bereinigung/openRefine/3_sichtung.md) von *OpenRefine*, in dem Sie während der Bereinigung eines Datensatzes die meiste Zeit verbringen werden. Falls Sie direkt mit dem Übungsdatensatz weiterarbeiten möchten, können Sie die folgenden Ausführungen überspringen und mit dem Abschnitt zur [Sichtung des Datensatzes](3_sichtung.md) fortfahren. Es lohnt sich dennoch, die einzelnen Einstellungsmöglichkeiten kurz zu erläutern, da sie für das Einlesen komplexer strukturierter Datensätze nützlich sein können.
 
 ## Die Importeinstellungen im Überblick
 
