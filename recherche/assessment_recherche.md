@@ -35,7 +35,7 @@ Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses 
 
 Viel Erfolg!
 ````
-### Aufgabe 1
+## Aufgabe 1
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -84,7 +84,7 @@ multiple_choice1 = [{
 display_quiz(multiple_choice1, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 2
+## Aufgabe 2
 
 **Szenario:** Sie möchten eine eigene Fallstudie zu studentischen Animationsfilmen der 1990er Jahre realisieren. Beschreiben Sie systematisch Ihr Vorgehen bei der Materialrecherche und wie Sie diese Recherche im OPAC der Filmuniversität durchführen.
 
@@ -130,7 +130,7 @@ create_answer_box('Assessment-1')
 ````
 
 
-### Aufgabe 3
+## Aufgabe 3
 
 Analysieren Sie anhand des Beispiels von Lotte Reiniger {cite}`bb-Dang_Junginger_2024` die Problematik der vermeintlichen "Neutralität" von Metadaten. Gehen Sie dabei auf folgende Aspekte ein:
 
@@ -166,7 +166,7 @@ create_answer_box('Assessment_C-3')
 - Notwendigkeit der Kontextualisierung und Reflexion der Entstehungsbedingungen
 ````
 
-### Aufgabe 4
+## Aufgabe 4
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -205,7 +205,7 @@ quiz.create_matching_quiz(
 )
 ```
 
-### Aufgabe 5
+## Aufgabe 5
 
 Vergleichen Sie die Herangehensweise dieser Fallstudie („Studentische Filme der Filmuniversität zur Wendezeit") mit einer hypothetischen Studie zu "Studentischen Filmen während der COVID-19-Pandemie (2020–2022)". Analysieren Sie:
 
