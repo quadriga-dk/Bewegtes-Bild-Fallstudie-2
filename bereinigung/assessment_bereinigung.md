@@ -32,18 +32,13 @@ Sie können die Fragen in beliebiger Reihenfolge bearbeiten und die Beantwortung
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels nochmals zu bearbeiten. 
 
-**Geschätzte Zeit**: XX
+**Geschätzte Zeit**: 20 Minuten
 
 Viel Erfolg!
 ````
-### Aufgabe 1
 
-```{code-cell} ipython3
-:tags: [remove-input]
-display_quiz("../assets/assessment/bereinigung/bereinigung_quiz.json", colors = colors.jupyterquiz)
-```
 
-### Aufgabe 2
+## Aufgabe 1
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -53,7 +48,7 @@ sys.path.append("..")
 from quadriga import colors
 
 multiple_choice1 = [{
-    "question": """Nach Stachowiak und Jannidis (2017) - welche drei Aspekte charakterisieren ein Modell? (Mehrere Antworten erforderlich)""",
+    "question": """Nach Stachowiak und Jannidis (2017) - welche Aspekte charakterisieren ein Modell?""",
     "type": "multiple_choice",
     "answers": [
         {
@@ -82,7 +77,7 @@ multiple_choice1 = [{
 display_quiz(multiple_choice1, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 3
+## Aufgabe 2
 
 Bewerten Sie folgende Aussagen zu Datenmodellen:
 
@@ -100,7 +95,7 @@ true_false1 = [{
         {
             "answer": "Falsch",
             "correct": True,
-            "feedback": """✓ Korrekt! Nach Drucker (2021) enthalten Datenmodelle bestimmte Weltanschauungen, Werte und Werturteile."""
+            "feedback": """✓ Korrekt! Nach Drucker enthalten Datenmodelle bestimmte Weltanschauungen, Werte und Werturteile."""
         },
         {
             "answer": "Richtig",
@@ -154,7 +149,7 @@ true_false3 = [{
         {
             "answer": "Richtig",
             "correct": True,
-            "feedback": """✓ Korrekt! Modelle sind nicht neutral, sondern spiegeln bestimmte Perspektiven wider"""
+            "feedback": """✓ Korrekt! Modelle sind nicht neutral, sondern spiegeln bestimmte Perspektiven wider."""
         },
         {
             "answer": "Falsch",
@@ -181,7 +176,7 @@ true_false4 = [{
         {
             "answer": "Richtig",
             "correct": True,
-            "feedback": """✓ Korrekt! Modelle definieren, was als notwendig für die Charakterisierung eines Datenobjekts erachtet wird"""
+            "feedback": """✓ Korrekt! Modelle definieren, was als notwendig für die Charakterisierung eines Datenobjekts erachtet wird."""
         },
         {
             "answer": "Falsch",
@@ -208,7 +203,7 @@ true_false5 = [{
         {
             "answer": "Falsch",
             "correct": True,
-            "feedback": """✓ Korrekt! Daten sind "gemacht“ und nicht „gegeben“ - sie unterliegen bestimmten Konstruktionsprozessen"""
+            "feedback": """✓ Korrekt! Daten sind "gemacht“ und nicht „gegeben“ - sie unterliegen bestimmten Konstruktionsprozessen."""
         },
         {
             "answer": "Richtig",
@@ -235,7 +230,7 @@ true_false6 = [{
         {
             "answer": "Richtig",
             "correct": True,
-            "feedback": """✓ Korrekt! Drucker empfiehlt die Analyse des Modells vor der Nutzung; nur bei einem Verständnis des zugrundeliegenden Modelles ist eine sinnvolle Arbeit mit Daten möglich"""
+            "feedback": """✓ Korrekt! Drucker empfiehlt die Analyse des Modells vor der Nutzung; nur bei einem Verständnis des zugrundeliegenden Modelles ist eine sinnvolle Arbeit mit Daten möglich."""
         },
         {
             "answer": "Falsch",
@@ -249,7 +244,7 @@ display_quiz(true_false6, colors=colors.jupyterquiz)
 ```
 
 
-### Aufgabe 4
+## Aufgabe 3
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -259,7 +254,7 @@ sys.path.append("..")
 from quadriga import colors
 
 multiple_choice3 = [{
-    "question": """Welche Aussagen zum OPAC der Filmuniversität sind korrekt? (Mehrere Antworten möglich)""",
+    "question": """Welche Aussagen zum OPAC der Filmuniversität sind korrekt?""",
     "type": "multiple_choice",
     "answers": [
         {
@@ -270,7 +265,7 @@ multiple_choice3 = [{
         {
             "answer": "Die Reihenfolge der Gewerke folgt einer bibliotheksinternen Systematik",
             "correct": True,
-            "feedback": """✓ Richtig: Die Reihung der Gewerke in den OPAC-Einträgen zu den Filmtiteln folgt einer bibliotheksintern festgelegten einheitlichen Abfolge."""
+            "feedback": """✓ Richtig: Die Reihung der Gewerke in den OPAC-Einträgen zu den Filmtiteln folgt einer bibliotheksintern festgelegten Abfolge."""
         },
         {
             "answer": "Pro Film können maximal 25 Personen erfasst werden",
@@ -288,7 +283,7 @@ multiple_choice3 = [{
 display_quiz(multiple_choice3, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 5
+## Aufgabe 4
 
 **Szenario:** Sie erhalten einen OPAC-Datenauszug mit folgenden Beispieleinträgen:
 
@@ -302,7 +297,7 @@ Schlagwort: Spielfilm ; Drama/A
 Stichwörter: Wende, Provinz, Theater, Kleinstadt
 ```
 
-Analysieren Sie diese Datenstruktur systematisch:
+Analysieren Sie diese Datenstruktur:
 1. Identifizieren Sie Probleme für die maschinelle Auswertung
 2. Bewerten Sie die Datenqualität des Auszugs
 
@@ -324,7 +319,7 @@ create_answer_box('Assessment_4')
 - Komma wird auch als Zeichen in Einträgen verwendet (z.B. Personenangabe Nachname, Vorname)
 - Gemischte Informationstypen in einem Feld (Format, Länge, Dauer, etc. in Umfang/Format)
 - Strukturierte und unstrukturierte Informationen sind vermischt
-- Leerzeichen um Trennzeichen sind inkonsistent
+- Leerzeichen um die Trennzeichen sind inkonsistent
 
 **2. Beurteilung der Datenqualität:**
 - Eine ID ist vorhanden, dies ist wichtig für die eindeutige Identifikation eines Eintrages
@@ -335,7 +330,7 @@ create_answer_box('Assessment_4')
 - Technische Angaben zum Filmwerk sind vorhanden
 ````
 
-### Aufgabe 6
+## Aufgabe 5
 
 **Szenario:** In einem Datensatz finden Sie folgende problematische Jahresangaben:
 
@@ -347,10 +342,10 @@ ca. 1997
 1999
 ```
 
-Entwickeln Sie eine systematische Bereinigungsstrategie mit OpenRefine:
+Entwickeln Sie eine systematische Bereinigungsstrategie mit *OpenRefine*:
 1. Identifizierung der Probleme 
 2. Notwendige Bereinigungsschritte 
-3. Verwendung geeigneter OpenRefine-Funktionen
+3. Verwendung geeigneter *OpenRefine*-Funktionen
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -375,18 +370,18 @@ create_answer_box('Assessment_-5')
 - Entfernung der Zusätze (eckige Klammern)
 - Normalisierung der Trennzeichen (z.B. ; statt / oder -)
 - Ergänzung abgekürzter Jahreszahlen
-- Neue Spalte für Schätzungsangaben erstellen (contains-Methode)
+- Neue Spalte für Schätzungsangaben erstellen
 - Aufteilung in separate Jahresspalten
 
 **3. OpenRefine-Funktionen:**
 - Text Facet für Übersicht
 - Cluster für ähnliche Einträge
-- GREL Transform für Bereinigung (replace- und contains-Methode)
+- GREL-Funktionen für Bereinigungen (replace- und contains-Methode)
 - „Add column based on this column" für neue Spalte für Schätzungen
-- „Split into several columns" für Aufteilung der Spalten
+- „Split into several columns" für Aufteilung in mehrere Spalten
 ````
 
-### Aufgabe 7
+## Aufgabe 6
 
 Bewerten Sie folgende Aussagen zu OpenRefine:
 
@@ -526,7 +521,7 @@ display_quiz(true_false5, colors=colors.jupyterquiz)
 ```
 
 
-### Aufgabe 8
+## Aufgabe 7
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -536,7 +531,7 @@ sys.path.append("..")
 from quadriga import colors
 
 multiple_choice7 = [{
-    "question": """Welche Aussagen zu Datenformaten sind korrekt? (Mehrere Antworten möglich)""",
+    "question": """Welche Aussagen zu Datenformaten sind korrekt?""",
     "type": "multiple_choice",
     "answers": [
         {
@@ -565,7 +560,7 @@ multiple_choice7 = [{
 display_quiz(multiple_choice7, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 9
+## Aufgabe 8
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -575,7 +570,7 @@ sys.path.append("..")
 from quadriga import colors
 
 single_choice8 = [{
-    "question": """Welche Aussage zu Facets ist NICHT korrekt? (Eine Antwort)""",
+    "question": """Welche Aussage zu Facets ist NICHT korrekt?""",
     "type": "multiple_choice",
     "answers": [
         {
@@ -604,7 +599,7 @@ single_choice8 = [{
 display_quiz(single_choice8, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 10
+## Aufgabe 9
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -614,7 +609,7 @@ sys.path.append("..")
 from quadriga import colors
 
 multiple_choice9 = [{
-    "question": """Welche Aussagen zu GREL sind korrekt? (Mehrere Antworten möglich)""",
+    "question": """Welche Aussagen zu GREL sind korrekt?""",
     "type": "multiple_choice",
     "answers": [
         {
@@ -643,7 +638,7 @@ multiple_choice9 = [{
 display_quiz(multiple_choice9, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 11
+## Aufgabe 10
 
 Bewerten Sie folgende Aussagen zu GREL-Methoden:
 
