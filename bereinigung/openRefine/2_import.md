@@ -46,6 +46,13 @@ Hier kommt nun *OpenRefine* ins Spiel.
 
 ## Import des Datensatzes in *OpenRefine*
 
+````{margin} 
+```{admonition} Link zum Download
+:class: hinweis
+Link zum Download des [synthetischen Übungsdatensatzes](/assets/daten/Synthetischer_Datensatz_Uebung_OER.tsv)
+```
+````
+
 Die Schritte zur Bereinigung eines Datensatzes werden in diesem Kapitel exemplarisch anhand des Übungsdatensatzes **Synthetischer_Datensatz_Uebung_OER.tsv** erläutert, der bereits in der [Einleitung zur Datenbereinigung](./0_datenbereinigung.md) vorgestellt wurde. Sie können den Datensatz [hier](../../assets/daten/Synthetischer_Datensatz_Uebung_OER.tsv) herunterladen (falls der Download nicht per Klick auf den Link starten sollte: rechte Maustaste und *Ziel speichern unter* auswählen).
 
 ````{margin} 
