@@ -15,7 +15,10 @@ Auf den Export eines *OpenRefine*-Projekts wurde bereits im Kapitel zur [Sichtun
 
 Im Folgenden soll auf das Vorgehen beim Export des Datensatzes als Textdatei eingegangen werden – also genau jenes Format, in dem der Übungsdatensatz auch zu Beginn vorlag. Textdateien sind programm-unspezifisch und das Standardformat bei der Veröffentlichung von Datensätzen.
 
-Wird im oben gezeigten Menü der Export als **CSV**, also als Textdatei mit *Comma-separated values*, ausgewählt, ergänzt *OpenRefine* automatisch Anführungszeichen am Anfang und am Ende von Einträgen, die ebenfalls ein Komma enthalten. Ggf. werden diese aber von anderen Programmen nicht korrekt interpretiert. Daher ist der Export als **TSV** (*Tab-seperated value*) oder mittels einem ungewöhnlichem Sonderzeichen wie dem *Pipe* `|` als Trennungszeichen die bessere Option. Wählen Sie für letzteres den Menüpunkt *Custom tabular...* aus.
+Wird im oben gezeigten Menü der Export als **CSV**, also als Textdatei mit *Comma-separated values*, ausgewählt, ergänzt *OpenRefine* automatisch Anführungszeichen am Anfang und am Ende von Einträgen, die ebenfalls ein Komma enthalten. Ggf. werden diese aber von anderen Programmen nicht korrekt interpretiert. Daher ist der Export als **TSV** (*Tab-seperated value*) die bessere Option. Bei der Auswertung des Datensatzes werden wir ebenfalls mit einer *TSV*-Datei arbeiten. Wählen sie hierfür im *Export*-Menü den Punkt *Tab-seperated value* aus. Es öffnet sich ein Downloadfenster, in dem sie den Dateinamen und den Speicherort der *TSV*-Datei festlegen können.
+
+
+Alternativ kann auch mit einem ungewöhnlichem Sonderzeichen wie dem *Pipe* `|` als Trennungszeichen gearbeitet werden. Wählen Sie für letzteres den Menüpunkt *Custom tabular...* aus.
 
 ```{figure} ../../assets/bereinigung/openRefine/export/export_2.png
 ---
@@ -44,5 +47,5 @@ Das Menü *custom tabular*
 
 Damit ist die Bereinigung des Datensatzes erfolgreich abgeschlossen!
 
-Sie können Ihre Ergebnisse mit [dieser Musterlösung des *OpenRefine*-Projekts](../../assets/daten/Synthetischer_Datensatz_Uebung_OER_final.tar) und [dieser TSV-Exportdatei](../../assets/daten/Synthetischer_Datensatz_Uebung_OER_final.tsv) (rechte Maustaste und *Ziel speichern unter* auswählen) vergleichen.
+Sie können Ihre Ergebnisse mit [dieser Musterlösung des *OpenRefine*-Projekts](../../assets/daten/Synthetischer_Datensatz_Uebung_OER_final.tar) und [dieser TSV-Exportdatei](../../assets/daten/Synthetischer_Datensatz_Uebung_OER_final.tsv) (falls der Download nicht per Klick auf den Link starten sollte: rechte Maustaste und *Ziel speichern unter* auswählen) vergleichen.
 
