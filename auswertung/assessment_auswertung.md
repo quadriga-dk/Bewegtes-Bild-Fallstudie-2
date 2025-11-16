@@ -16,8 +16,6 @@ import sys
 sys.path.append("..")
 from quadriga import colors
 ```
-
-
 # 🏆Selbsttest: Wissen und Praxis
 
 ````{admonition} Hinweis
@@ -33,18 +31,12 @@ Sie können die Fragen in beliebiger Reihenfolge bearbeiten und die Beantwortung
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels nochmals zu bearbeiten. 
 
-**Geschätzte Zeit**: XX
+**Geschätzte Zeit**: 15 Minuten
 
 Viel Erfolg!
 ````
 
-### Aufgabe 1
-```{code-cell} ipython3
-:tags: [remove-input]
-display_quiz("../assets/assessment/auswertung/auswertung_quiz.json", colors = colors.jupyterquiz)
-```
-
-### Aufgabe 2
+## Aufgabe 1
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -54,7 +46,7 @@ sys.path.append("..")
 from quadriga import colors
 
 multiple_choice1 = [{
-    "question": """Welche Aussagen zur Informationsvisualisierung sind korrekt? (Mehrere Antworten möglich)""",
+    "question": """Welche Aussagen zur Informationsvisualisierung sind korrekt?""",
     "type": "multiple_choice",
     "answers": [
         {
@@ -83,7 +75,7 @@ multiple_choice1 = [{
 display_quiz(multiple_choice1, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 3
+## Aufgabe 2
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -97,18 +89,17 @@ quiz = DragDropQuiz()
 quiz.create_matching_quiz(
     title="Ordnen Sie die Beispiele den entsprechenden Funktionen von Visualisierungen zu:",
     descriptions=[
-        "Balkendiagramm zeigt Studienergebnisse / Timeline visualisiert chronologische Entwicklungen für Konferenzteilnehmer",
+        "Eine Timeline visualisiert chronologische Entwicklungen für Konferenzteilnehmer",
         "Verschiedene Grafiken werden erstellt, um eine Hypothese zu Genderverteilungen zu überprüfen",
         "Ein Datensatz wird untersucht, um unbekannte Muster zu entdecken"
     ],
     options=[
         "Präsentation",
         "Konfirmative Analyse", 
-        "Explorative Analyse",
-        "Deskriptive Analyse"
+        "Explorative Analyse"
     ],
     correct_mapping={
-        "Balkendiagramm zeigt Studienergebnisse / Timeline visualisiert chronologische Entwicklungen für Konferenzteilnehmer": "Präsentation",
+        "Eine Timeline visualisiert chronologische Entwicklungen für Konferenzteilnehmer": "Präsentation",
         "Verschiedene Grafiken werden erstellt, um eine Hypothese zu Genderverteilungen zu überprüfen": "Konfirmative Analyse",
         "Ein Datensatz wird untersucht, um unbekannte Muster zu entdecken": "Explorative Analyse"
     }
@@ -116,7 +107,7 @@ quiz.create_matching_quiz(
 ```
 
 
-### Aufgabe 4
+## Aufgabe 3
 
 Bewerten Sie folgende Aussagen zu Visualisierungen und Interpretation:
 
@@ -228,7 +219,7 @@ true_false4 = [{
 display_quiz(true_false4, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 5
+## Aufgabe 4
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -238,7 +229,7 @@ sys.path.append("..")
 from quadriga import colors
 
 multiple_choice4 = [{
-    "question": """Welche Aussagen zu Manovichs Ansätzen sind korrekt? (Mehrere Antworten möglich)""",
+    "question": """Welche Aussagen zu Manovichs Ansätzen sind korrekt?""",
     "type": "multiple_choice",
     "answers": [
         {
@@ -267,9 +258,9 @@ multiple_choice4 = [{
 display_quiz(multiple_choice4, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 6
+## Aufgabe 5
 
-Bewerten Sie Manovichs zwei Schlüsselprinzipien klassischer Informationsvisualisierung:
+Ordnen sie folgende Aussagen in Bezug auf Manovichs Schlüsselprinzipien klassischer Informationsvisualisierung ein:
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -406,7 +397,7 @@ true_false5_5 = [{
 display_quiz(true_false5_5, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 7
+## Aufgabe 6
 
 **Szenario:** Sie sollen für die Fallstudie zu studentischen Filmen (1985–1999) Visualisierungen zu folgenden Teilfragestellungen entwickeln:
 - Zeitliche Verteilung der Filmproduktion
@@ -445,7 +436,7 @@ create_answer_box('Assessment_E-6')
 - Grenzen: Qualität der Metadaten, Interpretation der Kategorisierungen, fehlende Kontextualisierung
 ````
 
-### Aufgabe 8
+## Aufgabe 7
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -455,7 +446,7 @@ sys.path.append("..")
 from quadriga import colors
 
 single_choice7 = [{
-    "question": """Welche Aussage zur "Visualisierung ohne Reduktion" ist korrekt? (Eine Antwort)""",
+    "question": """Welche Aussage zur "Visualisierung ohne Reduktion" ist korrekt?""",
     "type": "multiple_choice",
     "answers": [
         {
@@ -484,58 +475,37 @@ single_choice7 = [{
 display_quiz(single_choice7, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 9
-
-**Tools:**
-1. Gephi
-2. RAWGraphs
-3. Tableau
-4. Excel
-
-**Anwendungsbereiche:**  
-A. Komplexe Netzwerk-Visualisierungen  
-B. Einfache Diagramme und Tabellenkalkulation  
-C. Umfangreiche Datenauswertungen, Visualisierungen und komplexe Dashboards  
-D. Schnelle, webbasierte Visualisierungen verschiedener Datentypen  
+## Aufgabe 8
 
 ```{code-cell} ipython3
 :tags: [remove-input]
-from jupyterquiz import display_quiz
 import sys
-sys.path.append("..")
-from quadriga import colors
+sys.path.append("../quadriga")
+from assessment import DragDropQuiz
 
-multiple_choice8 = [{
-    "question": """Ordnen Sie die Tools ihren typischen Anwendungsbereichen zu:""",
-    "type": "multiple_choice",
-    "answers": [
-        {
-            "answer": "1-A, 2-D, 3-C, 4-B",
-            "correct": True,
-            "feedback": """✓ Ausgezeichnet! Korrekte Zuordnung:
-- Gephi: Wurde als Open Source Tool speziell für die Visualisierung komplexer Netzwerke entwickelt
-- RAWGraphs: Tool für schnelle, webbasierte Visualisierungen ohne Programmierung
-- Tableau: Professionelle Software-Lösung für umfassende Datenanalysen und Dashboards
-- Excel: Grundlegendes Tool für einfache Visualisierungen, es wurde in der Fallstudie verwendet"""
-        },
-        {
-            "answer": "1-B, 2-A, 3-D, 4-C",
-            "correct": False,
-            "feedback": """× Nicht korrekt. Gephi ist speziell für Netzwerk-Visualisierungen entwickelt, nicht für einfache Diagramme."""
-        },
-        {
-            "answer": "1-C, 2-B, 3-A, 4-D",
-            "correct": False,
-            "feedback": """× Nicht korrekt. Tableau ist für umfangreiche Datenauswertungen konzipiert, nicht Gephi."""
-        },
-        {
-            "answer": "1-D, 2-C, 3-B, 4-A",
-            "correct": False,
-            "feedback": """× Nicht korrekt. Überprüfen Sie die spezifischen Stärken der einzelnen Tools."""
-        }
-    ]
-}]
+# Create a quiz instance
+quiz = DragDropQuiz()
 
-display_quiz(multiple_choice8, colors=colors.jupyterquiz)
+quiz.create_matching_quiz(
+    title="""Ordnen Sie die Tools ihren typischen Anwendungsbereichen zu:""",
+    descriptions=[
+        "Komplexe Netzwerk-Visualisierungen",
+        "Einfache Diagramme und Tabellenkalkulation",
+        "Umfangreiche Datenauswertungen, Visualisierungen und komplexe Dashboards",
+        "Schnelle, webbasierte Visualisierungen verschiedener Datentypen"
+    ],
+    options=[
+        "Gephi",
+        "Excel",
+        "Tableau",
+        "RAWGraph"
+    ],
+    correct_mapping={
+        "Komplexe Netzwerk-Visualisierungen": "Gephi",
+        "Einfache Diagramme und Tabellenkalkulation": "Excel",
+        "Umfangreiche Datenauswertungen, Visualisierungen und komplexe Dashboards": "Tableau",
+        "Schnelle, webbasierte Visualisierungen verschiedener Datentypen": "RAWGraph"
+    }
+)
 ```
 
