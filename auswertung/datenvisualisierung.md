@@ -11,6 +11,11 @@ Für die vorliegende Fallstudie haben wir Visualisierungen erstellt, die die Bea
 - Welche Schlagworte und Stichworte treten auf? Gibt es Worthäufungen zu bestimmten Zeitpunkten?
 ```
 
+Eine in den Visualisierungen erkennbare größere Anzahl zur Wendezeit entstandener und im Katalog verzeichneten Titel kann etwa darauf hindeuten, dass zu dieser Zeit mehr studentische Arbeiten produziert wurden, die sich den politischen und gesellschaftlichen Veränderungen und Umbruchprozessen in diesen Jahren widmen. Ebenso ist es interessant mithilfe einer visuellen Darstellung der Daten zu untersuchen, ob und wann in der untersuchten Zeitspanne mehr dokumentarischen Arbeiten entstanden sind, um diese Prozesse der Veränderung festzuhalten. Eine erhöhte Anzahl bestimmter Projektarten wie Übungen könnte darauf verweisen, das diese besonders geeignet waren, spontan auf das politische Geschehen zu reagieren und dieses filmisch einzufangen. Die grafische Aufbereitung der im Katalog erfassten _Schlagworte_ kann verdeutlichen, welche Schlagworte gehäuft zu welcher Zeit in unserem Untersuchungszeitraum verwendet wurden. Dies ermöglicht gegebenenfalls Rückschlüsse auf Themen, die in den Filmen behandelt und mit den Schlagworten charakterisiert wurden.
+
+Insgesamt unterstützen die auf der Grundlage unseres Datensatzes erstellten Visualisierungen ein [exploratives Vorgehen](/recherche/operationalisierung.md#exploratives-vorgehen) für die Beantwortung der Fragestellung. Die Auswertungen der Visualisierungen können schließlich einen Ausgangspunkt für weitere Archivrecherchen bilden.
+
+
 Wie bereits an mehreren Stellen der OER angesprochen wurde, können wir aus rechtlichen Gründen den Originaldatensatz unserer Fallstudie nicht publizieren. Auf diese Problematik wird im Kapitel zu [Problemfelder bei der Datenpublikation](/publikation/problemfelder) noch genauer eingegangen. Für die Darstellung verschiedener Möglichkeiten der Datenvisualisierung können wir daher auch nicht den Originaldatensatz verwenden, sondern greifen auf einen [synthetisch erstellen Auswertungsdatensatz](/bereinigung/openRefine/0_datenbereinigung.md#datenbasis-und-synthetische-datensatze) zurück.
 
 Im Rahmen der Fallstudie verwenden wir <a href="https://www.microsoft.com/de-de/microsoft-365/excel?market=de" class="external-link" target="_blank">Mircosoft Excel</a> als Tool zur Visualisierung und Auswertung. Dabei handelt es sich zwar nicht um ein frei zugängliches, sondern kommerzielles Produkt, jedoch haben zahlreiche Nutzer:innen das *Microsoft-Office-Paket* mit *Excel* auf ihren Computern installiert. Alternativ können auch Open-Source Office-Pakete wie z.B. <a href="https://de.libreoffice.org" class="external-link" target="_blank">LibreOffice</a>verwendet werden. Diese beinhalten ebenfalls für Datenvisualisierungen geeignete Tools und Funktionalitäten.
@@ -40,9 +45,9 @@ Im Folgenden stellen wir nun exemplarisch einige mögliche Vorgehensweisen für 
 ## Import des Datensatzes in Excel
 Der synthetische Datensatz liegt, wie ursprünglich der originale bereinigte Datensatz, als *tsv*-Datei vor. In diesem Format wurden die Daten nach der Bereinigung aus *OpenRefine* exportiert. Dieser Datensatz muss nun für die Visualisierungen und Auswertungen in Excel importiert werden.
 
-Ausgangspunkt für den Import in Excel ist die Datei **Synthetischer_Datensatz_Auswertung_OER.tsv**. Sie können den Datensatz [hier](../assets/daten/Synthetischer_Datensatz_Auswertung_OER.tsv) (rechte Maustaste und *Ziel speichern unter* auswählen) herunterladen. Die tsv-Datei weist vor dem eigentlichen Datensatz eine Zeile mit dem Hinweis auf, dass es sich um einen synthetischen Datensatz für Unterrichtszwecke handelt, der keine personenbezogene Daten enthält. Diese erste Zeile muss vom Import ausgeschlossen werden. Nur dann werden die Daten mit den richtigen Spaltennamen korrekt in die Excel-Datei übernommen. Hierfür sind folgende Excel-Einstellungen notwendig.
+Ausgangspunkt für den Import in Excel ist die Datei **Synthetischer_Datensatz_Auswertung_OER.tsv**. Sie können den Datensatz [hier](../assets/daten/Synthetischer_Datensatz_Auswertung_OER.tsv) (falls der Download nicht per Klick auf den Link starten sollte: rechte Maustaste und *Ziel speichern unter* auswählen) herunterladen. Die tsv-Datei weist vor dem eigentlichen Datensatz eine Zeile mit dem Hinweis auf, dass es sich um einen synthetischen Datensatz für Unterrichtszwecke handelt, der keine personenbezogene Daten enthält. Diese erste Zeile muss vom Import ausgeschlossen werden. Nur dann werden die Daten mit den richtigen Spaltennamen korrekt in die Excel-Datei übernommen. Hierfür sind folgende Excel-Einstellungen notwendig.
 
-Öffnen Sie Excel mit einer leeren Arbeitsmappe. Gehen Sie im Reiter *Datei* auf *Optionen*. ({numref}`excel_datei_optionen`)
+Öffnen Sie Excel mit einer leeren Arbeitsmappe. Gehen Sie im Reiter *Datei* auf *Optionen* ({numref}`excel_datei_optionen`).
 
 ```{figure} ../assets/auswertung/excel_datei_optionen.png
 ---
@@ -54,7 +59,7 @@ alt: Darstellung der Navigation über Datei zu Optionen Excel. Die Auswahlfelder
 Navigation über *Datei* zu *Optionen*
 ```
 
-Im sich öffnenden Optionen-Fenster gehen Sie zum Punkt *Daten*. Wählen Sie dort unter *Legacy-Datenimport-Assistenten anzeigen* das Kästchen *Aus Text (Legacy)* an. Bestätigen Sie die Auswahl mit *OK*. ({numref}`excel_optionen`)
+Im sich öffnenden Optionen-Fenster gehen Sie zum Punkt *Daten*. Wählen Sie dort unter *Legacy-Datenimport-Assistenten anzeigen* das Kästchen *Aus Text (Legacy)* an. Bestätigen Sie die Auswahl mit *OK* ({numref}`excel_optionen`).
 
 ```{figure} ../assets/auswertung/excel_optionen.png
 ---
@@ -66,7 +71,7 @@ alt: Darstellung der Einstellungen in Optionen für den Datenimport in Excel. Di
 Einstellungen in Optionen für den Datenimport in Excel
 ```
 
-Gehen Sie nun auf den Reiter *Daten* und dort auf *Daten abrufen*. Unter *Legacy-Assistenten* klicken Sie auf *Aus Text (Legacy)*. ({numref}`excel_legacy`)
+Gehen Sie nun auf den Reiter *Daten* und dort auf *Daten abrufen*. Unter *Legacy-Assistenten* klicken Sie auf *Aus Text (Legacy)* ({numref}`excel_legacy`).
 
 ```{figure} ../assets/auswertung/excel_legacy_assistent_text.png
 ---
@@ -78,7 +83,7 @@ alt: Darstellung der Schritte zum Starten des Text-Legacy-Assistenten. Die Auswa
 Starten des Text-Legacy-Assistenten
 ```
 
-Im Datei-Import Fenster navigieren Sie zum Speicherort der Datei *Synthetischer_Datensatz_Auswertung_OER.tsv* auf Ihrem Computer. Achten Sie darauf, dass rechts unten *Alle Dateien* ausgewählt ist, da ansonsten die tsv-Datei nicht angezeigt wird. Bestätigen sie die Auswahl mit *Importieren*. ({numref}`excel_dateiimport`)
+Im Datei-Import Fenster navigieren Sie zum Speicherort der Datei *Synthetischer_Datensatz_Auswertung_OER.tsv* auf Ihrem Computer. Achten Sie darauf, dass rechts unten *Alle Dateien* ausgewählt ist, da ansonsten die tsv-Datei nicht angezeigt wird. Bestätigen sie die Auswahl mit *Importieren* ({numref}`excel_dateiimport`).
 
 ```{figure} ../assets/auswertung/excel_textdatei_importieren.png
 ---
@@ -90,7 +95,7 @@ alt: Darstellung der Auswahl der Import-Datei. Die Auswahlfelder sind mit roten 
 Auswahl der Import-Datei
 ```
 
-Im ersten Schritt des Textkonvertierungs-Assistenten ist unter Datentyp der Punkt *Getrennt* (also mit Tabulatoren getrennt) bereits korrekt ausgewählt und kann so übernommen werden. *Import beginnen in Zeile* stellen Sie von *1* auf *2* ein, da beim Import ja die erste Zeile mit dem Hinweis auf die Übungsdatei übersprungen werden soll. Für *Dateiursprung* wählen Sie *65001 : Unicode (UTF-8)* aus – dies ist die Zeichen-Codierung, die beim Export aus *OpenRefine* verwendet wurde. Rufen Sie den zweiten Schritt durch Klick auf *Weiter* auf. ({numref}`excel_assistent_1`)
+Im ersten Schritt des Textkonvertierungs-Assistenten ist unter Datentyp der Punkt *Getrennt* (also mit Tabulatoren getrennt) bereits korrekt ausgewählt und kann so übernommen werden. *Import beginnen in Zeile* stellen Sie von *1* auf *2* ein, da beim Import ja die erste Zeile mit dem Hinweis auf die Übungsdatei übersprungen werden soll. Für *Dateiursprung* wählen Sie *65001 : Unicode (UTF-8)* aus – dies ist die Zeichen-Codierung, die beim Export aus *OpenRefine* verwendet wurde. Rufen Sie den zweiten Schritt durch Klick auf *Weiter* auf ({numref}`excel_assistent_1`).
 
 ```{figure} ../assets/auswertung/excel_texkonvertierungsassistent_1.png
 ---
@@ -102,7 +107,7 @@ alt: Darstellung des Textkonvertierungs-Assistenten – Schritt 1. Die Auswahlfe
 Textkonvertierungs-Assistent – Schritt 1
 ```
 
-Im zweiten Schritt des Assistenten wird *Tabstopp* als *Trennzeichen* korrekt erkannt und kann mit *Weiter* übernommen werden. ({numref}`excel_assistent_2`)
+Im zweiten Schritt des Assistenten wird *Tabstopp* als *Trennzeichen* korrekt erkannt und kann mit *Weiter* übernommen werden ({numref}`excel_assistent_2`).
 
 ```{figure} ../assets/auswertung/excel_texkonvertierungsassistent_2.png
 ---
@@ -114,7 +119,7 @@ alt: Darstellung des Textkonvertierungs-Assistenten – Schritt 2. Die Auswahlfe
 Textkonvertierungs-Assistent – Schritt 2
 ```
 
-Auch im dritten Schritt des Assistenten kann die Einstellung *Datenformat der Spalten* -> *Standard* beibehalten werden. Schließen Sie den Textkonvertierungs-Assistenten mit *Fertig stellen* ab. ({numref}`excel_assistent_3`)
+Auch im dritten Schritt des Assistenten kann die Einstellung *Datenformat der Spalten* -> *Standard* beibehalten werden. Schließen Sie den Textkonvertierungs-Assistenten mit *Fertig stellen* ab ({numref}`excel_assistent_3`).
 
 ```{figure} ../assets/auswertung/excel_texkonvertierungsassistent_3.png
 ---
@@ -126,7 +131,7 @@ alt: Darstellung des Textkonvertierungs-Assistenten – Schritt 3. Die Auswahlfe
 Textkonvertierungs-Assistent – Schritt 3
 ```
 
-Sie können nun den Ort in der Excel-Arbeitsmappe auswählen, an dem der Import durchgeführt werden soll. Auch hier können sie die Vorgabe *Bestehendes Arbeitsblatt* übernehmen und die Daten mit einem Klick auf *OK* aus der tsv-Datei in Excel importieren. ({numref}`excel_import_ort`)
+Sie können nun den Ort in der Excel-Arbeitsmappe auswählen, an dem der Import durchgeführt werden soll. Auch hier können sie die Vorgabe *Bestehendes Arbeitsblatt* übernehmen und die Daten mit einem Klick auf *OK* aus der tsv-Datei in Excel importieren ({numref}`excel_import_ort`).
 
 ```{figure} ../assets/auswertung/excel_import_ort.png
 ---
@@ -138,7 +143,7 @@ alt: Darstellung Ort des Datenimports festlegen. Die Auswahlfelder sind mit rote
 Ort des Datenimports festlegen
 ```
 
-Der Import der Daten der aus der Datei *Synthetischer_Datensatz_Auswertung_OER.tsv* in eine Excel-Arbeitsmappe ist nun abgeschlossen. Die Spaltenüberschriften und die Inhalte der Spalten wurden korrekt übernommen. ({numref}`excel_import_ende`)
+Der Import der Daten der aus der Datei *Synthetischer_Datensatz_Auswertung_OER.tsv* in eine Excel-Arbeitsmappe ist nun abgeschlossen. Die Spaltenüberschriften und die Inhalte der Spalten wurden korrekt übernommen ({numref}`excel_import_ende`).
 
 ```{figure} ../assets/auswertung/excel_import_ende.png
 ---
@@ -154,7 +159,7 @@ Speichern Sie die importierten Daten als Excel-Datei durch einen Klick auf den R
 
 
 ## Titel pro Jahr
-Wie ist es nun möglich, aus dem Datensatz eine grafische Darstellung der Anzahl der Titel pro Jahr im Untersuchungszeitraum unserer Fallstudie zu erstellen? In Excel kann hierfür die *PivotChart* Funktion verwendet werden. Öffnen sie dazu Datensatz als Excel-Datei. Im Reiter *Einfügen* klicken Sie nun auf *PivotChart* und wählen *PivotChart und PivotTable* aus. ({numref}`excel_pivot_chart`)
+Wie ist es nun möglich, aus dem Datensatz eine grafische Darstellung der Anzahl der Titel pro Jahr im Untersuchungszeitraum unserer Fallstudie zu erstellen? In Excel kann hierfür die *PivotChart* Funktion verwendet werden. Öffnen sie dazu Datensatz als Excel-Datei. Im Reiter *Einfügen* klicken Sie nun auf *PivotChart* und wählen *PivotChart und PivotTable* aus ({numref}`excel_pivot_chart`).
 
 ```{figure} ../assets/auswertung/excel_einfuegen_pivot_chart.png
 ---
@@ -167,7 +172,7 @@ alt: Darstellung der Excel Arbeitsoberfläche. Der Reiter Einfügen und die Ausw
 Auswahl *PivotChart und PivotTable* im Reiter *Einfügen*.
 ```
 
-Es öffnet sich ein Fenster *PivotTable erstellen*. Die Einstellungen können sie unverändert übernehmen und mit *OK* bestätigen. ({numref}`excel_pivot_tabelle`)
+Es öffnet sich ein Fenster *PivotTable erstellen*. Die Einstellungen können sie unverändert übernehmen und mit *OK* bestätigen ({numref}`excel_pivot_tabelle`).
 
 ```{figure} ../assets/auswertung/excel_pivot_einfuegen_erstellen.PNG
 ---
@@ -180,7 +185,7 @@ alt: Darstellung des Fensters PivotTable erstellen. Die Schaltfläche OK ist mit
 Das Fenster *PivotTable erstellen*.
 ```
 
-Es öffnet sich eine Excel-Arbeitsoberfläche. Auf der linken Seite wird eine leere Pivot-Tabelle angezeigt, in der Mitte ein leeres PivotChart und auf der rechten Seite sind PivotChart-Eingabefelder sichtbar, die noch nicht ausgefüllt sind. ({numref}`excel_pivot_screen`)
+Es öffnet sich eine Excel-Arbeitsoberfläche. Auf der linken Seite wird eine leere Pivot-Tabelle angezeigt, in der Mitte ein leeres PivotChart und auf der rechten Seite sind PivotChart-Eingabefelder sichtbar, die noch nicht ausgefüllt sind ({numref}`excel_pivot_screen`).
 
 ```{figure} ../assets/auswertung/excel_pivot_erstellen_screen.png
 ---
@@ -193,7 +198,7 @@ alt: Darstellung der Excel Arbeitsoberfläche mit Pivot-Elementen
 Die Excel Arbeitsoberfläche mit Pivot-Elementen.
 ```
 
-Nun wählen Sie unter *PivotChart-Felder* im rechten Bereich die Spalten *Titel* und *Jahr_1* an. Für *Jahr_1* müssen sie evtl. mit dem Balken nach unten scrollen. ({numref}`excel_pivot_felder`)
+Nun wählen Sie unter *PivotChart-Felder* im rechten Bereich die Spalten *Titel* und *Jahr_1* an. Für *Jahr_1* müssen sie evtl. mit dem Balken nach unten scrollen ({numref}`excel_pivot_felder`).
 
 ```{figure} ../assets/auswertung/titel_Jahr_excel_pivot_chart_felder.png
 ---
@@ -206,7 +211,7 @@ alt: Darstellung der im Bereich PivotChart-Felder angewählten Möglichkeiten Ti
 *Titel* und *Jahr_1* anwählen.
 ```
 
-Auf der Excel-Arbeitsoberfläche werden eine erste Pivot-Tabelle und ein Pivot-Chart angezeigt, die jedoch noch keine sinnvollen Ergebnisse aufweisen. Hierfür müssen Sie die die Eingaben in den Feldern rechts unten verändern, also vertauschen. Klicken sie dafür auf den Eintrag und ziehen sie ihn in das jeweilige Eingabefeld. Das Feld *Achse (Rubriken)* beinhaltet dann den Eintrag *Jahr_1*, das Feld Werte den Eintrag *Anzahl von Titel*. ({numref}`titel_jahr_tausch`)
+Auf der Excel-Arbeitsoberfläche werden eine erste Pivot-Tabelle und ein Pivot-Chart angezeigt, die jedoch noch keine sinnvollen Ergebnisse aufweisen. Hierfür müssen Sie die die Eingaben in den Feldern rechts unten verändern, also vertauschen. Klicken sie dafür auf den Eintrag und ziehen sie ihn in das jeweilige Eingabefeld. Das Feld *Achse (Rubriken)* beinhaltet dann den Eintrag *Jahr_1*, das Feld Werte den Eintrag *Anzahl von Titel* ({numref}`titel_jahr_tausch`).
 
 ```{figure} ../assets/auswertung/titel_jahr_excel_pivot_chart_felder_tausch.png
 ---
@@ -219,7 +224,7 @@ alt: Darstellung der im Bereich PivotChart-Felder ausgetauschten Einträge Jahr_
 Austausch der Feldinhalte
 ```
 
-Durch den Austausch der Einträge ergibt sich ein Pivot-Chart, das bereits die gewünschte Visualisierung beinhaltet: In einem Säulendiagramm wird die Anzahl der Titel pro Jahr im Datensatz angezeigt, vom Jahr 1985 bis 1999. Allerdings enthält diese Darstellung noch Elemente, die für eine weitere Verwendung der Visualisierung bearbeitet werden müssen. ({numref}`titel_jahr_roh`)
+Durch den Austausch der Einträge ergibt sich ein Pivot-Chart, das bereits die gewünschte Visualisierung beinhaltet: In einem Säulendiagramm wird die Anzahl der Titel pro Jahr im Datensatz angezeigt, vom Jahr 1985 bis 1999. Allerdings enthält diese Darstellung noch Elemente, die für eine weitere Verwendung der Visualisierung bearbeitet werden müssen ({numref}`titel_jahr_roh`).
 
 ```{figure} ../assets/auswertung/titel_jahr_grafik_roh.png
 ---
@@ -234,7 +239,7 @@ Visualisierung vor der Bearbeitung
 
 Die Legende auf der rechten Seite, die mit Ergebnis beschriftet ist, ist für diese Grafik nicht unbedingt notwendig. Ein Klick auf das Element ermöglicht das Löschen, indem im Kontextmenü der entsprechende *Löschen*-Befehl angewählt wird. Klicken Sie nun auf das Textfeld mit dem Inhalt *Ergebnis* in der Mitte des Charts, Sie können den Text nun mit einem neuen ersetzen, z.B. *Anzahl der Titel pro Jahr*.
 
-Abschließend sollen noch die die Schaltflächen *Anzahl von Titel* links oben und *Jahr_1* links unten entfernt werden. Klicken sie hierfür im Reiter *Analysieren* auf *Feldschaltflächen* und wählen Sie *alle ausblenden* an. ({numref}`titel_jahr_ausblenden`)
+Abschließend sollen noch die die Schaltflächen *Anzahl von Titel* links oben und *Jahr_1* links unten entfernt werden. Klicken sie hierfür im Reiter *Analysieren* auf *Feldschaltflächen* und wählen Sie *Alle ausblenden* an ({numref}`titel_jahr_ausblenden`).
 
 ```{figure} ../assets/auswertung/titel_jahr_feldschaltflaechen_ausblenden.png
 ---
@@ -247,7 +252,7 @@ alt: Darstellung des Auswahlmenüs zum Ausblenden der Feldschaltflächen.
 Ausblenden der Feldschaltflächen
 ```
 
-Als Ergebnis erhalten Sie ein Säulendiagramm, dass die Anzahl der Titel pro Jahr in unserem untersuchten Datensatz darstellt. Durch Copy & Paste können Sie das Diagramm in andere Programme einfügen. ({numref}`titel_jahr_saule`)
+Als Ergebnis erhalten Sie ein Säulendiagramm, dass die Anzahl der Titel pro Jahr in unserem untersuchten Datensatz darstellt. Durch Copy & Paste können Sie das Diagramm in andere Programme einfügen ({numref}`titel_jahr_saule`).
 
 ```{figure} ../assets/auswertung/titel_jahr_grafik_säule.png
 ---
@@ -262,7 +267,7 @@ Säulendiagramm zur Anzahl der Titel pro Jahr
 
 Für die Auswertung haben wir zwar einen synthetischen Datensatz verwendet, die Proportionen des Originaldatensatzes sind aber weitgehend erhalten geblieben. Auffällig an der Grafik ist, dass die Anzahl der Titel 1988 sprunghaft ansteigt und sich im Vergleich zu 1987 fast verdoppelt. Danach ist wieder ein leichter Rückgang zu erkennen. Die Anzahl bleibt aber in den Wendejahren bis 1990 noch hoch und pendelt sich dann in den folgenden Jahren bei zwischen 60 und 80 Titel pro Jahr ein. Während der Wendezeit hat sich die Zahl der Filmtitel in unserem Datensatz also deutlich erhöht. Im Jahr 1995 ist nochmals ein Anstieg der Titelanzahl zu erkennen, der Grund hierfür müsste noch erforscht werden.
 
-Mit Excel ist es einfach möglich, die Darstellung als Säulendiagramm in ein Liniendiagramm zu verwandeln. Klicken Sie hierfür mit einem Rechtsklick in das PivotChart in Excel und wählen sie im Kontextmenü *Diagrammtyp ändern* aus. ({numref}`titel_jahr_aendern_1`)
+Mit Excel ist es einfach möglich, die Darstellung als Säulendiagramm in ein Liniendiagramm zu verwandeln. Klicken Sie hierfür mit einem Rechtsklick in das PivotChart in Excel und wählen sie im Kontextmenü *Diagrammtyp ändern* aus ({numref}`titel_jahr_aendern_1`).
 
 ```{figure} ../assets/auswertung/titel_jahr_diagrammtyp_ändern_1.png
 ---
@@ -275,7 +280,7 @@ alt: Darstellung Kontextmenüs, mit dem der Diagrammtyp geändert werden kann. D
 Kontextmenü zum Ändern des Diagrammtyps
 ```
 
-Im erscheinenden Feld wählen Sie als Diagrammtyp *Linie* an und klicken auf *OK*. ({numref}`titel_jahr_aendern_2`)
+Im erscheinenden Feld wählen Sie als Diagrammtyp *Linie* an und klicken auf *OK* ({numref}`titel_jahr_aendern_2`).
 
 ```{figure} ../assets/auswertung/titel_jahr_diagrammtyp_ändern_2.png
 ---
@@ -288,7 +293,7 @@ alt: Darstellung Auswahlmenüs, mit dem der Diagrammtyp geändert werden kann. D
 Auswahlmenü zum Ändern des Diagrammtyps
 ```
 
-Als Ausgabe ergibt sich ein Liniendiagramm mit den gleichen Werten aus unserem analysierten Datensatz. ({numref}`titel_jahr_linie`)
+Als Ausgabe ergibt sich ein Liniendiagramm mit den gleichen Werten aus unserem analysierten Datensatz ({numref}`titel_jahr_linie`).
 
 ```{figure} ../assets/auswertung/titel_jahr_grafik_linie.png
 ---
@@ -306,7 +311,7 @@ Im Liniendiagramm ist der sprunghafte Anstieg der Anzahl der Filmtitel im Jahr 1
 ## Anzahl der Gattungen pro Jahr
 Im nächsten Schritt soll nun eine visuelle Darstellung der Anzahl der Gattungen pro Jahr erstellt werden, die auf den Angaben in unserem synthetischen Datensatz beruht. Um die Übersichtlichkeit zu gewährleisten bietet es sich an, sich auf die Hauptgattungen Spielfilm, Dokumentarfilm und Animationsfilm zu konzentrieren und Mischformen oder andersartige Bezeichnungen außen vor zu lassen.
 
-Das Vorgehen ist zunächst gleich wie bei der Darstellung der Titel pro Jahr. Gehen Sie in der Excel-Datei zum Arbeitsblatt, das die aus der [tsv-Datei importierten Daten](#import-des-datensatzes-in-excel) enthält. Wählen Sie im Reiter *Einfügen* den Punkt *PivotChart und PivotTable* aus. In den *PivotChart-Feldern* auf der rechten Seite der Oberfläche wählen sie dieses Mal jedoch nicht *Titel* und *Jahr_1*, sondern *Gattung* und *Jahr_1* aus. (siehe {numref}`excel_pivot_chart` bis {numref}`excel_pivot_felder`). Die angewählten Spalten werden wieder automatisch den PivotChart-Feldern *Achse (Rubriken)* und *Werte* zugeordnet. ({numref}`gattung_jahr_felder1`)
+Das Vorgehen ist zunächst gleich wie bei der Darstellung der Titel pro Jahr. Gehen Sie in der Excel-Datei zum Arbeitsblatt, das die aus der [tsv-Datei importierten Daten](#import-des-datensatzes-in-excel) enthält. Wählen Sie im Reiter *Einfügen* den Punkt *PivotChart und PivotTable* aus. In den *PivotChart-Feldern* auf der rechten Seite der Oberfläche wählen sie dieses Mal jedoch nicht *Titel* und *Jahr_1*, sondern *Gattung* und *Jahr_1* aus (siehe {numref}`excel_pivot_chart` bis {numref}`excel_pivot_felder`). Die angewählten Spalten werden wieder automatisch den PivotChart-Feldern *Achse (Rubriken)* und *Werte* zugeordnet ({numref}`gattung_jahr_felder1`).
 
 ```{figure} ../assets/auswertung/gattung_jahr_felder_auswahl_1.png
 ---
@@ -318,7 +323,7 @@ alt: Darstellung der Auswahl PivotChart-Felder *Gattung* und "Jahr_1*. Einzelne 
 Auswahl PivotChart-Felder *Gattung* und *Jahr_1*
 ```
 
-Aus diesen automatisch ausgewählten Einträge in die Felder ergibt sich jedoch keine sinnvolle visuelle Darstellung der Daten in der Excel-Arbeitsoberfläche. Die Eingaben müssen angepasst und durch Anklicken und Ziehen in die richtigen Felder gebracht werden: Im Feld *Achse (Rubriken)* steht nun *Jahr_1*, im Feld *Werte* die *Anzahl von Gattungen* und im Feld *Legende (Reihe)* ist der Wert *Gattung* eingetragen. *Gattung* wird durch Anklicken in der oberen Liste und Ziehen in das Feld *Legende (Reihe)* gebracht. ({numref}`gattung_jahr_felder2`)
+Aus diesen automatisch ausgewählten Einträge in die Felder ergibt sich jedoch keine sinnvolle visuelle Darstellung der Daten in der Excel-Arbeitsoberfläche. Die Eingaben müssen angepasst und durch Anklicken und Ziehen in die richtigen Felder gebracht werden: Im Feld *Achse (Rubriken)* steht nun *Jahr_1*, im Feld *Werte* die *Anzahl von Gattungen* und im Feld *Legende (Reihe)* ist der Wert *Gattung* eingetragen. *Gattung* wird durch Anklicken in der oberen Liste und Ziehen in das Feld *Legende (Reihe)* gebracht ({numref}`gattung_jahr_felder2`).
 
 ```{figure} ../assets/auswertung/gattung_jahr_felder_auswahl_2.png
 ---
@@ -330,7 +335,7 @@ alt: Darstellung der Auswahl PivotChart-Felder *Legende (Reihe)*, *Achse (Rubrik
 Auswahl PivotChart-Felder *Legende (Reihe)*, *Achse (Rubriken)* und *Werte*
 ```
 
-Durch diese Einstellungen ergibt sich bereits eine visuelle Darstellung der in unserem synthetischen Datensatz enthaltenen Gattungen, verteilt über die Jahre des Untersuchungszeitraums unserer Fallstudie. Wir wollen uns jedoch auf die drei Gattungen Spielfilm, Dokumentarfilm und Animationsfilm beschränken und Mischformen nicht in der Grafik darstellen. Hierzu klicken sie auf die Feldschaltfläche *Gattung* in der Grafik auf der Excel-Benutzeroberfläche. Es öffnet sich ein Kontextmenü. Wählen Sie dort nur die Einträge Spielfilm, Dokumentarfilm und Animationsfilm aus und lassen Sie die anderen Möglichkeiten leer. Ein Klick auf *OK* beendet die Eingabe. ({numref}`gattung_jahr_ohne`)
+Durch diese Einstellungen ergibt sich bereits eine visuelle Darstellung der in unserem synthetischen Datensatz enthaltenen Gattungen, verteilt über die Jahre des Untersuchungszeitraums unserer Fallstudie. Wir wollen uns jedoch auf die drei Gattungen Spielfilm, Dokumentarfilm und Animationsfilm beschränken und Mischformen nicht in der Grafik darstellen. Hierzu klicken sie auf die Feldschaltfläche *Gattung* in der Grafik auf der Excel-Benutzeroberfläche. Es öffnet sich ein Kontextmenü. Wählen Sie dort nur die Einträge Spielfilm, Dokumentarfilm und Animationsfilm aus und lassen Sie die anderen Möglichkeiten leer. Ein Klick auf *OK* beendet die Eingabe ({numref}`gattung_jahr_ohne`).
 
 ```{figure} ../assets/auswertung/gattung_jahr_ohne_auswahl.png
 ---
@@ -342,7 +347,7 @@ alt: Darstellung der Auswahl der Gattungen die dargestellt werden sollen. Einzel
 Auswahl der Gattungen die dargestellt werden sollen
 ```
 
-Passen Sie nun wie im Abschnitt zur Darstellung der [Titel pro Jahr](/auswertung/datenvisualisierung.md#titel-pro-jahr) beschrieben den Titel des Diagramms an und blenden Sie die Feldschaltflächen aus (vgl. {numref}`titel_jahr_roh` und {numref}`titel_jahr_ausblenden`). Als Ergebnis erhalten sie ein Säulendiagramm, das die Verteilung der Gattungen Spielfilm, Dokumentarfilm und Animationsfilm über die Jahre unseres Untersuchungszeitraums darstellt. ({numref}`gattung_jahr_säule`)
+Passen Sie nun wie im Abschnitt zur Darstellung der [Titel pro Jahr](/auswertung/datenvisualisierung.md#titel-pro-jahr) beschrieben den Titel des Diagramms an und blenden Sie die Feldschaltflächen aus (vgl. {numref}`titel_jahr_roh` und {numref}`titel_jahr_ausblenden`). Als Ergebnis erhalten sie ein Säulendiagramm, das die Verteilung der Gattungen Spielfilm, Dokumentarfilm und Animationsfilm über die Jahre unseres Untersuchungszeitraums darstellt ({numref}`gattung_jahr_säule`).
 
 ```{figure} ../assets/auswertung/gattung_jahr_säule.png
 ---
@@ -354,7 +359,7 @@ alt: Darstellung Säulendiagramm Gattungen pro Jahr.
 Säulendiagramm Gattungen pro Jahr
 ```
 
-In diese Darstellung kann zusätzlich noch eine Datentabelle eingeblendet werden. Hierfür klicken Sie auf das grüne Pluszeichen neben dem Diagramm in der Excel-Arbeitsoberfläche. Wählen Sie dann im Kontextmenü den Punkt *Datentabelle* an. ({numref}`gattung_jahr_säule_daten_auswahl`)
+In diese Darstellung kann zusätzlich noch eine Datentabelle eingeblendet werden. Hierfür klicken Sie auf das grüne Pluszeichen neben dem Diagramm in der Excel-Arbeitsoberfläche. Wählen Sie dann im Kontextmenü den Punkt *Datentabelle* an ({numref}`gattung_jahr_säule_daten_auswahl`).
 
 ```{figure} ../assets/auswertung/gattung_jahr_säule_datentabelle.png
 ---
@@ -366,7 +371,7 @@ alt: Darstellung der Auswahl der Anzeige Datentabelle. Einzelne Eingaben sind mi
 Auswahl der Anzeige Datentabelle
 ```
 
-Im Diagram werden nun in einer Tabelle die konkreten Zahlen zu Spielfilmen, Dokumentarfilmen und Animationsfilmen pro Jahr aus unserem syntehtischen Datensatz angezeigt. ({numref}`gattung_jahr_säule_daten`)
+Im Diagram werden nun in einer Tabelle die konkreten Zahlen zu Spielfilmen, Dokumentarfilmen und Animationsfilmen pro Jahr aus unserem syntehtischen Datensatz angezeigt ({numref}`gattung_jahr_säule_daten`).
 
 ```{figure} ../assets/auswertung/gattung_jahr_säule_datentabelle_end.png
 ---
@@ -392,9 +397,9 @@ Erstellen sie auf der Grundlage des synthetischen Auswertungsdatensatz mit Excel
 ````{admonition} Lösung
     :class: solution, dropdown
 
-Eine mögliche Lösung ist folgendes Vorgehen. Wählen Sie im Reiter *Einfügen* die Option *PivotChart und PivotTable* aus. Bestätigen Sie die Eingabe im Fenster *PivotTable erstellen* mit *OK*. Sie gelangen zur Excel-Arbeitsoberfläche, in der Sie *PivotChart-Felder* auf der rechten Seite auswählen können. (vgl. {numref}`excel_pivot_chart` bis {numref}`excel_pivot_screen`).
+Eine mögliche Lösung ist folgendes Vorgehen. Wählen Sie im Reiter *Einfügen* die Option *PivotChart und PivotTable* aus. Bestätigen Sie die Eingabe im Fenster *PivotTable erstellen* mit *OK*. Sie gelangen zur Excel-Arbeitsoberfläche, in der Sie *PivotChart-Felder* auf der rechten Seite auswählen können (vgl. {numref}`excel_pivot_chart` bis {numref}`excel_pivot_screen`).
 
-Klicken Sie nun in den *PivotChart-Feldern* die Spalten *Projektart_1* und *Jahr_1* an. ({numref}`projektart_auswahl`)
+Klicken Sie nun in den *PivotChart-Feldern* die Spalten *Projektart_1* und *Jahr_1* an ({numref}`projektart_auswahl`).
 
 ```{figure} ../assets/auswertung/projektart_jahr_felder_auswahl.png
 ---
@@ -411,7 +416,7 @@ Ordnen Sie nun in den Feldern die jeweiligen Einträge zu:
 * Werte -> *Anzahl von Projektart_1*
 * Legende (Reihe) -> Projektart_1
 
-*Projektart_1* tragen Sie ein, indem Sie den Eintrag in Feld oberhalb anklicken und in das entsprechende Eingabefeld Legende (Reihe) ziehen. ({numref}`projektart_auswahl_2`)
+*Projektart_1* tragen Sie ein, indem Sie den Eintrag in Feld oberhalb anklicken und in das entsprechende Eingabefeld Legende (Reihe) ziehen ({numref}`projektart_auswahl_2`).
 
 ```{figure} ../assets/auswertung/projektart_jahr_felder_auswahl_2.png
 ---
@@ -423,7 +428,7 @@ alt: Darstellung der Einträge in den Feldern. Einzelne Eingaben sind mit roten 
 Einträge in den Feldern
 ```
 
-In der Excel-Arbeitsoberfläche sehen Sie nun das Säulendiagramm mit allen Projektarten. Grenzen Sie die angezeigten Projektarten ein, indem Sie auf die Feldschaltfläche *Projektart_1* in der Grafik klicken. Wählen Sie im Kontextmenü die Projektarten *Abschlußfilm*, *Diplomfilm*, *Hauptprüfungsfilm* und  *Vordiplomfilm* aus und bestätigen Sie die Eingabe mit *OK*. ({numref}`projektart_eingrenzung`)
+In der Excel-Arbeitsoberfläche sehen Sie nun das Säulendiagramm mit allen Projektarten. Grenzen Sie die angezeigten Projektarten ein, indem Sie auf die Feldschaltfläche *Projektart_1* in der Grafik klicken. Wählen Sie im Kontextmenü die Projektarten *Abschlußfilm*, *Diplomfilm*, *Hauptprüfungsfilm* und  *Vordiplomfilm* aus und bestätigen Sie die Eingabe mit *OK* ({numref}`projektart_eingrenzung`).
 
 ```{figure} ../assets/auswertung/projektart_jahr_eingrenzung.png
 ---
@@ -435,7 +440,7 @@ alt: Darstellung der Eingrenzung der angezeigten Projektarten. Einzelne Eingaben
 Eingrenzung der angezeigten Projektarten
 ```
 
-Klicken Sie auf das grüne Kreuz und fügen Sie einen Diagrammtitel hinzu. Abschließend wählen Sie im Menü *Analysieren* den Punkt den Punkt *Feldschaltflächen -> alle ausblenden* aus. (vgl. {numref}`titel_jahr_ausblenden`) Sie haben nun ein Säulendiagramm mit den Projektarten *Abschlußfilm*, *Diplomfilm*, *Hauptprüfungsfilm* und  *Vordiplomfilm* pro Jahr erstellt. Dieses können Sie per Copy & Paste in andere Programme einbinden.
+Klicken Sie auf das grüne Kreuz und fügen Sie einen Diagrammtitel hinzu. Abschließend wählen Sie im Menü *Analysieren* den Punkt den Punkt *Feldschaltflächen -> Alle ausblenden* aus (vgl. {numref}`titel_jahr_ausblenden`). Sie haben nun ein Säulendiagramm mit den Projektarten *Abschlußfilm*, *Diplomfilm*, *Hauptprüfungsfilm* und  *Vordiplomfilm* pro Jahr erstellt. Dieses können Sie per Copy & Paste in andere Programme einbinden.
 
 ````
 `````
@@ -456,7 +461,7 @@ Es zeigt sich, dass in den Jahren 1987 bis 1989 deutlich mehr Diplomfilme als in
 
 Auch hier muss bei der Interpretation der visualisierten Daten vorsichtig vorgegangen werden. Wie schon bei den Gattungen werden auch die Projektarten nicht immer in den Angaben zu den Titeln erfasst (vgl. das Kapitel zur [Datenquelle](/bereinigung/datenquelle.md)). Die Zahlen können also von den real entstandenen Prüfungsarbeiten abweichen. Dennoch würde es sich anbieten, die sich verändernde Anzahl von Projektarten mit in der Zeit geltenden Studien- und Prüfungsordnungen abzugleichen. Die Veränderungen könnten auf eine neue Organisation des Studiums hindeuten. 
 
-Wir haben eine weitere Visualisierung zu Projekarten mit der Bezeichnung *Übung* angefertigt. ({numref}`projektart_uebung`)
+Wir haben eine weitere Visualisierung zu Projekarten mit der Bezeichnung *Übung* angefertigt ({numref}`projektart_uebung`).
 
 ```{figure} ../assets/auswertung/projektart_übungen_jahr.png
 ---
@@ -471,7 +476,7 @@ Hier fällt auf, dass die Anzahl der *Kameraübungen* und *TV-Übungen* in den J
 
 
 ## Anzahl der verantwortlichen Gewerke
-Im nächsten Schritt soll der Datensatz hinsichtlich der Angaben zu den verantwortlichen Gewerken ausgewertet werden. Die Daten hierzu sind auf vier Spalten verteilt (verantw._Gewerk 1 bis 4). Für eine Visualisierung der Anzahl der Gewerke müssen die Inhalte der Spalten zunächst in eine Spalte zusammengeführt werden. Wählen Sie dafür im Reiter Daten die Option *Aus Tabelle/Bereich* an. ({numref}`excel_tabelle_bereich`)
+Im nächsten Schritt soll der Datensatz hinsichtlich der Angaben zu den verantwortlichen Gewerken ausgewertet werden. Die Daten hierzu sind auf vier Spalten verteilt (verantw._Gewerk 1 bis 4). Für eine Visualisierung der Anzahl der Gewerke müssen die Inhalte der Spalten zunächst in eine Spalte zusammengeführt werden. Wählen Sie dafür im Reiter Daten die Option *Aus Tabelle/Bereich* an ({numref}`excel_tabelle_bereich`).
 
 ```{figure} ../assets/auswertung/Excel_Daten_Tabelle_Bereich.png
 ---
@@ -483,7 +488,7 @@ alt: Auswahl im Reiter Daten: Aus Tabelle/Bereich. Einzelne Eingaben sind mit ro
 Auswahl im Reiter Daten: *Aus Tabelle/Bereich*
 ```
 
-Es öffnet sich der *Power Query-Editor* in Excel. Klicken Sie dort auf *Spalten auswählen*. ({numref}`excel_spalten_auswahl`)
+Es öffnet sich der *Power Query-Editor* in Excel. Klicken Sie dort auf *Spalten auswählen* ({numref}`excel_spalten_auswahl`).
 
 ```{figure} ../assets/auswertung/excel_spalten_auswaehlen.png
 ---
@@ -495,7 +500,7 @@ alt: Darstellung Option Spalten auswählen. Einzelne Eingaben sind mit roten Kre
 Option *Spalten auswählen*
 ```
 
-Es öffnet sich ein Fenster zur Auswahl der Spalten. Wählen Sie zunächst zu Beginn der Liste alle Spalten ab und klicken sie anschließend auf *verantw._Gewerk_1 bis 4*. Beenden Sie die Eingabe mit *OK*. ({numref}`excel_spalten_gewerk`)
+Es öffnet sich ein Fenster zur Auswahl der Spalten. Wählen Sie zunächst zu Beginn der Liste alle Spalten ab und klicken sie anschließend auf *verantw._Gewerk_1 bis 4*. Beenden Sie die Eingabe mit *OK* ({numref}`excel_spalten_gewerk`).
 
 ```{figure} ../assets/auswertung/excel_auswahl_gewerk.PNG
 ---
@@ -507,7 +512,7 @@ alt: Darstellung Auswahl der Spalten. Einzelne Eingaben sind mit roten Kreisen g
 Auswahl der Spalten
 ```
 
-Wählen Sie in der Arbeitsoberfläche alle Spalten aus, indem Sie auf den Spaltentitel klicken und dabei die *Strg-Taste* gedrückt halten. Die Spalten sind nun farbig hervorgehoben. Ein Rechtsklick auf einen der Spaltentitel öffnet ein Menü, in dem Sie *Nur ausgewählte Spalten entpivotieren* anwählen. ({numref}`excel_entpivotieren`)
+Wählen Sie in der Arbeitsoberfläche alle Spalten aus, indem Sie auf den Spaltentitel klicken und dabei die *Strg-Taste* gedrückt halten. Die Spalten sind nun farbig hervorgehoben. Ein Rechtsklick auf einen der Spaltentitel öffnet ein Menü, in dem Sie *Nur ausgewählte Spalten entpivotieren* anwählen ({numref}`excel_entpivotieren`).
 
 
 ```{figure} ../assets/auswertung/excel_spalten_entpivotieren.png
@@ -520,7 +525,7 @@ alt: Darstellung Markierte Spalten entpivotieren. Einzelne Eingaben sind mit rot
 Markierte Spalten entpivotieren
 ```
 
-Es entstehen zwei Spalten. *Attribut* enthält die Angaben zum *verantw._Gewerk 1 bis 4*, in *Wert* wurden die Inhalte der Spalten jeweils unteinandern aufgeführt übernommen. Wählen Sie nun *Schließen und Laden* an. Der *Power Query-Editor* wird geschlossen und die Inhalte der Spalten in ein neues Excel-Arbeitsblatt eingefügt. ({numref}`excel_query_ende`)
+Es entstehen zwei Spalten. *Attribut* enthält die Angaben zum *verantw._Gewerk 1 bis 4*, in *Wert* wurden die Inhalte der Spalten jeweils unteinandern aufgeführt übernommen. Wählen Sie nun *Schließen und Laden* an. Der *Power Query-Editor* wird geschlossen und die Inhalte der Spalten in ein neues Excel-Arbeitsblatt eingefügt ({numref}`excel_query_ende`).
 
 ```{figure} ../assets/auswertung/excel_power_query_schließen.png
 ---
@@ -534,7 +539,7 @@ Neue Spalten und Schließen des *Power Query-Editors*
 
 Im neuen Excel-Arbeitsblatt benennen Sie die zwei Spalten um, damit sie für eine mögliche spätere Verwendung besser unterschieden werden können, z.B. in *Attribut_verant_Gewerk* und *Wert_verantw_Gewerk*. Ausgehend von dieser Excel-Tabelle können sie mit dem bereits bekannten Vorgehen mit der Visualisierung der Daten zu den verantwortlichen Gewerken beginnen.
 
-Markieren Sie die beiden Spalten und Wählen Sie im Reiter *Einfügen* die Option *PivotChart und PivotTabelle* aus. Bestätigen Sie die Eingabe im folgenden Feld und wählen Sie in den *PivotChart-Feldern* beide Spalten an. (vgl. {numref}`excel_pivot_chart` bis {numref}`excel_pivot_felder`). Auf das Feld *Achse (Rubriken)* ziehen Sie den Eintrag *Wert_verantw_Gewerk*, auf *Werte* den Eintrag *Anzahl von Attribut_verantw_Gewerk*. ({numref}`excel_felder_gewerke`)
+Markieren Sie die beiden Spalten und Wählen Sie im Reiter *Einfügen* die Option *PivotChart und PivotTabelle* aus. Bestätigen Sie die Eingabe im folgenden Feld und wählen Sie in den *PivotChart-Feldern* beide Spalten an (vgl. {numref}`excel_pivot_chart` bis {numref}`excel_pivot_felder`). Auf das Feld *Achse (Rubriken)* ziehen Sie den Eintrag *Wert_verantw_Gewerk*, auf *Werte* den Eintrag *Anzahl von Attribut_verantw_Gewerk* ({numref}`excel_felder_gewerke`).
 
 
 ```{figure} ../assets/auswertung/excel_chart_felder_gewerke.png
@@ -547,7 +552,7 @@ alt: Darstellung Einträge in die PivotChart-Felder. Einzelne Eingaben sind mit 
 Einträge in die PivotChart-Felder
 ```
 
-Die Grafik zeigt nun die Anzahl der verantwortlichen Gewerke für alle entsprechenden Einträge im Datensatz an. Blenden Sie ggf. die Legende zur Grafik durch einen Klick auf das grüne Kreuz und das Setzen eines Hakens bei *Legende* ein. ({numref}`excel_legende`)
+Die Grafik zeigt nun die Anzahl der verantwortlichen Gewerke für alle entsprechenden Einträge im Datensatz an. Blenden Sie ggf. die Legende zur Grafik durch einen Klick auf das grüne Kreuz und das Setzen eines Hakens bei *Legende* ein ({numref}`excel_legende`).
 
 
 ```{figure} ../assets/auswertung/excel_legende_einblenden.png
@@ -560,7 +565,7 @@ alt: Darstellung der Einblendung der Legende zur Grafik.  Einzelne Eingaben sind
 Einblendung der Legende zur Grafik
 ```
 
-Für eine bessere Übersichtlichkeit der Visualisierung sollte diese noch angepasst werden. ({numref}`gewerke_roh`)
+Für eine bessere Übersichtlichkeit der Visualisierung sollte diese noch angepasst werden ({numref}`gewerke_roh`).
 
 ```{figure} ../assets/auswertung/Gewerke_verantwortlich_roh.png
 ---
@@ -572,7 +577,7 @@ alt: Darstellung der Grafik Erste Visualisierung der Anzahl der verantwortlichen
 Erste Visualisierung der Anzahl der verantwortlichen Gewerke
 ```
 
-Dies geschieht über die Feldschaltfläche *Wert_verantw_Gewerk* im Chart. Beschränken Sie z.B. die Auswahl der in der Grafik dargestellten Gewerke auf diejenigen, die am häufigsten aufgeführt werden oder die für die Fragestellung interessant sind. Die Werte können Sie der Pivot-Tabelle entnehmen, die gleichezitig mit dem Pivot-Chart erzeugt wurde. Dies kann z.B. eine Beschränkung auf Animation, Buch, Kamera, Kameraübung und Regie sein. Für eine weitere Auswertung können sie die Auswahl der angezeigten Gewerke variieren. ({numref}`gewerke_auswahl`)
+Dies geschieht über die Feldschaltfläche *Wert_verantw_Gewerk* im Chart. Beschränken Sie z.B. die Auswahl der in der Grafik dargestellten Gewerke auf diejenigen, die am häufigsten aufgeführt werden oder die für die Fragestellung interessant sind. Die Werte können Sie der Pivot-Tabelle entnehmen, die gleichzeitig mit dem Pivot-Chart erzeugt wurde. Dies kann z.B. eine Beschränkung auf Animation, Buch, Kamera, Kameraübung und Regie sein. Für eine weitere Auswertung können sie die Auswahl der angezeigten Gewerke variieren ({numref}`gewerke_auswahl`).
 
 
 ```{figure} ../assets/auswertung/gewerke_auswahl.png
@@ -585,7 +590,7 @@ alt: Darstellung Auswahl der Gewerke für die Visualisierung und Weitere Sortier
 Auswahl der Gewerke für die Visualisierung und *Weitere Sortieroptionen*
 ```
 
-Zusätzlich ist es möglich, die Reihenfolge der Gewerke in der Grafik zu verändern. Wählen Sie hierfür ebenfalls bei der Feldschaltfläche *Wert_verantw_Gewerk* den Punkt *weitere Sortieroptionen* aus. Im sich öffnenden Fenster zu *Sortieroptionen* entscheiden Sie sich bei *Absteigend (Z bis A) nach:* für die Option *Anzahl von Attribut_verantw_Gewerk*. ({numref}`gewerke_sortieren`)
+Zusätzlich ist es möglich, die Reihenfolge der Gewerke in der Grafik zu verändern. Wählen Sie hierfür ebenfalls bei der Feldschaltfläche *Wert_verantw_Gewerk* den Punkt *weitere Sortieroptionen* aus. Im sich öffnenden Fenster zu *Sortieroptionen* entscheiden Sie sich bei *Absteigend (Z bis A) nach:* für die Option *Anzahl von Attribut_verantw_Gewerk* ({numref}`gewerke_sortieren`).
 
 ```{figure} ../assets/auswertung/gewerke_sortieren.png
 ---
@@ -597,7 +602,7 @@ alt: Darstellung Auswahl aus Sortieroptionen. Einzelne Eingaben sind mit roten K
 Auswahl aus Sortieroptionen
 ```
  
-In der Grafik werden nun die verantwortlichen Gewerke absteigend nach der Anzahl ihrer Nennung im Datensatz dargestellt. Versehen Sie die Grafik nun mit einer Beschriftung und blenden Sie die Feldschaltflächen aus. (vgl. {numref}`titel_jahr_roh` und {numref}`titel_jahr_ausblenden`) Per *Copy & Paste* können Sie die Grafik in andere Anwendungen einfügen. ({numref}`gewerke_verantwortlich`)
+In der Grafik werden nun die verantwortlichen Gewerke absteigend nach der Anzahl ihrer Nennung im Datensatz dargestellt. Versehen Sie die Grafik nun mit einer Beschriftung und blenden Sie die Feldschaltflächen aus (vgl. {numref}`titel_jahr_roh` und {numref}`titel_jahr_ausblenden`). Per *Copy & Paste* können Sie die Grafik in andere Anwendungen einfügen ({numref}`gewerke_verantwortlich`).
 
 ```{figure} ../assets/auswertung/Gewerke_verantwortlich.png
 ---
@@ -618,7 +623,7 @@ Wandeln Sie das Säulendiagramm zu *Anzahl der verantwortlichen Gewerke* in ein 
 ````{admonition} Lösung
     :class: solution, dropdown
 
-Öffnen Sie mit einem Rechtsklick in die Grafik das Kontextmenü. Wählen Sie dort die Option *Diagrammtyp ändern* aus. ({numref}`gewerke_diagrammtyp_1`)
+Öffnen Sie mit einem Rechtsklick in die Grafik das Kontextmenü. Wählen Sie dort die Option *Diagrammtyp ändern* aus ({numref}`gewerke_diagrammtyp_1`).
 
 ```{figure} ../assets/auswertung/gewerke_diagrammtyp_1.png
 ---
@@ -630,7 +635,7 @@ alt: Darstellung *Diagrammtyp ändern*. Einzelne Eingaben sind mit roten Kreisen
 Auswahl *Diagrammtyp ändern*
 ```
 
-Im sich öffnenden Fenster wählen Sie den Diagrammtyp *Kreis* aus. ({numref}`gewerke_diagrammtyp_2`)
+Im sich öffnenden Fenster wählen Sie den Diagrammtyp *Kreis* aus ({numref}`gewerke_diagrammtyp_2`).
 
 ```{figure} ../assets/auswertung/gewerke_diagrammtyp_2.png
 ---
@@ -647,7 +652,7 @@ Das Säulendiagramm wird in ein Kreisdiagramm umgewandelt.
 ````
 `````
 
-Im Kreisdiagramm wird die Dominanz der Regie im Rahmen der verantwortlichen Gewerke noch deutlicher. ({numref}`gewerke_verantwortlich_kreis`)
+Im Kreisdiagramm wird die Dominanz der Regie im Rahmen der verantwortlichen Gewerke noch deutlicher ({numref}`gewerke_verantwortlich_kreis`).
 
 ```{figure} ../assets/auswertung/Gewerke_verantwortlich_kreis.png
 ---
@@ -659,14 +664,14 @@ alt: Darstellung der Anzahl der verantwortlichen Gewerke als Kreisdiagramm
 Anzahl der verantwortlichen Gewerke als Kreisdiagramm
 ```
 
-Wie auch bei den bisherigen Visualisierungen und Auswertungen zum Datensatz muss bedacht werden, dass nicht für alle Titel die jeweils verantwortlichen Gewerke bei der Datenerfassung in die filmografischen Angaben aufgenommen wurden. Weiterführende Recherchen im Filmarchiv und in weiteren Archiven mit Informationen zu Entstehungskontexten der Filme sind also notwendig. Die Domianz der Regie in der Anzahl der für die Filme verantwortlichen Gewerke ist nicht weiter verwunderlich, wird die Regie – dem Auteur-Gedanken folgend – doch meist als die für den gesamten künstlerischen Prozess verantwortliche Instanz angesehen. Die Zuordnung verantwortlicher Gewerke zu studentischen Produktionen kann aber auch mit Lehrplänen und Studienordnungen zusammenhängen. Diese sollten in eine genauere Analyse der Zahlen zu den verantwortlichen Gewerken einbezogen werden.
+Wie auch bei den bisherigen Visualisierungen und Auswertungen zum Datensatz muss bedacht werden, dass nicht für alle Titel die jeweils verantwortlichen Gewerke bei der Datenerfassung in die filmografischen Angaben aufgenommen wurden. Weiterführende Recherchen im Filmarchiv und in weiteren Archiven mit Informationen zu Entstehungskontexten der Filme sind also notwendig. Die Dominanz der Regie in der Anzahl der für die Filme verantwortlichen Gewerke ist nicht weiter verwunderlich, wird die Regie – dem Auteur-Gedanken folgend – doch meist als die für den gesamten künstlerischen Prozess verantwortliche Instanz angesehen. Die Zuordnung verantwortlicher Gewerke zu studentischen Produktionen kann aber auch mit Lehrplänen und Studienordnungen zusammenhängen. Diese sollten in eine genauere Analyse der Zahlen zu den verantwortlichen Gewerken einbezogen werden.
 
 ## Anzahl der Schlagworte pro Jahr
 Die Visuallsierung und Auswertung der Anzahl der Schlagworte pro Jahr folgt einem ähnlichen Vorgehen wie im letzten Abschnitt zu den verantwortlichen Gewerken. Die Schlagworte sind auf sechs Spalten verteilt (*Schlagwort_1* bis *Schlagwort_6*), die zur weiteren Verabeitung in eine Spalte überführt werden müssen. Für die Visualisierung ist zusätzlich noch die Spalte *Jahr_1* notwendig.
 
-Ausgangspunkt ist der in die Excel-Tabelle importierte [Auswertungs-Datensatz](#import-des-datensatzes-in-excel). Wählen Sie dort im Reiter *Daten* die Option *Aus Tabelle/Bereich* aus. Der *Power Query-Editor* öffnet sich. Gehen Sie im Reiter *Start* auf *Spalten auswählen* und setzten Sie im sich öffnenden Fenster bei den Spalten *Jahr_1* und den Spalten *Schlagwort_1* bis *Schlagwort_6* einen Haken. Beenden Sie die Spaltenauswahl mit *OK*. (Vgl. {numref}`excel_tabelle_bereich` bis {numref}`excel_spalten_gewerk`)
+Ausgangspunkt ist der in die Excel-Tabelle importierte [Auswertungs-Datensatz](#import-des-datensatzes-in-excel). Wählen Sie dort im Reiter *Daten* die Option *Aus Tabelle/Bereich* aus. Der *Power Query-Editor* öffnet sich. Gehen Sie im Reiter *Start* auf *Spalten auswählen* und setzten Sie im sich öffnenden Fenster bei den Spalten *Jahr_1* und den Spalten *Schlagwort_1* bis *Schlagwort_6* einen Haken. Beenden Sie die Spaltenauswahl mit *OK* (vgl. {numref}`excel_tabelle_bereich` bis {numref}`excel_spalten_gewerk`).
 
-Wählen Sie nun die Spalten *Schlagwort_1* bis *Schlagwort_6* aus, indem Sie in den Spaltentitel klicken und die *Strg-Taste* gedrückt halten. Achten Sie darauf, die Spalte *Jahr_1* nicht mit auszuwählen. Ein Rechtsklick auf einen der markierten Spaltentitel öffnet ein Menü, dort entscheiden Sie sich für die Option *Nur ausgewählte Spalten entpivotieren*. ({numref}`excel_spalten_schlagworte`)
+Wählen Sie nun die Spalten *Schlagwort_1* bis *Schlagwort_6* aus, indem Sie in den Spaltentitel klicken und die *Strg-Taste* gedrückt halten. Achten Sie darauf, die Spalte *Jahr_1* nicht mit auszuwählen. Ein Rechtsklick auf einen der markierten Spaltentitel öffnet ein Menü, dort entscheiden Sie sich für die Option *Nur ausgewählte Spalten entpivotieren* ({numref}`excel_spalten_schlagworte`).
 
 ```{figure} ../assets/auswertung/excel_spalten_schlagwort.png
 ---
@@ -678,9 +683,9 @@ alt: Darstellung Auswahl der Schlagwort-Spalten und Option *Entpiovtieren*. Einz
 Auswahl der Schlagwort-Spalten und Option *Entpivotieren*
 ```
 
-Mit einem Klick auf *Schließen & Laden* beenden Sie den *Power Query-Editor*, die neu erstellten Spalten werden zusammen mit der Spalte *Jahr_1* in ein neues Excel-Arbeitsblatt übernommen. (Vgl. {numref}`excel_query_ende`) Benennen Sie die Spalten *Attribut* und *Wert* um, damit diese für eine mögliche spätere Verwendung besser zuordenbar sind, z.B. in *Attribut_Schlagwort* und *Wert_Schlagwort*. Ausgehend von diesem Excel-Arbeitsblatt können Sie mit der Visualisierung der Daten beginnen. Das Vorgehen folgt dabei Schritten, die bereits in den letzten Abschnitten dargestellt wurden.
+Mit einem Klick auf *Schließen & Laden* beenden Sie den *Power Query-Editor*, die neu erstellten Spalten werden zusammen mit der Spalte *Jahr_1* in ein neues Excel-Arbeitsblatt übernommen (vgl. {numref}`excel_query_ende`). Benennen Sie die Spalten *Attribut* und *Wert* um, damit diese für eine mögliche spätere Verwendung besser zuordenbar sind, z.B. in *Attribut_Schlagwort* und *Wert_Schlagwort*. Ausgehend von diesem Excel-Arbeitsblatt können Sie mit der Visualisierung der Daten beginnen. Das Vorgehen folgt dabei Schritten, die bereits in den letzten Abschnitten dargestellt wurden.
 
-Klicken Sie auf den ersten Eintrag der Spalte *Jahr_1* und wählen Sie im Reiter *Einfügen* die Option *PivotChart und PivotTabelle* aus. Bestätigen Sie die Eingabe im folgenden Feld und wählen Sie in den *PivotChart-Feldern* die Spalten *Jahr_1* und *Wert_Schlagwort* an. (Vgl. {numref}`excel_pivot_chart` bis {numref}`excel_pivot_felder`) Auf das Feld *Achse (Rubriken)* ziehen Sie den Eintrag *Jahr_1*, auf *Werte* den Eintrag *Anzahl von Wert_Schlagwort* und auf das Feld *Legende (Reihe)* den Eintrag *Wert_Schlagwort*. ({numref}`excel_felder_schlagwort`)
+Klicken Sie auf den ersten Eintrag der Spalte *Jahr_1* und wählen Sie im Reiter *Einfügen* die Option *PivotChart und PivotTabelle* aus. Bestätigen Sie die Eingabe im folgenden Feld und wählen Sie in den *PivotChart-Feldern* die Spalten *Jahr_1* und *Wert_Schlagwort* an (vgl. {numref}`excel_pivot_chart` bis {numref}`excel_pivot_felder`). Auf das Feld *Achse (Rubriken)* ziehen Sie den Eintrag *Jahr_1*, auf *Werte* den Eintrag *Anzahl von Wert_Schlagwort* und auf das Feld *Legende (Reihe)* den Eintrag *Wert_Schlagwort* ({numref}`excel_felder_schlagwort`).
 
 ```{figure} ../assets/auswertung/excel_chart_felder_schlagwort.png
 ---
@@ -692,7 +697,7 @@ alt: Darstellung Einträge in die PivotChart-Felder. Einzelne Eingaben sind mit 
 Einträge in die PivotChart-Felder
 ```
 
-Wie bereits bei der Auswertung der verantwortlichen Gewerke ergibt sich hier aufgrund der hohen Anzahl an Schlagworten eine recht unübersichtliche Darstellung. ({numref}`schlagworte_jahr_roh`) Die Grafik sollte also weiter bearbeitet werden.
+Wie bereits bei der Auswertung der verantwortlichen Gewerke ergibt sich hier aufgrund der hohen Anzahl an Schlagworten eine recht unübersichtliche Darstellung ({numref}`schlagworte_jahr_roh`). Die Grafik sollte also weiter bearbeitet werden.
 
 ```{figure} ../assets/auswertung/schlagworte_jahr_roh.png
 ---
@@ -704,7 +709,7 @@ alt: Darstellung der Visualisierung der Anzahl der Schlagworte pro Jahr
 Erste Visualisierung der Anzahl der Schlagworte pro Jahr
 ```
 
-Wie im Kapitel zur Analyse der [Datenquelle](../bereinigung/datenquelle.md#schlagwort-stichworter-zusammenfassung) dargelegt, werden bei der Erfassung der filmografischen Angaben für den Bibliothekskatalog die Gattungen als Schlagworte aufgenommen. Die Anzahl der [Gattungen pro Jahr](#anzahl-der-gattungen-pro-jahr) im Datensatz wurde bereits visualisiert und ausgewertet, die Schlagworte *Spielfilm*, *Dokumentarfilm* und *Animationsfilm* können also bei dieser Auswertung ausgeschlossen werden. Des Weiteren bietet es sich an, sich auf Schlagworte zu konzentrieren, die besonders häufig vorkommen und solche, die für die Forschungsfrage relevant erscheinen. Wählen Sie daher bei der Feldschaltfläche *Wert Schlagwort* in der Grafik zunächst alle Inhalte ab und dann die Schlagworte *Arbeit, Frauen, Porträtfilm* und *Wende* an. (Vgl. {numref}`gewerke_auswahl`) Blenden sie zusätzlich eine Datentabelle ein. (Vgl. {numref}`gattung_jahr_säule_daten_auswahl`) Dadurch ergibt sich bereits eine übersichtlichere Grafik. ({numref}`schlagworte_jahr_auswahl`)
+Wie im Kapitel zur Analyse der [Datenquelle](../bereinigung/datenquelle.md#schlagwort-stichworter-zusammenfassung) dargelegt, werden bei der Erfassung der filmografischen Angaben für den Bibliothekskatalog die Gattungen als Schlagworte aufgenommen. Die Anzahl der [Gattungen pro Jahr](#anzahl-der-gattungen-pro-jahr) im Datensatz wurde bereits visualisiert und ausgewertet, die Schlagworte *Spielfilm*, *Dokumentarfilm* und *Animationsfilm* können also bei dieser Auswertung ausgeschlossen werden. Des Weiteren bietet es sich an, sich auf Schlagworte zu konzentrieren, die besonders häufig vorkommen und solche, die für die Forschungsfrage relevant erscheinen. Wählen Sie daher bei der Feldschaltfläche *Wert Schlagwort* in der Grafik zunächst alle Inhalte ab und dann die Schlagworte *Arbeit, Frauen, Porträtfilm* und *Wende* an (vgl. {numref}`gewerke_auswahl`). Blenden sie zusätzlich eine Datentabelle ein (vgl. {numref}`gattung_jahr_säule_daten_auswahl`). Dadurch ergibt sich bereits eine übersichtlichere Grafik ({numref}`schlagworte_jahr_auswahl`).
 
 ```{figure} ../assets/auswertung/schlagworte_jahr_auswahl.png
 ---
@@ -718,7 +723,7 @@ Anzahl ausgewählter Schlagworte pro Jahr
 
 Es zeigt sich, dass das Schlagwort *Arbeit* insbesondere 1987, aber auch 1988 und 1989 besonders häufig auftritt und danach fast verschwindet. Dies könnte mit sich verändernden politischen Bedingungen zu tun haben. Zu Zeiten der DDR hatte das Thema Arbeit einen hohen Stellenwert, was sich auch in der Anzahl der Schlagworte bzw. der Themenwahl, die sich in den Schlagworten spiegelt, zum Ausdruck kommen kann. Während der Wendezeit können sich die Themen und damit die Schlagworte zu den studentischen Filmen verändert haben. Für eine genauere Analyse sind jedoch Archiv-Recherchen notwendig, da die Häufung des Schlagwortes *Arbeit* auch mit speziellen Film-Übungen in den ensprechenden Jahren verbunden sein kann.
 
-Um noch tiefer in eine Auswertung einsteigen zu können, soll nun die Darstellung der Jahre noch reduziert werden. Wählen Sie dazu im Dropdown-Menü *Jahr_1* in der Grafik die Jahren *1987 bis 1992* an. (Vgl. {numref}`gewerke_auswahl`)
+Um noch tiefer in eine Auswertung einsteigen zu können, soll nun die Darstellung der Jahre noch reduziert werden. Wählen Sie dazu im Dropdown-Menü *Jahr_1* in der Grafik die Jahren *1987 bis 1992* an (vgl. {numref}`gewerke_auswahl`).
 
 ```{figure} ../assets/auswertung/schlagworte_jahr_auswahl_2.png
 ---
@@ -737,7 +742,7 @@ Für eine weitere Auswertung sollte mit der Visualisierung weiterer, unterschied
 ## Darstellung der Schlagworte mit Voyant Tools
 Abschließend soll nun darauf eingegangen werden, wie mit *Voyant Tools* Visualisierungen der Schlagworte erstellt werden, die für eine weitere Auswertung hilfreich sein können, z.B. mit den bereits vorgestellten Möglichkeiten mit Excel. *Voyant Tools* ist webbassiert und wurde für die Auswertung größerer Textkoropra entwickelt. An dieser Stelle können wir nur einige grundlegende Funktionen von *Voyant Tools* vorstellen: Wir werden eine *Wortwolke* mit den Schlagworten aus unserem Datenset erzeugen, aus der die Häufigkeit der einzelnen Worte durch die Größe der Darstellung hervorgeht.
 
-Öffnen Sie hierfür das im letzten Abschnitt zur Visualisierung der [Anzahl der Schlagworte pro Jahr](#anzahl-der-schlagworte-pro-jahr) erstellte Excel-Arbeitsblatt, markieren Sie die Spalte *Wert_Schlagwort* und kopieren Sie die Inhalte mit der Tastenkombination *Strg + C* in die Zwischenablage. ({numref}`voyant_schlagworte_excel_copy`)
+Öffnen Sie hierfür das im letzten Abschnitt zur Visualisierung der [Anzahl der Schlagworte pro Jahr](#anzahl-der-schlagworte-pro-jahr) erstellte Excel-Arbeitsblatt, markieren Sie die Spalte *Wert_Schlagwort* und kopieren Sie die Inhalte mit der Tastenkombination *Strg + C* in die Zwischenablage ({numref}`voyant_schlagworte_excel_copy`).
 
 ```{figure} ../assets/auswertung/voyant_schlagwort_copy_excel.PNG
 ---
@@ -749,7 +754,7 @@ alt: Darstellung Kopieren der Spalte *Wert_Schlagwort* in die Zwischenablage
 Kopieren der Spalte *Wert_Schlagwort* in die Zwischenablage
 ```
 
-Gehen Sie nun zur Webseite von <a href="https://voyant-tools.org/?lang=de" class="external-link" target="_blank">Voyant Tools</a>. Fügen Sie in das Feld *Text hinzufügen* den Inhalt der Zwischenablage ein (Tastenkombination *Strg + V*) und klicken sie anschließend auf *Anzeigen*. ({numref}`voyant_eingabe_text`)
+Gehen Sie nun zur Webseite von <a href="https://voyant-tools.org/?lang=de" class="external-link" target="_blank">Voyant Tools</a>. Fügen Sie in das Feld *Text hinzufügen* den Inhalt der Zwischenablage ein (Tastenkombination *Strg + V*) und klicken sie anschließend auf *Anzeigen* ({numref}`voyant_eingabe_text`).
 
 ```{figure} ../assets/auswertung/voyant_eingabe_text.png
 ---
@@ -765,7 +770,7 @@ Die Arbeitsoberfläche von *Voyant Tools* zur Auswertung des eingelesenen Textes
 
 Die Arbeitsoberfläche von *Voyant Tools* enthält mehrere Fenster, in denen Auswertungen zum eingelesenen Korpus vorgenommen werden können. Wir werden uns auf das Fenster links oben konzentrieren, in dem *Cirrus* aktviert ist. Es enthält bereits eine Wortwolke aus den eingelesenen Schlagworten. Die am häufigsten vorkommenden Worte werden größer dargesellt. 
 
-In der Wortwolke treten *Spielfilm, Dokumentarfilm* und *Animationsfilm* als häufige Worte besonders hervor. ({numref}`voyant_eingabe_start`) Im Kapitel zur Analyse der [Datenquelle](../bereinigung/datenquelle.md#schlagwort-stichworter-zusammenfassung) haben wir bereits darauf hingeweisen, dass diese Gattungen ebenfalls in den Schlagworten erfasst werden. Für eine weitere Auswertung möchten wir die Gattungsbezeichnungen von der Visualisierung ausnehmen. Zeigen Sie hierfür mit der Maus in die Zeile, in der *Cirrus* über der Wortwolke aufgeführt wird. Bei den erscheinenden Eingabemöglichkeiten klicken Sie auf den Button neben dem Fragezeichen, für den *Optionen für dieses Tool definieren* angezeigt wird.
+In der Wortwolke treten *Spielfilm, Dokumentarfilm* und *Animationsfilm* als häufige Worte besonders hervor ({numref}`voyant_eingabe_start`). Im Kapitel zur Analyse der [Datenquelle](../bereinigung/datenquelle.md#schlagwort-stichworter-zusammenfassung) haben wir bereits darauf hingeweisen, dass diese Gattungen ebenfalls in den Schlagworten erfasst werden. Für eine weitere Auswertung möchten wir die Gattungsbezeichnungen von der Visualisierung ausnehmen. Zeigen Sie hierfür mit der Maus in die Zeile, in der *Cirrus* über der Wortwolke aufgeführt wird. Bei den erscheinenden Eingabemöglichkeiten klicken Sie auf den Button neben dem Fragezeichen, für den *Optionen für dieses Tool definieren* angezeigt wird.
 
 ```{figure} ../assets/auswertung/voyant_start_eingabe.png
 ---
@@ -777,7 +782,7 @@ alt: Darstellung Eingabeoptionen in Voyant Tools definieren. Einzelne Eingaben s
 Eingabeoptionen in Voyant Tools definieren
 ```
 
-Im sich öffnenden Optionen-Eingabefenster wählen Sie in der Zeile *Stopwords* den Punkt *Liste bearbeiten*. ({numref}`voyant_eingabe_option`)
+Im sich öffnenden Optionen-Eingabefenster wählen Sie in der Zeile *Stopwords* den Punkt *Liste bearbeiten* ({numref}`voyant_eingabe_option`).
 
 ```{figure} ../assets/auswertung/voyant_eingabe_optionen.png
 ---
@@ -789,7 +794,7 @@ alt: Darstellung Eingabeoption Liste bearbeiten. Einzelne Eingaben sind mit rote
 Eingabeoption *Liste bearbeiten*
 ```
 
-Es öffnet sich eine vordefinierte Liste mit *Stopwords*, die Worte enthält, die nicht in eine Auswertung eines Textkorpus mit *Voyant Tools* einfließen sollen. Dies sind Worte wie Artikel oder ausgeschriebene Zahlen, die häufig in Texten vorkommen, aber z.B. für Visualisierung hinderlich sind. Dieser Liste fügen Sie *Dokumentarfilm*, *Spielfilm* und *Animationsfilm* hinzu. Beenden Sie die Eingabe mit *Speichern*. ({numref}`voyant_eingabe_stopword`) Sie gelangen zurück zum Optionen Eingabefenster, wählen sie dort *Bestätigen* aus.
+Es öffnet sich eine vordefinierte Liste mit *Stopwords*, die Worte enthält, die nicht in eine Auswertung eines Textkorpus mit *Voyant Tools* einfließen sollen. Dies sind Worte wie Artikel oder ausgeschriebene Zahlen, die häufig in Texten vorkommen, aber z.B. für Visualisierung hinderlich sind. Dieser Liste fügen Sie *Dokumentarfilm*, *Spielfilm* und *Animationsfilm* hinzu. Beenden Sie die Eingabe mit *Speichern* ({numref}`voyant_eingabe_stopword`). Sie gelangen zurück zum Optionen Eingabefenster, wählen sie dort *Bestätigen* aus.
 
 ```{figure} ../assets/auswertung/voyant_eingabe_stopword.png
 ---
@@ -801,7 +806,7 @@ alt: Darstellung Eingabe zusätzlicher Stopwords. Einzelne Eingaben sind mit rot
 Eingabe zusätzlicher Stopwords
 ```
 
-Im linken oberen Fenster ist eine neue Wortwolke entstanden, die die Schlagworte *Spielfilm*, *Dokumentarfilm* und *Animationsfilm* nicht mehr enthält. An der Größe der Darstellung der Worte ist erkennbar, dass die Schlagworte *Adaption, Porträtfilm, Wende, Arbeit* und *Frauen* besonders häufig im Textkorpus der Schlagworte vorkommen. ({numref}`voyant_wortwolke_regler`) Wenn Sie mit dem Mauszeiger über die entsprechenden Schlagworte fahren, wird die Anzahl der Nennungen im Korpus angezeigt, die der Anzahl der Einträge in unserem synthetischen Datensatz entspricht.
+Im linken oberen Fenster ist eine neue Wortwolke entstanden, die die Schlagworte *Spielfilm*, *Dokumentarfilm* und *Animationsfilm* nicht mehr enthält. An der Größe der Darstellung der Worte ist erkennbar, dass die Schlagworte *Adaption, Porträtfilm, Wende, Arbeit* und *Frauen* besonders häufig im Textkorpus der Schlagworte vorkommen ({numref}`voyant_wortwolke_regler`). Wenn Sie mit dem Mauszeiger über die entsprechenden Schlagworte fahren, wird die Anzahl der Nennungen im Korpus angezeigt, die der Anzahl der Einträge in unserem synthetischen Datensatz entspricht.
 
 ```{figure} ../assets/auswertung/voyant_wortwolke_regler.png
 ---
@@ -813,7 +818,7 @@ alt: Darstellung Wortwolke zu Schlagworten mit Regler für die Anzahl der Begrif
 Wortwolke zu Schlagworten mit Regler für die Anzahl der Begriffe
 ```
 
-Links unter der Wortwolke finden Sie einen Regler, mit dem die Anzahl der in die Visualisierung in Form einer Wortwolke einbezogenen Begriffe verändert werden kann. Experimentieren Sie mit der Anzahl der Begriffe. Stellen Sie ihn z.B. auf das Maximum ein. ({numref}`voyant_wortwolke_regler_max`)
+Links unter der Wortwolke finden Sie einen Regler, mit dem die Anzahl der in die Visualisierung in Form einer Wortwolke einbezogenen Begriffe verändert werden kann. Experimentieren Sie mit der Anzahl der Begriffe. Stellen Sie ihn z.B. auf das Maximum ein ({numref}`voyant_wortwolke_regler_max`).
 
 ```{figure} ../assets/auswertung/voyant_wortwolke_regler_max.png
 ---
@@ -836,4 +841,4 @@ In diesem Kapitel haben wir Möglichkeiten der Visualisierung und Auswertung uns
 
 Es hat sich gezeigt, dass durch Visualisierungen eine explorative Auswertung des Datensatzes möglich ist. Es wurde u.a. deutlich, dass Ende der 1980er Jahre die Anzahl der Titel im Datensatz ansteigt, verstärkt dokumentarische Formen entstanden sind und die Anzahl bestimmter Projektarten größer wird. Diese Auswertungen und Visualisierungen können eine gute Grundlage für weitere Recherchen im Filmarchiv der Filmuniversität und weiteren Archiven bilden.
 
-Dabei muss im Blick behalten werden, dass im Datensatz nicht alle Angaben vollständig enthalten sind. So werden Gattungen oder Projektakrten nicht immer in die filmografischen Angaben im Archivkatalog aufgenommen. Die erstellten Visualisierungen und die Datengrundlage, auf der sie basieren, müssen also immer kritisch hinterfragt werden. Dennoch bieten sie gute und hilfreiche Ausgangspunkte für die weitere Arbeit an den Fragestellungen.
+Dabei muss im Blick behalten werden, dass im Datensatz nicht alle Angaben vollständig enthalten sind. So werden Gattungen oder Projektarten nicht immer in die filmografischen Angaben im Archivkatalog aufgenommen. Die erstellten Visualisierungen und die Datengrundlage, auf der sie basieren, müssen also immer kritisch hinterfragt werden. Dennoch bieten sie gute und hilfreiche Ausgangspunkte für die weitere Arbeit an den Fragestellungen.
