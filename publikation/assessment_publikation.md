@@ -32,75 +32,56 @@ Sie können die Fragen in beliebiger Reihenfolge bearbeiten und die Beantwortung
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels nochmals zu bearbeiten. 
 
-**Geschätzte Zeit**: XX
+**Geschätzte Zeit**: 20 Minuten
 
 Viel Erfolg!
 ````
 
-### Aufgabe 1
+## Aufgabe 1
 
 ```{code-cell} ipython3
 :tags: [remove-input]
-display_quiz("../assets/assessment/publikation/publikation_quiz.json", colors = colors.jupyterquiz)
-```
-
-### Aufgabe 2
-
-```{code-cell} ipython3
-:tags: [remove-input]
-from jupyterquiz import display_quiz
 import sys
-sys.path.append("..")
-from quadriga import colors
+sys.path.append("../quadriga")
+from assessment import DragDropQuiz
 
-multiple_choice1 = [{
-    "question": """Welche Phasen gehören zum Forschungsdatenlebenszyklus? (Mehrere Antworten möglich)""",
-    "type": "multiple_choice",
-    "answers": [
-        {
-            "answer": "Planung",
-            "correct": True,
-            "feedback": """✓ Richtig: Die Planungsphase ist ein essentieller erster Schritt im Forschungsdatenlebenszyklus."""
-        },
-        {
-            "answer": "Erhebung",
-            "correct": True,
-            "feedback": """✓ Richtig: Die Datenerhebung ist eine zentrale Phase im Forschungsprozess."""
-        },
-        {
-            "answer": "Aufbereitung",
-            "correct": True,
-            "feedback": """✓ Richtig: Die Aufbereitung der Daten ist wichtig für ihre weitere Verwendung."""
-        },
-        {
-            "answer": "Analyse",
-            "correct": True,
-            "feedback": """✓ Richtig: Die Analyse ist ein wesentlicher Teil des Forschungsprozesses."""
-        },
-        {
-            "answer": "Datenpublikation",
-            "correct": True,
-            "feedback": """✓ Richtig: Die Publikation der Daten ermöglicht deren Nachnutzung."""
-        },
-        {
-            "answer": "Archivierung",
-            "correct": True,
-            "feedback": """✓ Richtig: Die langfristige Archivierung sichert die Daten für die Zukunft."""
-        },
-        {
-            "answer": "Nachnutzung",
-            "correct": True,
-            "feedback": """✓ Richtig: Die Nachnutzung ermöglicht weitere Forschung auf Basis der Daten."""
-        }
-    ]
-}]
+quiz = DragDropQuiz()
 
-display_quiz(multiple_choice1, colors=colors.jupyterquiz)
+quiz.create_matching_quiz(
+    title="""Bringen Sie die Schritte des Forschungsdatenlebenszyklus in die richtige Reihenfolge:""",
+    descriptions=[
+        "1", 
+        "2", 
+        "3", 
+        "4", 
+        "5", 
+        "6",
+        "7"      
+    ],
+    options=[
+        "Planung", 
+        "Erhebung", 
+        "Aufbereitung", 
+        "Analyse", 
+        "Datenpublikation", 
+        "Archivierung",
+        "Nachnutzung"
+    ],
+    correct_mapping={
+        "1": "Planung",
+        "2": "Erhebung", 
+        "3": "Aufbereitung",
+        "4": "Analyse",
+        "5": "Datenpublikation",
+        "6": "Archivierung",
+        "7": "Nachnutzung"
+    }
+)
 ```
 
-### Aufgabe 3
+## Aufgabe 2
 
-**Richtig/Falsch:** Bewerten Sie folgende Aussagen zu Forschungsdaten:
+Bewerten Sie folgende Aussagen zu Forschungsdaten:
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -116,12 +97,12 @@ true_false1 = [{
         {
             "answer": "Richtig",
             "correct": False,
-            "feedback": """× Falsch: Forschungsdaten müssen nicht immer digital vorliegen (z.B. Texte), sie können auch im Projekt in eine digitale Form überführt werden."""
+            "feedback": """× Nicht korrekt: Forschungsdaten müssen nicht immer digital vorliegen (z.B. Texte), sie können auch im Projekt in eine digitale Form überführt werden."""
         },
         {
             "answer": "Falsch",
             "correct": True,
-            "feedback": """✓ Korrekt! Nicht alle Forschungsdaten liegen ursprünglich digital vor."""
+            "feedback": """✓ Korrekt: Nicht alle Forschungsdaten liegen ursprünglich digital vor."""
         }
     ]
 }]
@@ -135,12 +116,12 @@ true_false2 = [{
         {
             "answer": "Richtig",
             "correct": True,
-            "feedback": """✓ Richtig: In der Regel hat man es mit heterogenen Material zu tun, wie schriftliche und bildliche Quellen oder Materialsammlungen."""
+            "feedback": """✓ Korrekt: In der Regel hat man es mit heterogenen Material zu tun, wie schriftliche und bildliche Quellen oder Materialsammlungen."""
         },
         {
             "answer": "Falsch",
             "correct": False,
-            "feedback": """× Falsch: Forschungsdaten umfassen verschiedenste Materialtypen und Quellen."""
+            "feedback": """× Nicht korrekt: Forschungsdaten umfassen verschiedenste Materialtypen und Quellen."""
         }
     ]
 }]
@@ -159,7 +140,7 @@ true_false3 = [{
         {
             "answer": "Falsch",
             "correct": True,
-            "feedback": """✓ Richtig: Die Definition von Forschungsdaten variiert je nach Disziplin und Kontext."""
+            "feedback": """✓ Korrekt: Die Definition von Forschungsdaten ist nicht einheitlich und kann von Fach zu Fach variieren."""
         }
     ]
 }]
@@ -173,12 +154,12 @@ true_false4 = [{
         {
             "answer": "Richtig",
             "correct": True,
-            "feedback": """✓ Korrekt! Was als Forschungsdaten verstanden wird hängt von den Kontexten und Disziplinen ab in denen sie entstehen, es werden verschiedene Perspektiven eingenommen."""
+            "feedback": """✓ Korrekt: Was als Forschungsdaten verstanden wird hängt von den Kontexten und Disziplinen ab in denen sie entstehen, es werden verschiedene Perspektiven eingenommen."""
         },
         {
             "answer": "Falsch",
             "correct": False,
-            "feedback": """× Nicht korrekt! Die Interpretation von Forschungsdaten erfordert immer die Berücksichtigung des disziplinären Kontexts."""
+            "feedback": """× Nicht korrekt: Die Interpretation von Forschungsdaten erfordert immer die Berücksichtigung des disziplinären Kontexts."""
         }
     ]
 }]
@@ -186,12 +167,12 @@ true_false4 = [{
 display_quiz(true_false4, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 4
+## Aufgabe 3
 
 ```{code-cell} ipython3
 :tags: [remove-input]
 multiple_choice3 = [{
-    "question": """Welche Aussagen zu Repositorien sind korrekt? (Mehrere Antworten möglich)""",
+    "question": """Welche Aussagen zu Repositorien sind korrekt?""",
     "type": "multiple_choice",
     "answers": [
         {
@@ -220,7 +201,7 @@ multiple_choice3 = [{
 display_quiz(multiple_choice3, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 5
+## Aufgabe 4
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -252,9 +233,9 @@ quiz.create_matching_quiz(
 )
 ```
 
-### Aufgabe 6
+## Aufgabe 5
 
-**Richtig/Falsch:** Bewerten Sie folgende Aussagen zu Data Papers:
+Bewerten Sie folgende Aussagen zu Data Papers:
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -275,7 +256,7 @@ true_false1 = [{
         {
             "answer": "Falsch",
             "correct": True,
-            "feedback": """✓ Richtig: Data Papers fokussieren sich auf die Dokumentation und Analyse des Datensatzes selbst."""
+            "feedback": """✓ Korrekt: Data Papers fokussieren sich auf die Dokumentation und Analyse des Datensatzes selbst."""
         }
     ]
 }]
@@ -289,7 +270,7 @@ true_false2 = [{
         {
             "answer": "Richtig",
             "correct": True,
-            "feedback": """✓ Korrekt! Der Aufbau eines Data Papers kann variieren und wird häufig vom publizierenden Journal vorgegeben."""
+            "feedback": """✓ Korrekt: Der Aufbau eines Data Papers kann variieren und wird häufig vom publizierenden Journal vorgegeben."""
         },
         {
             "answer": "Falsch",
@@ -308,12 +289,12 @@ true_false3 = [{
         {
             "answer": "Richtig",
             "correct": True,
-            "feedback": """✓ Richtig: In einem Data Paper wird das Datenmodell eines Datensatzes ausführlich beschrieben und reflektiert."""
+            "feedback": """✓ Korrekt: In einem Data Paper wird das Datenmodell eines Datensatzes ausführlich beschrieben und reflektiert."""
         },
         {
             "answer": "Falsch",
             "correct": False,
-            "feedback": """× Nicht korrekt. Die Reflexion des Datenmodells ist ein wesentlicher Bestandteil eines Data Papers."""
+            "feedback": """× Nicht korrekt: Die Reflexion des Datenmodells ist ein wesentlicher Bestandteil eines Data Papers."""
         }
     ]
 }]
@@ -327,12 +308,12 @@ true_false4 = [{
         {
             "answer": "Richtig",
             "correct": False,
-            "feedback": """× Nicht korrekt. Auch die Möglichkeiten der Nachnutzung und der Erweiterung des Datensatzes sollten diskutiert und damit eine Grundlage für weitere Einsatzmöglichkeiten gelegt werden."""
+            "feedback": """× Nicht korrekt: Auch die Möglichkeiten der Nachnutzung und der Erweiterung des Datensatzes sollten diskutiert und damit eine Grundlage für weitere Einsatzmöglichkeiten gelegt werden."""
         },
         {
             "answer": "Falsch",
             "correct": True,
-            "feedback": """✓ Korrekt. Die Diskussion der Nachnutzbarkeit ist ein wichtiger Bestandteil von Data Papers."""
+            "feedback": """✓ Korrekt: Die Diskussion der Nachnutzbarkeit ist ein wichtiger Bestandteil von Data Papers."""
         }
     ]
 }]
@@ -341,7 +322,7 @@ display_quiz(true_false4, colors=colors.jupyterquiz)
 ```
 
 
-### Aufgabe 7
+## Aufgabe 6
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -351,7 +332,7 @@ sys.path.append("..")
 from quadriga import colors
 
 multiple_choice10 = [{
-    "question": """Welche Informationen gelten nach DSGVO als personenbezogene Daten? (Mehrere Antworten möglich)""",
+    "question": """Welche Informationen gelten nach DSGVO als personenbezogene Daten?""",
     "type": "multiple_choice",
     "answers": [
         {
@@ -380,9 +361,9 @@ multiple_choice10 = [{
 display_quiz(multiple_choice10, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 8
+## Aufgabe 7
 
-**Richtig/Falsch:** Bewerten Sie folgende Aussagen zu Ausnahmen bei der Verarbeitung personenbezogener Daten:
+Bewerten Sie folgende Aussagen zu Ausnahmen bei der Verarbeitung personenbezogener Daten:
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -398,12 +379,12 @@ true_false1 = [{
         {
             "answer": "Richtig",
             "correct": True,
-            "feedback": """✓ Richtig: Die Verarbeitung personenbezogener Daten ist zunächst grundsätzlich verboten; für Ausnahmen müssen bestimmte Bedingungen erfüllt sein (z.B. Einwilligung der Personen)."""
+            "feedback": """✓ Korrekt: Die Verarbeitung personenbezogener Daten ist zunächst grundsätzlich verboten; für Ausnahmen müssen bestimmte Bedingungen erfüllt sein."""
         },
         {
             "answer": "Falsch",
             "correct": False,
-            "feedback": """× Nicht korrekt"""
+            "feedback": """× Nicht korrekt: Die Verarbeitung von personenbezogenen Daten ist prinzipiell nicht erlaubt, es müssen bestimmte Bedingungen erfüllt sein."""
         }
     ]
 }]
@@ -417,12 +398,12 @@ true_false2 = [{
         {
             "answer": "Richtig",
             "correct": True,
-            "feedback": """✓ Richtig: Die Einwilligung der Betroffenen ist eine wichtige Ausnahme bei der Datenverarbeitung; sie kann jederzeit widerrufen werden."""
+            "feedback": """✓ Korrekt: Die Einwilligung der Betroffenen ist eine wichtige Ausnahme bei der Datenverarbeitung; sie kann jederzeit widerrufen werden."""
         },
         {
             "answer": "Falsch",
             "correct": False,
-            "feedback": """× Nicht korrekt! Die Einwilligung ist eine der wichtigsten rechtlichen Grundlagen für die Datenverarbeitung."""
+            "feedback": """× Nicht korrekt: Die Einwilligung ist eine der wichtigsten rechtlichen Grundlagen für die Datenverarbeitung."""
         }
     ]
 }]
@@ -436,12 +417,12 @@ true_false3 = [{
         {
             "answer": "Richtig",
             "correct": False,
-            "feedback": """× Nicht korrekt. Eine Pseudonymisierung reicht nicht aus, der Personenbezug kann wiederhergestellt werden."""
+            "feedback": """× Nicht korrekt: Eine Pseudonymisierung reicht nicht aus, der Personenbezug kann wiederhergestellt werden."""
         },
         {
             "answer": "Falsch",
             "correct": True,
-            "feedback": """✓ Korrekt! Pseudonymisierung bietet keinen ausreichenden Schutz für eine Veröffentlichung."""
+            "feedback": """✓ Korrekt: Pseudonymisierung bietet keinen ausreichenden Schutz für eine Veröffentlichung."""
         }
     ]
 }]
@@ -455,12 +436,12 @@ true_false4 = [{
         {
             "answer": "Richtig",
             "correct": True,
-            "feedback": """✓ Richtig: Ein überwiegend wissenschaftliches Interesse kann eine Ausnahme darstellen (mit Auflagen)."""
+            "feedback": """✓ Korrekt: Ein überwiegend wissenschaftliches Interesse kann eine Ausnahme darstellen (mit Auflagen)."""
         },
         {
             "answer": "Falsch",
             "correct": False,
-            "feedback": """× Nicht korrekt! Wissenschaftliches Interesse ist eine der möglichen Rechtsgrundlagen für die Datenverarbeitung."""
+            "feedback": """× Nicht korrekt: Wissenschaftliches Interesse ist eine der möglichen Rechtsgrundlagen für die Datenverarbeitung."""
         }
     ]
 }]
@@ -474,12 +455,12 @@ true_false5 = [{
         {
             "answer": "Richtig",
             "correct": True,
-            "feedback": """✓ Richtig: Bei der Anonymisierung müssen alle Bezüge zu den Personen entfernt werden."""
+            "feedback": """✓ Korrekt: Bei der Anonymisierung müssen alle Bezüge zu den Personen entfernt werden."""
         },
         {
             "answer": "Falsch",
             "correct": False,
-            "feedback": """× Nicht korrekt!"""
+            "feedback": """× Nicht korrekt: Alle Bezüge zu Personen müssen bei einer Anonymisierung entfernt werden."""
         }
     ]
 }]
@@ -487,7 +468,7 @@ true_false5 = [{
 display_quiz(true_false5, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 9
+## Aufgabe 8
 
 **Szenario:** In der Fallstudie zu studentischen Filmen konnten die originalen Daten nicht publiziert werden. Analysieren Sie die Problematik:
 1. Identifizierung der Problemfelder
@@ -506,20 +487,20 @@ create_answer_box('Assessment-8')
 :class: solution, dropdown
 
 **1. Problemfelder:**
-- Personenbezogene Daten: Namen und Funktionen der Mitwirkenden sind enthalten
-- Unveröffentlichte Werke: Größtenteils studentische Übungen, nicht professionelle Produktionen
-- Fehlende Einwilligung: Nicht gesichert, dass Personen der Veröffentlichung zugestimmt haben
-- Anonymisierung problematisch: Namen und Funktionen sind für die Forschung relevant
+- Personenbezogene Daten: Namen und Funktionen der Mitwirkenden sind enthalten.
+- Unveröffentlichte Werke: Größtenteils studentische Übungen, nicht professionelle Produktionen.
+- Fehlende Einwilligung: Nicht gesichert, dass Personen der Veröffentlichung zugestimmt haben.
+- Anonymisierung problematisch: Namen und Funktionen sind für die Forschung relevant.
 
 **2. Rechtliche Situation:**
-- Datenschutz- Grundverordnung (DSGVO)-Problematik: Personenbezogene Daten können ohne Einwilligung nicht veröffentlicht werden.
+- Datenschutz-Grundverordnung (DSGVO)-Problematik: Personenbezogene Daten können ohne Einwilligung nicht veröffentlicht werden.
 - Es liegt kein überwiegend wissenschaftliches Interesse vor, das die Verarbeitung und Veröffentlichung erlauben würde.
 - Unterschied zu professionellen Produktionen: Personenangaben sind nicht bereits öffentlich.
 - Urheberrechtliche Aspekte: Recht auf korrekte Namens- und Funktionsnennung.
 
 ````
 
-### Aufgabe 10
+## Aufgabe 9
 
 **Szenario:** Sie haben einen Datensatz zu internationalen Filmfestivals erstellt, der öffentlich verfügbare Informationen unter CC-Lizenzen enthält und keine personenbezogenen Daten aufweist. Entwickeln Sie eine Publikationsstrategie:
 1. Auswahl des geeigneten Repositoriums
@@ -559,7 +540,7 @@ create_answer_box('Assessment-9')
 
 ````
 
-### Aufgabe 11
+## Aufgabe 10
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -569,28 +550,28 @@ sys.path.append("..")
 from quadriga import colors
 
 multiple_choice10 = [{
-    "question": """Welche Aussage zum Urheberrecht bei Forschungsdaten ist NICHT korrekt?""",
+    "question": """Welche Aussagen zum Urheberrecht bei Forschungsdaten sind korrekt?""",
     "type": "multiple_choice",
     "answers": [
         {
-            "answer": "Forschungsdaten können unter bestimmten Voraussetzungen urheberrechtlich geschützt sein",
-            "correct": False,
-            "feedback": """Schutz durch das Urheberrecht besteht bei einer eigenen geistigen Schöpfung."""
-        },
-        {
-            "answer": "Eine gewisse Schöpfungshöhe muss erreicht werden",
-            "correct": False,
-            "feedback": """✓ Korrekt! Eine gewisse Schöpfungshöhe muss erreicht werden, also eine eigene geistige Leistung erkennbar sein, die über das Alltägliche und rein Handwerkliche hinausgeht."""
-        },
-        {
-            "answer": "Messdaten und Daten aus Experimenten unterliegen grundsätzlich dem Urheberrecht",
+            "answer": "Forschungsdaten können unter bestimmten Voraussetzungen urheberrechtlich geschützt sein.",
             "correct": True,
-            "feedback": """Daten aus Experimenten und Messdaten unterliegen nicht dem Urheberrecht."""
+            "feedback": """✓ Richtig: Schutz durch das Urheberrecht besteht bei einer eigenen geistigen Schöpfung."""
         },
         {
-            "answer": "Qualitative Forschungsdaten sind oft urheberrechtlich geschützt",
+            "answer": "Eine gewisse Schöpfungshöhe muss für den Schutz durch das Urheberrecht erreicht werden.",
+            "correct": True,
+            "feedback": """✓ Richtig: Eine gewisse Schöpfungshöhe muss erreicht werden, also eine eigene geistige Leistung erkennbar sein, die über das Alltägliche und rein Handwerkliche hinausgeht."""
+        },
+        {
+            "answer": "Messdaten und Daten aus Experimenten unterliegen grundsätzlich dem Urheberrecht.",
             "correct": False,
-            "feedback": """Qualitative Daten wie Interviews weisen oft eine eigene geistige Schöpfung auf."""
+            "feedback": """x Falsch: Daten aus Experimenten und Messdaten unterliegen nicht dem Urheberrecht."""
+        },
+        {
+            "answer": "Qualitative Forschungsdaten sind oft urheberrechtlich geschützt.",
+            "correct": True,
+            "feedback": """✓ Richtig: Qualitative Daten wie Interviews weisen oft eine eigene geistige Schöpfung auf."""
         }
     ]
 }]
@@ -598,7 +579,7 @@ multiple_choice10 = [{
 display_quiz(multiple_choice10, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 12
+## Aufgabe 11
 
 **Szenario:** Sie möchten Filme als Forschungsdaten publizieren. Analysieren Sie die urheberrechtlichen Herausforderungen:
 
