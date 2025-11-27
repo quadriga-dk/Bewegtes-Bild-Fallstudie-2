@@ -188,7 +188,7 @@
       "name": "Präambel",
       "description": "Präambel der Fallstudie zu studentischen Filmen. Gibt grundlegende Informationen zu Lernzielen, Voraussetzungen und Vorkenntnissen.",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/praeambel/toc.html",
-      "timeRequired": "15min",
+      "timeRequired": "PT10M",
       "teaches": "Verständnis der Lernziele des Buchs",
       "educationalAlignment": [
         {
@@ -204,7 +204,7 @@
       "name": "Filmwissenschaft und Digital Humanities",
       "description": "Im folgenden Kapitel werden einige Grundzüge der Digital Humanities und deren Rolle in der Filmwissenschaft vorgestellt. Dadurch sollen Grundlagen für das Verständnis der Fallstudie gelegt werden, auf die sich die vorliegende Open Educational Resource bezieht.",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/einleitung/filmwissenschaft.html",
-      "timeRequired": "TODO",
+      "timeRequired": "PT45M",
       "teaches": "Überblick über Template",
       "educationalAlignment": [
         {
@@ -220,7 +220,7 @@
       "name": "Vorarbeiten und Recherche",
       "description": "Die vorliegende Fallstudie befasst sich mit den studentischen Filmproduktionen aus dem Filmarchiv der Filmuniversität Babelsberg KONRAD WOLF.",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/recherche/toc.html",
-      "timeRequired": "TODO",
+      "timeRequired": "PT1H30M",
       "teaches": "Schritte zur Findung einer Fragestellung",
       "educationalAlignment": [
         {
@@ -254,7 +254,7 @@
       "name": "Datenerhebung und Datenbereinigung",
       "description": "TODO",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/bereinigung/toc.html",
-      "timeRequired": "TODO",
+      "timeRequired": "PT2H",
       "teaches": "Prozess der Datenerhebung und Datenbereinigung",
       "educationalAlignment": [
         {
@@ -282,7 +282,7 @@
       "name": "Datenauswertung und Datenvisualisierung",
       "description": "TODO",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/auswertung/toc.html",
-      "timeRequired": "TODO",
+      "timeRequired": "PT1H40M",
       "teaches": "Datenauswertung und Datenvisualisierung mithilfe digitaler Ansätze und Werkzeuge",
       "educationalAlignment": [
         {
@@ -304,7 +304,7 @@
       "name": "Datenpublikation",
       "description": "TODO",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/publikation/toc.html",
-      "timeRequired": "TODO",
+      "timeRequired": "PT1H20M",
       "teaches": "Grundlagen für die Publikation von Forschungsdaten",
       "educationalAlignment": [
         {
@@ -332,7 +332,7 @@
       "name": "Reflexion und Ausblick",
       "description": "TODO",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/zusammenfassung/reflexion.html",
-      "timeRequired": "TODO",
+      "timeRequired": "PT15M",
       "teaches": "TODO",
       "educationalAlignment": [
         {

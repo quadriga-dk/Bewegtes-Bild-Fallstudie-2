@@ -121,7 +121,7 @@ Förderkennzeichen: 16DKZ2034</schema1:funding>
         <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_0_objective_0"/>
         <schema1:name>Präambel</schema1:name>
         <schema1:teaches>Verständnis der Lernziele des Buchs</schema1:teaches>
-        <schema1:timeRequired>15min</schema1:timeRequired>
+        <schema1:timeRequired>PT10M</schema1:timeRequired>
         <schema1:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/praeambel/toc.html"/>
       </schema1:LearningResource>
     </schema1:hasPart>
@@ -131,7 +131,7 @@ Förderkennzeichen: 16DKZ2034</schema1:funding>
         <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_1_objective_0"/>
         <schema1:name>Filmwissenschaft und Digital Humanities</schema1:name>
         <schema1:teaches>Überblick über Template</schema1:teaches>
-        <schema1:timeRequired>TODO</schema1:timeRequired>
+        <schema1:timeRequired>PT45M</schema1:timeRequired>
         <schema1:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/einleitung/filmwissenschaft.html"/>
       </schema1:LearningResource>
     </schema1:hasPart>
@@ -144,7 +144,7 @@ Förderkennzeichen: 16DKZ2034</schema1:funding>
         <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_2_objective_3"/>
         <schema1:name>Vorarbeiten und Recherche</schema1:name>
         <schema1:teaches>Schritte zur Findung einer Fragestellung</schema1:teaches>
-        <schema1:timeRequired>TODO</schema1:timeRequired>
+        <schema1:timeRequired>PT1H30M</schema1:timeRequired>
         <schema1:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/recherche/toc.html"/>
       </schema1:LearningResource>
     </schema1:hasPart>
@@ -156,7 +156,7 @@ Förderkennzeichen: 16DKZ2034</schema1:funding>
         <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_3_objective_2"/>
         <schema1:name>Datenerhebung und Datenbereinigung</schema1:name>
         <schema1:teaches>Prozess der Datenerhebung und Datenbereinigung</schema1:teaches>
-        <schema1:timeRequired>TODO</schema1:timeRequired>
+        <schema1:timeRequired>PT2H</schema1:timeRequired>
         <schema1:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/bereinigung/toc.html"/>
       </schema1:LearningResource>
     </schema1:hasPart>
@@ -167,7 +167,7 @@ Förderkennzeichen: 16DKZ2034</schema1:funding>
         <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_4_objective_1"/>
         <schema1:name>Datenauswertung und Datenvisualisierung</schema1:name>
         <schema1:teaches>Datenauswertung und Datenvisualisierung mithilfe digitaler Ansätze und Werkzeuge</schema1:teaches>
-        <schema1:timeRequired>TODO</schema1:timeRequired>
+        <schema1:timeRequired>PT1H40M</schema1:timeRequired>
         <schema1:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/auswertung/toc.html"/>
       </schema1:LearningResource>
     </schema1:hasPart>
@@ -179,7 +179,7 @@ Förderkennzeichen: 16DKZ2034</schema1:funding>
         <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_5_objective_2"/>
         <schema1:name>Datenpublikation</schema1:name>
         <schema1:teaches>Grundlagen für die Publikation von Forschungsdaten</schema1:teaches>
-        <schema1:timeRequired>TODO</schema1:timeRequired>
+        <schema1:timeRequired>PT1H20M</schema1:timeRequired>
         <schema1:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/publikation/toc.html"/>
       </schema1:LearningResource>
     </schema1:hasPart>
@@ -189,7 +189,7 @@ Förderkennzeichen: 16DKZ2034</schema1:funding>
         <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_6_objective_0"/>
         <schema1:name>Reflexion und Ausblick</schema1:name>
         <schema1:teaches>TODO</schema1:teaches>
-        <schema1:timeRequired>TODO</schema1:timeRequired>
+        <schema1:timeRequired>PT15M</schema1:timeRequired>
         <schema1:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/zusammenfassung/reflexion.html"/>
       </schema1:LearningResource>
     </schema1:hasPart>
