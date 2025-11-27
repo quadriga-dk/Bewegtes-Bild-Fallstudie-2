@@ -1,0 +1,349 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "@vocab": "http://schema.org/"
+  },
+  "@type": [
+    "Book",
+    "LearningResource"
+  ],
+  "name": "Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)",
+  "description": "TODO",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.TODOTODO",
+    "url": "https://doi.org/10.5281/zenodo.TODOTODO"
+  },
+  "version": "1.0.0-beta",
+  "schemaVersion": "1.0.0",
+  "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/",
+  "workExample": {
+    "@type": "SoftwareSourceCode",
+    "name": "Source Code Repository",
+    "codeRepository": "https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2"
+  },
+  "datePublished": "2025-06-03",
+  "dateModified": "2025-06-03",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Thomas",
+      "familyName": "Schick",
+      "name": "Thomas Schick",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0009-0007-3292-8611",
+        "url": "https://orcid.org/0009-0007-3292-8611"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Filmuniversität Babelsberg KONRAD WOLF"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Marco",
+      "familyName": "Winter",
+      "name": "Marco Winter",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Filmuniversität Babelsberg KONRAD WOLF"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Skadi",
+      "familyName": "Loist",
+      "name": "Skadi Loist",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-8299-4103",
+        "url": "https://orcid.org/0000-0002-8299-4103"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Filmuniversität Babelsberg KONRAD WOLF / Norwegian University for Science and Technology (NTNU)"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Lena",
+      "familyName": "Gieseke",
+      "name": "Lena Gieseke",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0001-8421-103X",
+        "url": "https://orcid.org/0000-0001-8421-103X"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Filmuniversität Babelsberg KONRAD WOLF"
+      }
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "givenName": "Hannes",
+      "familyName": "Schnaitter",
+      "name": "Hannes Schnaitter",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-1602-6032",
+        "url": "https://orcid.org/0000-0002-1602-6032"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Evgenia",
+      "familyName": "Samoilova",
+      "name": "Evgenia Samoilova",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0003-3858-901X",
+        "url": "https://orcid.org/0000-0003-3858-901X"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Universität Potsdam"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Lamia",
+      "familyName": "Islam",
+      "name": "Lamia Islam",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Universität Potsdam"
+      }
+    }
+  ],
+  "inLanguage": "de",
+  "keywords": [
+    "Open Educational Resource"
+  ],
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Open Educational Resource"
+    },
+    {
+      "@type": "Thing",
+      "name": "übergreifend"
+    },
+    {
+      "@type": "Thing",
+      "name": "Bewegtes Bild"
+    }
+  ],
+  "audience": [
+    {
+      "@type": "Audience",
+      "audienceType": "Forschende (PostDoc)"
+    },
+    {
+      "@type": "Audience",
+      "audienceType": "Forschende (Projektleitung)"
+    },
+    {
+      "@type": "Audience",
+      "audienceType": "Promovierende"
+    },
+    {
+      "@type": "Audience",
+      "audienceType": "Hochschullehrende"
+    }
+  ],
+  "timeRequired": "TODO",
+  "license": [
+    {
+      "@type": "CreativeWork",
+      "name": "Source Code",
+      "license": "https://opensource.org/licenses/AGPL-3.0"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Content",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "hasPart": [
+    {
+      "@type": "LearningResource",
+      "name": "Präambel",
+      "description": "Präambel der Fallstudie zu studentischen Filmen. Gibt grundlegende Informationen zu Lernzielen, Voraussetzungen und Vorkenntnissen.",
+      "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/praeambel/toc.html",
+      "timeRequired": "15min",
+      "teaches": "Verständnis der Lernziele des Buchs",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Verständnis der Lernziele des Buchs",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: Orientierungswissen | Bloom's: 1 Erinnern | Data Flow: übergreifend"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Filmwissenschaft und Digital Humanities",
+      "description": "Im folgenden Kapitel werden einige Grundzüge der Digital Humanities und deren Rolle in der Filmwissenschaft vorgestellt. Dadurch sollen Grundlagen für das Verständnis der Fallstudie gelegt werden, auf die sich die vorliegende Open Educational Resource bezieht.",
+      "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/einleitung/filmwissenschaft.html",
+      "timeRequired": "TODO",
+      "teaches": "Überblick über Template",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Lernenden sind mit Definitionsansätzen und Arbeitsbereichen der Digital Humanities vertraut.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Vorarbeiten und Recherche",
+      "description": "Die vorliegende Fallstudie befasst sich mit den studentischen Filmproduktionen aus dem Filmarchiv der Filmuniversität Babelsberg KONRAD WOLF.",
+      "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/recherche/toc.html",
+      "timeRequired": "TODO",
+      "teaches": "Schritte zur Findung einer Fragestellung",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Das Vorgehen bei der Materialrecherche ist bekannt.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Konzepte Daten und Metadaten werden kritisch reflektiert.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Eine Fragestellung kann operationalisiert und eingrenzt werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Ein zur Fragestellung passendes Korpus kann gebildet werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Datenerhebung und Datenbereinigung",
+      "description": "TODO",
+      "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/bereinigung/toc.html",
+      "timeRequired": "TODO",
+      "teaches": "Prozess der Datenerhebung und Datenbereinigung",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Der Begriff Datenmodell kann definiert werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Fähigkeit zur Beschreibung und Analyse einer Datenquelle wird erworben",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Ein Datensatz kann mithilfe des Tools OpenRefine bereinigt werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Datenauswertung und Datenvisualisierung",
+      "description": "TODO",
+      "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/auswertung/toc.html",
+      "timeRequired": "TODO",
+      "teaches": "Datenauswertung und Datenvisualisierung mithilfe digitaler Ansätze und Werkzeuge",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Lernenden sind mit den Grundlagen der Datenvisualisierung vertraut.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Anhand exemplarischer Beispiele werden die Schritte bei der Datenvisualisierung und Datenauswertung vermittelt.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Datenpublikation",
+      "description": "TODO",
+      "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/publikation/toc.html",
+      "timeRequired": "TODO",
+      "teaches": "Grundlagen für die Publikation von Forschungsdaten",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Grundzüge des Forschungsdatenmanagements in der Filmwissenschaft können benannt werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Lernenden kennen verschiedene Formen der Datenpublikation.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Problemfelder und rechtliche Voraussetzungen bei der Datenpublikation können erläutert werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Reflexion und Ausblick",
+      "description": "TODO",
+      "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/zusammenfassung/reflexion.html",
+      "timeRequired": "TODO",
+      "teaches": "TODO",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "TODO",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+        }
+      ]
+    }
+  ],
+  "dcterms:tableOfContents": "- Präambel\n- Digital Humanities und Filmwissenschaft\n- Vorarbeiten und Recherche\n- Datenerhebung und Datenbereinigung\n- Datenauswertung und Datenvisualisierung\n- Datenpublikation\n- Zusammenfassung und Reflexion\n- Epilog",
+  "funding": "Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.\n\nFörderkennzeichen: 16DKZ2034"
+}
