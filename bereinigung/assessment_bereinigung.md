@@ -19,8 +19,8 @@ from quadriga import colors
 
 # 🏆Selbsttest: Wissen und Praxis
 
-````{admonition} Hinweis
-:class: hinweis
+````{admonition} Wie nutze ich den Selbsttest?
+:class: hinweis, dropdown
 Diese Übungsaufgaben dienen Ihrer Selbsteinschätzung und helfen Ihnen, das im Kapitel Gelernte zu reflektieren.
 
 Sie können die Fragen in beliebiger Reihenfolge bearbeiten und die Beantwortung auch mehrfach versuchen. 
