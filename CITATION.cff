@@ -13,6 +13,7 @@ authors: &id001
 - given-names: Marco
   family-names: Winter
   affiliation: Filmuniversität Babelsberg KONRAD WOLF
+  orcid: https://orcid.org/0009-0000-0239-9682
 - given-names: Skadi
   family-names: Loist
   orcid: https://orcid.org/0000-0002-8299-4103
@@ -30,6 +31,14 @@ repository-code: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2
 url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
 keywords: &id002
 - Open Educational Resource
+- Digital Humanities
+- Filmwissenschaft
+- Datenkompetenz
+- Metadaten
+- Datenbereinigung
+- OpenRefine
+- Datenvisualisierung
+- Datenpublikation
 license: CC-BY-SA-4.0
 references:
 - title: Jupyter Book

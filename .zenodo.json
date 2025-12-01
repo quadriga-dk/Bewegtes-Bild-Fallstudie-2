@@ -9,7 +9,8 @@
     },
     {
       "name": "Winter, Marco",
-      "affiliation": "Filmuniversität Babelsberg KONRAD WOLF"
+      "affiliation": "Filmuniversität Babelsberg KONRAD WOLF",
+      "orcid": "0009-0000-0239-9682"
     },
     {
       "name": "Loist, Skadi",
@@ -25,7 +26,15 @@
   "description": "TODO",
   "publication_date": "2025-06-03",
   "keywords": [
-    "Open Educational Resource"
+    "Open Educational Resource",
+    "Digital Humanities",
+    "Filmwissenschaft",
+    "Datenkompetenz",
+    "Metadaten",
+    "Datenbereinigung",
+    "OpenRefine",
+    "Datenvisualisierung",
+    "Datenpublikation"
   ],
   "license": "CC-BY-SA-4.0",
   "language": "deu",
@@ -45,7 +54,8 @@
     {
       "name": "Islam, Lamia",
       "type": "Other",
-      "affiliation": "Universität Potsdam"
+      "affiliation": "Universität Potsdam",
+      "orcid": "0009-0001-1879-9880"
     }
   ],
   "related_identifiers": [

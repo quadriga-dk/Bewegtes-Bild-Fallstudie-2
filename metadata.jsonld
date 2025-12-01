@@ -12,7 +12,7 @@
     "LearningResource"
   ],
   "name": "Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)",
-  "description": "TODO",
+  "description": "Diese Open Educational Resource (OER) befasst sich anhand einer Fallstudie mit einer filmwissenschaftlichen Fragestellung und stellt dar, wie für deren Bearbeitung digitale Verfahren eingesetzt werden können. Der Fokus liegt auf dem Filmarchiv der Filmuniversität Babelsberg KONRAD WOLF und der Frage, welche Veränderungen sich in den studentischen Filmen der Jahre 1985 bis 1999 erkennen lassen, die auf die deutsche Einheit verweisen. Es werden vor allem Metadaten und filmografische Angaben zu den studentischen Produktionen in den Blick genommen.",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",
@@ -51,6 +51,12 @@
       "givenName": "Marco",
       "familyName": "Winter",
       "name": "Marco Winter",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0009-0000-0239-9682",
+        "url": "https://orcid.org/0009-0000-0239-9682"
+      },
       "affiliation": {
         "@type": "Organization",
         "name": "Filmuniversität Babelsberg KONRAD WOLF"
@@ -127,6 +133,12 @@
       "givenName": "Lamia",
       "familyName": "Islam",
       "name": "Lamia Islam",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0009-0001-1879-9880",
+        "url": "https://orcid.org/0009-0001-1879-9880"
+      },
       "affiliation": {
         "@type": "Organization",
         "name": "Universität Potsdam"
@@ -135,12 +147,52 @@
   ],
   "inLanguage": "de",
   "keywords": [
-    "Open Educational Resource"
+    "Open Educational Resource",
+    "Digital Humanities",
+    "Filmwissenschaft",
+    "Datenkompetenz",
+    "Metadaten",
+    "Datenbereinigung",
+    "OpenRefine",
+    "Datenvisualisierung",
+    "Datenpublikation"
   ],
   "about": [
     {
       "@type": "Thing",
       "name": "Open Educational Resource"
+    },
+    {
+      "@type": "Thing",
+      "name": "Digital Humanities"
+    },
+    {
+      "@type": "Thing",
+      "name": "Filmwissenschaft"
+    },
+    {
+      "@type": "Thing",
+      "name": "Datenkompetenz"
+    },
+    {
+      "@type": "Thing",
+      "name": "Metadaten"
+    },
+    {
+      "@type": "Thing",
+      "name": "Datenbereinigung"
+    },
+    {
+      "@type": "Thing",
+      "name": "OpenRefine"
+    },
+    {
+      "@type": "Thing",
+      "name": "Datenvisualisierung"
+    },
+    {
+      "@type": "Thing",
+      "name": "Datenpublikation"
     },
     {
       "@type": "Thing",
@@ -169,7 +221,7 @@
       "audienceType": "Hochschullehrende"
     }
   ],
-  "timeRequired": "TODO",
+  "timeRequired": "PT7H40M",
   "license": [
     {
       "@type": "CreativeWork",
@@ -201,58 +253,58 @@
     },
     {
       "@type": "LearningResource",
-      "name": "Filmwissenschaft und Digital Humanities",
+      "name": "Digital Humanities und Filmwissenschaft",
       "description": "Im folgenden Kapitel werden einige Grundzüge der Digital Humanities und deren Rolle in der Filmwissenschaft vorgestellt. Dadurch sollen Grundlagen für das Verständnis der Fallstudie gelegt werden, auf die sich die vorliegende Open Educational Resource bezieht.",
-      "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/einleitung/filmwissenschaft.html",
+      "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/einleitung/toc.html",
       "timeRequired": "PT45M",
-      "teaches": "Überblick über Template",
+      "teaches": "Grundzüge der Digital Humanities und deren Rolle in der Filmwissenschaft",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "Die Lernenden sind mit Definitionsansätzen und Arbeitsbereichen der Digital Humanities vertraut.",
+          "targetName": "Verschiedene Definitionsansätze und Arbeitsbereiche der Digital Humanities können unterschieden werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+          "targetDescription": "Competency: Orientierungswissen | Bloom's: 1 Erinnern | Data Flow: übergreifend"
         }
       ]
     },
     {
       "@type": "LearningResource",
       "name": "Vorarbeiten und Recherche",
-      "description": "Die vorliegende Fallstudie befasst sich mit den studentischen Filmproduktionen aus dem Filmarchiv der Filmuniversität Babelsberg KONRAD WOLF.",
+      "description": "Das zu untersuchende Filmkorpus wird durch eine Materialrecherche zur Forschungsfrage eingegrenzt. Es wird definiert, was unter filmografischen Angaben bzw. Metadaten zu verstehen ist und erläutert, auf welche Weise die Fragestellung operationalisiert werden kann.",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/recherche/toc.html",
       "timeRequired": "PT1H30M",
       "teaches": "Schritte zur Findung einer Fragestellung",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "Das Vorgehen bei der Materialrecherche ist bekannt.",
+          "targetName": "Das Vorgehen bei der Materialrecherche kann beschrieben und angewendet werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+          "targetDescription": "Competency: 1 Identifikation | Bloom's: 1 Erinnern | Data Flow: 1 Planung"
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "Die Konzepte Daten und Metadaten werden kritisch reflektiert.",
+          "targetName": "Die Konzepte Daten und Metadaten können kritisch reflektiert werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+          "targetDescription": "Competency: 1 Identifikation | Bloom's: 5 Bewerten | Data Flow: 1 Planung"
         },
         {
           "@type": "AlignmentObject",
           "targetName": "Eine Fragestellung kann operationalisiert und eingrenzt werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+          "targetDescription": "Competency: 1 Identifikation | Bloom's: 3 Anwenden | Data Flow: 1 Planung"
         },
         {
           "@type": "AlignmentObject",
           "targetName": "Ein zur Fragestellung passendes Korpus kann gebildet werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+          "targetDescription": "Competency: 1 Identifikation | Bloom's: 3 Anwenden | Data Flow: 1 Planung"
         }
       ]
     },
     {
       "@type": "LearningResource",
       "name": "Datenerhebung und Datenbereinigung",
-      "description": "TODO",
+      "description": "Die Rolle von Datenmodellen und einer guten Datenstruktur wird erläutert. Eine Datenquelle wird analysiert und die Bereinigung eines Datensatzes mit dem Open Source Tool OpenRefine dargelegt.",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/bereinigung/toc.html",
       "timeRequired": "PT2H",
       "teaches": "Prozess der Datenerhebung und Datenbereinigung",
@@ -261,85 +313,85 @@
           "@type": "AlignmentObject",
           "targetName": "Der Begriff Datenmodell kann definiert werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+          "targetDescription": "Competency: 5 Validierung | Bloom's: 1 Erinnern | Data Flow: 2 Erhebung und Aufbereitung"
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "Die Fähigkeit zur Beschreibung und Analyse einer Datenquelle wird erworben",
+          "targetName": "Die Fähigkeit zur Beschreibung und Analyse einer Datenquelle wird erworben.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+          "targetDescription": "Competency: 5 Validierung | Bloom's: 4 Analysieren | Data Flow: 4 Analyse"
         },
         {
           "@type": "AlignmentObject",
           "targetName": "Ein Datensatz kann mithilfe des Tools OpenRefine bereinigt werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+          "targetDescription": "Competency: 6 Aufbereitung | Bloom's: 3 Anwenden | Data Flow: 4 Analyse"
         }
       ]
     },
     {
       "@type": "LearningResource",
       "name": "Datenauswertung und Datenvisualisierung",
-      "description": "TODO",
+      "description": "Es werden theoretische Grundlagen der Datenvisualisierung geklärt und mit Microsoft Excel Visualisierungen zu einem Beispieldatensatz erstellt.",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/auswertung/toc.html",
       "timeRequired": "PT1H40M",
       "teaches": "Datenauswertung und Datenvisualisierung mithilfe digitaler Ansätze und Werkzeuge",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "Die Lernenden sind mit den Grundlagen der Datenvisualisierung vertraut.",
+          "targetName": "Die Grundlagen der Datenvisualisierung können beschrieben werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+          "targetDescription": "Competency: 10 Visualisierung | Bloom's: 1 Erinnern | Data Flow: 4 Analyse"
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "Anhand exemplarischer Beispiele werden die Schritte bei der Datenvisualisierung und Datenauswertung vermittelt.",
+          "targetName": "Die Schritte bei der Datenvisualisierung und Datenauswertung können anhand exemplarischer Beispiele dargestellt werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+          "targetDescription": "Competency: 10 Visualisierung | Bloom's: 1 Erinnern | Data Flow: 4 Analyse"
         }
       ]
     },
     {
       "@type": "LearningResource",
       "name": "Datenpublikation",
-      "description": "TODO",
+      "description": "Es wird auf den Stand des Forschungsdatenmanagement in der Filmwissenschaft und mögliche Problemfelder bei der Datenpublikation eingegangen. Ein besonderes Augenmerk liegt auf den rechtlichen Rahmenbedingungen.",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/publikation/toc.html",
       "timeRequired": "PT1H20M",
       "teaches": "Grundlagen für die Publikation von Forschungsdaten",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "Die Grundzüge des Forschungsdatenmanagements in der Filmwissenschaft können benannt werden.",
+          "targetName": "Die Grundzüge des Forschungsdatenmanagements in der Filmwissenschaft können umrissen werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+          "targetDescription": "Competency: Orientierungswissen | Bloom's: 1 Erinnern | Data Flow: übergreifend"
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "Die Lernenden kennen verschiedene Formen der Datenpublikation.",
+          "targetName": "Verschiedene Formen der Datenpublikation können unterschieden werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+          "targetDescription": "Competency: 13 Datenpublikation | Bloom's: 1 Erinnern | Data Flow: 5 Publikation und Nachnutzung"
         },
         {
           "@type": "AlignmentObject",
           "targetName": "Die Problemfelder und rechtliche Voraussetzungen bei der Datenpublikation können erläutert werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+          "targetDescription": "Competency: 3 Ethik und Recht | Bloom's: 2 Verstehen | Data Flow: 5 Publikation und Nachnutzung"
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "name": "Reflexion und Ausblick",
-      "description": "TODO",
+      "name": "Zusammenfassung und Reflexion",
+      "description": "Die Inhalte der OER werden zusammengefasst und kritisch reflektiert.",
       "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/zusammenfassung/reflexion.html",
       "timeRequired": "PT15M",
-      "teaches": "TODO",
+      "teaches": "Zusammenfassung und Reflexion der erlernten Inhalte",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "TODO",
+          "targetName": "Die erlernten Inhalte können zusammengefasst und kritisch betrachtet werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: TODO | Bloom's: TODO | Data Flow: TODO"
+          "targetDescription": "Competency: nicht anwendbar | Bloom's: 5 Bewerten | Data Flow: nicht anwendbar"
         }
       ]
     }

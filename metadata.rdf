@@ -24,6 +24,46 @@
       </schema1:Thing>
     </schema1:about>
     <schema1:about>
+      <schema1:Thing rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#keyword_1">
+        <schema1:name>Digital Humanities</schema1:name>
+      </schema1:Thing>
+    </schema1:about>
+    <schema1:about>
+      <schema1:Thing rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#keyword_2">
+        <schema1:name>Filmwissenschaft</schema1:name>
+      </schema1:Thing>
+    </schema1:about>
+    <schema1:about>
+      <schema1:Thing rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#keyword_3">
+        <schema1:name>Datenkompetenz</schema1:name>
+      </schema1:Thing>
+    </schema1:about>
+    <schema1:about>
+      <schema1:Thing rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#keyword_4">
+        <schema1:name>Metadaten</schema1:name>
+      </schema1:Thing>
+    </schema1:about>
+    <schema1:about>
+      <schema1:Thing rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#keyword_5">
+        <schema1:name>Datenbereinigung</schema1:name>
+      </schema1:Thing>
+    </schema1:about>
+    <schema1:about>
+      <schema1:Thing rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#keyword_6">
+        <schema1:name>OpenRefine</schema1:name>
+      </schema1:Thing>
+    </schema1:about>
+    <schema1:about>
+      <schema1:Thing rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#keyword_7">
+        <schema1:name>Datenvisualisierung</schema1:name>
+      </schema1:Thing>
+    </schema1:about>
+    <schema1:about>
+      <schema1:Thing rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#keyword_8">
+        <schema1:name>Datenpublikation</schema1:name>
+      </schema1:Thing>
+    </schema1:about>
+    <schema1:about>
       <schema1:Thing rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#research_object_0">
         <schema1:name>Bewegtes Bild</schema1:name>
       </schema1:Thing>
@@ -62,6 +102,7 @@
         <schema1:affiliation rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#author_1_org"/>
         <schema1:familyName>Winter</schema1:familyName>
         <schema1:givenName>Marco</schema1:givenName>
+        <schema1:identifier rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#author_1_orcid"/>
         <schema1:name>Marco Winter</schema1:name>
       </schema1:Person>
     </schema1:author>
@@ -106,12 +147,13 @@
         <schema1:affiliation rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#contributor_2_org"/>
         <schema1:familyName>Islam</schema1:familyName>
         <schema1:givenName>Lamia</schema1:givenName>
+        <schema1:identifier rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#contributor_2_orcid"/>
         <schema1:name>Lamia Islam</schema1:name>
       </schema1:Person>
     </schema1:contributor>
     <schema1:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-03</schema1:dateModified>
     <schema1:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-03</schema1:datePublished>
-    <schema1:description>TODO</schema1:description>
+    <schema1:description>Diese Open Educational Resource (OER) befasst sich anhand einer Fallstudie mit einer filmwissenschaftlichen Fragestellung und stellt dar, wie für deren Bearbeitung digitale Verfahren eingesetzt werden können. Der Fokus liegt auf dem Filmarchiv der Filmuniversität Babelsberg KONRAD WOLF und der Frage, welche Veränderungen sich in den studentischen Filmen der Jahre 1985 bis 1999 erkennen lassen, die auf die deutsche Einheit verweisen. Es werden vor allem Metadaten und filmografische Angaben zu den studentischen Produktionen in den Blick genommen.</schema1:description>
     <schema1:funding>Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
 
 Förderkennzeichen: 16DKZ2034</schema1:funding>
@@ -129,15 +171,15 @@ Förderkennzeichen: 16DKZ2034</schema1:funding>
       <schema1:LearningResource rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_1">
         <schema1:description>Im folgenden Kapitel werden einige Grundzüge der Digital Humanities und deren Rolle in der Filmwissenschaft vorgestellt. Dadurch sollen Grundlagen für das Verständnis der Fallstudie gelegt werden, auf die sich die vorliegende Open Educational Resource bezieht.</schema1:description>
         <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_1_objective_0"/>
-        <schema1:name>Filmwissenschaft und Digital Humanities</schema1:name>
-        <schema1:teaches>Überblick über Template</schema1:teaches>
+        <schema1:name>Digital Humanities und Filmwissenschaft</schema1:name>
+        <schema1:teaches>Grundzüge der Digital Humanities und deren Rolle in der Filmwissenschaft</schema1:teaches>
         <schema1:timeRequired>PT45M</schema1:timeRequired>
-        <schema1:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/einleitung/filmwissenschaft.html"/>
+        <schema1:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/einleitung/toc.html"/>
       </schema1:LearningResource>
     </schema1:hasPart>
     <schema1:hasPart>
       <schema1:LearningResource rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_2">
-        <schema1:description>Die vorliegende Fallstudie befasst sich mit den studentischen Filmproduktionen aus dem Filmarchiv der Filmuniversität Babelsberg KONRAD WOLF.</schema1:description>
+        <schema1:description>Das zu untersuchende Filmkorpus wird durch eine Materialrecherche zur Forschungsfrage eingegrenzt. Es wird definiert, was unter filmografischen Angaben bzw. Metadaten zu verstehen ist und erläutert, auf welche Weise die Fragestellung operationalisiert werden kann.</schema1:description>
         <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_2_objective_0"/>
         <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_2_objective_1"/>
         <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_2_objective_2"/>
@@ -150,7 +192,7 @@ Förderkennzeichen: 16DKZ2034</schema1:funding>
     </schema1:hasPart>
     <schema1:hasPart>
       <schema1:LearningResource rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_3">
-        <schema1:description>TODO</schema1:description>
+        <schema1:description>Die Rolle von Datenmodellen und einer guten Datenstruktur wird erläutert. Eine Datenquelle wird analysiert und die Bereinigung eines Datensatzes mit dem Open Source Tool OpenRefine dargelegt.</schema1:description>
         <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_3_objective_0"/>
         <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_3_objective_1"/>
         <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_3_objective_2"/>
@@ -162,7 +204,7 @@ Förderkennzeichen: 16DKZ2034</schema1:funding>
     </schema1:hasPart>
     <schema1:hasPart>
       <schema1:LearningResource rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_4">
-        <schema1:description>TODO</schema1:description>
+        <schema1:description>Es werden theoretische Grundlagen der Datenvisualisierung geklärt und mit Microsoft Excel Visualisierungen zu einem Beispieldatensatz erstellt.</schema1:description>
         <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_4_objective_0"/>
         <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_4_objective_1"/>
         <schema1:name>Datenauswertung und Datenvisualisierung</schema1:name>
@@ -173,7 +215,7 @@ Förderkennzeichen: 16DKZ2034</schema1:funding>
     </schema1:hasPart>
     <schema1:hasPart>
       <schema1:LearningResource rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_5">
-        <schema1:description>TODO</schema1:description>
+        <schema1:description>Es wird auf den Stand des Forschungsdatenmanagement in der Filmwissenschaft und mögliche Problemfelder bei der Datenpublikation eingegangen. Ein besonderes Augenmerk liegt auf den rechtlichen Rahmenbedingungen.</schema1:description>
         <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_5_objective_0"/>
         <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_5_objective_1"/>
         <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_5_objective_2"/>
@@ -185,10 +227,10 @@ Förderkennzeichen: 16DKZ2034</schema1:funding>
     </schema1:hasPart>
     <schema1:hasPart>
       <schema1:LearningResource rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_6">
-        <schema1:description>TODO</schema1:description>
+        <schema1:description>Die Inhalte der OER werden zusammengefasst und kritisch reflektiert.</schema1:description>
         <schema1:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_6_objective_0"/>
-        <schema1:name>Reflexion und Ausblick</schema1:name>
-        <schema1:teaches>TODO</schema1:teaches>
+        <schema1:name>Zusammenfassung und Reflexion</schema1:name>
+        <schema1:teaches>Zusammenfassung und Reflexion der erlernten Inhalte</schema1:teaches>
         <schema1:timeRequired>PT15M</schema1:timeRequired>
         <schema1:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/zusammenfassung/reflexion.html"/>
       </schema1:LearningResource>
@@ -201,7 +243,15 @@ Förderkennzeichen: 16DKZ2034</schema1:funding>
       </schema1:PropertyValue>
     </schema1:identifier>
     <schema1:inLanguage>de</schema1:inLanguage>
+    <schema1:keywords>Datenbereinigung</schema1:keywords>
+    <schema1:keywords>Datenkompetenz</schema1:keywords>
+    <schema1:keywords>Datenpublikation</schema1:keywords>
+    <schema1:keywords>Datenvisualisierung</schema1:keywords>
+    <schema1:keywords>Digital Humanities</schema1:keywords>
+    <schema1:keywords>Filmwissenschaft</schema1:keywords>
+    <schema1:keywords>Metadaten</schema1:keywords>
     <schema1:keywords>Open Educational Resource</schema1:keywords>
+    <schema1:keywords>OpenRefine</schema1:keywords>
     <schema1:license>
       <schema1:CreativeWork rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#license_code">
         <schema1:license rdf:resource="https://opensource.org/licenses/AGPL-3.0"/>
@@ -216,7 +266,7 @@ Förderkennzeichen: 16DKZ2034</schema1:funding>
     </schema1:license>
     <schema1:name>Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)</schema1:name>
     <schema1:schemaVersion>1.0.0</schema1:schemaVersion>
-    <schema1:timeRequired>TODO</schema1:timeRequired>
+    <schema1:timeRequired>PT7H40M</schema1:timeRequired>
     <schema1:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/"/>
     <schema1:version>1.0.0-beta</schema1:version>
     <schema1:workExample>
@@ -227,20 +277,40 @@ Förderkennzeichen: 16DKZ2034</schema1:funding>
     </schema1:workExample>
     <rdf:type rdf:resource="http://schema.org/LearningResource"/>
   </schema1:Book>
+  <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_2_objective_3">
+    <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
+    <schema1:targetDescription>Competency: 1 Identifikation | Bloom's: 3 Anwenden | Data Flow: 1 Planung</schema1:targetDescription>
+    <schema1:targetName>Ein zur Fragestellung passendes Korpus kann gebildet werden.</schema1:targetName>
+  </schema1:AlignmentObject>
   <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_3_objective_2">
     <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
-    <schema1:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: TODO</schema1:targetDescription>
+    <schema1:targetDescription>Competency: 6 Aufbereitung | Bloom's: 3 Anwenden | Data Flow: 4 Analyse</schema1:targetDescription>
     <schema1:targetName>Ein Datensatz kann mithilfe des Tools OpenRefine bereinigt werden.</schema1:targetName>
+  </schema1:AlignmentObject>
+  <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_5_objective_0">
+    <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
+    <schema1:targetDescription>Competency: Orientierungswissen | Bloom's: 1 Erinnern | Data Flow: übergreifend</schema1:targetDescription>
+    <schema1:targetName>Die Grundzüge des Forschungsdatenmanagements in der Filmwissenschaft können umrissen werden.</schema1:targetName>
+  </schema1:AlignmentObject>
+  <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_6_objective_0">
+    <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
+    <schema1:targetDescription>Competency: nicht anwendbar | Bloom's: 5 Bewerten | Data Flow: nicht anwendbar</schema1:targetDescription>
+    <schema1:targetName>Die erlernten Inhalte können zusammengefasst und kritisch betrachtet werden.</schema1:targetName>
+  </schema1:AlignmentObject>
+  <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_5_objective_2">
+    <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
+    <schema1:targetDescription>Competency: 3 Ethik und Recht | Bloom's: 2 Verstehen | Data Flow: 5 Publikation und Nachnutzung</schema1:targetDescription>
+    <schema1:targetName>Die Problemfelder und rechtliche Voraussetzungen bei der Datenpublikation können erläutert werden.</schema1:targetName>
   </schema1:AlignmentObject>
   <schema1:PropertyValue rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#contributor_1_orcid">
     <schema1:propertyID>ORCID</schema1:propertyID>
     <schema1:url rdf:resource="https://orcid.org/0000-0003-3858-901X"/>
     <schema1:value>0000-0003-3858-901X</schema1:value>
   </schema1:PropertyValue>
-  <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_5_objective_0">
+  <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_3_objective_1">
     <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
-    <schema1:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: TODO</schema1:targetDescription>
-    <schema1:targetName>Die Grundzüge des Forschungsdatenmanagements in der Filmwissenschaft können benannt werden.</schema1:targetName>
+    <schema1:targetDescription>Competency: 5 Validierung | Bloom's: 4 Analysieren | Data Flow: 4 Analyse</schema1:targetDescription>
+    <schema1:targetName>Die Fähigkeit zur Beschreibung und Analyse einer Datenquelle wird erworben.</schema1:targetName>
   </schema1:AlignmentObject>
   <schema1:PropertyValue rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#author_3_orcid">
     <schema1:propertyID>ORCID</schema1:propertyID>
@@ -249,7 +319,7 @@ Förderkennzeichen: 16DKZ2034</schema1:funding>
   </schema1:PropertyValue>
   <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_3_objective_0">
     <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
-    <schema1:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: TODO</schema1:targetDescription>
+    <schema1:targetDescription>Competency: 5 Validierung | Bloom's: 1 Erinnern | Data Flow: 2 Erhebung und Aufbereitung</schema1:targetDescription>
     <schema1:targetName>Der Begriff Datenmodell kann definiert werden.</schema1:targetName>
   </schema1:AlignmentObject>
   <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_0_objective_0">
@@ -262,60 +332,55 @@ Förderkennzeichen: 16DKZ2034</schema1:funding>
   </schema1:Organization>
   <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_4_objective_1">
     <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
-    <schema1:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: TODO</schema1:targetDescription>
-    <schema1:targetName>Anhand exemplarischer Beispiele werden die Schritte bei der Datenvisualisierung und Datenauswertung vermittelt.</schema1:targetName>
-  </schema1:AlignmentObject>
-  <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_2_objective_2">
-    <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
-    <schema1:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: TODO</schema1:targetDescription>
-    <schema1:targetName>Eine Fragestellung kann operationalisiert und eingrenzt werden.</schema1:targetName>
+    <schema1:targetDescription>Competency: 10 Visualisierung | Bloom's: 1 Erinnern | Data Flow: 4 Analyse</schema1:targetDescription>
+    <schema1:targetName>Die Schritte bei der Datenvisualisierung und Datenauswertung können anhand exemplarischer Beispiele dargestellt werden.</schema1:targetName>
   </schema1:AlignmentObject>
   <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_2_objective_0">
     <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
-    <schema1:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: TODO</schema1:targetDescription>
-    <schema1:targetName>Das Vorgehen bei der Materialrecherche ist bekannt.</schema1:targetName>
-  </schema1:AlignmentObject>
-  <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_5_objective_2">
-    <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
-    <schema1:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: TODO</schema1:targetDescription>
-    <schema1:targetName>Die Problemfelder und rechtliche Voraussetzungen bei der Datenpublikation können erläutert werden.</schema1:targetName>
+    <schema1:targetDescription>Competency: 1 Identifikation | Bloom's: 1 Erinnern | Data Flow: 1 Planung</schema1:targetDescription>
+    <schema1:targetName>Das Vorgehen bei der Materialrecherche kann beschrieben und angewendet werden.</schema1:targetName>
   </schema1:AlignmentObject>
   <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_2_objective_1">
     <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
-    <schema1:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: TODO</schema1:targetDescription>
-    <schema1:targetName>Die Konzepte Daten und Metadaten werden kritisch reflektiert.</schema1:targetName>
+    <schema1:targetDescription>Competency: 1 Identifikation | Bloom's: 5 Bewerten | Data Flow: 1 Planung</schema1:targetDescription>
+    <schema1:targetName>Die Konzepte Daten und Metadaten können kritisch reflektiert werden.</schema1:targetName>
+  </schema1:AlignmentObject>
+  <schema1:PropertyValue rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#contributor_2_orcid">
+    <schema1:propertyID>ORCID</schema1:propertyID>
+    <schema1:url rdf:resource="https://orcid.org/0009-0001-1879-9880"/>
+    <schema1:value>0009-0001-1879-9880</schema1:value>
+  </schema1:PropertyValue>
+  <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_4_objective_0">
+    <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
+    <schema1:targetDescription>Competency: 10 Visualisierung | Bloom's: 1 Erinnern | Data Flow: 4 Analyse</schema1:targetDescription>
+    <schema1:targetName>Die Grundlagen der Datenvisualisierung können beschrieben werden.</schema1:targetName>
   </schema1:AlignmentObject>
   <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_1_objective_0">
     <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
-    <schema1:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: TODO</schema1:targetDescription>
-    <schema1:targetName>Die Lernenden sind mit Definitionsansätzen und Arbeitsbereichen der Digital Humanities vertraut.</schema1:targetName>
+    <schema1:targetDescription>Competency: Orientierungswissen | Bloom's: 1 Erinnern | Data Flow: übergreifend</schema1:targetDescription>
+    <schema1:targetName>Verschiedene Definitionsansätze und Arbeitsbereiche der Digital Humanities können unterschieden werden.</schema1:targetName>
+  </schema1:AlignmentObject>
+  <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_2_objective_2">
+    <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
+    <schema1:targetDescription>Competency: 1 Identifikation | Bloom's: 3 Anwenden | Data Flow: 1 Planung</schema1:targetDescription>
+    <schema1:targetName>Eine Fragestellung kann operationalisiert und eingrenzt werden.</schema1:targetName>
   </schema1:AlignmentObject>
   <schema1:Organization rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#author_1_org">
     <schema1:name>Filmuniversität Babelsberg KONRAD WOLF</schema1:name>
   </schema1:Organization>
-  <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_2_objective_3">
-    <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
-    <schema1:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: TODO</schema1:targetDescription>
-    <schema1:targetName>Ein zur Fragestellung passendes Korpus kann gebildet werden.</schema1:targetName>
-  </schema1:AlignmentObject>
-  <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_4_objective_0">
-    <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
-    <schema1:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: TODO</schema1:targetDescription>
-    <schema1:targetName>Die Lernenden sind mit den Grundlagen der Datenvisualisierung vertraut.</schema1:targetName>
-  </schema1:AlignmentObject>
   <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_5_objective_1">
     <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
-    <schema1:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: TODO</schema1:targetDescription>
-    <schema1:targetName>Die Lernenden kennen verschiedene Formen der Datenpublikation.</schema1:targetName>
-  </schema1:AlignmentObject>
-  <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_6_objective_0">
-    <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
-    <schema1:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: TODO</schema1:targetDescription>
-    <schema1:targetName>TODO</schema1:targetName>
+    <schema1:targetDescription>Competency: 13 Datenpublikation | Bloom's: 1 Erinnern | Data Flow: 5 Publikation und Nachnutzung</schema1:targetDescription>
+    <schema1:targetName>Verschiedene Formen der Datenpublikation können unterschieden werden.</schema1:targetName>
   </schema1:AlignmentObject>
   <schema1:Organization rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#contributor_0_org">
     <schema1:name>Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft</schema1:name>
   </schema1:Organization>
+  <schema1:PropertyValue rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#author_1_orcid">
+    <schema1:propertyID>ORCID</schema1:propertyID>
+    <schema1:url rdf:resource="https://orcid.org/0009-0000-0239-9682"/>
+    <schema1:value>0009-0000-0239-9682</schema1:value>
+  </schema1:PropertyValue>
   <schema1:PropertyValue rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#contributor_0_orcid">
     <schema1:propertyID>ORCID</schema1:propertyID>
     <schema1:url rdf:resource="https://orcid.org/0000-0002-1602-6032"/>
@@ -332,11 +397,6 @@ Förderkennzeichen: 16DKZ2034</schema1:funding>
   <schema1:Organization rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#contributor_2_org">
     <schema1:name>Universität Potsdam</schema1:name>
   </schema1:Organization>
-  <schema1:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_3_objective_1">
-    <schema1:educationalFramework>QUADRIGA Competency Framework</schema1:educationalFramework>
-    <schema1:targetDescription>Competency: TODO | Bloom's: TODO | Data Flow: TODO</schema1:targetDescription>
-    <schema1:targetName>Die Fähigkeit zur Beschreibung und Analyse einer Datenquelle wird erworben</schema1:targetName>
-  </schema1:AlignmentObject>
   <schema1:PropertyValue rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#author_0_orcid">
     <schema1:propertyID>ORCID</schema1:propertyID>
     <schema1:url rdf:resource="https://orcid.org/0009-0007-3292-8611"/>
