@@ -37,7 +37,7 @@ Zum Beenden von *OpenRefine* schließen Sie zunächst alle Tabs des Browsers in 
 
 Zusätzliche Informationen zur Installationen und den Systemvoraussetzungen finden Sie auf <a href="https://openrefine.org/docs/manual/installing" class="external-link" target="_blank">dieser Seite der OpenRefine Dokumentation</a>.
 
-# Grenzen von OpenRefine
+## Grenzen von OpenRefine
 
 ````{margin} 
 ```{admonition} Hinweis
@@ -50,6 +50,6 @@ Neben OpenRefine wurde bei der Bereinigung des originalen Datensatzes auch die P
 
 
 
-Eine Einführung in die Programmierung mit *Python* ist im Rahmen dieser OER nicht zielführend. Für einen Einstieg in *Python* und die Arbeit mit Datensätzen ist der Kurs <a href="https://programming-24.mooc.fi" class="external-link" target="_blank"> "Python Programming MOOC 2024"</a> der Universität Helsinki zu empfehlen.
+Eine Einführung in die Programmierung mit *Python* ist im Rahmen dieser OER nicht zielführend. Für einen Einstieg in *Python* und die Arbeit mit Datensätzen ist der Kurs <a href="https://programming-24.mooc.fi" class="external-link" target="_blank"> *Python Programming MOOC 2024*</a> der Universität Helsinki zu empfehlen.
 
 [^1]: Eine Auflistung der mit *OpenRefine* einlesbaren Datenformate und Quellen findet sich in Abschnitt [Vorbereitung und Import des Datensatzes](2_import.md) und in der <a href="https://openrefine.org/docs/manual/starting" class="external-link" target="_blank">*OpenRefine* Dokumentation</a>. 
