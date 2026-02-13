@@ -14,6 +14,8 @@ OpenRefine Logo (2018-heute), übernommen von <a href="https://commons.wikimedia
 
 Zwischen 2010 und 2012 wurde *OpenRefine* als *GoogleRefine* von *Google* entwickelt. Nach dem Ende der Unterstützung durch Google wurde *OpenRefine* als freie Software veröffentlicht und weiterentwickelt, teilweise finden sich noch Artikel und Tutorials unter dem Namen *GoogleRefine*. 
 Im Folgenden wird wiederholt auf die <a href="https://openrefine.org/docs" class="external-link" target="_blank">*OpenRefine* Dokumentation</a> verlinkt – in dieser werden Sie bei Fragen bezüglich des Programms schnell fündig.
+Sie können sich zudem im <a href="https://forum.openrefine.org/c/community" class="external-link" target="_blank">offiziellen *OpenRefine* Forum</a> mit anderen Nutzenden austauschen oder dort die Lösung eines Problems finden. Die Entwicklung von *OpenRefine* sowie Fragen zu fehlenden Funktionen, Bugs als auch Workarounds werden außerdem in den <a href="https://github.com/OpenRefine/OpenRefine/issues" class="external-link" target="_blank">Issues des *OpenRefine* Github Repositorium</a>  diskutiert. 
+
 
 ```{admonition} OpenRefine Versionen
 :class: keypoint
@@ -30,6 +32,11 @@ Für diese OER wurde die zum Zeitpunkt derer Erstellung aktuelle *OpenRefine* Ve
 - und Safari.
 
 Bei anderen Browsern, wie z.B. *Firefox*, kann es zu Fehlern in der grafischen Darstellung kommen.
+
+```{admonition} Fehler aufgrund des Browsers
+:class: keypoint
+Auch bei den offiziell unterstützen Browsern kann es zu Fehlermeldungen oder Bugs kommen, etwa aufgrund von Updates. In solchen Fällen muss ein anderer der unterstützten Browser verwendet werden. 
+```
 
 Nach der Installation kann *OpenRefine* gestartet werden. Es öffnet sich ein Terminal-Fenster (bzw. ein Anwendungsindikator im macOS Dock), das für die eigentliche Arbeit mit dem Programm nicht relevant ist, jedoch geöffnet bleiben muss. Die Benutzeroberfläche von *OpenRefine* wird über die Server-Adresse <a href="http://127.0.0.1:3333/" class="external-link" target="_blank">http://127.0.0.1:3333/</a> in einem Tab des Browsers geöffnet, beim Start des Programms geschieht dies in der Regel automatisch. 
 
