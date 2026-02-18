@@ -1,7 +1,13 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
 title: Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)
-abstract: TODO
+abstract: Diese Open Educational Resource (OER) befasst sich anhand einer Fallstudie
+  mit einer filmwissenschaftlichen Fragestellung und stellt dar, wie für deren Bearbeitung
+  digitale Verfahren eingesetzt werden können. Der Fokus liegt auf dem Filmarchiv
+  der Filmuniversität Babelsberg KONRAD WOLF und der Frage, welche Veränderungen sich
+  in den studentischen Filmen der Jahre 1985 bis 1999 erkennen lassen, die auf die
+  deutsche Einheit verweisen. Es werden vor allem Metadaten und filmografische Angaben
+  zu den studentischen Produktionen in den Blick genommen.
 type: software
 message: Please cite this software using the metadata from `preferred-citation` in
   `CITATION.cff`.
@@ -47,7 +53,7 @@ references:
   - name: The Jupyter Book Community
     website: https://github.com/jupyter-book/jupyter-book/graphs/contributors
 preferred-citation:
-  year: '2025'
+  year: '2026'
   authors: *id001
   title: Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)
   type: book
@@ -59,5 +65,5 @@ preferred-citation:
   - deu
   copyright: CC-BY-SA-4.0
   keywords: *id002
-  version: 1.0.0-beta
-version: 1.0.0-beta
+  version: 1.0.0
+version: 1.0.0
