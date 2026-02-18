@@ -19,7 +19,7 @@
     "value": "10.5281/zenodo.TODOTODO",
     "url": "https://doi.org/10.5281/zenodo.TODOTODO"
   },
-  "version": "1.0.0-beta",
+  "version": "1.0.0",
   "schemaVersion": "1.0.0",
   "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/",
   "workExample": {
@@ -28,7 +28,7 @@
     "codeRepository": "https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2"
   },
   "datePublished": "2025-06-03",
-  "dateModified": "2025-06-03",
+  "dateModified": "2026-02-18",
   "author": [
     {
       "@type": "Person",
@@ -279,25 +279,25 @@
           "@type": "AlignmentObject",
           "targetName": "Das Vorgehen bei der Materialrecherche kann beschrieben und angewendet werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 1 Identifikation | Bloom's: 1 Erinnern | Data Flow: 1 Planung"
+          "targetDescription": "Competency: 1.1 Identifikation | Bloom's: 1 Erinnern | Data Flow: 1 Planung"
         },
         {
           "@type": "AlignmentObject",
           "targetName": "Die Konzepte Daten und Metadaten können kritisch reflektiert werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 1 Identifikation | Bloom's: 5 Bewerten | Data Flow: 1 Planung"
+          "targetDescription": "Competency: 1.1 Identifikation | Bloom's: 5 Bewerten | Data Flow: 1 Planung"
         },
         {
           "@type": "AlignmentObject",
           "targetName": "Eine Fragestellung kann operationalisiert und eingrenzt werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 1 Identifikation | Bloom's: 3 Anwenden | Data Flow: 1 Planung"
+          "targetDescription": "Competency: 1.1 Identifikation | Bloom's: 3 Anwenden | Data Flow: 1 Planung"
         },
         {
           "@type": "AlignmentObject",
           "targetName": "Ein zur Fragestellung passendes Korpus kann gebildet werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 1 Identifikation | Bloom's: 3 Anwenden | Data Flow: 1 Planung"
+          "targetDescription": "Competency: 1.1 Identifikation | Bloom's: 3 Anwenden | Data Flow: 1 Planung"
         }
       ]
     },
@@ -313,19 +313,19 @@
           "@type": "AlignmentObject",
           "targetName": "Der Begriff Datenmodell kann definiert werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 5 Validierung | Bloom's: 1 Erinnern | Data Flow: 2 Erhebung und Aufbereitung"
+          "targetDescription": "Competency: 2.2 Validierung | Bloom's: 1 Erinnern | Data Flow: 2 Erhebung und Aufbereitung"
         },
         {
           "@type": "AlignmentObject",
           "targetName": "Die Fähigkeit zur Beschreibung und Analyse einer Datenquelle wird erworben.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 5 Validierung | Bloom's: 4 Analysieren | Data Flow: 4 Analyse"
+          "targetDescription": "Competency: 2.2 Validierung | Bloom's: 4 Analysieren | Data Flow: 4 Analyse"
         },
         {
           "@type": "AlignmentObject",
           "targetName": "Ein Datensatz kann mithilfe des Tools OpenRefine bereinigt werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 6 Aufbereitung | Bloom's: 3 Anwenden | Data Flow: 4 Analyse"
+          "targetDescription": "Competency: 2.3 Aufbereitung | Bloom's: 3 Anwenden | Data Flow: 4 Analyse"
         }
       ]
     },
@@ -341,13 +341,13 @@
           "@type": "AlignmentObject",
           "targetName": "Die Grundlagen der Datenvisualisierung können beschrieben werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 10 Visualisierung | Bloom's: 1 Erinnern | Data Flow: 4 Analyse"
+          "targetDescription": "Competency: 4.2 Visualisierung | Bloom's: 1 Erinnern | Data Flow: 4 Analyse"
         },
         {
           "@type": "AlignmentObject",
           "targetName": "Die Schritte bei der Datenvisualisierung und Datenauswertung können anhand exemplarischer Beispiele dargestellt werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 10 Visualisierung | Bloom's: 1 Erinnern | Data Flow: 4 Analyse"
+          "targetDescription": "Competency: 4.2 Visualisierung | Bloom's: 1 Erinnern | Data Flow: 4 Analyse"
         }
       ]
     },
@@ -369,13 +369,13 @@
           "@type": "AlignmentObject",
           "targetName": "Verschiedene Formen der Datenpublikation können unterschieden werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 13 Datenpublikation | Bloom's: 1 Erinnern | Data Flow: 5 Publikation und Nachnutzung"
+          "targetDescription": "Competency: 5.2 Datenpublikation | Bloom's: 1 Erinnern | Data Flow: 5 Publikation und Nachnutzung"
         },
         {
           "@type": "AlignmentObject",
           "targetName": "Die Problemfelder und rechtliche Voraussetzungen bei der Datenpublikation können erläutert werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 3 Ethik und Recht | Bloom's: 2 Verstehen | Data Flow: 5 Publikation und Nachnutzung"
+          "targetDescription": "Competency: 1.3 Ethik und Recht | Bloom's: 2 Verstehen | Data Flow: 1 Planung"
         }
       ]
     },
@@ -397,5 +397,9 @@
     }
   ],
   "dcterms:tableOfContents": "- Präambel\n- Digital Humanities und Filmwissenschaft\n- Vorarbeiten und Recherche\n- Datenerhebung und Datenbereinigung\n- Datenauswertung und Datenvisualisierung\n- Datenpublikation\n- Zusammenfassung und Reflexion\n- Epilog",
-  "funding": "Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.\n\nFörderkennzeichen: 16DKZ2034"
+  "funding": "Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.\n\nFörderkennzeichen: 16DKZ2034",
+  "learningResourceType": "Jupyter Book",
+  "lrmi:learningResourceType": "Jupyter Book",
+  "dcterms:type": "Jupyter Book",
+  "dc:type": "Jupyter Book"
 }

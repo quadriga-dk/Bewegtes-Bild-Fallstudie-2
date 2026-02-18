@@ -1,8 +1,5 @@
 # yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0/schema.json
-schema-version: 1.0.0
-version: 1.0.0-beta
 title: Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)
-identifier: https://doi.org/10.5281/zenodo.TODOTODO
 authors:
 - given-names: Thomas
   family-names: Schick
@@ -21,20 +18,23 @@ authors:
   family-names: Gieseke
   orcid: https://orcid.org/0000-0001-8421-103X
   affiliation: Filmuniversität Babelsberg KONRAD WOLF
-contributors:
-- given-names: Hannes
-  family-names: Schnaitter
-  orcid: https://orcid.org/0000-0002-1602-6032
-  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
-- given-names: Evgenia
-  family-names: Samoilova
-  orcid: https://orcid.org/0000-0003-3858-901X
-  affiliation: Universität Potsdam
-- given-names: Lamia
-  family-names: Islam
-  orcid: https://orcid.org/0009-0001-1879-9880
-  affiliation: Universität Potsdam
-language: de
+keywords:
+- de: Open Educational Resource
+- de: Digital Humanities
+- de: Filmwissenschaft
+- de: Datenkompetenz
+- de: Metadaten
+- de: Datenbereinigung
+- de: OpenRefine
+- de: Datenvisualisierung
+- de: Datenpublikation
+description: Diese Open Educational Resource (OER) befasst sich anhand einer Fallstudie
+  mit einer filmwissenschaftlichen Fragestellung und stellt dar, wie für deren Bearbeitung
+  digitale Verfahren eingesetzt werden können. Der Fokus liegt auf dem Filmarchiv
+  der Filmuniversität Babelsberg KONRAD WOLF und der Frage, welche Veränderungen sich
+  in den studentischen Filmen der Jahre 1985 bis 1999 erkennen lassen, die auf die
+  deutsche Einheit verweisen. Es werden vor allem Metadaten und filmografische Angaben
+  zu den studentischen Produktionen in den Blick genommen.
 table-of-contents: '- Präambel
 
   - Digital Humanities und Filmwissenschaft
@@ -50,17 +50,33 @@ table-of-contents: '- Präambel
   - Zusammenfassung und Reflexion
 
   - Epilog'
-description: Diese Open Educational Resource (OER) befasst sich anhand einer Fallstudie
-  mit einer filmwissenschaftlichen Fragestellung und stellt dar, wie für deren Bearbeitung
-  digitale Verfahren eingesetzt werden können. Der Fokus liegt auf dem Filmarchiv
-  der Filmuniversität Babelsberg KONRAD WOLF und der Frage, welche Veränderungen sich
-  in den studentischen Filmen der Jahre 1985 bis 1999 erkennen lassen, die auf die
-  deutsche Einheit verweisen. Es werden vor allem Metadaten und filmografische Angaben
-  zu den studentischen Produktionen in den Blick genommen.
 discipline:
 - übergreifend
 research-object-type:
 - Bewegtes Bild
+target-group:
+- Forschende (PostDoc)
+- Forschende (Projektleitung)
+- Promovierende
+- Hochschullehrende
+time-required: PT7H40M
+language: de
+contributors:
+- given-names: Hannes
+  family-names: Schnaitter
+  orcid: https://orcid.org/0000-0002-1602-6032
+  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
+- given-names: Evgenia
+  family-names: Samoilova
+  orcid: https://orcid.org/0000-0003-3858-901X
+  affiliation: Universität Potsdam
+- given-names: Lamia
+  family-names: Islam
+  orcid: https://orcid.org/0009-0001-1879-9880
+  affiliation: Universität Potsdam
+identifier: https://doi.org/10.5281/zenodo.TODOTODO
+git: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2
+url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
 chapters:
 - title: Präambel
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/praeambel/toc.html
@@ -68,7 +84,6 @@ chapters:
     Informationen zu Lernzielen, Voraussetzungen und Vorkenntnissen.
   learning-goal: Verständnis der Lernziele des Buchs
   time-required: PT10M
-  educational-level: Basis
   learning-objectives:
   - learning-objective: Verständnis der Lernziele des Buchs
     competency: Orientierungswissen
@@ -82,7 +97,6 @@ chapters:
     Open Educational Resource bezieht.
   learning-goal: Grundzüge der Digital Humanities und deren Rolle in der Filmwissenschaft
   time-required: PT45M
-  educational-level: TODO
   learning-objectives:
   - learning-objective: Verschiedene Definitionsansätze und Arbeitsbereiche der Digital
       Humanities können unterschieden werden.
@@ -97,24 +111,23 @@ chapters:
     operationalisiert werden kann.
   learning-goal: Schritte zur Findung einer Fragestellung
   time-required: PT1H30M
-  educational-level: TODO
   learning-objectives:
   - learning-objective: Das Vorgehen bei der Materialrecherche kann beschrieben und
       angewendet werden.
-    competency: 1 Identifikation
+    competency: 1.1 Identifikation
     data-flow: 1 Planung
     blooms-category: 1 Erinnern
   - learning-objective: Die Konzepte Daten und Metadaten können kritisch reflektiert
       werden.
-    competency: 1 Identifikation
+    competency: 1.1 Identifikation
     data-flow: 1 Planung
     blooms-category: 5 Bewerten
   - learning-objective: Eine Fragestellung kann operationalisiert und eingrenzt werden.
-    competency: 1 Identifikation
+    competency: 1.1 Identifikation
     data-flow: 1 Planung
     blooms-category: 3 Anwenden
   - learning-objective: Ein zur Fragestellung passendes Korpus kann gebildet werden.
-    competency: 1 Identifikation
+    competency: 1.1 Identifikation
     data-flow: 1 Planung
     blooms-category: 3 Anwenden
 - title: Datenerhebung und Datenbereinigung
@@ -124,20 +137,19 @@ chapters:
     Open Source Tool OpenRefine dargelegt.
   learning-goal: Prozess der Datenerhebung und Datenbereinigung
   time-required: PT2H
-  educational-level: TODO
   learning-objectives:
   - learning-objective: Der Begriff Datenmodell kann definiert werden.
-    competency: 5 Validierung
+    competency: 2.2 Validierung
     data-flow: 2 Erhebung und Aufbereitung
     blooms-category: 1 Erinnern
   - learning-objective: Die Fähigkeit zur Beschreibung und Analyse einer Datenquelle
       wird erworben.
-    competency: 5 Validierung
+    competency: 2.2 Validierung
     data-flow: 4 Analyse
     blooms-category: 4 Analysieren
   - learning-objective: Ein Datensatz kann mithilfe des Tools OpenRefine bereinigt
       werden.
-    competency: 6 Aufbereitung
+    competency: 2.3 Aufbereitung
     data-flow: 4 Analyse
     blooms-category: 3 Anwenden
 - title: Datenauswertung und Datenvisualisierung
@@ -147,16 +159,15 @@ chapters:
   learning-goal: Datenauswertung und Datenvisualisierung mithilfe digitaler Ansätze
     und Werkzeuge
   time-required: PT1H40M
-  educational-level: TODO
   learning-objectives:
   - learning-objective: Die Grundlagen der Datenvisualisierung können beschrieben
       werden.
-    competency: 10 Visualisierung
+    competency: 4.2 Visualisierung
     data-flow: 4 Analyse
     blooms-category: 1 Erinnern
   - learning-objective: Die Schritte bei der Datenvisualisierung und Datenauswertung
       können anhand exemplarischer Beispiele dargestellt werden.
-    competency: 10 Visualisierung
+    competency: 4.2 Visualisierung
     data-flow: 4 Analyse
     blooms-category: 1 Erinnern
 - title: Datenpublikation
@@ -166,7 +177,6 @@ chapters:
     Augenmerk liegt auf den rechtlichen Rahmenbedingungen.
   learning-goal: Grundlagen für die Publikation von Forschungsdaten
   time-required: PT1H20M
-  educational-level: TODO
   learning-objectives:
   - learning-objective: Die Grundzüge des Forschungsdatenmanagements in der Filmwissenschaft
       können umrissen werden.
@@ -175,53 +185,40 @@ chapters:
     blooms-category: 1 Erinnern
   - learning-objective: Verschiedene Formen der Datenpublikation können unterschieden
       werden.
-    competency: 13 Datenpublikation
+    competency: 5.2 Datenpublikation
     data-flow: 5 Publikation und Nachnutzung
     blooms-category: 1 Erinnern
   - learning-objective: Die Problemfelder und rechtliche Voraussetzungen bei der Datenpublikation
       können erläutert werden.
-    competency: 3 Ethik und Recht
-    data-flow: 5 Publikation und Nachnutzung
+    competency: 1.3 Ethik und Recht
+    data-flow: 1 Planung
     blooms-category: 2 Verstehen
 - title: Zusammenfassung und Reflexion
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/zusammenfassung/reflexion.html
   description: Die Inhalte der OER werden zusammengefasst und kritisch reflektiert.
   learning-goal: Zusammenfassung und Reflexion der erlernten Inhalte
   time-required: PT15M
-  educational-level: TODO
   learning-objectives:
   - learning-objective: Die erlernten Inhalte können zusammengefasst und kritisch
       betrachtet werden.
     competency: nicht anwendbar
     data-flow: nicht anwendbar
     blooms-category: 5 Bewerten
-target-group:
-- Forschende (PostDoc)
-- Forschende (Projektleitung)
-- Promovierende
-- Hochschullehrende
-time-required: PT7H40M
 date-issued: '2025-06-03'
-date-modified: '2025-06-03'
+date-modified: '2026-02-18'
+version: 1.0.0
 context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
   Datenkompetenzzentrum QUADRIGA erstellt.
 
 
   Förderkennzeichen: 16DKZ2034'
-url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
-git: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2
+quality-assurance:
+  description: https://doi.org/TODO
+  date: '2026-11-14'
+learning-resource-type: Jupyter Book
+schema-version: 1.0.0
 license:
   code: https://opensource.org/licenses/AGPL-3.0
   content:
     url: https://creativecommons.org/licenses/by-sa/4.0/
     name: CC BY-SA 4.0
-keywords:
-- de: Open Educational Resource
-- de: Digital Humanities
-- de: Filmwissenschaft
-- de: Datenkompetenz
-- de: Metadaten
-- de: Datenbereinigung
-- de: OpenRefine
-- de: Datenvisualisierung
-- de: Datenpublikation
