@@ -159,7 +159,7 @@ Speichern Sie die importierten Daten als Excel-Datei durch einen Klick auf den R
 
 
 ## Titel pro Jahr
-Wie ist es nun möglich, aus dem Datensatz eine grafische Darstellung der Anzahl der Titel pro Jahr im Untersuchungszeitraum unserer Fallstudie zu erstellen? In Excel kann hierfür die *PivotChart* Funktion verwendet werden. Öffnen sie dazu Datensatz als Excel-Datei. Im Reiter *Einfügen* klicken Sie nun auf *PivotChart* und wählen *PivotChart und PivotTable* aus ({numref}`excel_pivot_chart`).
+Wie ist es nun möglich, aus dem Datensatz eine grafische Darstellung der Anzahl der Titel pro Jahr im Untersuchungszeitraum unserer Fallstudie zu erstellen? In Excel kann hierfür die *PivotChart* Funktion verwendet werden. Öffnen sie dazu den Datensatz als Excel-Datei. Im Reiter *Einfügen* klicken Sie nun auf *PivotChart* und wählen *PivotChart und PivotTable* aus ({numref}`excel_pivot_chart`).
 
 ```{figure} ../assets/auswertung/excel_einfuegen_pivot_chart.png
 ---

@@ -62,6 +62,11 @@ Im Startmenü kann die Sprache von *OpenRefine* auf Deutsch geändert werden. Da
 ```
 ````
 
+```{admonition} Hinweis
+:class: hinweis
+*OpenRefine* wird zwar über Ihren Browser gestartet und bedient, sämtliche importierte und bearbeitete Daten verbleiben jedoch **lokal auf Ihrem Rechner** und werden nur dort abgespeichert. Ein Upload auf externe Server findet nicht statt.
+```
+
 Über den Startbildschirm von *OpenRefine* werden durch Anklicken von *Create Project* neue Projekte erstellt ({numref}`main_window_OpenRefine`). Neben lokalen Dateien (*Choose Files*) können über die Importoptionen *URLs*, *Database* und *Google Data* auch Datensätze aus dem Internet importiert werden. In der *Clipboard* Ansicht ist es möglich, ganze Datensätze per *Copy-and-Paste* über die Zwischenablage einzulesen.
 
 ```{figure} ../../assets/bereinigung/openRefine/import/import_1.png
@@ -76,7 +81,7 @@ Das Startmenü von *OpenRefine*
 
 
 
-Wählen sie nun durch *Choose files* die Datei *Synthetischer_Datensatz_Uebung_OER.tsv* aus. Navigieren sie hierzu zu dem Speicherort, an dem Sie den Download auf Ihrem Computer abgelegt haben. Klicken Sie auf *Next*. Nach dem erfolgreichen Einlesen des Datensatzes öffnet sich das folgende Menü für die Importoptionen:
+Wählen Sie nun durch *Choose files* die Datei *Synthetischer_Datensatz_Uebung_OER.tsv* aus. Navigieren Sie hierzu zu dem Speicherort, an dem Sie den Download auf Ihrem Computer abgelegt haben. Klicken Sie auf *Next*. Nach dem erfolgreichen Einlesen des Datensatzes öffnet sich das folgende Menü für die Importoptionen:
 
 ```{figure} ../../assets/bereinigung/openRefine/import/import_2.png
 ---
@@ -113,7 +118,7 @@ alt: Die Importeinstellungen
 ---
 Die Importeinstellungen
 ```
-Generell ist *OpenRefine* sehr kompetent in der automatischen Erkennung der korrekten Einstellungen. Hier allerdings hat *OpenRefine* fälschlicherweise das Komma als Trennzeichen, also *CSV*, ausgewählt. Wählen sie stattdessen *TSV* aus. 
+Generell ist *OpenRefine* sehr kompetent in der automatischen Erkennung der korrekten Einstellungen. Hier allerdings hat *OpenRefine* fälschlicherweise das Komma als Trennzeichen, also *CSV*, ausgewählt. Wählen Sie stattdessen *TSV* aus. 
 
 ```{figure} ../../assets/bereinigung/openRefine/import/import_4.5.png
 ---
@@ -209,7 +214,7 @@ Hier kann das Trennzeichen des Datensatzes ausgewählt werden. Neben dem Komma (
 
 **Use character " to enclose cells containing column separators**
 
-Manchmal werden Einträge, die das generelle Trennzeichen des Datensatzes enthalten durch Anführungszeichen gekennzeichnet, um so eine versehentliche Aufteilung des Eintrags zu vermeiden.
+Manchmal werden Einträge, die das generelle Trennzeichen des Datensatzes enthalten, durch Anführungszeichen gekennzeichnet, um so eine versehentliche Aufteilung des Eintrags zu vermeiden.
 Diese Einstellung funktioniert etwas missverständlich: Wird sie ausgewählt, werden die Anführungszeichen als Kennzeichen interpretiert, den entsprechenden Eintrag nicht aufzuteilen und nicht mehr angezeigt, andernfalls bleiben sie erhalten und die Einträge werden getrennt. 
 
 **Optionen zu den Zeilen**
