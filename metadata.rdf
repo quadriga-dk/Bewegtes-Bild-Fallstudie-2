@@ -134,7 +134,7 @@
     </schema:about>
     <schema:about>
       <schema:Thing rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#discipline_0">
-        <schema:name>übergreifend</schema:name>
+        <schema:name>Digital Humanities</schema:name>
       </schema:Thing>
     </schema:about>
     <schema:about>
@@ -227,7 +227,7 @@
     </schema:contributor>
     <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-19</schema:dateModified>
     <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-03</schema:datePublished>
-    <schema:description>Diese Open Educational Resource (OER) befasst sich anhand einer Fallstudie mit einer filmwissenschaftlichen Fragestellung und stellt dar, wie für deren Bearbeitung digitale Verfahren eingesetzt werden können. Der Fokus liegt auf dem Filmarchiv der Filmuniversität Babelsberg KONRAD WOLF und der Frage, welche Veränderungen sich in den studentischen Filmen der Jahre 1985 bis 1999 erkennen lassen, die auf die deutsche Einheit verweisen. Es werden vor allem Metadaten und filmografische Angaben zu den studentischen Produktionen in den Blick genommen.</schema:description>
+    <schema:description>Diese Open Educational Resource (OER) stellt anhand einer Fallstudie dar, wie für die Bearbeitung einer filmwissenschaftlichen Fragestellung digitale Verfahren eingesetzt werden können. Es werden studentische Filme der Filmuniversität Babelsberg KONRAD WOLF untersucht und welche Veränderungen sich bei diesen in den Jahren 1985 bis 1999 erkennen lassen. Im Mittelpunkt stehen dabei Metadaten und filmografische Angaben zu den Filmen, Prozesse der Datenbereinigung mit OpenRefine und Möglichkeiten der Datenvisualisierung.</schema:description>
     <schema:funding>Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
 
 Förderkennzeichen: 16DKZ2034</schema:funding>

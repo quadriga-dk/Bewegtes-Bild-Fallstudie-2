@@ -28,11 +28,13 @@ keywords:
 - de: OpenRefine
 - de: Datenvisualisierung
 - de: Datenpublikation
-description: Diese Open Educational Resource (OER) stellt anhand einer Fallstudie dar, wie für die Bearbeitung
-  einer filmwissenschaftlichen Fragestellung digitale Verfahren eingesetzt werden können. Es werden studentische Filme
-  der Filmuniversität Babelsberg KONRAD WOLF untersucht und welche Veränderungen sich bei diesen
-  in den Jahren 1985 bis 1999 erkennen lassen. Im Mittelpunkt stehen dabei Metadaten und filmografische Angaben zu den Filmen, 
-  Prozesse der Datenbereinigung mit OpenRefine und Möglichkeiten der Datenvisualisierung.
+description: Diese Open Educational Resource (OER) stellt anhand einer Fallstudie
+  dar, wie für die Bearbeitung einer filmwissenschaftlichen Fragestellung digitale
+  Verfahren eingesetzt werden können. Es werden studentische Filme der Filmuniversität
+  Babelsberg KONRAD WOLF untersucht und welche Veränderungen sich bei diesen in den
+  Jahren 1985 bis 1999 erkennen lassen. Im Mittelpunkt stehen dabei Metadaten und
+  filmografische Angaben zu den Filmen, Prozesse der Datenbereinigung mit OpenRefine
+  und Möglichkeiten der Datenvisualisierung.
 table-of-contents: '- Präambel
 
   - Digital Humanities und Filmwissenschaft
