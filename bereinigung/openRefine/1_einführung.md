@@ -35,7 +35,7 @@ Bei anderen Browsern, wie z.B. *Firefox*, kann es zu Fehlern in der grafischen D
 
 ```{admonition} Fehler aufgrund des Browsers
 :class: keypoint
-Auch bei den offiziell unterstützen Browsern kann es zu Fehlermeldungen oder Bugs kommen, etwa aufgrund von Updates. In solchen Fällen sollte ein anderer der unterstützten Browser verwendet werden. 
+Auch bei den offiziell unterstützen Browsern kann es zu Fehlermeldungen oder Bugs kommen, etwa aufgrund von Updates. In solchen Fällen sollte ein anderer der in der <a href="https://openrefine.org/docs/manual/installing#compatible-browser" class="external-link" target="_blank">*OpenRefine*-Dokumentation</a> aufgeführten Browser verwendet werden.
 ```
 
 Nach der Installation kann *OpenRefine* gestartet werden. Es öffnet sich ein Terminal-Fenster (bzw. ein Anwendungsindikator im macOS Dock), das für die eigentliche Arbeit mit dem Programm nicht relevant ist, jedoch geöffnet bleiben muss. Die Benutzeroberfläche von *OpenRefine* wird über die Server-Adresse <a href="http://127.0.0.1:3333/" class="external-link" target="_blank">http://127.0.0.1:3333/</a> in einem Tab des Browsers geöffnet, beim Start des Programms geschieht dies in der Regel automatisch. 
@@ -53,7 +53,7 @@ Eine Einführung zu _Python_  findet sich unter <a href="https://programming-24.
 ```
 ````
 
-Neben OpenRefine wurde bei der Bereinigung des originalen Datensatzes auch die Programmiersprache *Python* genutzt, um die grundlegende Struktur des Datensatzes zu ändern. Zwar sind diese Änderungen größtenteils auch innerhalb von OpenRefine realisierbar, dies wäre jedoch mit einem erheblich höheren, manuellen Aufwand und entsprechend hoher Fehleranfälligkeit verbunden. So ist es etwa in OpenRefine nicht möglich, auf der Grundlage von Spalten-übergreifenden Regeln neue Spalten zu erstellen oder Einträge zu verschieben. Die Stärke von *OpenRefine* liegt weniger in solchem <a href="https://en.wikipedia.org/wiki/Data_wrangling" class="external-link" target="_blank">*Data wrangling*</a>, als vielmehr in der genauen Bereinigung der Einträge selbst. 
+Neben *OpenRefine* wurde bei der Bereinigung des originalen Datensatzes auch die Programmiersprache *Python* genutzt, um die grundlegende Struktur des Datensatzes zu ändern. Zwar sind diese Änderungen größtenteils auch innerhalb von *OpenRefine* realisierbar, dies wäre jedoch mit einem erheblich höheren, manuellen Aufwand und entsprechend hoher Fehleranfälligkeit verbunden. So ist es etwa in *OpenRefine* nicht möglich, auf der Grundlage von Spalten-übergreifenden Regeln neue Spalten zu erstellen oder Einträge zu verschieben. Die Stärke von *OpenRefine* liegt weniger in solchem <a href="https://en.wikipedia.org/wiki/Data_wrangling" class="external-link" target="_blank">*Data wrangling*</a>, als vielmehr in der genauen Bereinigung der Einträge selbst. 
 
 
 

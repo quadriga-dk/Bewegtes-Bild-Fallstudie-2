@@ -251,7 +251,7 @@ Wählen Sie nun in der aufzuteilenden Spalte aus dem Dropdown-Menü im Reiter *E
 
 Die neu entstandenen Spalten enthalten Leerzeichen in ihrer Benennung, die zu Problemen bei der Verarbeitung des Datensatzes in anderen Programmen führen können. Wählen Sie *Rename this column* über das Dropdown-Menü der umzubenennenden Spalte und dort den Reiter *Edit columns* aus und ersetzen Sie die Leerzeichen im Spaltennamen durch Unterstriche (siehe {numref}`rename`).
 
-Vielleicht ist Ihnen bereits aufgefallen, dass sich die Spalte *Stichwort* nicht auf die selbe Weise aufteilen lässt, da sie neben dem Semikolon auch andere Trennzeichen enthält. Im nächsten Kapitel erfahren Sie, wie Sie auch diesem Problem begegnen können. 
+Vielleicht ist Ihnen bereits aufgefallen, dass sich die Spalte *Stichwort* nicht auf die selbe Weise aufteilen lässt, da sie neben dem Semikolon auch andere Trennzeichen enthält. Im nächsten Kapitel erfahren Sie, wie Sie auch dieses Problem lösen können. 
 
 ```
 ````

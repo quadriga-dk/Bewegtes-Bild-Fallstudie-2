@@ -28,7 +28,7 @@ Menü-Elemente zur Zeilen-Navigation
 ````{margin} 
 ```{admonition} Hinweis
 :class: hinweis
-Datensätze können im *Row* und *Record* Format dargestellt werden. Die meisten Datensätze liegen im Row-Format vor, wie auch der Übungsdatensatz. Im Record-Format  können mehrere Zeilen zu einem Tabellensatz, einem *Record*, zusammengefasst werden. In der *OpenRefine* Dokumentation finden sie mehr Informationen zum Unterschied der Darstellung in <a href="https://openrefine.org/docs/manual/exploring#rows-vs-records" class="external-link" target="_blank">Rows und Records</a> und zur Umwandlung von <a href="https://openrefine.org/docs/manual/cellediting#fill-down-and-blank-down" class="external-link" target="_blank">Rows in Records</a>.
+Datensätze können im *Row* und *Record* Format dargestellt werden. Die meisten Datensätze liegen im Row-Format vor, wie auch der Übungsdatensatz. Im Record-Format  können mehrere Zeilen zu einem Tabellensatz, einem *Record*, zusammengefasst werden. In der *OpenRefine* Dokumentation finden Sie mehr Informationen zum Unterschied der Darstellung in <a href="https://openrefine.org/docs/manual/exploring#rows-vs-records" class="external-link" target="_blank">Rows und Records</a> und zur Umwandlung von <a href="https://openrefine.org/docs/manual/cellediting#fill-down-and-blank-down" class="external-link" target="_blank">Rows in Records</a>.
 ```
 ````
 Innerhalb der Spalte *All* werden die Zeilen nummeriert und können für ein besseres Auffinden mit einer Flagge oder einem Stern markiert werden. Weder diese Markierungen noch die Nummerierung sind Teil das Datensatzes und werden nicht exportiert. 
