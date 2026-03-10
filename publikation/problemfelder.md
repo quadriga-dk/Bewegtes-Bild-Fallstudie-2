@@ -95,7 +95,7 @@ Es muss also immer im Einzelfall geprüft werden, welche Nutzungsrechte vorliege
 ## Fazit
 Wie sich im Laufe dieses Kapitels und auch am Beispiel der Daten unserer Fallstudie gezeigt hat, ist die Veröffentlichung und Nachnutzung von Forschungsdaten ein sehr komplexes Feld. Zahlreiche rechtliche Rahmenbedingungen wie Bestimmungen des Datenschutzes oder Urheberrechte müssen beachtet werden. Eine fundierte Rechtsberatung, bereits bei der Planung des Forschungsprojektes, ist daher notwendig und empfehlenswert. Oft stellen sich scheinbar einfache Sachverhalte als rechtlich äußerst kompliziert heraus. 
 
-Eine erste Anlaufstelle für eine rechtliche Beratung kann dabei das Justiziariat Ihrer Hochschule sein. Aber auch andere Institutionen bieten rechtliche Unterstützung an, wie z.B. das <a href="https://nfdi4culture.de/de/ueber-uns/aufgabenbereiche/aufgabenbereich-5.html" class="external-link" target="_blank"> NFDI4Culture Legal Helpdesk</a> oder die <a href="https://blog.adlr.link/beratungsangebote/" class="external-link" target="_blank">Beratungsangebote des FID Media</a>.
+Eine erste Anlaufstelle für eine rechtliche Beratung kann dabei das Justiziariat Ihrer Hochschule sein. Aber auch andere Institutionen bieten rechtliche Unterstützung an, wie z.B. das <a href="https://nfdi4culture.de/de/ueber-uns/aufgabenbereiche/aufgabenbereich-5.html" class="external-link" target="_blank"> NFDI4Culture Legal Helpdesk</a> oder die <a href="https://blog.fid-media.de/beratungsangebote/" class="external-link" target="_blank">Beratungsangebote des FID Media</a>.
 
 
 
