@@ -41,7 +41,7 @@ alt: Text Facet der Spalte Column 8 des Übungsdatensatzes
 ```
 
 Diese Spalte soll nun gelöscht werden. 
-Öffnen Sie dazu das Dropdown-Menü der Spalte, wählen Sie *Edit column* aus und anschließend *Remove column*.
+Öffnen Sie dazu das Dropdown-Menü der Spalte, wählen Sie *Edit column* aus und anschließend *Remove this column*.
 
 ```{figure} ../../assets/bereinigung/openRefine/spalten/remove_column.png
 ---
@@ -113,7 +113,7 @@ alt: Der Button zum Extrahieren der Arbeitsschritte
 Der Button zum Extrahieren der Arbeitsschritte
 ```
 
-In dem sich öffnenden *Extract*-Fenstern können durch setzen eines Hakens einzelne Schritte ausgewählt werden, die Teil des *JSON*-Exports auf der rechten Seite werden sollen. Standardmäßig werden alle Schritte ausgewählt. Durch einen Klick auf *Export* können Sie die *JSON*-Datei herunterladen. Alternativ können Sie den Inhalt im rechten Feld auch in die Zwischenablage kopieren, um ihn nach einem späteren oder früheren *Undo/Redo* Schritt anzuwenden oder in ein anderes OpenRefine-Projekt einzufügen.
+In dem sich öffnenden *Extract*-Fenstern können durch das Setzen eines Hakens einzelne Schritte ausgewählt werden, die Teil des *JSON*-Exports auf der rechten Seite werden sollen. Standardmäßig werden alle Schritte ausgewählt. Durch einen Klick auf *Export* können Sie die *JSON*-Datei herunterladen. Alternativ können Sie den Inhalt im rechten Feld auch in die Zwischenablage kopieren, um ihn nach einem späteren oder früheren *Undo/Redo* Schritt anzuwenden oder in ein anderes *OpenRefine*-Projekt einzufügen.
 
 ```{figure} ../../assets/bereinigung/openRefine/spalten/undoRedo_extract.png
 ---
@@ -233,7 +233,7 @@ alt: Das Öffnen des Menüs zum Umbenennen von Spalten
 ---
 Das Öffnen des Menüs zum Umbenennen von Spalten
 ```
-Sollten sich sich entschieden haben, die ursprüngliche Spalte *Verlag* nicht zu löschen, ist es sinnvoll diese ebenfalls umzubenennen, z.B. in *Verlag_OG*. So kann gekennzeichnet werden, dass es sich um die "originale Spalte" aus dem Datensatz handelt. Anschließend können Sie die Spalte mittels des oben beschriebenen *Re-order / Remove columns* Menüs ans Ende des Datensatzes verschieben (siehe {numref}`reorder_columns_1` und {numref}`reorder_columns_2`). 
+Sollten Sie sich entschieden haben, die ursprüngliche Spalte *Verlag* nicht zu löschen, ist es sinnvoll diese ebenfalls umzubenennen, z.B. in *Verlag_OG*. So kann gekennzeichnet werden, dass es sich um die "originale Spalte" aus dem Datensatz handelt. Anschließend können Sie die Spalte mittels des oben beschriebenen *Re-order / Remove columns* Menüs ans Ende des Datensatzes verschieben (siehe {numref}`reorder_columns_1` und {numref}`reorder_columns_2`). 
 
 ## Übung
 
@@ -251,7 +251,7 @@ Wählen Sie nun in der aufzuteilenden Spalte aus dem Dropdown-Menü im Reiter *E
 
 Die neu entstandenen Spalten enthalten Leerzeichen in ihrer Benennung, die zu Problemen bei der Verarbeitung des Datensatzes in anderen Programmen führen können. Wählen Sie *Rename this column* über das Dropdown-Menü der umzubenennenden Spalte und dort den Reiter *Edit columns* aus und ersetzen Sie die Leerzeichen im Spaltennamen durch Unterstriche (siehe {numref}`rename`).
 
-Vielleicht ist Ihnen bereits aufgefallen, dass sich die Spalte *Stichwort* nicht auf die selbe Weise aufteilen lässt, da sie neben dem Semikolon auch andere Trennzeichen enthält. Im nächsten Kapitel erfahren Sie, wie Sie auch diesem Problem begegnen können. 
+Vielleicht ist Ihnen bereits aufgefallen, dass sich die Spalte *Stichwort* nicht auf die selbe Weise aufteilen lässt, da sie neben dem Semikolon auch andere Trennzeichen enthält. Im nächsten Kapitel erfahren Sie, wie Sie auch dieses Problem lösen können. 
 
 ```
 ````

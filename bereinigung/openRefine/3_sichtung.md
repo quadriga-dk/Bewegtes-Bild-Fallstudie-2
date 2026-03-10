@@ -3,18 +3,7 @@
 
 Als ersten Schritt in der Bereinigung eines Datensatzes lohnt es sich, diesen im Detail mit den Funktionen von *OpenRefine* zu sichten. So erhalten Sie eine genaue Vorstellung bezüglich des Inhalts jeder Spalte und möglicher Probleme und können diese anschließend zielorientiert angehen. 
 
-Nachdem die Importeinstellungen vorgenommen wurden, kann das Projekt über den Button *Create Project* erstellt werden:
-
-```{figure} ../../assets/bereinigung/openRefine/sichtung/import_final.png
----
-align: left
-width: 100%
-name: create_project_button
-alt: Create Project
----
-*Create Project*
-```
-Nun öffnet sich das Hauptfenster von *OpenRefine*, in dem Sie während der Bereinigung eines Datensatzes die meiste Zeit verbringen werden. 
+Nachdem die [Importeinstellungen](/bereinigung/openRefine/2_import.md#die-importeinstellungen-im-uberblick) vorgenommen wurden und mit *Create Project* ein Projekt erstellt wurde, öffnet sich das Hauptfenster von *OpenRefine*, in dem Sie während der Bereinigung eines Datensatzes die meiste Zeit verbringen werden. ({numref}`main_window`) Zum Hauptfenster gelangen sie ebenfalls, wenn Sie *OpenRefine* öffnen, in der linken Spalte auf *Open project* klicken und aus der Liste das Projekt auswählen, das sie bearbeiten möchten.
 
 ```{figure} ../../assets/bereinigung/openRefine/sichtung/main_window.png
 ---
@@ -39,7 +28,7 @@ Menü-Elemente zur Zeilen-Navigation
 ````{margin} 
 ```{admonition} Hinweis
 :class: hinweis
-Datensätze können im *Row* und *Record* Format dargestellt werden. Die meisten Datensätze liegen im Row-Format vor, wie auch der Übungsdatensatz. Im Record-Format  können mehrere Zeilen zu einem Tabellensatz, einem *Record*, zusammengefasst werden. In der *OpenRefine* Dokumentation finden sie mehr Informationen zum Unterschied der Darstellung in <a href="https://openrefine.org/docs/manual/exploring#rows-vs-records" class="external-link" target="_blank">Rows und Records</a> und zur Umwandlung von <a href="https://openrefine.org/docs/manual/cellediting#fill-down-and-blank-down" class="external-link" target="_blank">Rows in Records</a>.
+Datensätze können im *Row* und *Record* Format dargestellt werden. Die meisten Datensätze liegen im Row-Format vor, wie auch der Übungsdatensatz. Im Record-Format  können mehrere Zeilen zu einem Tabellensatz, einem *Record*, zusammengefasst werden. In der *OpenRefine* Dokumentation finden Sie mehr Informationen zum Unterschied der Darstellung in <a href="https://openrefine.org/docs/manual/exploring#rows-vs-records" class="external-link" target="_blank">Rows und Records</a> und zur Umwandlung von <a href="https://openrefine.org/docs/manual/cellediting#fill-down-and-blank-down" class="external-link" target="_blank">Rows in Records</a>.
 ```
 ````
 Innerhalb der Spalte *All* werden die Zeilen nummeriert und können für ein besseres Auffinden mit einer Flagge oder einem Stern markiert werden. Weder diese Markierungen noch die Nummerierung sind Teil das Datensatzes und werden nicht exportiert. 
@@ -193,9 +182,9 @@ alt: Numeric Facet zur Auswahl des Zeitraums 1989 bis 1994
 *Numeric Facet* zur Auswahl des Zeitraums *1989* bis *1994*
 ```
 
-Der Unterschied zwischen numerischen und textbasierten Datentypen besteht darin, dass Zahlen (numerische Datentype wie *Integer* oder *Float*) mathematisch interpretierbar sind – etwa zum Rechnen oder Vergleichen –, während Textwerte (*Strings*) lediglich als Zeichenfolgen behandelt werden. So kann etwa der Eintrag *1990* entweder als Text oder als Zahl vorliegen: Ist er als Text formatiert, erkennt OpenRefine ihn nicht als numerischen Wert – der Eintrag wird in diesem Fall von dem *Numeric Facet* nicht erfasst und auch Rechenoperationen lassen sich nicht auf ihn anwenden. Erst wenn der Eintrag korrekt in einen Zahlentyp konvertiert wurde, kann er als Zahl interpretiert werden.
+Der Unterschied zwischen numerischen und textbasierten Datentypen besteht darin, dass Zahlen (numerische Datentypen wie *Integer* (ganze Zahl) oder *Float* (Gleitkommazahl)) mathematisch interpretierbar sind – etwa zum Rechnen oder Vergleichen –, während Textwerte (*Strings*) lediglich als Zeichenfolgen behandelt werden. So kann etwa der Eintrag *1990* entweder als Text oder als Zahl vorliegen: Ist er als Text formatiert, erkennt OpenRefine ihn nicht als numerischen Wert – der Eintrag wird in diesem Fall von dem *Numeric Facet* nicht erfasst und auch Rechenoperationen lassen sich nicht auf ihn anwenden. Erst wenn der Eintrag korrekt in einen Zahlentyp konvertiert wurde, kann er als Zahl interpretiert werden.
 
-Vermutlich ist Ihnen schon aufgefallen, dass in der Spalte *Jahr* manche Einträge grün markiert sind und andere nicht. Diese Einträge wurden bereits als Zahl erkannt und korrekt konvertiert, da beim Import die Option *Attempt to parse cell text into numbers* ausgewählt wurde (siehe [Vorbereitung und Import des Datensatzes](./2_import.md#import-des-datensatzes-in-openrefine). Manche der Einträge konnten allerdings nicht als Zahl interpretiert werden, da sie nichtnumerische Zeichen wie Schrägstriche enthalten:
+Vermutlich ist Ihnen schon aufgefallen, dass in der Spalte *Jahr* manche Einträge grün markiert sind und andere nicht. Diese Einträge wurden bereits als Zahl erkannt und korrekt konvertiert, da beim Import die Option *Attempt to parse cell text into numbers* ausgewählt wurde (siehe [Vorbereitung und Import des Datensatzes](./2_import.md#import-des-datensatzes-in-openrefine)). Manche der Einträge konnten allerdings nicht als Zahl interpretiert werden, da sie nichtnumerische Zeichen wie Schrägstriche enthalten:
 
 ```{figure} ../../assets/bereinigung/openRefine/sichtung/numericfacet_datatypes.png
 ---
@@ -224,7 +213,7 @@ alt: Die Transformation To Number
 Die Transformation *To Number*
 ```
 
-Auf die Spalte *Jahr* in ihrer aktuellen Form hat diese Transformation allerdings keine Wirkung. Die Einträge mit nicht-numerischen Zeichen wie Schrägstrichen werden weiterhin nicht als Zahlen erkannt, während jene Einträge, die nur aus Zahlen bestehen, bereits als solche während des Import des Datensatzes identifiziert wurden. 
+Auf die Spalte *Jahr* in ihrer aktuellen Form hat diese Transformation allerdings keine Wirkung. Die Einträge mit nicht-numerischen Zeichen wie Schrägstrichen werden weiterhin nicht als Zahlen erkannt, während jene Einträge, die nur aus Zahlen bestehen, bereits als solche während des Import des Datensatzes identifiziert wurden. Wie diese Schrägstriche und eckigen Klammern entfernt werden, wird im Abschnitt zur [Standardisierung der Jahresangaben](/bereinigung/openRefine/5.1_jahre.md) erklärt.
 
 ### Text filter
 Mit einem *Text Filter* können Sie Spalten nach einem Text durchsuchen und den Datensatz nach den Ergebnissen filtern. Der *Text Filter* findet sich im Dropdown-Menü der Spalten unter den *Facets*:

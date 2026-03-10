@@ -1,7 +1,7 @@
 # Vorbereitung und Import des Datensatzes
 ## Datenformate
 
-Für die Bereinigung von Datensätzen müssen diese in das Programm importiert werden. OpenRefine und ähnliche Tools ermöglichen den Import verschiedener Datei- und Datenformate für die Datenverarbeitung:  
+Für die Bereinigung von Datensätzen müssen diese in das Programm importiert werden. *OpenRefine* und ähnliche Tools ermöglichen den Import verschiedener Datei- und Datenformate für die Datenverarbeitung:  
 
 **Tabellenformate**  
 - **CSV/TSV/SV** – Textbasierte Tabellen mit Trennzeichen (Komma, Tab, etc.).  
@@ -23,7 +23,7 @@ Für die Bereinigung von Datensätzen müssen diese in das Programm importiert w
 - **Google Sheets** – Direktimport aus der Cloud.  
 
 Der folgende Text konzentriert sich auf die gängigen Formate **TSV**, **CSV** und **TXT**.
-Im Kapitel zum [Datenmodell](../modell.md) wurde bereits kurz auf das Format *TSV* eingegangen.
+Im Kapitel zum [Datenmodell](../modell.md#auszug-aus-der-datenbank-des-bibliothekskatalogs) wurde bereits kurz auf das Format *TSV* eingegangen.
 
 Im Grunde handelt es sich bei *TSV* und *CSV* ebenfalls um *TXT* Dateien, also einfache Textdateien, die jede Art von Zeichen und Text enthalten können, einschließlich unstrukturierter oder formatierter Daten.
 Um Daten zu formatieren, müssen einzelne Einträge, wie etwa die einzelnen Zellen in einer Tabelle, im Text erkennbar voneinander getrennt werden. Zu diesem Zweck haben sich als gängige Trennzeichen (engl. **separator** oder konkreter **delimiter**) das Tabulatorzeichen und das Komma durchgesetzt. Aus ihnen erklären sich die Namen der anderen oben genannten Formate: "**T**ab **S**eparated **V**alues" und "**C**omma **S**eparated **V**alues".
@@ -44,9 +44,30 @@ Dataset mit *Tabulator*-Trennzeichen im Programm *TextEdit*
 Bei diesem Trennzeichen lassen sich einzelne Einträge bereits gut unterscheiden. Ohne eine grafische Aufbereitung des Datensatzes ist es jedoch schwierig, diese einer konkreten Zeile und Spalte zuzuordnen und Beziehungen zwischen den Einträgen herzustellen.
 Hier kommt nun *OpenRefine* ins Spiel.
 
-## Import des Datensatzes in OpenRefine
+## Import des Datensatzes in *OpenRefine*
 
-Die Schritte zur Bereinigung eines Datensatzes werden in diesem Kapitel exemplarisch anhand des Übungsdatensatzes **Synthetischer_Datensatz_Uebung_OER.tsv** erläutert, der bereits in der [Einleitung zur Datenbereinigung](./0_datenbereinigung.md) vorgestellt wurde. Sie können den Datensatz [hier](../../assets/daten/Synthetischer_Datensatz_Uebung_OER.tsv) (rechte Maustaste und *Ziel speichern unter* auswählen) herunterladen.
+````{margin} 
+```{admonition} Link zum Download
+:class: hinweis
+Link zum Download des [synthetischen Übungsdatensatzes](/assets/daten/Synthetischer_Datensatz_Uebung_OER.tsv)
+```
+````
+
+Die Schritte zur Bereinigung eines Datensatzes werden in diesem Kapitel exemplarisch anhand des Übungsdatensatzes **Synthetischer_Datensatz_Uebung_OER.tsv** erläutert, der bereits in der [Einleitung zur Datenbereinigung](./0_datenbereinigung.md) vorgestellt wurde. Sie können den Datensatz [hier](../../assets/daten/Synthetischer_Datensatz_Uebung_OER.tsv) herunterladen (falls der Download nicht per Klick auf den Link starten sollte: rechte Maustaste und *Ziel speichern unter* auswählen).
+
+````{margin} 
+```{admonition} Hinweis
+:class: hinweis
+Im Startmenü kann die Sprache von *OpenRefine* auf Deutsch geändert werden. Da dabei aber nicht alle Bedienelemente übersetzt werden, sind die folgenden Screenshots und Beschreibungen weiterhin auf Englisch. Zudem lassen sich anhand der englischsprachigen Bezeichnungen einfacher Informationen zu den Funktionen von *OpenRefine* im Internet finden. 
+```
+````
+
+```{admonition} Hinweis
+:class: hinweis
+*OpenRefine* wird zwar über Ihren Browser gestartet und bedient, sämtliche importierte und bearbeitete Daten verbleiben jedoch **lokal auf Ihrem Rechner** und werden nur dort abgespeichert. Ein Upload auf externe Server findet nicht statt.
+```
+
+Über den Startbildschirm von *OpenRefine* werden durch Anklicken von *Create Project* neue Projekte erstellt ({numref}`main_window_OpenRefine`). Neben lokalen Dateien (*Choose Files*) können über die Importoptionen *URLs*, *Database* und *Google Data* auch Datensätze aus dem Internet importiert werden. In der *Clipboard* Ansicht ist es möglich, ganze Datensätze per *Copy-and-Paste* über die Zwischenablage einzulesen.
 
 ```{figure} ../../assets/bereinigung/openRefine/import/import_1.png
 ---
@@ -57,16 +78,10 @@ alt: Das Startmenü von OpenRefine
 ---
 Das Startmenü von *OpenRefine*
 ```
-````{margin} 
-```{admonition} Hinweis
-:class: hinweis
-Im Startmenü kann die Sprache von *OpenRefine* auf Deutsch geändert werden. Da dabei aber nicht alle Bedienelemente übersetzt werden, sind die folgenden Screenshots und Beschreibungen weiterhin auf Englisch. Zudem lassen sich anhand der englischsprachigen Bezeichnungen einfacher Informationen zu den Funktionen von *OpenRefine* im Internet finden. 
-```
-````
 
-Über den Startbildschirm von *OpenRefine* werden durch Anklicken von *Create Project* neue Projekte erstellt ({numref}`main_window_OpenRefine`). Neben lokalen Dateien (*Choose Files*) können über die Importoptionen *URLs*, *Database* und *Google Data* auch Datensätze aus dem Internet importiert werden. In der *Clipboard* Ansicht ist es möglich, ganze Datensätze per *Copy-and-Paste* über die Zwischenablage einzulesen.
 
-Wählen sie nun durch *Choose files* die Datei *Synthetischer_Datensatz_Uebung_OER.tsv* aus. Navigieren sie hierzu zu dem Speicherort, an dem Sie den Download auf Ihren Computer abgelegt haben. Klicken Sie auf *Next*. Nach dem erfolgreichen Einlesen des Datensatzes öffnet sich das folgende Menü für die Importoptionen:
+
+Wählen Sie nun durch *Choose files* die Datei *Synthetischer_Datensatz_Uebung_OER.tsv* aus. Navigieren Sie hierzu zu dem Speicherort, an dem Sie den Download auf Ihrem Computer abgelegt haben. Klicken Sie auf *Next*. Nach dem erfolgreichen Einlesen des Datensatzes öffnet sich das folgende Menü für die Importoptionen:
 
 ```{figure} ../../assets/bereinigung/openRefine/import/import_2.png
 ---
@@ -78,7 +93,7 @@ alt: Das Importmenü
 Die Optionen zum Datenimport
 ```
 Durch vertikales und horizontales Scrollen können Sie sich hier sämtliche Spalten ansehen.
-Gehen wir diese Optionen nun Schritt für Schritt durch. Als erstes ist bei der Vergabe des Projektnamens auffällig, dass hierfür der Namen der Datensatz-Datei verwendet wurde und alle Unterstriche im Dateinamen automatisch durch Leerzeichen ersetzt wurden. Bei der Arbeit mit Daten sollten Leerzeichen generell vermieden werden, da dies zu Problemen beim Einlesen der Datensätze in Bearbeitungs- und Auswertungssoftware führen kann. Daher sollten die Unterstriche anstatt der Leerzeichen wieder eingesetzt werden. Zudem macht es Sinn, den Titel mit zusätzlichen Informationen zu ergänzen, etwa dem Erstellungsdatum, einer Versionsnummer oder einem Personenkürzel. Dies erleichtert später die Unterscheidung verschiedener Fassungen eines OpenRefine Projekts, etwa von gespeicherten Zwischenstufen vor größeren Bearbeitungsschritten. Hier fällt die Wahl auf den Namen **20250609_Datensatz_Uebung_OER_V1**.
+Gehen wir diese Optionen nun Schritt für Schritt durch. Als Erstes ist bei der Vergabe des Projektnamens auffällig, dass hierfür der Namen der Datensatz-Datei verwendet wurde und alle Unterstriche im Dateinamen automatisch durch Leerzeichen ersetzt wurden. Bei der Arbeit mit Daten sollten Leerzeichen generell vermieden werden, da dies zu Problemen beim Einlesen der Datensätze in Bearbeitungs- und Auswertungssoftware führen kann. Daher sollten die Unterstriche anstatt der Leerzeichen wieder eingesetzt werden. Zudem macht es Sinn, den Titel mit zusätzlichen Informationen zu ergänzen, etwa dem Erstellungsdatum, einer Versionsnummer oder einem Personenkürzel. Dies erleichtert später die Unterscheidung verschiedener Fassungen eines *OpenRefine* Projekts, etwa von gespeicherten Zwischenstufen vor größeren Bearbeitungsschritten. Hier fällt die Wahl auf den Namen **20250609_Datensatz_Uebung_OER_V1**.
 
 Im Feld *Tags* können alternativ durch Leerzeichen getrennte Schlagworte angegeben werden, die gemeinsam mit dem Rest des Projekts im **TAR** Dateiformat gespeichert und später in der Übersicht der Projekte in *Open Project* mit angezeigt werden.
 
@@ -103,7 +118,7 @@ alt: Die Importeinstellungen
 ---
 Die Importeinstellungen
 ```
-Generell ist *OpenRefine* sehr kompetent in der automatischen Erkennung der korrekten Einstellungen. Hier allerdings hat OpenRefine fälschlicherweise das Komma als Trennzeichen, also *CSV*, ausgewählt. Wählen sie stattdessen *TSV* aus. 
+Generell ist *OpenRefine* sehr kompetent in der automatischen Erkennung der korrekten Einstellungen. Hier allerdings hat *OpenRefine* fälschlicherweise das Komma als Trennzeichen, also *CSV*, ausgewählt. Wählen Sie stattdessen *TSV* aus. 
 
 ```{figure} ../../assets/bereinigung/openRefine/import/import_4.5.png
 ---
@@ -153,7 +168,7 @@ alt: Die Spalte Jahr vor und nach Auswahl der Option Attempt to parse cell text 
 Die Spalte Jahr vor und nach Auswahl der Option **Attempt to parse cell text into numbers**
 ```
 Wie Sie feststellen können, haben sich einige der Jahreszahlen grün gefärbt. 
-Dies bedeutet, dass *OpenRefine* diese Einträge als einen anderen Datentyp als Text erkannt hat – nämlich als Zahlen, auf die sich etwa mathematische Operationen anwenden lassen. Dazu mehr im nächsten Kapitel [Sichtung des Datensatzes](3_sichtung.md).
+Dies bedeutet, dass *OpenRefine* diese Einträge als einen anderen Datentyp als Text erkannt hat – nämlich als Zahlen, auf die sich etwa mathematische Operationen anwenden lassen. Dazu mehr im nächsten Kapitel [Sichtung des Datensatzes](3_sichtung.md#numeric-facet).
 
 Eine weitere interessante Option ist <b>Trim leading & trailing whitespace from strings<br> Escape special characters with \ </b>.
 Diese Option entfernt Leerzeichen am Anfang und Ende der Einträge und versieht Sonderzeichen mit einem Backslash.
@@ -173,7 +188,20 @@ alt: Die vollständigen Importoptionen
 Die vollständigen Importoptionen
 ```
 
-Der Import wird mit einem Klick auf **"Create project"** in der oberen rechten Ecke der Eingabeoberfläche abgeschlossen. Es lohnt sich dennoch, die einzelnen Einstellungsmöglichkeiten kurz zu erläutern, da sie für das Einlesen komplexer strukturierter Datensätze nützlich sein können. Falls Sie direkt mit dem Übungsdatensatz weiterarbeiten möchten, können Sie die folgenden Ausführungen auch überspringen und mit dem Abschnitt zur [Sichtung des Datensatzes](3_sichtung.md) fortfahren.
+Der Import wird mit einem Klick auf **"Create project"** in der oberen rechten Ecke der Eingabeoberfläche abgeschlossen.
+
+```{figure} ../../assets/bereinigung/openRefine/sichtung/import_final.png
+---
+align: left
+width: 100%
+name: create_project_button
+alt: Create Project
+---
+*Create Project*
+```
+Es öffnet sich das [Hauptfenster](/bereinigung/openRefine/3_sichtung.md) von *OpenRefine*, in dem Sie während der Bereinigung eines Datensatzes die meiste Zeit verbringen werden. Falls Sie direkt mit dem Übungsdatensatz weiterarbeiten möchten, können Sie die folgenden Ausführungen überspringen und mit dem Abschnitt zur [Sichtung des Datensatzes](3_sichtung.md) fortfahren. Es lohnt sich dennoch, die einzelnen Einstellungsmöglichkeiten kurz zu erläutern, da sie für das Einlesen komplexer strukturierter Datensätze nützlich sein können.
+
+## Die Importeinstellungen im Überblick
 
 
 **Character encoding**
@@ -186,7 +214,7 @@ Hier kann das Trennzeichen des Datensatzes ausgewählt werden. Neben dem Komma (
 
 **Use character " to enclose cells containing column separators**
 
-Manchmal werden Einträge, die das generelle Trennzeichen des Datensatzes enthalten durch Anführungszeichen gekennzeichnet, um so eine versehentliche Aufteilung des Eintrags zu vermeiden.
+Manchmal werden Einträge, die das generelle Trennzeichen des Datensatzes enthalten, durch Anführungszeichen gekennzeichnet, um so eine versehentliche Aufteilung des Eintrags zu vermeiden.
 Diese Einstellung funktioniert etwas missverständlich: Wird sie ausgewählt, werden die Anführungszeichen als Kennzeichen interpretiert, den entsprechenden Eintrag nicht aufzuteilen und nicht mehr angezeigt, andernfalls bleiben sie erhalten und die Einträge werden getrennt. 
 
 **Optionen zu den Zeilen**

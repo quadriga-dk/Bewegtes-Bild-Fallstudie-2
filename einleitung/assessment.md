@@ -12,7 +12,7 @@ kernelspec:
 
 # 🏆Selbsttest: Wissen und Praxis
 
-````{admonition} Hinweis
+````{admonition} Wie nutze ich den Selbsttest?
 :class: hinweis
 
 Diese Übungsaufgaben dienen Ihrer Selbsteinschätzung und helfen Ihnen, das im Kapitel Gelernte zu reflektieren.
@@ -31,7 +31,7 @@ Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses 
 Viel Erfolg!
 ````
 
-### Aufgabe 1
+## Aufgabe 1
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -75,7 +75,7 @@ multiple_choice9 = [{
 display_quiz(multiple_choice9, colors=colors.jupyterquiz)
 ```
 
-### Aufgabe 2 
+## Aufgabe 2 
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -116,7 +116,7 @@ quiz.create_matching_quiz(
 
 ```
 
-### Aufgabe 3
+## Aufgabe 3
 
 **Szenario:** Sie arbeiten an einem Forschungsprojekt zu deutschen Stummfilmen der 1920er Jahre und möchten untersuchen, wie sich Montagestile in diesem Zeitraum entwickelt haben. Sie haben Zugang zu 50 digitalisierten Filmen.
 

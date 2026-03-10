@@ -1,7 +1,13 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
 title: Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)
-abstract: TODO
+abstract: Diese Open Educational Resource (OER) stellt anhand einer Fallstudie dar,
+  wie für die Bearbeitung einer filmwissenschaftlichen Fragestellung digitale Verfahren
+  eingesetzt werden können. Es werden studentische Filme der Filmuniversität Babelsberg
+  KONRAD WOLF untersucht und welche Veränderungen sich bei diesen in den Jahren 1985
+  bis 1999 erkennen lassen. Im Mittelpunkt stehen dabei Metadaten und filmografische
+  Angaben zu den Filmen, Prozesse der Datenbereinigung mit OpenRefine und Möglichkeiten
+  der Datenvisualisierung.
 type: software
 message: Please cite this software using the metadata from `preferred-citation` in
   `CITATION.cff`.
@@ -13,6 +19,7 @@ authors: &id001
 - given-names: Marco
   family-names: Winter
   affiliation: Filmuniversität Babelsberg KONRAD WOLF
+  orcid: https://orcid.org/0009-0000-0239-9682
 - given-names: Skadi
   family-names: Loist
   orcid: https://orcid.org/0000-0002-8299-4103
@@ -28,8 +35,16 @@ identifiers:
   description: Zenodo
 repository-code: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2
 url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
-keywords:
+keywords: &id002
 - Open Educational Resource
+- Digital Humanities
+- Filmwissenschaft
+- Datenkompetenz
+- Metadaten
+- Datenbereinigung
+- OpenRefine
+- Datenvisualisierung
+- Datenpublikation
 license: CC-BY-SA-4.0
 references:
 - title: Jupyter Book
@@ -38,7 +53,7 @@ references:
   - name: The Jupyter Book Community
     website: https://github.com/jupyter-book/jupyter-book/graphs/contributors
 preferred-citation:
-  year: '2025'
+  year: '2026'
   authors: *id001
   title: Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)
   type: book
@@ -49,7 +64,6 @@ preferred-citation:
   languages:
   - deu
   copyright: CC-BY-SA-4.0
-  keywords:
-  - Open Educational Resource
-  version: 1.0.0-beta
-version: 1.0.0-beta
+  keywords: *id002
+  version: 1.0.0
+version: 1.0.0

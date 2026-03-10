@@ -1,4 +1,21 @@
 # Datenerhebung und Datenbereinigung
+
+````{margin}
+```{admonition} Fragen oder Feedback 
+:class: frage-feedback
+
+<a href="https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
+    Stellen Sie eine Frage
+</a> <br>
+<a href="https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2/issues/new?assignees=&labels=feedback&projects=&template=feedback.yml" class="external-link" target="_blank">
+    Geben Sie uns Feedback
+</a>
+
+Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre Bedürfnisse anpassen.
+
+```
+````
+
 In diesem Kapitel stehen folgende Lernziele im Mittelpunkt:
 
 ```{admonition} Prozess der Datenerhebung und Datenbereinigung
