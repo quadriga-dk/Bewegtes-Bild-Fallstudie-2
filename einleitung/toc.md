@@ -24,6 +24,7 @@ Im folgenden Kapitel werden einige Grundzüge der Digital Humanities und deren R
 ```{inlcude} ../praeambel/lernziele.md
 :begin-after: "<!-- START: Digital Humanities und Filmwissenschaft -->"
 :end-before: "<!-- END: Digital Humanities und Filmwissenschaft -->"
+```
 ````
 
 ```{admonition} Bearbeitungszeit
