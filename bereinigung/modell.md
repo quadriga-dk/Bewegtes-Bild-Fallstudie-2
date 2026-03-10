@@ -102,7 +102,7 @@ Weitere Hinweise darauf, was eine effiziente Datenstruktur auszeichnet, finden s
 Bereitet man die Daten zu den Filmen in Form einer Tabelle auf, enthält eine Zelle der Tabelle mehrere Informationen. Für eine Datenstruktur, die maschinell ausgewertet werden kann, darf jede Zelle lediglich einen eindeutigen Wert bzw. Eintrag aufweisen. Dies deutet darauf hin, dass der Datenauszug aus dem OPAC der Filmuniversität noch bearbeitet – also "bereinigt" werden muss, z.B. indem mehrere Werte in einer Zelle jeweils auf einzelne neue Zellen aufgeteilt werden. Für diese Bereinigung, aber auch für die weitere Arbeit mit dem Datensatz, ist es sinnvoll zu verstehen, nach welchen Kriterien die Erfassung der filmografischen Daten im Bibliothekskatalog stattgefunden hat, und warum diese Struktur gewählt wurde. Darauf wird im folgenden Abschnitt eingegangen.
 
 
-## Literatur
+**Literatur**
 ```{bibliography}
 :filter: docname in docnames
 :keyprefix: c-

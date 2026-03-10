@@ -95,7 +95,7 @@ Die Analyse des Datenmodells und der Eigenschaften einzelner Felder verbesserte 
 Die genauere Betrachtung des Datenmodells hat ebenfalls ergeben, dass die Daten im erhaltenen Auszug noch nicht in einer Form vorliegen, wie sie für eine weitere Arbeit mit den Metadaten zu den Filmen notwendig ist. Sie müssen noch "bereinigt", also in eine gute und eindeutige Struktur gebracht werden. Im nächsten Schritt werden wir nun die Datenbereinigung angehen.
 
 
-## Literatur
+**Literatur**
 ```{bibliography}
 :filter: docname in docnames
 :keyprefix: d-

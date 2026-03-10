@@ -48,7 +48,7 @@ Metadaten aus Datenbanken – etwa in Form von filmografischen Angaben – sind 
 Dies gilt insbesondere auch für die filmografischen Angaben zu studentischen Filmproduktionen im OPAC der Filmuniversität. Wer als verantwortliche Person für einen Film genannt wird, welche Gewerke beteiligt waren, welche Lehrenden als Beratung aufgeführt sind und wer gegebenenfalls auch nicht als beteiligte Person in den Metadaten erfasst wird, kann politische und historische Gründe haben, denen nachgegangen werden muss. Nur durch diese Kontextualisierung kann sinnvoll und in die Tiefe gehend mit Metadaten filmhistorisch gearbeitet werden.
 
 
-## Literatur
+**Literatur**
 ```{bibliography}
 :filter: docname in docnames
 :keyprefix: b-

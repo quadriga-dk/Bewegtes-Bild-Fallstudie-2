@@ -101,7 +101,7 @@ Eine erste Anlaufstelle für eine rechtliche Beratung kann dabei das Justiziaria
 
 
 
-## Literatur
+**Literatur**
 ```{bibliography}
 :filter: docname in docnames
 :keyprefix: h-

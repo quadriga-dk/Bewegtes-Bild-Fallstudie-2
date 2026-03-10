@@ -51,7 +51,7 @@ Digitale Ansätze sind für die Filmgeschichtsschreibung also durchaus gewinnbri
 Die Publikationen decken dabei ein breites Themenspektrum ab: Von der Erfassung der Daten von deutschen Filmschaffenden im Filmexil 1933 bis 1945 {cite}`ac-Klages_2024` über die Auswertung visueller Muster in sowjetischen Wochenschauen {cite}`ac-Oiva_Ohm_Mukhina_Solà_Schich_2024` bis hin zu einer Annäherung an nationale Filmgeschichte mithilfe der Netzwerkanalyse {cite}`ac-Hagener_Blaschke_2024`. Neben Forschungsdatenmanagement in der Filmwissenschaft {cite}`ac-Dang_2024b` wird kritisch auf die Problematik der Datenbereinigung eingegangen {cite}`ac-Schneider_Zimmermann_2025`, es werden Erfahrungen in der Lehre zu Digital Humanities und digitalen Tools in der Filmwissenschaft reflektiert {cite}`ac-Diecke_Hagener_2024`, Analysetools wie das Distant Viewing Toolkit dargestellt {cite}`ac-Heijden_Arnold_Tilton_2024` und die Möglichkeiten von Visualisierungen in der Medienwissenschaft ausgelotet {cite}`ac-Burkhardt_Loist_2024`.
 
 
-## Literatur
+**Literatur**
 ```{bibliography}
 :filter: docname in docnames
 :keyprefix: ac-

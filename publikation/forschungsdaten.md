@@ -98,7 +98,7 @@ Im nächsten Abschnitt werden nun verschiedene Formen der Datenpublikation vorge
 [^1]: Weiterführende Informationen zu Forschungsdaten und zum Forschungsdatenmanagement finden Sie auf der Seite <a href="https://forschungsdaten.info/" class="external-link" target="_blank">_forschungsdaten.info_</a>.
 [^2]: Mitunter kann es notwendig sein, den Zugriff auf einen im Repositorium gespeicherten Datensatz zu beschränken, um z.B. personenbezogene Daten zu schützen oder Bestimmungen des Urheberrechts einzuhalten. In diesen Fällen werden jedoch oft zumindest die Metadaten zum Datensatz bei einer Suche im Repositorium angezeigt.
 
-## Literatur
+**Literatur**
 ```{bibliography}
 :filter: docname in docnames
 :keyprefix: f-

@@ -72,7 +72,7 @@ Auf die Diskussion folgt eine Zusammenfassung der Ergebnisse des Papers, die auc
 
 
 
-## Literatur
+**Literatur**
 ```{bibliography}
 :filter: docname in docnames
 :keyprefix: g-

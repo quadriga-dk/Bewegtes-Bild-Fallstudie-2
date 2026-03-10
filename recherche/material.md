@@ -235,7 +235,7 @@ Grundlage für die Beantwortung dieser und vieler anderer Fragen ist zunächst e
 
 
 
-## Literatur
+**Literatur**
 ```{bibliography}
 :filter: docname in docnames
 :keyprefix: a-

@@ -11,7 +11,7 @@ Auch Mareike König betont, dass eine einheitliche Definition von Digital Humani
 
 Welche Chancen bieten die Digital Humanities? Ein Vorteil von digitalen Herangehensweisen ist, dass nicht nur immer größere Mengen an digitalen Quellen zur Verfügung stehen, sondern diese auch auf eine Art und Weise ausgewertet werden können, die bisher nicht möglich war. In sehr großen Textmengen kann etwa nach wiederkehrenden Mustern, Wortgruppen oder Motiven gesucht werden, die der menschlichen Wahrnehmung sonst verborgen bleiben - allein schon deshalb, weil niemand diese Menge an Texten selbst lesen, geschweige denn aufbereiten könnte. Durch diese digitale Art der Auswertung können sich neue Fragestellungen ergeben, sowie bisherige Annahmen aufgrund dieser quantitativen Untersuchungen überprüft und neu beleuchtet werden. Im Idealfall ergänzen sich neuere quantitative und klassische qualitative geisteswissenschaftliche Herangehensweisen und können so zu neuen Erkenntnissen führen. Nicht zuletzt werden die digitalisierten Quellen und erarbeiteten Forschungsdaten in [Repositorien](../publikation/forschungsdaten.md#repositorien) und Datenbanken öffentlich zugänglich gemacht und leisten somit einen Beitrag auf dem Weg zur Nachnutzbarkeit im Sinne der Open Science.
 
-## Literatur
+**Literatur**
 ```{bibliography}
 :filter: docname in docnames
 :keyprefix: aa-

@@ -242,7 +242,7 @@ create_answer_box('Assessment_C-5')
 - Unterschiedliche thematische Schwerpunkte
 ````
 
-## Literatur
+**Literatur**
 ```{bibliography}
 :filter: docname in docnames
 :keyprefix: bb-

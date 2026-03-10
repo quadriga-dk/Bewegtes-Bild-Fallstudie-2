@@ -62,7 +62,7 @@ Bei der Datenpublikation müssen zudem rechtliche Aspekte berücksichtigt werden
 
 Als Speicherort für Forschungsdaten stehen verschiedene Repositorien zur Verfügung. Für die deutschsprachige Film- und Medienwissenschaft hat sich etwa <a href="https://mediarep.org/communities/7e880a5a-5bcd-49b7-9b0e-ce4851b8d7bf" class="external-link" target="_blank">media/rep/</a> etabliert. <a href="https://zenodo.org/" class="external-link" target="_blank">Zenodo</a> bietet ebenfalls die Möglichkeit, Forschungsdaten zu publizieren und bei <a href="https://www.re3data.org/" class="external-link" target="_blank">re3data</a> kann nach Repositorien recherchiert werden.
 
-## Literatur
+**Literatur**
 ```{bibliography}
 :filter: docname in docnames
 :keyprefix: ab-

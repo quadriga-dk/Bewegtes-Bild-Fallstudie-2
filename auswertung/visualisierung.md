@@ -87,7 +87,7 @@ Sarah-Mai Dang weist darauf hin, dass durch diese Art der interaktiven Visualisi
 Nachdem nun einige Grundlagen der Datenvisualisierung dargelegt wurden, werden im folgenden Kapitel verschiedene Beispiele für Visualisierungen und Auswertungen zu unserer Fallstudie behandelt.
 
 
-## Literatur
+**Literatur**
 ```{bibliography}
 :filter: docname in docnames
 :keyprefix: e-
