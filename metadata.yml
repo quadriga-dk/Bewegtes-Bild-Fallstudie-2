@@ -100,9 +100,9 @@ chapters:
   learning-objectives:
   - learning-objective: Verschiedene Definitionsansätze und Arbeitsbereiche der Digital
       Humanities können unterschieden werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: Orientierungswissen
+    data-flow: übergreifend
+    blooms-category: 1 Erinnern
 - title: Vorarbeiten und Recherche
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/recherche/toc.html
   description: Das zu untersuchende Filmkorpus wird durch eine Materialrecherche zur
@@ -114,23 +114,23 @@ chapters:
   learning-objectives:
   - learning-objective: Das Vorgehen bei der Materialrecherche kann beschrieben und
       angewendet werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 1.1 Identifikation
+    data-flow: 1 Planung
+    blooms-category: 1 Erinnern
   - learning-objective: Die Konzepte Daten und Metadaten können kritisch reflektiert
       werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 1.1 Identifikation
+    data-flow: 1 Planung
+    blooms-category: 5 Bewerten
   - learning-objective: Eine Fragestellung kann operationalisiert und eingegrenzt
       werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 1.1 Identifikation
+    data-flow: 1 Planung
+    blooms-category: 3 Anwenden
   - learning-objective: Ein zur Fragestellung passendes Korpus kann gebildet werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 1.1 Identifikation
+    data-flow: 1 Planung
+    blooms-category: 3 Anwenden
 - title: Datenerhebung und Datenbereinigung
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/bereinigung/toc.html
   description: Die Rolle von Datenmodellen und einer guten Datenstruktur wird erläutert.
@@ -140,19 +140,19 @@ chapters:
   time-required: PT2H
   learning-objectives:
   - learning-objective: Der Begriff Datenmodell kann definiert werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 2.2 Validierung
+    data-flow: 2 Erhebung und Aufbereitung
+    blooms-category: 1 Erinnern
   - learning-objective: Die Fähigkeit zur Beschreibung und Analyse einer Datenquelle
       wird erworben.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 2.2 Validierung
+    data-flow: 2 Erhebung und Aufbereitung
+    blooms-category: 4 Analysieren
   - learning-objective: Ein Datensatz kann mithilfe des Tools *OpenRefine* bereinigt
       werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 2.3 Aufbereitung
+    data-flow: 2 Erhebung und Aufbereitung
+    blooms-category: 3 Anwenden
 - title: Datenauswertung und Datenvisualisierung
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/auswertung/toc.html
   description: Es werden theoretische Grundlagen der Datenvisualisierung geklärt und
@@ -163,14 +163,14 @@ chapters:
   learning-objectives:
   - learning-objective: Die Grundlagen der Datenvisualisierung können beschrieben
       werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 4.2 Visualisierung
+    data-flow: 4 Analyse
+    blooms-category: 1 Erinnern
   - learning-objective: Die Schritte bei der Datenvisualisierung und Datenauswertung
       können anhand exemplarischer Beispiele dargestellt werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 4.2 Visualisierung
+    data-flow: 4 Analyse
+    blooms-category: 1 Erinnern
 - title: Datenpublikation
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/publikation/toc.html
   description: Es wird auf den Stand des Forschungsdatenmanagement in der Filmwissenschaft
@@ -181,19 +181,19 @@ chapters:
   learning-objectives:
   - learning-objective: Die Grundzüge des Forschungsdatenmanagements in der Filmwissenschaft
       können umrissen werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: Orientierungswissen
+    data-flow: übergreifend
+    blooms-category: 1 Erinnern
   - learning-objective: Verschiedene Formen der Datenpublikation können unterschieden
       werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 5.2 Datenpublikation
+    data-flow: 5 Publikation und Nachnutzung
+    blooms-category: 1 Erinnern
   - learning-objective: Die Problemfelder und rechtliche Voraussetzungen bei der Datenpublikation
       können erläutert werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 1.3 Ethik und Recht
+    data-flow: 1 Planung
+    blooms-category: 2 Verstehen
 - title: Zusammenfassung und Reflexion
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/zusammenfassung/reflexion.html
   description: Die Inhalte der OER werden zusammengefasst und kritisch reflektiert.
