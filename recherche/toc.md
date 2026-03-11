@@ -20,8 +20,8 @@ Die vorliegende Fallstudie befasst sich mit den studentischen Filmproduktionen a
 
 ````{admonition} Schritte zur Findung einer Fragestellung
 :class: lernziele
-```{inlcude} ../praeambel/lernziele.md
-:begin-after: "<!-- START: Vorarbeiten und Recherche -->"
+```{include} ../praeambel/lernziele.md
+:start-after: "<!-- START: Vorarbeiten und Recherche -->"
 :end-before: "<!-- END: Vorarbeiten und Recherche -->"
 ```
 ````

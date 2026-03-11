@@ -20,8 +20,8 @@ In diesem Kapitel stehen folgende Lernziele im Mittelpunkt:
 
 ````{admonition} Prozess der Datenerhebung und Datenbereinigung
 :class: lernziele
-```{inlcude} ../praeambel/lernziele.md
-:begin-after: "<!-- START: Datenerhebung und Datenbereinigung -->"
+```{include} ../praeambel/lernziele.md
+:start-after: "<!-- START: Datenerhebung und Datenbereinigung -->"
 :end-before: "<!-- END: Datenerhebung und Datenbereinigung -->"
 ```
 ````

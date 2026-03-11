@@ -20,8 +20,8 @@ In den letzten Kapiteln wurde eine Forschungsfrage zu unserer Fallstudie formuli
 
 ````{admonition} Grundlagen für die Publikation von Forschungsdaten
 :class: lernziele
-```{inlcude} ../praeambel/lernziele.md
-:begin-after: "<!-- START: Datenpublikation -->"
+```{include} ../praeambel/lernziele.md
+:start-after: "<!-- START: Datenpublikation -->"
 :end-before: "<!-- END: Datenpublikation -->"
 ```
 ````

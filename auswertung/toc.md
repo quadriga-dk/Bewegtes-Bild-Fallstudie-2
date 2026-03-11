@@ -20,8 +20,8 @@ Im Fokus des vorigen Kapitels steht die Erstellung eines Datensatzes zum Filmkor
 
 ````{admonition} Datenauswertung und Datenvisualisierung mithilfe digitaler Ansätze und Werkzeuge
 :class: lernziele
-```{inlcude} ../praeambel/lernziele.md
-:begin-after: "<!-- START: Datenauswertung und Datenvisualisierung -->"
+```{include} ../praeambel/lernziele.md
+:start-after: "<!-- START: Datenauswertung und Datenvisualisierung -->"
 :end-before: "<!-- END: Datenauswertung und Datenvisualisierung -->"
 ```
 ````

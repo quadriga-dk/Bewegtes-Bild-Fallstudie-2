@@ -21,8 +21,8 @@ Im folgenden Kapitel werden einige Grundzüge der Digital Humanities und deren R
 
 ````{admonition} Grundzüge der Digital Humanities und deren Rolle in der Filmwissenschaft
 :class: lernziele
-```{inlcude} ../praeambel/lernziele.md
-:begin-after: "<!-- START: Digital Humanities und Filmwissenschaft -->"
+```{include} ../praeambel/lernziele.md
+:start-after: "<!-- START: Digital Humanities und Filmwissenschaft -->"
 :end-before: "<!-- END: Digital Humanities und Filmwissenschaft -->"
 ```
 ````
