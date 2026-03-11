@@ -14,11 +14,9 @@ Das hier vorliegende interaktive Lehrbuch verfolgt folgende Lernziele:
 :class: lernziele
 <!-- START: Vorarbeiten und Recherche -->
 <!-- learning-goal: Schritte zur Findung einer Fragestellung -->
-1. Das Vorgehen bei der Materialrecherche kann beschrieben und angewendet werden.
-<!-- competency: nicht anwendbar | bloom: nicht anwendbar -->
+1. Das Vorgehen bei der Materialrecherche kann beschrieben und angewendet werden.<!-- competency: nicht anwendbar | bloom: nicht anwendbar -->
 2. Die Konzepte Daten und Metadaten können kritisch reflektiert werden.  <!-- competency: nicht anwendbar | bloom: nicht anwendbar -->
-3. Eine Fragestellung kann operationalisiert und eingegrenzt werden.  
-<!-- competency: nicht anwendbar | bloom: nicht anwendbar -->
+3. Eine Fragestellung kann operationalisiert und eingegrenzt werden.<!-- competency: nicht anwendbar | bloom: nicht anwendbar -->
 4. Ein zur Fragestellung passendes Korpus kann gebildet werden.<!-- competency: nicht anwendbar | bloom: nicht anwendbar -->
 <!-- END: Vorarbeiten und Recherche -->
 ```
