@@ -18,13 +18,12 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 In den letzten Kapiteln wurde eine Forschungsfrage zu unserer Fallstudie formuliert, ein Filmkorpus zu dieser Frage eingegrenzt, es wurden die filmografischen Daten erhoben, bereinigt und mit einfachen Visualisierungen ausgewertet. Im abschließenden Kapitel stehen nun folgende Lernziele im Mittelpunkt:
 
-````{admonition} Grundlagen für die Publikation von Forschungsdaten
-:class: lernziele
+
 ```{include} ../praeambel/lernziele.md
 :start-after: "<!-- START: Datenpublikation -->"
 :end-before: "<!-- END: Datenpublikation -->"
 ```
-````
+
 
 Wir befinden uns damit beim 4. Schritt unserer Fallstudie, bei dem der Weg zur Publikation der Daten im Mittelpunkt steht. Es wird auf den Stand des Forschungsdatenmanagement in der Filmwissenschaft und mögliche Problemfelder bei der Datenpublikation eingegangen. Ein besonderes Augenmerk liegt dabei auf den rechtlichen Rahmenbedingungen.
 

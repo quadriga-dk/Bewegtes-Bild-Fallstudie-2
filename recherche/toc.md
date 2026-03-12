@@ -18,13 +18,11 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 Die vorliegende Fallstudie befasst sich mit den studentischen Filmproduktionen aus dem Filmarchiv der Filmuniversität Babelsberg KONRAD WOLF. In den folgenden Abschnitten stehen folgende Lernziele im Mittelpunkt:
 
-````{admonition} Schritte zur Findung einer Fragestellung
-:class: lernziele
 ```{include} ../praeambel/lernziele.md
 :start-after: "<!-- START: Vorarbeiten und Recherche -->"
 :end-before: "<!-- END: Vorarbeiten und Recherche -->"
 ```
-````
+
 
 Wir befinden uns damit beim 1. Schritt unserer Fallstudie, bei dem das zu untersuchende Filmkorpus durch eine Materialrecherche zur Forschungsfrage eingegrenzt wird. Es wird definiert, was unter filmografischen Angaben (wie z.B. Titel, Regie, Entstehungsjahr etc.) bzw. Metadaten zu verstehen ist und anschließend erläutert, auf welche Weisen die Fragestellung operationalisiert werden kann.
 
