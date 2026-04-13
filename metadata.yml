@@ -31,10 +31,10 @@ keywords:
 description: Diese Open Educational Resource (OER) stellt anhand einer Fallstudie
   dar, wie für die Bearbeitung einer filmwissenschaftlichen Fragestellung digitale
   Verfahren eingesetzt werden können. Es werden studentische Filme der Filmuniversität
-  Babelsberg KONRAD WOLF aus den Jahren 1985 bis 1999 untersucht. Dabei wird herausgearbeitet, 
-  welche Veränderungen sich bei den Filmen aus diesem Zeitraum erkennen lassen. Im Mittelpunkt 
-  stehen Metadaten und filmografische Angaben zu den Filmen, Prozesse der Datenbereinigung
-  mit OpenRefine und Möglichkeiten der Datenvisualisierung.
+  Babelsberg KONRAD WOLF aus den Jahren 1985 bis 1999 untersucht. Dabei wird herausgearbeitet,
+  welche Veränderungen sich bei den Filmen aus diesem Zeitraum erkennen lassen. Im
+  Mittelpunkt stehen Metadaten und filmografische Angaben zu den Filmen, Prozesse
+  der Datenbereinigung mit OpenRefine und Möglichkeiten der Datenvisualisierung.
 table-of-contents: '- Präambel
 
   - Digital Humanities und Filmwissenschaft
