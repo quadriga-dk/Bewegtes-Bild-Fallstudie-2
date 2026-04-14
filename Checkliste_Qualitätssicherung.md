@@ -3,52 +3,52 @@
 [Qualitätssicherungskonzept für die Publikation von QUADRIGA Lernmaterialien](https://doi.org/10.5281/zenodo.18953896)
 
 ## Inhalt
-- [ ] Stand der Forschung
-- [ ] Aktualität und Relevanz
-- [ ] Fachliche Korrektheit
-- [ ] Verständlichkeit/Nachvollziehbarkeit
-- [ ] Rechtliche (und ethische) Aspekte
+- [X] Stand der Forschung
+- [X] Aktualität und Relevanz
+- [X] Fachliche Korrektheit
+- [X] Verständlichkeit/Nachvollziehbarkeit
+- [X] Rechtliche (und ethische) Aspekte
 
 ---
 
 ## Didaktik
-- [ ] Zielgruppe
-- [ ] Vorwissen
-- [ ] Lernziele
-- [ ] Dauer
-- [ ] Vermittlungswege
-- [ ] Assessment
-- [ ] Erprobung
+- [X] Zielgruppe
+- [X] Vorwissen
+- [X] Lernziele
+- [X] Dauer
+- [X] Vermittlungswege
+- [X] Assessment
+- [X] Erprobung
 
 ---
 
 ## Technik
-- [ ] Funktionsfähigkeit
-- [ ] Code-Abhängigkeiten
-- [ ] Dateiformate
-- [ ] Open Source Tools
+- [X] Funktionsfähigkeit
+- [X] Code-Abhängigkeiten
+- [X] Dateiformate
+- [X] Open Source Tools
 
 ---
 
 ## Formalia
-- [ ] Struktur und Gestaltung
-- [ ] Modularität
-- [ ] Wissenschaftlicher Standard
-- [ ] Formale Korrektheit
-- [ ] Vollständigkeit
-- [ ] Kommentarfunktion
+- [X] Struktur und Gestaltung
+- [X] Modularität
+- [X] Wissenschaftlicher Standard
+- [X] Formale Korrektheit
+- [X] Vollständigkeit
+- [X] Kommentarfunktion
 
 ---
 
 ## Publikation
-- [ ] FAIR-Assessment
-- [ ] Metadaten
-- [ ] PID
-- [ ] Versionierung und Upload
-- [ ] Dokumentation
-- [ ] Zitationshinweis
+- [X] FAIR-Assessment
+- [X] Metadaten
+- [X] PID
+- [X] Versionierung und Upload
+- [X] Dokumentation
+- [X] Zitationshinweis
 
 ---
 
 ## Kommunikation
-- [ ] Publikationshinweis
+- [X] Publikationshinweis
