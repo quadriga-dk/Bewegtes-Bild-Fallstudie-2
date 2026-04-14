@@ -312,8 +312,8 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:identifier>
       <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#doi">
         <schema:propertyID>DOI</schema:propertyID>
-        <schema:url rdf:resource="https://doi.org/10.5281/zenodo.TODOTODO" />
-        <schema:value>10.5281/zenodo.TODOTODO</schema:value>
+        <schema:url rdf:resource="https://doi.org/10.5281/zenodo.19571422" />
+        <schema:value>10.5281/zenodo.19571422</schema:value>
       </schema:PropertyValue>
     </schema:identifier>
     <schema:inLanguage>de</schema:inLanguage>
@@ -343,7 +343,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:schemaVersion>1.0.0</schema:schemaVersion>
     <schema:timeRequired>PT7H40M</schema:timeRequired>
     <schema:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/" />
-    <schema:version>1.0.0-rc</schema:version>
+    <schema:version>1.0.0-rc.1</schema:version>
     <schema:workExample>
       <schema:SoftwareSourceCode rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#repository">
         <schema:codeRepository rdf:resource="https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2" />
