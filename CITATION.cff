@@ -45,7 +45,7 @@ keywords: &id002
 - OpenRefine
 - Datenvisualisierung
 - Datenpublikation
-license: CC-BY-SA-4.0
+license: CC BY-SA 4.0
 references:
 - title: Jupyter Book
   type: software
@@ -60,10 +60,10 @@ preferred-citation:
   doi: 10.5281/zenodo.TODOTODO
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
   repository-code: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2
-  license: CC-BY-SA-4.0
+  license: CC BY-SA 4.0
   languages:
   - deu
   copyright: CC-BY-SA-4.0
   keywords: *id002
-  version: 1.0.0
-version: 1.0.0
+  version: 1.0.0-rc
+version: 1.0.0-rc

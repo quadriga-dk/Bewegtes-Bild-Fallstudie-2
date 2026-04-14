@@ -6,10 +6,10 @@ root: intro
 options:
   numbered: 3
 chapters:
-  - file: praeambel/toc.md
+  - file: einstieg/toc.md
     sections:
-      - file: praeambel/lernziele
-      - file: praeambel/technische_voraussetzungen
+      - file: einstieg/lernziele
+      - file: einstieg/technische_voraussetzungen
   - file: einleitung/toc
     sections:
       - file: einleitung/digital_humanities
@@ -38,7 +38,7 @@ chapters:
               - file: bereinigung/openRefine/5.1_jahre
               - file: bereinigung/openRefine/5.2_titel
           - file: bereinigung/openRefine/6_export
-      - file: bereinigung/resumee_bereinigung 
+      - file: bereinigung/resumee_bereinigung
       - file: bereinigung/assessment_bereinigung
   - file: auswertung/toc
     sections:
@@ -54,10 +54,10 @@ chapters:
       - file: publikation/resumee_publikation
       - file: publikation/assessment_publikation
   - file: zusammenfassung/reflexion
-  - file: epilog/toc
+  - file: abschluss/toc
     sections:
-      - file: epilog/fragen_und_feedback
-      - file: epilog/literaturverzeichnis
-      - file: epilog/authors
-      - file: epilog/quadriga
-      - file: epilog/impressum
+      - file: abschluss/fragen_und_feedback
+      - file: abschluss/literaturverzeichnis
+      - file: abschluss/authors
+      - file: abschluss/quadriga
+      - file: abschluss/impressum

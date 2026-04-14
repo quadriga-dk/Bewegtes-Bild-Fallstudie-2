@@ -20,7 +20,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 Im folgenden Kapitel werden einige Grundzüge der Digital Humanities und deren Rolle in der Filmwissenschaft vorgestellt. Dadurch sollen Grundlagen für das Verständnis der Fallstudie vermittelt werden, auf die sich die vorliegende _Open Educational Resource_ bezieht. Dabei werden folgende Lernziele verfolgt:
 
 
-```{include} ../praeambel/lernziele.md
+```{include} ../einstieg/lernziele.md
 :start-after: "<!-- START: Digital Humanities und Filmwissenschaft -->"
 :end-before: "<!-- END: Digital Humanities und Filmwissenschaft -->"
 ```

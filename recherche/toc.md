@@ -18,7 +18,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 Die vorliegende Fallstudie befasst sich mit den studentischen Filmproduktionen aus dem Filmarchiv der Filmuniversität Babelsberg KONRAD WOLF. In den folgenden Abschnitten stehen folgende Lernziele im Mittelpunkt:
 
-```{include} ../praeambel/lernziele.md
+```{include} ../einstieg/lernziele.md
 :start-after: "<!-- START: Vorarbeiten und Recherche -->"
 :end-before: "<!-- END: Vorarbeiten und Recherche -->"
 ```
