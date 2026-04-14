@@ -35,7 +35,7 @@ description: Diese Open Educational Resource (OER) stellt anhand einer Fallstudi
   welche Veränderungen sich bei den Filmen aus diesem Zeitraum erkennen lassen. Im
   Mittelpunkt stehen Metadaten und filmografische Angaben zu den Filmen, Prozesse
   der Datenbereinigung mit OpenRefine und Möglichkeiten der Datenvisualisierung.
-table-of-contents: '- Präambel
+table-of-contents: '- Einstieg
 
   - Digital Humanities und Filmwissenschaft
 
@@ -49,7 +49,7 @@ table-of-contents: '- Präambel
 
   - Zusammenfassung und Reflexion
 
-  - Epilog'
+  - Abschluss'
 discipline:
 - Digital Humanities
 research-object-type:
@@ -78,9 +78,9 @@ identifier: https://doi.org/10.5281/zenodo.TODOTODO
 git: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2
 url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
 chapters:
-- title: Präambel
-  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/praeambel/toc.html
-  description: Präambel der Fallstudie zu studentischen Filmen. Gibt grundlegende
+- title: Einstieg
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/einstieg/toc.html
+  description: Einstieg der Fallstudie zu studentischen Filmen. Gibt grundlegende
     Informationen zu Lernzielen, Voraussetzungen und Vorkenntnissen.
   learning-goal: Verständnis der Lernziele des Buchs
   time-required: PT10M
@@ -206,8 +206,8 @@ chapters:
     data-flow: nicht anwendbar
     blooms-category: 5 Bewerten
 date-issued: '2025-06-03'
-date-modified: '2026-02-19'
-version: 1.0.0
+date-modified: '2026-04-14'
+version: 1.0.0-rc
 context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
   Datenkompetenzzentrum QUADRIGA erstellt.
 
@@ -215,7 +215,7 @@ context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch d
   Förderkennzeichen: 16DKZ2034'
 quality-assurance:
   description: https://doi.org/10.5281/zenodo.18953896
-  date: '2026-11-14'
+  date: '2026-04-14'
 learning-resource-type: Jupyter Book
 schema-version: 1.0.0
 license:

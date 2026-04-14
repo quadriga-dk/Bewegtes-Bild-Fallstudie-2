@@ -19,7 +19,7 @@
     "value": "10.5281/zenodo.TODOTODO",
     "url": "https://doi.org/10.5281/zenodo.TODOTODO"
   },
-  "version": "1.0.0",
+  "version": "1.0.0-rc",
   "schemaVersion": "1.0.0",
   "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/",
   "workExample": {
@@ -28,7 +28,7 @@
     "codeRepository": "https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2"
   },
   "datePublished": "2025-06-03",
-  "dateModified": "2026-02-19",
+  "dateModified": "2026-04-14",
   "author": [
     {
       "@type": "Person",
@@ -237,9 +237,9 @@
   "hasPart": [
     {
       "@type": "LearningResource",
-      "name": "Präambel",
-      "description": "Präambel der Fallstudie zu studentischen Filmen. Gibt grundlegende Informationen zu Lernzielen, Voraussetzungen und Vorkenntnissen.",
-      "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/praeambel/toc.html",
+      "name": "Einstieg",
+      "description": "Einstieg der Fallstudie zu studentischen Filmen. Gibt grundlegende Informationen zu Lernzielen, Voraussetzungen und Vorkenntnissen.",
+      "url": "https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/einstieg/toc.html",
       "timeRequired": "PT10M",
       "teaches": "Verständnis der Lernziele des Buchs",
       "educationalAlignment": [
@@ -396,7 +396,7 @@
       ]
     }
   ],
-  "dcterms:tableOfContents": "- Präambel\n- Digital Humanities und Filmwissenschaft\n- Vorarbeiten und Recherche\n- Datenerhebung und Datenbereinigung\n- Datenauswertung und Datenvisualisierung\n- Datenpublikation\n- Zusammenfassung und Reflexion\n- Epilog",
+  "dcterms:tableOfContents": "- Einstieg\n- Digital Humanities und Filmwissenschaft\n- Vorarbeiten und Recherche\n- Datenerhebung und Datenbereinigung\n- Datenauswertung und Datenvisualisierung\n- Datenpublikation\n- Zusammenfassung und Reflexion\n- Abschluss",
   "funding": "Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.\n\nFörderkennzeichen: 16DKZ2034",
   "learningResourceType": "Jupyter Book",
   "lrmi:learningResourceType": "Jupyter Book",

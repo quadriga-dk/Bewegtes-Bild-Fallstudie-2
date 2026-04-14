@@ -19,7 +19,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 In den letzten Kapiteln wurde eine Forschungsfrage zu unserer Fallstudie formuliert, ein Filmkorpus zu dieser Frage eingegrenzt, es wurden die filmografischen Daten erhoben, bereinigt und mit einfachen Visualisierungen ausgewertet. Im abschließenden Kapitel stehen nun folgende Lernziele im Mittelpunkt:
 
 
-```{include} ../praeambel/lernziele.md
+```{include} ../einstieg/lernziele.md
 :start-after: "<!-- START: Datenpublikation -->"
 :end-before: "<!-- END: Datenpublikation -->"
 ```

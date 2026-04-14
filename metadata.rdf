@@ -77,14 +77,14 @@
   </schema:AlignmentObject>
   <schema:Book rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/">
     <dc:type>Jupyter Book</dc:type>
-    <dcterms:tableOfContents>- Präambel
+    <dcterms:tableOfContents>- Einstieg
 - Digital Humanities und Filmwissenschaft
 - Vorarbeiten und Recherche
 - Datenerhebung und Datenbereinigung
 - Datenauswertung und Datenvisualisierung
 - Datenpublikation
 - Zusammenfassung und Reflexion
-- Epilog</dcterms:tableOfContents>
+- Abschluss</dcterms:tableOfContents>
     <dcterms:type>Jupyter Book</dcterms:type>
     <lrmi:learningResourceType>Jupyter Book</lrmi:learningResourceType>
     <schema:about>
@@ -225,7 +225,7 @@
         <schema:name>Lamia Islam</schema:name>
       </schema:Person>
     </schema:contributor>
-    <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-19</schema:dateModified>
+    <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-14</schema:dateModified>
     <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-03</schema:datePublished>
     <schema:description>Diese Open Educational Resource (OER) stellt anhand einer Fallstudie dar, wie für die Bearbeitung einer filmwissenschaftlichen Fragestellung digitale Verfahren eingesetzt werden können. Es werden studentische Filme der Filmuniversität Babelsberg KONRAD WOLF aus den Jahren 1985 bis 1999 untersucht. Dabei wird herausgearbeitet, welche Veränderungen sich bei den Filmen aus diesem Zeitraum erkennen lassen. Im Mittelpunkt stehen Metadaten und filmografische Angaben zu den Filmen, Prozesse der Datenbereinigung mit OpenRefine und Möglichkeiten der Datenvisualisierung.</schema:description>
     <schema:funding>Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
@@ -233,12 +233,12 @@
 Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_0">
-        <schema:description>Präambel der Fallstudie zu studentischen Filmen. Gibt grundlegende Informationen zu Lernzielen, Voraussetzungen und Vorkenntnissen.</schema:description>
+        <schema:description>Einstieg der Fallstudie zu studentischen Filmen. Gibt grundlegende Informationen zu Lernzielen, Voraussetzungen und Vorkenntnissen.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_0_objective_0" />
-        <schema:name>Präambel</schema:name>
+        <schema:name>Einstieg</schema:name>
         <schema:teaches>Verständnis der Lernziele des Buchs</schema:teaches>
         <schema:timeRequired>PT10M</schema:timeRequired>
-        <schema:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/praeambel/toc.html" />
+        <schema:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/einstieg/toc.html" />
       </schema:LearningResource>
     </schema:hasPart>
     <schema:hasPart>
@@ -343,7 +343,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:schemaVersion>1.0.0</schema:schemaVersion>
     <schema:timeRequired>PT7H40M</schema:timeRequired>
     <schema:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/" />
-    <schema:version>1.0.0</schema:version>
+    <schema:version>1.0.0-rc</schema:version>
     <schema:workExample>
       <schema:SoftwareSourceCode rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#repository">
         <schema:codeRepository rdf:resource="https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2" />

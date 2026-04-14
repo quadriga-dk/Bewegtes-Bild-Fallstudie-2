@@ -19,7 +19,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 In diesem Kapitel stehen folgende Lernziele im Mittelpunkt:
 
 
-```{include} ../praeambel/lernziele.md
+```{include} ../einstieg/lernziele.md
 :start-after: "<!-- START: Datenerhebung und Datenbereinigung -->"
 :end-before: "<!-- END: Datenerhebung und Datenbereinigung -->"
 ```

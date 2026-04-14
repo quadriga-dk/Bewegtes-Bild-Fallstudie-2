@@ -19,7 +19,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 Im Fokus des vorigen Kapitels steht die Erstellung eines Datensatzes zum Filmkorpus der Fallstudie - den studentischen Filmen der Jahre 1985 bis 1999 aus dem Archiv der Filmuniversität Babelsberg. In diesem Kapitel werden nun folgende Lernziele verfolgt:
 
 
-```{include} ../praeambel/lernziele.md
+```{include} ../einstieg/lernziele.md
 :start-after: "<!-- START: Datenauswertung und Datenvisualisierung -->"
 :end-before: "<!-- END: Datenauswertung und Datenvisualisierung -->"
 ```
