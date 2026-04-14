@@ -74,7 +74,7 @@ contributors:
   family-names: Islam
   orcid: https://orcid.org/0009-0001-1879-9880
   affiliation: Universität Potsdam
-identifier: https://doi.org/10.5281/zenodo.TODOTODO
+identifier: https://doi.org/10.5281/zenodo.19571422
 git: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2
 url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
 chapters:
@@ -207,7 +207,7 @@ chapters:
     blooms-category: 5 Bewerten
 date-issued: '2025-06-03'
 date-modified: '2026-04-14'
-version: 1.0.0-rc
+version: 1.0.0-rc.1
 context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
   Datenkompetenzzentrum QUADRIGA erstellt.
 
