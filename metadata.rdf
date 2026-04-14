@@ -343,7 +343,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:schemaVersion>1.0.0</schema:schemaVersion>
     <schema:timeRequired>PT7H40M</schema:timeRequired>
     <schema:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/" />
-    <schema:version>1.0.0-rc.1</schema:version>
+    <schema:version>1.0.0-rc.2</schema:version>
     <schema:workExample>
       <schema:SoftwareSourceCode rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#repository">
         <schema:codeRepository rdf:resource="https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2" />
