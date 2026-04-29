@@ -7,67 +7,67 @@
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_1_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetDescription>Competency: Orientierungswissen | Bloom's: 1 Erinnern | Data Flow: übergreifend</schema:targetDescription>
     <schema:targetName>Verschiedene Definitionsansätze und Arbeitsbereiche der Digital Humanities können unterschieden werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_2_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetDescription>Competency: 1.1 Identifikation | Bloom's: 1 Erinnern | Data Flow: 1 Planung</schema:targetDescription>
     <schema:targetName>Das Vorgehen bei der Materialrecherche kann beschrieben und angewendet werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_2_objective_1">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetDescription>Competency: 1.1 Identifikation | Bloom's: 5 Bewerten | Data Flow: 1 Planung</schema:targetDescription>
     <schema:targetName>Die Konzepte Daten und Metadaten können kritisch reflektiert werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_2_objective_2">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetDescription>Competency: 1.1 Identifikation | Bloom's: 3 Anwenden | Data Flow: 1 Planung</schema:targetDescription>
     <schema:targetName>Eine Fragestellung kann operationalisiert und eingegrenzt werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_2_objective_3">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetDescription>Competency: 1.1 Identifikation | Bloom's: 3 Anwenden | Data Flow: 1 Planung</schema:targetDescription>
     <schema:targetName>Ein zur Fragestellung passendes Korpus kann gebildet werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_3_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetDescription>Competency: 2.2 Validierung | Bloom's: 1 Erinnern | Data Flow: 2 Erhebung und Aufbereitung</schema:targetDescription>
     <schema:targetName>Der Begriff Datenmodell kann definiert werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_3_objective_1">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetDescription>Competency: 2.2 Validierung | Bloom's: 4 Analysieren | Data Flow: 2 Erhebung und Aufbereitung</schema:targetDescription>
     <schema:targetName>Die Fähigkeit zur Beschreibung und Analyse einer Datenquelle wird erworben.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_3_objective_2">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetDescription>Competency: 2.3 Aufbereitung | Bloom's: 3 Anwenden | Data Flow: 2 Erhebung und Aufbereitung</schema:targetDescription>
     <schema:targetName>Ein Datensatz kann mithilfe des Tools *OpenRefine* bereinigt werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_4_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetDescription>Competency: 4.2 Visualisierung | Bloom's: 1 Erinnern | Data Flow: 4 Analyse</schema:targetDescription>
     <schema:targetName>Die Grundlagen der Datenvisualisierung können beschrieben werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_4_objective_1">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetDescription>Competency: 4.2 Visualisierung | Bloom's: 1 Erinnern | Data Flow: 4 Analyse</schema:targetDescription>
     <schema:targetName>Die Schritte bei der Datenvisualisierung und Datenauswertung können anhand exemplarischer Beispiele dargestellt werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_5_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetDescription>Competency: Orientierungswissen | Bloom's: 1 Erinnern | Data Flow: übergreifend</schema:targetDescription>
     <schema:targetName>Die Grundzüge des Forschungsdatenmanagements in der Filmwissenschaft können umrissen werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_5_objective_1">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetDescription>Competency: 5.2 Datenpublikation | Bloom's: 1 Erinnern | Data Flow: 5 Publikation und Nachnutzung</schema:targetDescription>
     <schema:targetName>Verschiedene Formen der Datenpublikation können unterschieden werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_5_objective_2">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
+    <schema:targetDescription>Competency: 1.3 Ethik und Recht | Bloom's: 2 Verstehen | Data Flow: 1 Planung</schema:targetDescription>
     <schema:targetName>Die Problemfelder und rechtliche Voraussetzungen bei der Datenpublikation können erläutert werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_6_objective_0">
@@ -77,14 +77,14 @@
   </schema:AlignmentObject>
   <schema:Book rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/">
     <dc:type>Jupyter Book</dc:type>
-    <dcterms:tableOfContents>- Präambel
+    <dcterms:tableOfContents>- Einstieg
 - Digital Humanities und Filmwissenschaft
 - Vorarbeiten und Recherche
 - Datenerhebung und Datenbereinigung
 - Datenauswertung und Datenvisualisierung
 - Datenpublikation
 - Zusammenfassung und Reflexion
-- Epilog</dcterms:tableOfContents>
+- Abschluss</dcterms:tableOfContents>
     <dcterms:type>Jupyter Book</dcterms:type>
     <lrmi:learningResourceType>Jupyter Book</lrmi:learningResourceType>
     <schema:about>
@@ -225,20 +225,20 @@
         <schema:name>Lamia Islam</schema:name>
       </schema:Person>
     </schema:contributor>
-    <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-19</schema:dateModified>
+    <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-14</schema:dateModified>
     <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-03</schema:datePublished>
-    <schema:description>Diese Open Educational Resource (OER) stellt anhand einer Fallstudie dar, wie für die Bearbeitung einer filmwissenschaftlichen Fragestellung digitale Verfahren eingesetzt werden können. Es werden studentische Filme der Filmuniversität Babelsberg KONRAD WOLF untersucht und welche Veränderungen sich bei diesen in den Jahren 1985 bis 1999 erkennen lassen. Im Mittelpunkt stehen dabei Metadaten und filmografische Angaben zu den Filmen, Prozesse der Datenbereinigung mit OpenRefine und Möglichkeiten der Datenvisualisierung.</schema:description>
+    <schema:description>Diese Open Educational Resource (OER) stellt anhand einer Fallstudie dar, wie für die Bearbeitung einer filmwissenschaftlichen Fragestellung digitale Verfahren eingesetzt werden können. Es werden studentische Filme der Filmuniversität Babelsberg KONRAD WOLF aus den Jahren 1985 bis 1999 untersucht. Dabei wird herausgearbeitet, welche Veränderungen sich bei den Filmen aus diesem Zeitraum erkennen lassen. Im Mittelpunkt stehen Metadaten und filmografische Angaben zu den Filmen, Prozesse der Datenbereinigung mit OpenRefine und Möglichkeiten der Datenvisualisierung.</schema:description>
     <schema:funding>Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
 
 Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_0">
-        <schema:description>Präambel der Fallstudie zu studentischen Filmen. Gibt grundlegende Informationen zu Lernzielen, Voraussetzungen und Vorkenntnissen.</schema:description>
+        <schema:description>Einstieg der Fallstudie zu studentischen Filmen. Gibt grundlegende Informationen zu Lernzielen, Voraussetzungen und Vorkenntnissen.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#chapter_0_objective_0" />
-        <schema:name>Präambel</schema:name>
+        <schema:name>Einstieg</schema:name>
         <schema:teaches>Verständnis der Lernziele des Buchs</schema:teaches>
         <schema:timeRequired>PT10M</schema:timeRequired>
-        <schema:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/praeambel/toc.html" />
+        <schema:url rdf:resource="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/einstieg/toc.html" />
       </schema:LearningResource>
     </schema:hasPart>
     <schema:hasPart>
@@ -312,8 +312,8 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:identifier>
       <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/#doi">
         <schema:propertyID>DOI</schema:propertyID>
-        <schema:url rdf:resource="https://doi.org/10.5281/zenodo.TODOTODO" />
-        <schema:value>10.5281/zenodo.TODOTODO</schema:value>
+        <schema:url rdf:resource="https://doi.org/10.5281/zenodo.19571422" />
+        <schema:value>10.5281/zenodo.19571422</schema:value>
       </schema:PropertyValue>
     </schema:identifier>
     <schema:inLanguage>de</schema:inLanguage>

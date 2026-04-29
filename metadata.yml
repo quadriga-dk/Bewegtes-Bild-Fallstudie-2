@@ -31,11 +31,11 @@ keywords:
 description: Diese Open Educational Resource (OER) stellt anhand einer Fallstudie
   dar, wie für die Bearbeitung einer filmwissenschaftlichen Fragestellung digitale
   Verfahren eingesetzt werden können. Es werden studentische Filme der Filmuniversität
-  Babelsberg KONRAD WOLF untersucht und welche Veränderungen sich bei diesen in den
-  Jahren 1985 bis 1999 erkennen lassen. Im Mittelpunkt stehen dabei Metadaten und
-  filmografische Angaben zu den Filmen, Prozesse der Datenbereinigung mit OpenRefine
-  und Möglichkeiten der Datenvisualisierung.
-table-of-contents: '- Präambel
+  Babelsberg KONRAD WOLF aus den Jahren 1985 bis 1999 untersucht. Dabei wird herausgearbeitet,
+  welche Veränderungen sich bei den Filmen aus diesem Zeitraum erkennen lassen. Im
+  Mittelpunkt stehen Metadaten und filmografische Angaben zu den Filmen, Prozesse
+  der Datenbereinigung mit OpenRefine und Möglichkeiten der Datenvisualisierung.
+table-of-contents: '- Einstieg
 
   - Digital Humanities und Filmwissenschaft
 
@@ -49,7 +49,7 @@ table-of-contents: '- Präambel
 
   - Zusammenfassung und Reflexion
 
-  - Epilog'
+  - Abschluss'
 discipline:
 - Digital Humanities
 research-object-type:
@@ -74,13 +74,13 @@ contributors:
   family-names: Islam
   orcid: https://orcid.org/0009-0001-1879-9880
   affiliation: Universität Potsdam
-identifier: https://doi.org/10.5281/zenodo.TODOTODO
+identifier: https://doi.org/10.5281/zenodo.19571422
 git: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2
 url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
 chapters:
-- title: Präambel
-  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/praeambel/toc.html
-  description: Präambel der Fallstudie zu studentischen Filmen. Gibt grundlegende
+- title: Einstieg
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/einstieg/toc.html
+  description: Einstieg der Fallstudie zu studentischen Filmen. Gibt grundlegende
     Informationen zu Lernzielen, Voraussetzungen und Vorkenntnissen.
   learning-goal: Verständnis der Lernziele des Buchs
   time-required: PT10M
@@ -100,9 +100,9 @@ chapters:
   learning-objectives:
   - learning-objective: Verschiedene Definitionsansätze und Arbeitsbereiche der Digital
       Humanities können unterschieden werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: Orientierungswissen
+    data-flow: übergreifend
+    blooms-category: 1 Erinnern
 - title: Vorarbeiten und Recherche
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/recherche/toc.html
   description: Das zu untersuchende Filmkorpus wird durch eine Materialrecherche zur
@@ -114,23 +114,23 @@ chapters:
   learning-objectives:
   - learning-objective: Das Vorgehen bei der Materialrecherche kann beschrieben und
       angewendet werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 1.1 Identifikation
+    data-flow: 1 Planung
+    blooms-category: 1 Erinnern
   - learning-objective: Die Konzepte Daten und Metadaten können kritisch reflektiert
       werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 1.1 Identifikation
+    data-flow: 1 Planung
+    blooms-category: 5 Bewerten
   - learning-objective: Eine Fragestellung kann operationalisiert und eingegrenzt
       werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 1.1 Identifikation
+    data-flow: 1 Planung
+    blooms-category: 3 Anwenden
   - learning-objective: Ein zur Fragestellung passendes Korpus kann gebildet werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 1.1 Identifikation
+    data-flow: 1 Planung
+    blooms-category: 3 Anwenden
 - title: Datenerhebung und Datenbereinigung
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/bereinigung/toc.html
   description: Die Rolle von Datenmodellen und einer guten Datenstruktur wird erläutert.
@@ -140,19 +140,19 @@ chapters:
   time-required: PT2H
   learning-objectives:
   - learning-objective: Der Begriff Datenmodell kann definiert werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 2.2 Validierung
+    data-flow: 2 Erhebung und Aufbereitung
+    blooms-category: 1 Erinnern
   - learning-objective: Die Fähigkeit zur Beschreibung und Analyse einer Datenquelle
       wird erworben.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 2.2 Validierung
+    data-flow: 2 Erhebung und Aufbereitung
+    blooms-category: 4 Analysieren
   - learning-objective: Ein Datensatz kann mithilfe des Tools *OpenRefine* bereinigt
       werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 2.3 Aufbereitung
+    data-flow: 2 Erhebung und Aufbereitung
+    blooms-category: 3 Anwenden
 - title: Datenauswertung und Datenvisualisierung
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/auswertung/toc.html
   description: Es werden theoretische Grundlagen der Datenvisualisierung geklärt und
@@ -163,14 +163,14 @@ chapters:
   learning-objectives:
   - learning-objective: Die Grundlagen der Datenvisualisierung können beschrieben
       werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 4.2 Visualisierung
+    data-flow: 4 Analyse
+    blooms-category: 1 Erinnern
   - learning-objective: Die Schritte bei der Datenvisualisierung und Datenauswertung
       können anhand exemplarischer Beispiele dargestellt werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 4.2 Visualisierung
+    data-flow: 4 Analyse
+    blooms-category: 1 Erinnern
 - title: Datenpublikation
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/publikation/toc.html
   description: Es wird auf den Stand des Forschungsdatenmanagement in der Filmwissenschaft
@@ -181,19 +181,19 @@ chapters:
   learning-objectives:
   - learning-objective: Die Grundzüge des Forschungsdatenmanagements in der Filmwissenschaft
       können umrissen werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: Orientierungswissen
+    data-flow: übergreifend
+    blooms-category: 1 Erinnern
   - learning-objective: Verschiedene Formen der Datenpublikation können unterschieden
       werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 5.2 Datenpublikation
+    data-flow: 5 Publikation und Nachnutzung
+    blooms-category: 1 Erinnern
   - learning-objective: Die Problemfelder und rechtliche Voraussetzungen bei der Datenpublikation
       können erläutert werden.
-    competency: nicht anwendbar
-    data-flow: nicht anwendbar
-    blooms-category: nicht anwendbar
+    competency: 1.3 Ethik und Recht
+    data-flow: 1 Planung
+    blooms-category: 2 Verstehen
 - title: Zusammenfassung und Reflexion
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/zusammenfassung/reflexion.html
   description: Die Inhalte der OER werden zusammengefasst und kritisch reflektiert.
@@ -206,7 +206,7 @@ chapters:
     data-flow: nicht anwendbar
     blooms-category: 5 Bewerten
 date-issued: '2025-06-03'
-date-modified: '2026-02-19'
+date-modified: '2026-04-14'
 version: 1.0.0
 context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
   Datenkompetenzzentrum QUADRIGA erstellt.
@@ -214,12 +214,12 @@ context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch d
 
   Förderkennzeichen: 16DKZ2034'
 quality-assurance:
-  description: https://doi.org/TODO
-  date: '2026-11-14'
+  description: https://doi.org/10.5281/zenodo.18953896
+  date: '2026-04-14'
 learning-resource-type: Jupyter Book
 schema-version: 1.0.0
 license:
   code: https://opensource.org/licenses/AGPL-3.0
   content:
     url: https://creativecommons.org/licenses/by-sa/4.0/
-    name: CC BY-SA 4.0
+    name: CC-BY-SA-4.0

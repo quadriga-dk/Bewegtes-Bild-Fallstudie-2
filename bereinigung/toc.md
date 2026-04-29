@@ -18,13 +18,12 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 In diesem Kapitel stehen folgende Lernziele im Mittelpunkt:
 
-````{admonition} Prozess der Datenerhebung und Datenbereinigung
-:class: lernziele
-```{include} ../praeambel/lernziele.md
+
+```{include} ../einstieg/lernziele.md
 :start-after: "<!-- START: Datenerhebung und Datenbereinigung -->"
 :end-before: "<!-- END: Datenerhebung und Datenbereinigung -->"
 ```
-````
+
 
 Wir befinden uns damit beim 2. Schritt unserer Fallstudie, bei dem die Rolle von Datenmodellen und einer guten Datenstruktur genauer beleuchtet wird. Die Datenquelle für die Metadaten des zu untersuchenden Filmkorpus wird analysiert und die Bereinigung eines Datensatzes mit dem Open Source Tool zur Datenbereinigung <a href="https://openrefine.org/" class="external-link" target="_blank">OpenRefine</a> anhand exemplarischer Schritte dargelegt.
 ```{figure} ../assets/bereinigung/Grafik_Schritte_2.png

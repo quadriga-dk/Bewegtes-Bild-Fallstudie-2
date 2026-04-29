@@ -18,13 +18,12 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 Im Fokus des vorigen Kapitels steht die Erstellung eines Datensatzes zum Filmkorpus der Fallstudie - den studentischen Filmen der Jahre 1985 bis 1999 aus dem Archiv der Filmuniversität Babelsberg. In diesem Kapitel werden nun folgende Lernziele verfolgt:
 
-````{admonition} Datenauswertung und Datenvisualisierung mithilfe digitaler Ansätze und Werkzeuge
-:class: lernziele
-```{include} ../praeambel/lernziele.md
+
+```{include} ../einstieg/lernziele.md
 :start-after: "<!-- START: Datenauswertung und Datenvisualisierung -->"
 :end-before: "<!-- END: Datenauswertung und Datenvisualisierung -->"
 ```
-````
+
 
 Wir befinden uns damit beim 3. Schritt unserer Fallstudie, bei dem eine exemplarische Auswertung des synthetischen Datensatzes mithilfe von Visualisierungen stattfindet. Für die die Erstellung der Visualisierungen kommt vor allem *Microsoft Excel* zum Einsatz. Vorab werden einige theoretische Grundlagen der Datenvisualisierung geklärt.
 
