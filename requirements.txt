@@ -1,5 +1,6 @@
 teachbooks==0.2.4
-sphinx_apa_references==1.0.1
+# sphinx-apa-references == 1.0.1
+git+https://github.com/SchenbergZY/Sphinx-APA-References.git
 
 sphinx-inline-tabs
 git+https://github.com/TeachBooks/TeachBooks-Favourites@all_authors
