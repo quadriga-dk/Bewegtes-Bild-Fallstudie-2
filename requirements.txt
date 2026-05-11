@@ -1,4 +1,10 @@
 teachbooks==0.2.4
-sphinx_apa_references==1.0.1
-jupyter-book==1.0.4
-jupyterquiz==2.8.*
+# sphinx-apa-references == 1.0.1, now goes to v2
+git+https://github.com/SchenbergZY/Sphinx-APA-References.git
+
+sphinx-inline-tabs
+git+https://github.com/TeachBooks/TeachBooks-Favourites@all_authors
+teachbooks-sphinx-grasple
+
+jupyter-book #==1.0.4
+jupyterquiz  # ==2.8.*
