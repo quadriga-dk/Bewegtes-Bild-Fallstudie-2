@@ -1,9 +1,17 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
-message: If you use this work, please cite it using the metadata from this file.
-type: dataset
 title: Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)
-authors:
+abstract: Diese Open Educational Resource (OER) stellt anhand einer Fallstudie dar,
+  wie für die Bearbeitung einer filmwissenschaftlichen Fragestellung digitale Verfahren
+  eingesetzt werden können. Es werden studentische Filme der Filmuniversität Babelsberg
+  KONRAD WOLF aus den Jahren 1985 bis 1999 untersucht. Dabei wird herausgearbeitet,
+  welche Veränderungen sich bei den Filmen aus diesem Zeitraum erkennen lassen. Im
+  Mittelpunkt stehen Metadaten und filmografische Angaben zu den Filmen, Prozesse
+  der Datenbereinigung mit OpenRefine und Möglichkeiten der Datenvisualisierung.
+type: software
+message: Please cite this software using the metadata from `preferred-citation` in
+  `CITATION.cff`.
+authors: &id001
 - given-names: Thomas
   family-names: Schick
   orcid: https://orcid.org/0009-0007-3292-8611
@@ -21,21 +29,13 @@ authors:
   family-names: Gieseke
   orcid: https://orcid.org/0000-0001-8421-103X
   affiliation: Filmuniversität Babelsberg KONRAD WOLF
-version: 1.0.0
-url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
-repository-code: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2
 identifiers:
 - type: doi
   value: 10.5281/zenodo.19571422
   description: Zenodo
-abstract: Diese Open Educational Resource (OER) stellt anhand einer Fallstudie dar,
-  wie für die Bearbeitung einer filmwissenschaftlichen Fragestellung digitale Verfahren
-  eingesetzt werden können. Es werden studentische Filme der Filmuniversität Babelsberg
-  KONRAD WOLF aus den Jahren 1985 bis 1999 untersucht. Dabei wird herausgearbeitet,
-  welche Veränderungen sich bei den Filmen aus diesem Zeitraum erkennen lassen. Im
-  Mittelpunkt stehen Metadaten und filmografische Angaben zu den Filmen, Prozesse
-  der Datenbereinigung mit OpenRefine und Möglichkeiten der Datenvisualisierung.
-keywords:
+repository-code: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2
+url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
+keywords: &id002
 - Open Educational Resource
 - Digital Humanities
 - Filmwissenschaft
@@ -46,3 +46,24 @@ keywords:
 - Datenvisualisierung
 - Datenpublikation
 license: CC-BY-SA-4.0
+references:
+- title: Jupyter Book
+  type: software
+  authors:
+  - name: The Jupyter Book Community
+    website: https://github.com/jupyter-book/jupyter-book/graphs/contributors
+preferred-citation:
+  year: '2026'
+  authors: *id001
+  title: Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985-1999)
+  type: book
+  doi: 10.5281/zenodo.19571422
+  url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
+  repository-code: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2
+  license: CC-BY-SA-4.0
+  languages:
+  - deu
+  copyright: CC-BY-SA-4.0
+  keywords: *id002
+  version: 1.0.0
+version: 1.0.0
