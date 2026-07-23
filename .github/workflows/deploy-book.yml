@@ -54,13 +54,13 @@ jobs:
 
       - name: Copy metadata files to build directory
         run: |
-          cp metadata.jsonld _build/html/metadata.jsonld
-          cp metadata.rdf _build/html/metadata.rdf
+          cp quadriga-metadata.jsonld _build/html/quadriga-metadata.jsonld
+          cp quadriga-metadata.rdf _build/html/quadriga-metadata.rdf
           echo "Copied metadata files to _build/html for discovery"
 
       # Upload the book's HTML as an artifact
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5.0.0
         with:
           path: "_build/html"
 
