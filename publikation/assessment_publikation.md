@@ -181,9 +181,9 @@ multiple_choice3 = [{
             "feedback": """✓ Richtig: Zenodo ist ein transdisziplinäres Repositorium und stellt verschiedene Arten von Forschungsoutput zur Verfügung."""
         },
         {
-            "answer": "media/rep/ ist ein kuratiertes, fachspezifisches Repositorium",
+            "answer": "FID Media Publish ist ein kuratiertes, fachspezifisches Repositorium",
             "correct": True,
-            "feedback": """✓ Richtig: media/rep/ ist ein kuratiertes Repositorium, das Inhalte aus dem Bereich der kulturwissenschaftlich orientierten Medien- und Filmwissenschaft zur Verfügung stellt und vor der Veröffentlichung prüft."""
+            "feedback": """✓ Richtig: FID Media Publish ist ein kuratiertes Repositorium, das Inhalte aus dem Bereich der kulturwissenschaftlich orientierten Medien- und Filmwissenschaft zur Verfügung stellt und vor der Veröffentlichung prüft."""
         },
         {
             "answer": "re3data.org ist selbst ein Repositorium für Datensätze",
@@ -521,7 +521,7 @@ create_answer_box('Assessment-9')
 :class: solution, dropdown
 
 **1. Repositorium-Auswahl:**
-- Fachspezifisch (media/rep/) vs. transdisziplinär (Zenodo)
+- Fachspezifisch (FID Media Publish) vs. transdisziplinär (Zenodo)
 - Kuratierung vs. freie Publikation
 - Langzeitarchivierung und Nachhaltigkeit 
 - Sichtbarkeit und Auffindbarkeit

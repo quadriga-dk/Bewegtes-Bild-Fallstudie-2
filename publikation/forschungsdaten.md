@@ -79,19 +79,19 @@ Screenshot eines Suchergebnisses auf (<a href="https://zenodo.org/communities/fi
 ```
 Mit einem Klick auf den Treffer-Titel gelangt man zur Detailansicht des Eintrags, bei der der Datensatz beschrieben wird und heruntergeladen werden kann.
 
-Ein Beispiel für ein fachspezifisches Repositorium ist <a href="https://mediarep.org/home" class="external-link" target="_blank">_media/rep/_</a>. Es wird von der Deutschen Forschungsgemeinschaft (DFG) gefördert und sammelt Veröffentlichungen aus dem Bereich der kulturwissenschaftlich orientierten Medien- und Filmwissenschaft. media/rep/ legt den Fokus ebenfalls auf Open Access Publikationen in Form von Aufsätzen, Blogs, Büchern, Podcasts etc. und kooperiert hierfür mit Verlagen. Es wurde jedoch auch ein eigener Bereich für Forschungsdaten eingeführt, der stetig weiter ausgebaut wird. Auch hier kann nach Wortfolgen gesucht und das Ergebnis mit Filtern weiter eingegrenzt werden.
+Ein Beispiel für ein fachspezifisches Repositorium ist <a href="https://publish.fid-media.de/home" class="external-link" target="_blank">_FID Media Publish_</a> (vormals _media/rep/_). Es wird von der Deutschen Forschungsgemeinschaft (DFG) gefördert und sammelt Veröffentlichungen aus dem Bereich der kulturwissenschaftlich orientierten Medien- und Filmwissenschaft. FID Media Publish legt den Fokus ebenfalls auf Open Access Publikationen in Form von Aufsätzen, Blogs, Büchern, Podcasts etc. und kooperiert hierfür mit Verlagen. Es wurde jedoch auch ein eigener Bereich für Forschungsdaten eingeführt, der stetig weiter ausgebaut wird. Auch hier kann nach Wortfolgen gesucht und das Ergebnis mit Filtern weiter eingegrenzt werden.
 
-```{figure} ../assets/publikation/media_rep_Film_Circulation_dataset.png
+```{figure} ../assets/publikation/FID_Media_Publish_Film_Circulation_dataset.png
 ---
 align: left
 width: 100%
 name: media_rep_film_circulation
-alt: Screenshot eines Suchergebnisses auf media/Rep/
+alt: Screenshot eines Suchergebnisses auf FID Media Publish
 ---
-Screenshot eines Suchergebnisses auf (<a href="https://mediarep.org/collections/cb388937-c566-4b74-a509-8f6b0227ea72/browse/author?value=Loist,%20Skadi" class="external-link" target="_blank">media/rep/</a>)
+Screenshot eines Suchergebnisses auf (<a href="https://publish.fid-media.de/collections/cb388937-c566-4b74-a509-8f6b0227ea72/browse/author?value=Loist,%20Skadi&bbm.return=1" class="external-link" target="_blank">FID Media Publish</a>)
 ```
 
-Im Gegensatz zu Zenodo, bei dem auf der Plattform zur Verfügung gestellte Beiträge meist nicht begutachtet werden, ist media/rep/ ein kuratiertes Repositorium, das Inhalte vor Veröffentlichung prüft und Autor:innen in Fragen der Open Access Publikation auch berät.
+Im Gegensatz zu Zenodo, bei dem auf der Plattform zur Verfügung gestellte Beiträge meist nicht begutachtet werden, ist FID Media Publish ein kuratiertes Repositorium, das Inhalte vor Veröffentlichung prüft und Autor:innen in Fragen der Open Access Publikation auch berät.
 
 Im nächsten Abschnitt werden nun verschiedene Formen der Datenpublikation vorgestellt.
 
