@@ -1,7 +1,7 @@
 # Filmwissenschaft
 Auch in der Filmwissenschaft werden Ansätze der Digital Humanities immer wichtiger. Malte Hagener und Diana Roig-Sanz weisen jedoch darauf hin, dass sich digitale Methoden in der Filmwissenschaft und Filmgeschichtsschreibung nur langsam etablieren und führen dies u.a. auf die Komplexität des multimodalen Objekts Film zurück {cite}`ab-Hagener_Roig-Sanz_2024`. Einerseits erschwert die Datengröße der digitalen Formen die Arbeit, andererseits sind Fragen des Copyrights in Bezug auf Film besonders komplex. Zudem seien viele Quellen noch nicht digitalisiert und noch nicht online verfügbar. Strukturierte Datensätze müssen erst noch erstellt und Standards etabliert werden. Es gilt, neue digitale Methoden zu entwickeln und mit bestehenden Ansätzen zu kombinieren.
 
-Dabei sind datengetriebene, quantitative Vorgehensweisen schon länger in Gebrauch. Bereits in den 1970er-Jahren setzte sich Barry Salt dafür ein, statistische Methoden für die Analyse von Filmen anzuwenden {cite}`ab-Salt_1974` und baute seine Überlegungen in den folgenden Jahren weiter aus {cite}`ab-Salt_2009`. Eine wichtige Größe für die statistische Filmanalyse ist für Salt die "Average shot lenght" (ASL), also die durchschnittliche Länge der Einstellungen eines Films, die sich aus der Länge des Films geteilt durch die Anzahl der Einstellungen errechnet. Davon ausgehend kann z.B. auf die Häufigkeit von Schnitten und damit auf verschiedene Montagestile rückgeschlossen werden. Neben der ASL wurden auch Einstellungsgrößen und Kamerabewegungen in Einstellungen quantitativ erfasst und statistisch ausgewertet.
+Dabei sind datengetriebene, quantitative Vorgehensweisen schon länger in Gebrauch. Bereits in den 1970er-Jahren setzte sich Barry Salt dafür ein, statistische Methoden für die Analyse von Filmen anzuwenden {cite}`ab-Salt_1974` und baute seine Überlegungen in den folgenden Jahren weiter aus {cite}`ab-Salt_2009`. Eine wichtige Größe für die statistische Filmanalyse ist für Salt die "Average shot length" (ASL), also die durchschnittliche Länge der Einstellungen eines Films, die sich aus der Länge des Films geteilt durch die Anzahl der Einstellungen errechnet. Davon ausgehend kann z.B. auf die Häufigkeit von Schnitten und damit auf verschiedene Montagestile rückgeschlossen werden. Neben der ASL wurden auch Einstellungsgrößen und Kamerabewegungen in Einstellungen quantitativ erfasst und statistisch ausgewertet.
 
 ## Datenbanken und digitale Tools
 
@@ -12,9 +12,9 @@ Quantitative und statistische Daten dieser Art werden u.a. über Datenbanken ver
 align: left
 width: 100%
 name: cinemetrics_visualisierung
-alt: Screenshot Darstellung der Visualisierung eines Eintags aus der Cinemetrcis-Datenbank.
+alt: Screenshot Darstellung der Visualisierung eines Eintrags aus der Cinemetrics-Datenbank.
 ---
-Screenshot der Visualisierung eines Eintrags aus der Cinemetrcis-Datenbank
+Screenshot der Visualisierung eines Eintrags aus der Cinemetrics-Datenbank
 ```
 
 Zudem sind viele Datenbanken mit filmografischen Angaben, wie z.B. Titel, Entstehungsjahr, beteiligte Personen, Produktionsländer oder Festivalpremieren frei zugänglich. Beispiele hierfür sind etwa <a href="https://www.imdb.com/" class="external-link" target="_blank">IMDb</a>, <a href="https://www.ofdb.de/"  class="external-link" target="_blank">OFDb</a> oder <a href="https://www.filmportal.de/" class="external-link" target="_blank">filmportal.de</a>. Diese Datenbanken liefern Daten und Metadaten zu Filmen, die unter verschiedenen Perspektiven ausgewertet werden können {cite}`ab-Stelmach_2024`. Wichtig ist dabei im Blick zu behalten, dass einige dieser Datenbanken, wie IMDb, von kommerziellen Anbietern betrieben werden, wodurch die freie Zugänglichkeit der Daten eingeschränkt ist und auch die Datenerhebung kommerziellen Gesichtspunkten folgt {cite}`ab-Campregher_Paiva_2025`. Für Analysen im Rahmen der Production Studies sind etwa Zusammensetzungen der Filmcrew, Produktionsbudgets oder Förderungen interessant, Webseiten mit Ratings, Rezensionen, digitalisierte Presseartikel oder Kinoprogramme ermöglichen die Auswertung der Rezeption von Filmen.
@@ -23,14 +23,14 @@ Zu beachten ist hierbei, dass bei der Publikation von Daten aus solchen frei zug
 
 ## Formen der Visualisierung
 
-Die große Anzahl an Film- und Metadaten erfordert neue Formen der kritischen Einordnung und Auswertung der Informationen. Eine mögliche Form der Datenerschließung ist die Visualisierung (siehe hierzu auch das Kapitel [Datenauswertung und Datenvisualisierung](../auswertung/toc.md)). Im Rahmen seines Ansatzes der "Cultural Analytics" hat sich Lev Manovich intensiv mit Möglichkeiten und Techniken der Visualisierung von (kulturellen) Informationen auseinandergesetzt und stellt als einen Ansatz die "Visualisierung ohne Reduktion" heraus, bei der möglichst alle vorhandenen Informationen in der Visualisierung erhalten bleiben {cite}`ab-Manovich_2020`. Diesen Ansatz greift Adelheid Heftberger in ihrer Arbeit zu Dsiga Vertovs Filmen auf und entwickelt ihn weiter {cite}`ab-Heftberger_2016`.
+Die große Anzahl an Film- und Metadaten erfordert neue Formen der kritischen Einordnung und Auswertung der Informationen. Eine mögliche Form der Datenerschließung ist die Visualisierung (siehe hierzu auch das Kapitel [Datenauswertung und Datenvisualisierung](../auswertung/toc.md)). Im Rahmen seines Ansatzes der "Cultural Analytics" hat sich Lev Manovich intensiv mit Möglichkeiten und Techniken der Visualisierung von (kulturellen) Informationen auseinandergesetzt und stellt als einen Ansatz die "Visualisierung ohne Reduktion" heraus, bei der möglichst alle vorhandenen Informationen in der Visualisierung erhalten bleiben {cite}`ab-Manovich_2020`. Diesen Ansatz greift Adelheid Heftberger in ihrer Arbeit zu Dziga Vertovs Filmen auf und entwickelt ihn weiter {cite}`ab-Heftberger_2016`.
 
 ```{figure} ../assets/einleitung/Heftberger_Materiality_and_Montage_Vertov.jpg
 ---
 align: left
 width: 100%
 name: vertov_visualisierung
-alt: Close-ups von Gesischtern in "The Eleventh Year" (Dziga Vertov, 1928)
+alt: Close-ups von Gesichtern in "The Eleventh Year" (Dziga Vertov, 1928)
 ---
 Close-ups von Gesichtern in "The Eleventh Year" (Dziga Vertov, 1928) (Quelle: {cite}`ab-heftberger_2018`, <a href="https://creativecommons.org/licenses/by/4.0/legalcode"  class="external-link" target="_blank">CC BY 4.0</a>)
 ```

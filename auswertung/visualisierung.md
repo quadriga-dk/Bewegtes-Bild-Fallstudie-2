@@ -38,8 +38,8 @@ Informationsvisualisierungen folgen dabei nach Manovich bisher zwei Schlüsselpr
 ### Visualisierung ohne Reduktion
 Im Rahmen sich verändernder technischer Möglichkeiten schlägt Manovich einen neuen Ansatz vor, den er _Visualisierung ohne Reduktion_ nennt. Dabei sollen wesentlich mehr Merkmale der Objekte erhalten bleiben. Die Komplexität und Individualität der Originaldaten soll bewahrt werden – im Gegensatz zur Reduktion der klassischen Formen der Informationsvisualisierung. Statt Datenpunkte zu aggregieren, wird versucht, große Datenmengen in ihrer Gesamtheit darzustellen, wobei jeder einzelne Datenpunkt sichtbar bleibt. Dies ist möglich, da die Objekte häufig bereits in digitaler Form vorliegen und für Visualisierungen mit digitalen Tools verarbeitet werden können. Z.B. können Worthäufungen in einem Text als _tag cloud_ dargestellt oder Abbildungen gemäß ihrer Farbwerte angeordnet werden. Beispiele hierfür finden sich auf der Projektseite von Manovichs <a href="https://lab.culturalanalytics.info/p/projects.html" class="external-link" target="_blank">Cultural Analytics Lab</a>.
 
-### Beispiel Dsiga Vertov
-Auch für Filme hat Manovich die Visualisierung ohne Reduktion anhand der Werke Dsiga Vertovs erprobt, also versucht, möglichst viele Bild-, Inhalts- und Strukturinformationen in der Visualisierung zu erhalten {cite}`e-Manovich_2013`. Adelheid Heftberger adaptierte seine Ansätze für ihre Arbeiten zu Vertov {cite}`e-Heftberger_2016`; {cite}`e-heftberger_2018`. Sie schlägt vor, Visualisierungen als exploratives Tool auf der Makro- und Mikroebene zu nutzen. Indem Bildfolgen mit einer Abbildung aus jeder Einstellung eines Vertov-Films erzeugt werden, können auftretende Muster in der Montage oder bei Einstellungslängen erkannt werden. Für die Darstellung von Einstellungslängen können z.B. jeweils ein Bild aus der Einstellung mit Balkendiagrammen zu den Längen kombiniert werden. Beispiele für solche Visualisierungen liefert das <a href="https://www.flickr.com/photos/culturevis/albums/72157632441192048/" class="external-link" target="_blank">zusätzliche Material</a> zu Manovichs Vertov-Artikel.
+### Beispiel Dziga Vertov
+Auch für Filme hat Manovich die Visualisierung ohne Reduktion anhand der Werke Dziga Vertovs erprobt, also versucht, möglichst viele Bild-, Inhalts- und Strukturinformationen in der Visualisierung zu erhalten {cite}`e-Manovich_2013`. Adelheid Heftberger adaptierte seine Ansätze für ihre Arbeiten zu Vertov {cite}`e-Heftberger_2016`; {cite}`e-heftberger_2018`. Sie schlägt vor, Visualisierungen als exploratives Tool auf der Makro- und Mikroebene zu nutzen. Indem Bildfolgen mit einer Abbildung aus jeder Einstellung eines Vertov-Films erzeugt werden, können auftretende Muster in der Montage oder bei Einstellungslängen erkannt werden. Für die Darstellung von Einstellungslängen können z.B. jeweils ein Bild aus der Einstellung mit Balkendiagrammen zu den Längen kombiniert werden. Beispiele für solche Visualisierungen liefert das <a href="https://www.flickr.com/photos/culturevis/albums/72157632441192048/" class="external-link" target="_blank">zusätzliche Material</a> zu Manovichs Vertov-Artikel.
 
 Dabei sollte im Blick behalten werden, dass trotz des Versuchs, eine _Visualisierung ohne Reduktion_ zu erstellen, nie alle Merkmale eines Objekts in eine grafische Darstellung einfließen können. Es muss also auch für diese Formen der Visualisierungen hinterfragt werden, welche Elemente in eine Daten-Visualisierung aufgenommen und welche außen vor gelassen werden.
 
@@ -65,7 +65,7 @@ Ein Beispiel für ein Visualisierungsprojekt zur feministischen Filmgeschichtssc
 align: left
 width: 100%
 name: wfpp_1
-alt: Screenshot aus dem Women Film Pionieers Explorer zur Clusterbildung für Berufsbezeichnungen
+alt: Screenshot aus dem Women Film Pioneers Explorer zur Clusterbildung für Berufsbezeichnungen
 ---
 Screenshot Visualisierung "Cluster Professions" Women Film Pioneers Explorer (<a href="https://www.informatik.uni-marburg.de/women-film-pioneers-explorer/Cluster.html" class="external-link" target="_blank">https://www.informatik.uni-marburg.de/women-film-pioneers-explorer/Cluster.html</a>)
 ```
@@ -77,7 +77,7 @@ Durch Klick auf die einzelnen Berufsbezeichnungen können weitere Untergruppen u
 align: left
 width: 100%
 name: wfpp_2
-alt: Screenshot aus dem Women Film Pionieers Explorer zur internationalen Verbindungslinien
+alt: Screenshot aus dem Women Film Pioneers Explorer zur internationalen Verbindungslinien
 ---
 Screenshot Visualisierung "Map" Women Film Pioneers Explorer (<a href="https://www.informatik.uni-marburg.de/women-film-pioneers-explorer/Map.html" class="external-link" target="_blank">https://www.informatik.uni-marburg.de/women-film-pioneers-explorer/Map.html</a>)
 ```

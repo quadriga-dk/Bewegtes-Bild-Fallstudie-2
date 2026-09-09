@@ -1,6 +1,6 @@
 # Export des Datensatzes
 
-Nach erfolgreicher Bereinigung soll der Datensatz natürlich auch exportiert werden um ihn auszuwerten. In *OpenRefine* stehen zahlreiche Exportformate mit einem Klick auf das *Export* Dropdown-Menü oben rechts im Hauptfenster zur Verfügung.
+Nach erfolgreicher Bereinigung soll der Datensatz natürlich auch exportiert werden, um ihn auszuwerten. In *OpenRefine* stehen zahlreiche Exportformate mit einem Klick auf das *Export* Dropdown-Menü oben rechts im Hauptfenster zur Verfügung.
 
 ```{figure} ../../assets/bereinigung/openRefine/export/export_1.png
 ---
@@ -15,7 +15,7 @@ Auf den Export eines *OpenRefine*-Projekts wurde bereits im Kapitel zur [Sichtun
 
 Im Folgenden soll auf das Vorgehen beim Export des Datensatzes als Textdatei eingegangen werden – also genau jenes Format, in dem der Übungsdatensatz auch zu Beginn vorlag. Textdateien sind programm-unspezifisch und das Standardformat bei der Veröffentlichung von Datensätzen.
 
-Wird im oben gezeigten Menü der Export als **CSV**, also als Textdatei mit *Comma-separated values*, ausgewählt, ergänzt *OpenRefine* automatisch Anführungszeichen am Anfang und am Ende von Einträgen, die ebenfalls ein Komma enthalten. Ggf. werden diese aber von anderen Programmen nicht korrekt interpretiert. Daher ist der Export als **TSV** (*Tab-seperated value*) die bessere Option. Bei der Auswertung des Datensatzes werden wir ebenfalls mit einer *TSV*-Datei arbeiten. Wählen sie hierfür im *Export*-Menü den Punkt *Tab-seperated value* aus. Es öffnet sich ein Downloadfenster, in dem sie den Dateinamen und den Speicherort der *TSV*-Datei festlegen können.
+Wird im oben gezeigten Menü der Export als **CSV**, also als Textdatei mit *Comma-separated values*, ausgewählt, ergänzt *OpenRefine* automatisch Anführungszeichen am Anfang und am Ende von Einträgen, die ebenfalls ein Komma enthalten. Ggf. werden diese aber von anderen Programmen nicht korrekt interpretiert. Daher ist der Export als **TSV** (*Tab-separated value*) die bessere Option. Bei der Auswertung des Datensatzes werden wir ebenfalls mit einer *TSV*-Datei arbeiten. Wählen Sie hierfür im *Export*-Menü den Punkt *Tab-separated value* aus. Es öffnet sich ein Downloadfenster, in dem Sie den Dateinamen und den Speicherort der *TSV*-Datei festlegen können.
 
 
 Alternativ kann auch mit einem ungewöhnlichem Sonderzeichen wie dem *Pipe* `|` als Trennungszeichen gearbeitet werden. Wählen Sie für letzteres den Menüpunkt *Custom tabular...* aus.
@@ -43,7 +43,7 @@ alt: Das Menücustom tabular
 Das Menü *custom tabular*
 ```
 
-Über den Button *Preview* können Sie eine Vorschau des Datensatzes ansehen, die sich in einem neuen Fenster öffnet. Sind sie zufrieden, kann der bereinigte Datensatz mit einem Klick auf den *Download* Button heruntergeladen und abgespeichert werden.
+Über den Button *Preview* können Sie eine Vorschau des Datensatzes ansehen, die sich in einem neuen Fenster öffnet. Sind Sie zufrieden, kann der bereinigte Datensatz mit einem Klick auf den *Download* Button heruntergeladen und abgespeichert werden.
 
 Damit ist die Bereinigung des Datensatzes erfolgreich abgeschlossen!
 

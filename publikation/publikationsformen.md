@@ -53,9 +53,9 @@ Data Papers unterscheiden sich von Artikeln mit publizierten Daten dadurch, dass
 align: left
 width: 100%
 name: NECSUS
-alt: Screenshot der der Rubrik "Data Papers" im NECSUS_European Journal of Media Studies
+alt: Screenshot der Rubrik "Data Papers" im NECSUS_European Journal of Media Studies
 ---
-Screenshot der der Rubrik <a href="https://necsus-ejms.org/portfolio/spring-2023_ports/#toggle-id-7" class="external-link" target="_blank">"Data Papers"</a> im NECSUS_European Journal of Media Studies
+Screenshot der Rubrik <a href="https://necsus-ejms.org/portfolio/spring-2023_ports/#toggle-id-7" class="external-link" target="_blank">"Data Papers"</a> im NECSUS_European Journal of Media Studies
 ```
 
 Der Aufbau eines Data Papers kann variieren und wird häufig vom publizierenden Journal vorgegeben. Meist fokussiert sich ein Data Paper zunächst auf die Beschreibung des Datensatzes und dessen Struktur: Welche Dateien sind enthalten und wie ist die Beziehung zwischen den Dateien? Handelt es sich z.B. um einen Auszug aus einer Datenbank mit verschiedenen Tabellen, die untereinander mit eindeutigen Identifikatoren in Beziehung gesetzt werden können?
