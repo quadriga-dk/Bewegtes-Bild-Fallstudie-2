@@ -260,7 +260,7 @@ display_quiz(multiple_choice4, colors=colors.jupyterquiz)
 
 ## Aufgabe 5
 
-Ordnen sie folgende Aussagen in Bezug auf Manovichs Schlüsselprinzipien klassischer Informationsvisualisierung ein:
+Ordnen Sie folgende Aussagen in Bezug auf Manovichs Schlüsselprinzipien klassischer Informationsvisualisierung ein:
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -452,7 +452,7 @@ single_choice7 = [{
         {
             "answer": "Sie eliminiert alle Reduktionsprozesse vollständig",
             "correct": False,
-            "feedback": """× Falsch: Trotz des Versuchs, eine „Visualisierung ohne Reduktion" zu erstellen, können nie alle Merkmale eines Objekts in eine grafische Darstellung einfließen."""
+            "feedback": """× Falsch: Trotz des Versuchs, eine „Visualisierung ohne Reduktion“ zu erstellen, können nie alle Merkmale eines Objekts in eine grafische Darstellung einfließen."""
         },
         {
             "answer": "Sie versucht mehr Merkmale zu erhalten, kann aber nie alle Merkmale darstellen",
