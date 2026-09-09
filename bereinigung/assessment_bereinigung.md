@@ -203,7 +203,7 @@ true_false5 = [{
         {
             "answer": "Falsch",
             "correct": True,
-            "feedback": """✓ Korrekt! Daten sind "gemacht“ und nicht „gegeben“ - sie unterliegen bestimmten Konstruktionsprozessen."""
+            "feedback": """✓ Korrekt! Daten sind „gemacht“ und nicht „gegeben“ - sie unterliegen bestimmten Konstruktionsprozessen."""
         },
         {
             "answer": "Richtig",
@@ -230,7 +230,7 @@ true_false6 = [{
         {
             "answer": "Richtig",
             "correct": True,
-            "feedback": """✓ Korrekt! Drucker empfiehlt die Analyse des Modells vor der Nutzung; nur bei einem Verständnis des zugrundeliegenden Modelles ist eine sinnvolle Arbeit mit Daten möglich."""
+            "feedback": """✓ Korrekt! Drucker empfiehlt die Analyse des Modells vor der Nutzung; nur bei einem Verständnis des zugrundeliegenden Modells ist eine sinnvolle Arbeit mit Daten möglich."""
         },
         {
             "answer": "Falsch",
@@ -507,7 +507,7 @@ true_false5 = [{
         {
             "answer": "Richtig",
             "correct": True,
-            "feedback": """✓ Korrekt! GREL ist eine an Javascript angelehnte Programmiersprache, die einfach zu erlernen ist und meist nur wenige Zeilen Code umfasst."""
+            "feedback": """✓ Korrekt! GREL ist eine an JavaScript angelehnte Programmiersprache, die einfach zu erlernen ist und meist nur wenige Zeilen Code umfasst."""
         },
         {
             "answer": "Falsch",
@@ -650,13 +650,13 @@ sys.path.append("..")
 from quadriga import colors
 
 true_false1 = [{
-    "question": """replace(„old", „new") ersetzt einen Textteil durch einen anderen""",
+    "question": """replace("old", "new") ersetzt einen Textteil durch einen anderen""",
     "type": "multiple_choice",
     "answers": [
         {
             "answer": "Richtig",
             "correct": True,
-            "feedback": """✓ Korrekt! replace() ersetzt Textteile: value.replace(„/", „ ; „)"""
+            "feedback": """✓ Korrekt! replace() ersetzt Textteile: value.replace("/", " ; ")"""
         },
         {
             "answer": "Falsch",
