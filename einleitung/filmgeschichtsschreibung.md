@@ -37,7 +37,7 @@ Ein prominentes Beispiel ist das seit 2013 betriebene Webportal <a href="https:/
 align: left
 width: 100%
 name: pioneer_explorer
-alt: Screenshot aus dem Women Film Pionieers Explorer - Dendrogram Professions
+alt: Screenshot aus dem Women Film Pioneers Explorer - Dendrogram Professions
 ---
 Screenshot Visualisierung "Dendrogram" Women Film Pioneers Explorer (<a href="https://www.informatik.uni-marburg.de/women-film-pioneers-explorer/Dendrogram.html" class="external-link" target="_blank">https://www.informatik.uni-marburg.de/women-film-pioneers-explorer/Dendrogram.html</a>)
 ```
