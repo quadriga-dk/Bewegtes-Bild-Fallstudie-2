@@ -28,7 +28,7 @@ Für eine solche Bereinigung des Datensatzes unserer Fallstudie sind zahlreiche 
 
 <span style="font-size:24pt;">Datenbasis und synthetische Datensätze</span>
 
-Die Datenbasis für die Bereinigung bildet ein [Auszug aus der OPAC-Datenbank](/bereinigung/modell.md#auszug-aus-der-datenbank-des-bibliothekskatalogs), den wir vom Systembibliothekar der Universitätsbibliothek erhalten haben. Der Auszug liegt uns als Datei im tsv-Format vor (siehe auch Kapitel [Datenformte](/bereinigung/openRefine/2_import.md#datenformate)) und enthält sämtliche OPAC-Einträge für unser Korpus aus dem Untersuchungszeitraum – also zu den studentischen Filmen der Jahre 1985 bis 1999 aus dem Filmarchiv der Filmuniversität. Auf der Grundlage dieser Datenbasis haben wir die Daten bereinigt.
+Die Datenbasis für die Bereinigung bildet ein [Auszug aus der OPAC-Datenbank](/bereinigung/modell.md#auszug-aus-der-datenbank-des-bibliothekskatalogs), den wir vom Systembibliothekar der Universitätsbibliothek erhalten haben. Der Auszug liegt uns als Datei im tsv-Format vor (siehe auch Kapitel [Datenformate](/bereinigung/openRefine/2_import.md#datenformate)) und enthält sämtliche OPAC-Einträge für unser Korpus aus dem Untersuchungszeitraum – also zu den studentischen Filmen der Jahre 1985 bis 1999 aus dem Filmarchiv der Filmuniversität. Auf der Grundlage dieser Datenbasis haben wir die Daten bereinigt.
 
 ```{admonition} Achtung
 :class: caution
