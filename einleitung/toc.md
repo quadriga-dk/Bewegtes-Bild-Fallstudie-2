@@ -1,4 +1,4 @@
-#  Digital Humanities und Filmwissenschaft
+# Digital Humanities und Filmwissenschaft
 
 ````{margin}
 ```{admonition} Fragen oder Feedback
