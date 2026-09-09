@@ -25,7 +25,7 @@ Im Fokus des vorigen Kapitels steht die Erstellung eines Datensatzes zum Filmkor
 ```
 
 
-Wir befinden uns damit beim 3. Schritt unserer Fallstudie, bei dem eine exemplarische Auswertung des synthetischen Datensatzes mithilfe von Visualisierungen stattfindet. Für die die Erstellung der Visualisierungen kommt vor allem *Microsoft Excel* zum Einsatz. Vorab werden einige theoretische Grundlagen der Datenvisualisierung geklärt.
+Wir befinden uns damit beim 3. Schritt unserer Fallstudie, bei dem eine exemplarische Auswertung des synthetischen Datensatzes mithilfe von Visualisierungen stattfindet. Für die Erstellung der Visualisierungen kommt vor allem *Microsoft Excel* zum Einsatz. Vorab werden einige theoretische Grundlagen der Datenvisualisierung geklärt.
 
 ```{figure} ../assets/auswertung/Grafik_Schritte_3.png
 ---
