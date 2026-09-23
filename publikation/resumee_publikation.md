@@ -1,5 +1,5 @@
 # Resümee
-In diesem Kapitel sollen die Grundlagen für die Publikation von Forschungsdaten vorgestellt werden. Dabei werden folgenden Teilbereichen behandelt:
+In diesem Kapitel sollen die Grundlagen für die Publikation von Forschungsdaten vorgestellt werden. Dabei werden folgende Teilbereiche behandelt:
 
 ```{admonition} Keypoints
 :class: keypoint

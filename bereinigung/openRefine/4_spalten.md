@@ -61,9 +61,9 @@ Dieses *Re-order / Remove columns* Menü wird über das Dropdown-Menü der Spalt
 align: center
 width: 50%
 name: reorder_columns_1
-alt: Die Schritte zum Öffnen des Menüs Re-order / Remove columns
+alt: Die Schritte zum Öffnen des Menüs Re-order / remove columns
 ---
-Die Schritte zum Öffnen des Menüs *Re-order / Remove columns*
+Die Schritte zum Öffnen des Menüs *Re-order / remove columns*
 ```
 Hier können die Spalten per *Drag-and-Drop* umgeordnet und mittels der Ablage auf der rechten Seite gelöscht werden. 
 
