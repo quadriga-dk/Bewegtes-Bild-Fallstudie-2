@@ -3,7 +3,7 @@
 
 Als ersten Schritt in der Bereinigung eines Datensatzes lohnt es sich, diesen im Detail mit den Funktionen von *OpenRefine* zu sichten. So erhalten Sie eine genaue Vorstellung bezüglich des Inhalts jeder Spalte und möglicher Probleme und können diese anschließend zielorientiert angehen. 
 
-Nachdem die [Importeinstellungen](/bereinigung/openRefine/2_import.md#die-importeinstellungen-im-uberblick) vorgenommen wurden und mit *Create Project* ein Projekt erstellt wurde, öffnet sich das Hauptfenster von *OpenRefine*, in dem Sie während der Bereinigung eines Datensatzes die meiste Zeit verbringen werden. ({numref}`main_window`) Zum Hauptfenster gelangen sie ebenfalls, wenn Sie *OpenRefine* öffnen, in der linken Spalte auf *Open project* klicken und aus der Liste das Projekt auswählen, das sie bearbeiten möchten.
+Nachdem die [Importeinstellungen](/bereinigung/openRefine/2_import.md#die-importeinstellungen-im-uberblick) vorgenommen wurden und mit *Create Project* ein Projekt erstellt wurde, öffnet sich das Hauptfenster von *OpenRefine*, in dem Sie während der Bereinigung eines Datensatzes die meiste Zeit verbringen werden. ({numref}`main_window`) Zum Hauptfenster gelangen Sie ebenfalls, wenn Sie *OpenRefine* öffnen, in der linken Spalte auf *Open project* klicken und aus der Liste das Projekt auswählen, das Sie bearbeiten möchten.
 
 ```{figure} ../../assets/bereinigung/openRefine/sichtung/main_window.png
 ---
@@ -28,17 +28,17 @@ Menü-Elemente zur Zeilen-Navigation
 ````{margin} 
 ```{admonition} Hinweis
 :class: hinweis
-Datensätze können im *Row* und *Record* Format dargestellt werden. Die meisten Datensätze liegen im Row-Format vor, wie auch der Übungsdatensatz. Im Record-Format  können mehrere Zeilen zu einem Tabellensatz, einem *Record*, zusammengefasst werden. In der *OpenRefine* Dokumentation finden Sie mehr Informationen zum Unterschied der Darstellung in <a href="https://openrefine.org/docs/manual/exploring#rows-vs-records" class="external-link" target="_blank">Rows und Records</a> und zur Umwandlung von <a href="https://openrefine.org/docs/manual/cellediting#fill-down-and-blank-down" class="external-link" target="_blank">Rows in Records</a>.
+Datensätze können im *Row* und *Record* Format dargestellt werden. Die meisten Datensätze liegen im Row-Format vor, wie auch der Übungsdatensatz. Im Record-Format können mehrere Zeilen zu einem Tabellensatz, einem *Record*, zusammengefasst werden. In der *OpenRefine* Dokumentation finden Sie mehr Informationen zum Unterschied der Darstellung in <a href="https://openrefine.org/docs/manual/exploring#rows-vs-records" class="external-link" target="_blank">Rows und Records</a> und zur Umwandlung von <a href="https://openrefine.org/docs/manual/cellediting#fill-down-and-blank-down" class="external-link" target="_blank">Rows in Records</a>.
 ```
 ````
-Innerhalb der Spalte *All* werden die Zeilen nummeriert und können für ein besseres Auffinden mit einer Flagge oder einem Stern markiert werden. Weder diese Markierungen noch die Nummerierung sind Teil das Datensatzes und werden nicht exportiert. 
+Innerhalb der Spalte *All* werden die Zeilen nummeriert und können für ein besseres Auffinden mit einer Flagge oder einem Stern markiert werden. Weder diese Markierungen noch die Nummerierung sind Teil des Datensatzes und werden nicht exportiert. 
 
 ### Export eines OpenRefine Projekts
 Während Ihrer Arbeit an dem Datensatz möchten Sie ggf. einen Zwischenschritt des *OpenRefine*-Projekts speichern.
 
 ```{admonition} Achtung
 :class: caution
-Denken Sie daran, regelmäßig Zwischenstände Ihres Projekts als eigene *OpenRefine*-Projektdateien abzuspeichern. Diese sollten sie so benennen, dass der Arbeitsstand aus dem Dateinamen ersichtlich ist (z.B. durch Einbindung des Bearbeitungsdatums, einer Versionsnummer, eines Kürzels der bearbeitenden Person etc.).
+Denken Sie daran, regelmäßig Zwischenstände Ihres Projekts als eigene *OpenRefine*-Projektdateien abzuspeichern. Diese sollten Sie so benennen, dass der Arbeitsstand aus dem Dateinamen ersichtlich ist (z.B. durch Einbindung des Bearbeitungsdatums, einer Versionsnummer, eines Kürzels der bearbeitenden Person etc.).
 
 In *OpenRefine* können zwar Bearbeitungsschritte relativ einfach rückgängig gemacht werden, dennoch kann es ggf. nützlich sein, auf eine älteren Version der Datenbereinigung zurückgreifen zu können. Insbesondere vor größeren Bearbeitungsschritten wie z.B. dem Löschen ganzer Spalten oder Zeilen ist das Speichern einer Zwischenversion des Projekts sinnvoll.
 ```
@@ -82,7 +82,7 @@ Umbenennung eines Projekts
 Zurück zum Datensatz selbst. In einem ersten Schritt ist es sinnvoll, den Inhalt jeder Spalte des Datensatzes zu überprüfen. 
 
 ### Text Facets
-Zu diesem Zweck kann ein sogenanntes **Text Facet** verwendet werden, um die Inhalte einer Spalte gebündelt auf der linken Seite des Hauptfensters anzuzeigen. Sie erstellen ein *Text Facet*, indem sie das Dropdown-Menü einer Spalte öffnen, dort *Facet* und anschließend *Text Facet* auswählen:
+Zu diesem Zweck kann ein sogenanntes **Text Facet** verwendet werden, um die Inhalte einer Spalte gebündelt auf der linken Seite des Hauptfensters anzuzeigen. Sie erstellen ein *Text Facet*, indem Sie das Dropdown-Menü einer Spalte öffnen, dort *Facet* und anschließend *Text Facet* auswählen:
 
 ```{figure} ../../assets/bereinigung/openRefine/sichtung/textfacet_1.png
 ---

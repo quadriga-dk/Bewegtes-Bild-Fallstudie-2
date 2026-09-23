@@ -25,7 +25,7 @@ In den letzten Kapiteln wurde eine Forschungsfrage zu unserer Fallstudie formuli
 ```
 
 
-Wir befinden uns damit beim 4. Schritt unserer Fallstudie, bei dem der Weg zur Publikation der Daten im Mittelpunkt steht. Es wird auf den Stand des Forschungsdatenmanagement in der Filmwissenschaft und mögliche Problemfelder bei der Datenpublikation eingegangen. Ein besonderes Augenmerk liegt dabei auf den rechtlichen Rahmenbedingungen.
+Wir befinden uns damit beim 4. Schritt unserer Fallstudie, bei dem der Weg zur Publikation der Daten im Mittelpunkt steht. Es wird auf den Stand des Forschungsdatenmanagements in der Filmwissenschaft und mögliche Problemfelder bei der Datenpublikation eingegangen. Ein besonderes Augenmerk liegt dabei auf den rechtlichen Rahmenbedingungen.
 
 ```{figure} ../assets/publikation/Grafik_Schritte_4.png
 ---

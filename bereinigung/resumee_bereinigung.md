@@ -16,7 +16,7 @@ Diese Analyse erfolgt in unserer Fallstudie im Abschnitt zur [Datenquelle](./dat
 
 **Datenbereinigung mit der Software *OpenRefine***
 
-Den Prozess der [Datenbereinigung](./openRefine/0_datenbereinigung.md) stellen wir abschließend zu diesem Kapitel dar. Hierfür verwenden wird die Software *OpenRefine*, da diese speziell für diesen Zweck entwickelt wurde, offen zugänglich und relativ einfach bedienbar ist. Die Arbeit mit dieser Software stellen wir anhand einiger exemplarischer Schritte bei der Bereinigung unseres Datensatzes vor, die in dieser Form auch bei vielen anderen Datensätzen angewendet werden können.
+Den Prozess der [Datenbereinigung](./openRefine/0_datenbereinigung.md) stellen wir abschließend zu diesem Kapitel dar. Hierfür verwenden wir die Software *OpenRefine*, da diese speziell für diesen Zweck entwickelt wurde, offen zugänglich und relativ einfach bedienbar ist. Die Arbeit mit dieser Software stellen wir anhand einiger exemplarischer Schritte bei der Bereinigung unseres Datensatzes vor, die in dieser Form auch bei vielen anderen Datensätzen angewendet werden können.
 ```
 
 

@@ -93,7 +93,7 @@ alt: Das Importmenü
 Die Optionen zum Datenimport
 ```
 Durch vertikales und horizontales Scrollen können Sie sich hier sämtliche Spalten ansehen.
-Gehen wir diese Optionen nun Schritt für Schritt durch. Als Erstes ist bei der Vergabe des Projektnamens auffällig, dass hierfür der Namen der Datensatz-Datei verwendet wurde und alle Unterstriche im Dateinamen automatisch durch Leerzeichen ersetzt wurden. Bei der Arbeit mit Daten sollten Leerzeichen generell vermieden werden, da dies zu Problemen beim Einlesen der Datensätze in Bearbeitungs- und Auswertungssoftware führen kann. Daher sollten die Unterstriche anstatt der Leerzeichen wieder eingesetzt werden. Zudem macht es Sinn, den Titel mit zusätzlichen Informationen zu ergänzen, etwa dem Erstellungsdatum, einer Versionsnummer oder einem Personenkürzel. Dies erleichtert später die Unterscheidung verschiedener Fassungen eines *OpenRefine* Projekts, etwa von gespeicherten Zwischenstufen vor größeren Bearbeitungsschritten. Hier fällt die Wahl auf den Namen **20250609_Datensatz_Uebung_OER_V1**.
+Gehen wir diese Optionen nun Schritt für Schritt durch. Als Erstes ist bei der Vergabe des Projektnamens auffällig, dass hierfür der Name der Datensatz-Datei verwendet wurde und alle Unterstriche im Dateinamen automatisch durch Leerzeichen ersetzt wurden. Bei der Arbeit mit Daten sollten Leerzeichen generell vermieden werden, da dies zu Problemen beim Einlesen der Datensätze in Bearbeitungs- und Auswertungssoftware führen kann. Daher sollten die Unterstriche anstatt der Leerzeichen wieder eingesetzt werden. Zudem macht es Sinn, den Titel mit zusätzlichen Informationen zu ergänzen, etwa dem Erstellungsdatum, einer Versionsnummer oder einem Personenkürzel. Dies erleichtert später die Unterscheidung verschiedener Fassungen eines *OpenRefine* Projekts, etwa von gespeicherten Zwischenstufen vor größeren Bearbeitungsschritten. Hier fällt die Wahl auf den Namen **20250609_Datensatz_Uebung_OER_V1**.
 
 Im Feld *Tags* können alternativ durch Leerzeichen getrennte Schlagworte angegeben werden, die gemeinsam mit dem Rest des Projekts im **TAR** Dateiformat gespeichert und später in der Übersicht der Projekte in *Open Project* mit angezeigt werden.
 
@@ -237,16 +237,16 @@ Generell sollte die erste Zeile eines Datensatzes die Namen der Spalten enthalte
 
 Als Alternative können auch direkt eigene durch Komma getrennte Spaltennamen im Textfeld der Option **Column names (comma separated)** angegeben werden.
 
-Die letzten beiden Optionen **Discard initial (0) row(s) of data** und **Load at most (0) row(s) of data** können genutzt werden, um **nach den der Zeile mit den Spaltennamen** eine Anzahl an Zeilen zu überspringen oder nur eine maximale Anzahl an Zeilen zu importieren.
+Die letzten beiden Optionen **Discard initial (0) row(s) of data** und **Load at most (0) row(s) of data** können genutzt werden, um **nach der Zeile mit den Spaltennamen** eine Anzahl an Zeilen zu überspringen oder nur eine maximale Anzahl an Zeilen zu importieren.
 
 **Store blank rows/columns**
 
-Diese Option führt zum Import von leeren Zeilen oder Spalten. Manche Dateien nutzen leere Zeilen und Spalten zur Strukturierung, etwa um zwei Datensätze in der selben Datei voneinander zu trennen.
+Diese Option führt zum Import von leeren Zeilen oder Spalten. Manche Dateien nutzen leere Zeilen und Spalten zur Strukturierung, etwa um zwei Datensätze in derselben Datei voneinander zu trennen.
 Da der Datensatz keine leeren Zeilen und Spalten enthält, macht diese Option für dieses Beispiel keinen Unterschied.
 
 **Store blank cells as nulls**
 
-Bei *blank cells* handelt es sich um leere Text- oder Zahlen-Einträge. *Null* ist ein eigener Datentyp der anzeigt, dass eine Zelle keinen Eintrag enthält. Wo genau liegt nun der Unterschied?
+Bei *blank cells* handelt es sich um leere Text- oder Zahlen-Einträge. *Null* ist ein eigener Datentyp, der anzeigt, dass eine Zelle keinen Eintrag enthält. Wo genau liegt nun der Unterschied?
 In vielen Situationen müssen alle Text- oder Zahlen-Einträge auf einmal bearbeitet werden, etwa um Nachkommastellen hinzuzufügen. In solchen Fällen sollten leere Einträge i.d.R. übersprungen werden, weshalb der Import von leeren Einträgen als *Nulls* in den meisten Fällen sinnvoll ist – so auch hier. 
 
 **Store file source & Store archive file**

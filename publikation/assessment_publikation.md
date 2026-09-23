@@ -116,7 +116,7 @@ true_false2 = [{
         {
             "answer": "Richtig",
             "correct": True,
-            "feedback": """✓ Korrekt: In der Regel hat man es mit heterogenen Material zu tun, wie schriftliche und bildliche Quellen oder Materialsammlungen."""
+            "feedback": """✓ Korrekt: In der Regel hat man es mit heterogenem Material zu tun, wie schriftliche und bildliche Quellen oder Materialsammlungen."""
         },
         {
             "answer": "Falsch",
@@ -566,7 +566,7 @@ multiple_choice10 = [{
         {
             "answer": "Messdaten und Daten aus Experimenten unterliegen grundsätzlich dem Urheberrecht.",
             "correct": False,
-            "feedback": """x Falsch: Daten aus Experimenten und Messdaten unterliegen nicht dem Urheberrecht."""
+            "feedback": """× Falsch: Daten aus Experimenten und Messdaten unterliegen nicht dem Urheberrecht."""
         },
         {
             "answer": "Qualitative Forschungsdaten sind oft urheberrechtlich geschützt.",

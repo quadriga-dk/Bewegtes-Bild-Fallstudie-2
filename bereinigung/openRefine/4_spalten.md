@@ -15,7 +15,7 @@ Schritte in der Datenbereinigung sind immer mit Interpretationsprozessen verbund
 ## Löschen von Spalten
 
 Ein häufiges Problem in unbereinigten Datensätzen sind Spalten, die etwa
-- immer den selben Eintrag,
+- immer denselben Eintrag,
 - keine oder wenige Einträge,
 - oder Einträge aus Eingabefehlern
 
@@ -61,9 +61,9 @@ Dieses *Re-order / Remove columns* Menü wird über das Dropdown-Menü der Spalt
 align: center
 width: 50%
 name: reorder_columns_1
-alt: Die Schritte zum Öffnen des Menüs Re-oder / remove columns
+alt: Die Schritte zum Öffnen des Menüs Re-order / Remove columns
 ---
-Die Schritte zum Öffnen des Menüs *Re-oder / remove columns*
+Die Schritte zum Öffnen des Menüs *Re-order / Remove columns*
 ```
 Hier können die Spalten per *Drag-and-Drop* umgeordnet und mittels der Ablage auf der rechten Seite gelöscht werden. 
 
@@ -72,9 +72,9 @@ Hier können die Spalten per *Drag-and-Drop* umgeordnet und mittels der Ablage a
 align: center
 width: 75%
 name: reorder_columns_2
-alt: Das Menü Re-oder / Remove columns
+alt: Das Menü Re-order / Remove columns
 ---
-Das Menü *Re-oder / Remove columns*
+Das Menü *Re-order / Remove columns*
 ```
 
 ## Undo / Redo für reproduzierbare Arbeitsschritte
@@ -101,7 +101,7 @@ Die *Undo / Redo* Liste
 
 Mit Klick auf einen vorherigen Schritt in der Liste kann zu einem früheren Arbeitsstand zurückgekehrt werden. In OpenRefine ist damit kein Wiederholen von *STRG Z* und *STRG Y* nötig wie man es aus anderen Programmen kennt.
 
-Außerdem lassen sich über das Feld *Extract* die aufgelisteten  Arbeitsschritte im *JSON* Format extrahieren:
+Außerdem lassen sich über das Feld *Extract* die aufgelisteten Arbeitsschritte im *JSON* Format extrahieren:
 
 ```{figure} ../../assets/bereinigung/openRefine/spalten/undoRedo_extractButton.png
 ---
@@ -149,7 +149,7 @@ alt: Das Fenster zur Anwendung von Arbeitsschritten
 Das Fenster zur Anwendung von Arbeitsschritten 
 ```
 
-Neben der Übertragung von Arbeitsschritten auf andere Projekte ist diese Funktion besonders praktisch, um nachträglich an einem vorherigen Arbeitsstands des Projekts eine Änderung vorzunehmen und anschließend die später erfolgten Schritte erneut anzuwenden. 
+Neben der Übertragung von Arbeitsschritten auf andere Projekte ist diese Funktion besonders praktisch, um nachträglich an einem vorherigen Arbeitsstand des Projekts eine Änderung vorzunehmen und anschließend die später erfolgten Schritte erneut anzuwenden. 
 
 ## Übung Löschen einer zusätzlichen Spalte
 
@@ -184,7 +184,7 @@ Grundsätzlich sollte jedoch im Sinne der Auswertung des Datensatzes mit digital
 
 Beim Übungsdatensatz tritt dieses Problem bei den drei Spalten *Verlag*, *Schlagwort* und *Stichwort* auf. *OpenRefine* bietet glücklicherweise eine einfache Lösung, da die einzelnen Einträge innerhalb der Zellen durch Trennzeichen wie in einer Liste voneinander abgegrenzt sind, etwa "*Kollektiv Bild und Ton Potsdam ; Atelier für Dokumentar-Film Babelsberg*" in der Spalte *Verlag*. Entlang des Semikolons lassen sich hier die Einträge voneinander unterscheiden. 
 
-Für das Aufteilen der Mehrfach-Einträge in einer Spalte gehen Sie nun folgendermaßen vor. Öffnen Sie das Dropdown-Menü der aufzuteilenden Spalte und wähle sie im Reiter *Edit column* die erste Option *Split into several columns* aus. 
+Für das Aufteilen der Mehrfach-Einträge in einer Spalte gehen Sie nun folgendermaßen vor. Öffnen Sie das Dropdown-Menü der aufzuteilenden Spalte und wählen Sie im Reiter *Edit column* die erste Option *Split into several columns* aus. 
 
 ```{figure} ../../assets/bereinigung/openRefine/spalten/split_column_1.png
 ---
@@ -207,7 +207,7 @@ alt: Das Menü zum Aufteilen von Spalten
 ---
 Das Menü zum Aufteilen von Spalten
 ```
-Klicken Sie auf *OK*, nachdem sie die richtigen Einstellungen vorgenommen haben. Nun sollten zwei neue Spalten *Verlag 1* und *Verlag 2* erstellt werden. 
+Klicken Sie auf *OK*, nachdem Sie die richtigen Einstellungen vorgenommen haben. Nun sollten zwei neue Spalten *Verlag 1* und *Verlag 2* erstellt werden. 
 
 ```{figure} ../../assets/bereinigung/openRefine/spalten/split_column_3.png
 ---
@@ -251,7 +251,7 @@ Wählen Sie nun in der aufzuteilenden Spalte aus dem Dropdown-Menü im Reiter *E
 
 Die neu entstandenen Spalten enthalten Leerzeichen in ihrer Benennung, die zu Problemen bei der Verarbeitung des Datensatzes in anderen Programmen führen können. Wählen Sie *Rename this column* über das Dropdown-Menü der umzubenennenden Spalte und dort den Reiter *Edit columns* aus und ersetzen Sie die Leerzeichen im Spaltennamen durch Unterstriche (siehe {numref}`rename`).
 
-Vielleicht ist Ihnen bereits aufgefallen, dass sich die Spalte *Stichwort* nicht auf die selbe Weise aufteilen lässt, da sie neben dem Semikolon auch andere Trennzeichen enthält. Im nächsten Kapitel erfahren Sie, wie Sie auch dieses Problem lösen können. 
+Vielleicht ist Ihnen bereits aufgefallen, dass sich die Spalte *Stichwort* nicht auf dieselbe Weise aufteilen lässt, da sie neben dem Semikolon auch andere Trennzeichen enthält. Im nächsten Kapitel erfahren Sie, wie Sie auch dieses Problem lösen können. 
 
 ```
 ````

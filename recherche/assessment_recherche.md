@@ -108,8 +108,8 @@ create_answer_box('Assessment-1')
 :class: solution, dropdown
 
 **1. Datenbankauswahl:**
-- Auswahl „Erweiterte Suche" auf der OPAC-Startseite
-- Auswahl "Archivkatalog" im Dropdown-Menü „Datenbank"
+- Auswahl „Erweiterte Suche“ auf der OPAC-Startseite
+- Auswahl "Archivkatalog" im Dropdown-Menü „Datenbank“
 
 **2. Zeitraumeingrenzung:**
 - Eingabe "1990->1999" im Jahr-Feld
@@ -207,7 +207,7 @@ quiz.create_matching_quiz(
 
 ## Aufgabe 5
 
-Vergleichen Sie die Herangehensweise dieser Fallstudie („Studentische Filme der Filmuniversität zur Wendezeit") mit einer hypothetischen Studie zu "Studentischen Filmen während der COVID-19-Pandemie (2020–2022)". Analysieren Sie:
+Vergleichen Sie die Herangehensweise dieser Fallstudie („Studentische Filme der Filmuniversität zur Wendezeit“) mit einer hypothetischen Studie zu "Studentischen Filmen während der COVID-19-Pandemie (2020–2022)". Analysieren Sie:
 
 1. Ähnlichkeiten in der Methodik
 2. Unterschiede in den Herausforderungen

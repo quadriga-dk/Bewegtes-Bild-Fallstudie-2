@@ -19,7 +19,6 @@ lang: de-DE
 <td><b>Website:</b></td>
 <td><a href="https://www.filmuniversitaet.de/portrait/person/thomas-schick" class="external-link" target="_blank">Mitarbeiter-Seite Filmuniversität</a></td>
 </tr>
-<tr>
 </table>
 
 ### Marco Winter <a href="https://orcid.org/0009-0000-0239-9682" target="_blank"><img src="../assets/ORCID-iD_icon_24x24.png" alt="ORCID"></a>
@@ -36,7 +35,6 @@ lang: de-DE
 <td><b>Website:</b></td>
 <td><a href="https://www.filmuniversitaet.de/portrait/person/marco-winter" class="external-link" target="_blank">Seite Filmuniversität</a></td>
 </tr>
-<tr>
 </table>
 
 ### Skadi Loist <a href="https://orcid.org/0000-0002-8299-4103" target="_blank"><img src="../assets/ORCID-iD_icon_24x24.png" alt="ORCID"></a>
@@ -51,7 +49,7 @@ lang: de-DE
 </tr>
 <tr>
 <td><b>Website:</b></td>
-<td><a href="https://www.ntnu.edu/employees/skadi.loist" class="external-link" target="_blank">Mitarbeiter:innen-Seite Norwegian University for Science and Technology (NTNU)</td>
+<td><a href="https://www.ntnu.edu/employees/skadi.loist" class="external-link" target="_blank">Mitarbeiter:innen-Seite Norwegian University for Science and Technology (NTNU)</a></td>
 </tr>
 </table>
 
@@ -67,12 +65,12 @@ lang: de-DE
 </tr>
 <tr>
 <td><b>Website:</b></td>
-<td><a href="https://www.filmuniversitaet.de/portrait/person/lena-gieseke" class="external-link" target="_blank">Mitarbeiterinnen-Seite Filmuniversität</td>
+<td><a href="https://www.filmuniversitaet.de/portrait/person/lena-gieseke" class="external-link" target="_blank">Mitarbeiterinnen-Seite Filmuniversität</a></td>
 </tr>
 </table>
 
 
-## sonstige beteiligte Personen
+## Sonstige beteiligte Personen
 
 ### Hannes Schnaitter <span style="font-size:8pt">(er/ihm/sein)</span> <a href="https://orcid.org/0000-0002-1602-6032" target="_blank"><img src="../assets/ORCID-iD_icon_24x24.png" alt="ORCID"></a>
 
@@ -107,7 +105,7 @@ lang: de-DE
 </tr>
 <tr>
 <td><b>Website:</b></td>
-<td><a href="https://www.uni-potsdam.de/de/multimedia/team/wissenschaftliches-personal/evgenia-samoilova-phd" class="external-link" target="_blank">Mitarbeiterinnen-Seite Universität Potsdam</td>
+<td><a href="https://www.uni-potsdam.de/de/multimedia/team/wissenschaftliches-personal/evgenia-samoilova-phd" class="external-link" target="_blank">Mitarbeiterinnen-Seite Universität Potsdam</a></td>
 </tr>
 <tr>
 <td><b>GitHub:</b></td>

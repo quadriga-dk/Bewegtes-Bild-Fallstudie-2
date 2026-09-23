@@ -39,7 +39,7 @@ Auch hier ist die Verbindung und das Zusammendenken mit _qualitativen Vorgehensw
 
 ## Auteurtheorie
 
-Eine weitere Perspektive bietet eine Untersuchung die sich an der **Auteurtheorie** orientiert. Untersucht werden hierfür z.B. wiederkehrenden charakteristischen Merkmalen im Oeuvre von einzelnen Regisseur:innen:
+Eine weitere Perspektive bietet eine Untersuchung, die sich an der **Auteurtheorie** orientiert. Untersucht werden hierfür z.B. wiederkehrende charakteristische Merkmale im Oeuvre von einzelnen Regisseur:innen:
 - welche stilistischen Muster (Montage, Kamera, Farbgestaltung etc.) treten in Werken von Filmemacher:innen wiederholt auf?
 - existieren wiederkehrende Themen und Motive?
 - wiederholen sich bestimmte Narrationsmuster?
@@ -59,7 +59,7 @@ Kritiken und Kommentare können in Bezug auf das Auftreten von bestimmten Wörte
 
 ## Produktion
 
-Bei **Produktionstechnischen Fragestellungen** sind quantitative Aspekte ebenfalls nützlich:
+Bei **produktionstechnischen Fragestellungen** sind quantitative Aspekte ebenfalls nützlich:
 - Welche filmischen Gewerke waren mit welchen Personen an der Produktion des Films beteiligt?
 - Welche Personen haben wiederholt bei Filmprojekten zusammengearbeitet?
 - Welche Budgets standen zur Verfügung?
@@ -73,15 +73,15 @@ Aus der **historisch orientierten Perspektive** ergeben sich u.a. folgende Ansat
 - Welche Art von Übungen und Abschlussarbeiten sind entstanden und verändert sich dies im Laufe der Zeit?
 - Welche Themen und Motive sind erkennbar?
 
-Die Ergebnisse der Auswertung studentischer Filme hinsichtlich dieser Fragestellungen müssen wiederum in den jeweiligen kulturellen und (hochschul)politischen Kontext der Zeit gestellt werden. Zu untersuchen wäre etwa, welche Lehrende wie potenziell Einfluss auf die Filmwerke der Studierenden genommen haben, wie sich der geltende Lehrplan auf die Filme auswirkt oder wie sich aktuelle gesellschaftliche Themen in den Filmen spiegeln. Für diese Untersuchung müssen weitere Institutionen und Archive einbezogen werden, die z.B. Verwaltungsakten der Hochschule für Film und Fernsehen (HFF) Potsdam, deren Lehrpläne oder Nachlässe von Lehrenden verwahren.
+Die Ergebnisse der Auswertung studentischer Filme hinsichtlich dieser Fragestellungen müssen wiederum in den jeweiligen kulturellen und (hochschul)politischen Kontext der Zeit gestellt werden. Zu untersuchen wäre etwa, welche Lehrenden wie potenziell Einfluss auf die Filmwerke der Studierenden genommen haben, wie sich der geltende Lehrplan auf die Filme auswirkt oder wie sich aktuelle gesellschaftliche Themen in den Filmen spiegeln. Für diese Untersuchung müssen weitere Institutionen und Archive einbezogen werden, die z.B. Verwaltungsakten der Hochschule für Film und Fernsehen (HFF) Potsdam, deren Lehrpläne oder Nachlässe von Lehrenden verwahren.
 
 ## Aspekte für die Fallstudie
-Wie deutlich geworden sein sollte stehen diese Perspektiven nicht allein oder schließen sich gegenseitig aus, sondern _überlagern und überschneiden_ sich vielmehr. Neben den aufgeführten möglichen Perspektiven und mit ihnen verbundenen Aspekten und Fragestellungen sind zahlreiche weitere möglich.
+Wie deutlich geworden sein sollte, stehen diese Perspektiven nicht allein oder schließen sich gegenseitig aus, sondern _überlagern und überschneiden_ sich vielmehr. Neben den aufgeführten möglichen Perspektiven und mit ihnen verbundenen Aspekten und Fragestellungen sind zahlreiche weitere möglich.
 
 ```{admonition} Aufgliederung der Fragestellung
 :class: keypoint
 
-Aufbauend auf den Erkenntnissen aus der Korpusbildung, der Recherche im Bibliothekskatalog und den ersten Sichtungen exemplarischer Filme (siehe Kapitel [Materialrecherche](material)) bieten sich für eine weitere Bearbeitung der grundlegenden Fragestellung der Fallstudie u.a. folgenden Teilfragen an.  Diese sind auf _die Erfassung von quantitativen Aspekten_ auf der Grundlage der filmografischen Angaben, also den Metadaten aus dem Katalog, ausgerichtet:
+Aufbauend auf den Erkenntnissen aus der Korpusbildung, der Recherche im Bibliothekskatalog und den ersten Sichtungen exemplarischer Filme (siehe Kapitel [Materialrecherche](material)) bieten sich für eine weitere Bearbeitung der grundlegenden Fragestellung der Fallstudie u.a. folgenden Teilfragen an. Diese sind auf _die Erfassung von quantitativen Aspekten_ auf der Grundlage der filmografischen Angaben, also den Metadaten aus dem Katalog, ausgerichtet:
 - Wie viele Filme sind zu welchen Zeitpunkten entstanden?
 - Welchen Gattungen (Spielfilm, Dokumentarfilm, Animationsfilm) können diese Filme zugeordnet werden?
 - Welchen Projektarten (Übung, Diplomfilm etc.) werden die Filme zugeordnet?
@@ -90,7 +90,7 @@ Aufbauend auf den Erkenntnissen aus der Korpusbildung, der Recherche im Biblioth
 - Welche Wort(felder) treten in den Beschreibungen zu den Filmen auf? Ergibt sich eine auffällige zeitliche Verteilung?
 ```
 
-Steigt die Anzahl der im Katalog verzeichneten Titel zur Wendezeit kann dies darauf hindeuten, dass mehr studentische Filme produziert wurden und sich diese Arbeiten speziell den Ereignissen dieser Umbruchsjahre widmen. Interessant wäre u.a. auch zu untersuchen, ob um die Wendezeit 1989 verstärkt dokumentarische Arbeiten entstanden sind, um die gesellschaftlichen und politischen Veränderungen festzuhalten. Eine erhöhte Anzahl bestimmter Projektarten wie Übungen könnte darauf hindeuten, das diese besonders geeignet waren, spontan auf das politische Geschehen zu reagieren und dieses filmisch einzufangen. Anhand der erfassten _Stichworte_ und _Schlagworte_, die bei der Katalogisierung der Filme vergeben wurden, und der _Wortfelder_ in Beschreibungstexten sowie den Titeln kann z.B. versucht werden, Rückschlüsse auf bestimmte in den Filmen verhandelte Themen zu ziehen: Treten bestimmte Wörter oder Wortgruppen auf, die auf Themen hindeuten (wie Wende, Mauer, Grenze etc.)? 
+Steigt die Anzahl der im Katalog verzeichneten Titel zur Wendezeit, kann dies darauf hindeuten, dass mehr studentische Filme produziert wurden und sich diese Arbeiten speziell den Ereignissen dieser Umbruchsjahre widmen. Interessant wäre u.a. auch zu untersuchen, ob um die Wendezeit 1989 verstärkt dokumentarische Arbeiten entstanden sind, um die gesellschaftlichen und politischen Veränderungen festzuhalten. Eine erhöhte Anzahl bestimmter Projektarten wie Übungen könnte darauf hindeuten, dass diese besonders geeignet waren, spontan auf das politische Geschehen zu reagieren und dieses filmisch einzufangen. Anhand der erfassten _Stichworte_ und _Schlagworte_, die bei der Katalogisierung der Filme vergeben wurden, und der _Wortfelder_ in Beschreibungstexten sowie den Titeln kann z.B. versucht werden, Rückschlüsse auf bestimmte in den Filmen verhandelte Themen zu ziehen: Treten bestimmte Wörter oder Wortgruppen auf, die auf Themen hindeuten (wie Wende, Mauer, Grenze etc.)? 
 
 ````{margin} 
 ```{admonition} Hinweis

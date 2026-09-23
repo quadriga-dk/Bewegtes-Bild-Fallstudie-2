@@ -19,11 +19,11 @@ Sie können sich zudem im <a href="https://forum.openrefine.org/c/community" cla
 
 ```{admonition} OpenRefine Versionen
 :class: keypoint
-Für diese OER wurde die zum Zeitpunkt derer Erstellung aktuelle *OpenRefine* Version **3.9.3** vom **17.04.2025** verwendet. Ältere und neuere Versionen weisen ggf. Unterschiede bei der Arbeitsoberfläche und bei den Funktionalitäten auf. Sie finden sämtliche Versionen von *OpenRefine* <a href="https://github.com/OpenRefine/OpenRefine/releases" class="external-link" target="_blank">im GitHub Repositorium des Projekts</a>. 
+Für diese OER wurde die zum Zeitpunkt deren Erstellung aktuelle *OpenRefine* Version **3.9.3** vom **17.04.2025** verwendet. Ältere und neuere Versionen weisen ggf. Unterschiede bei der Arbeitsoberfläche und bei den Funktionalitäten auf. Sie finden sämtliche Versionen von *OpenRefine* <a href="https://github.com/OpenRefine/OpenRefine/releases" class="external-link" target="_blank">im GitHub Repositorium des Projekts</a>. 
 ```
 ## Installation
 
-*OpenRefine* kann von der <a href="https://openrefine.org/download" class="external-link" target="_blank">Website des Projekts</a> heruntergeladen werden. Die Software wird lokal installiert, aber ähnlich wie die Office Produkte von *Google* über einen Browser ausgeführt. Als lokaler Webserver benötigt das Programm dabei keine aktive Internetverbindung. Unterstützt werden WebKit basierte Browser wie etwa
+*OpenRefine* kann von der <a href="https://openrefine.org/download" class="external-link" target="_blank">Website des Projekts</a> heruntergeladen werden. Die Software wird lokal installiert, aber ähnlich wie die Office Produkte von *Google* über einen Browser ausgeführt. Als lokaler Webserver benötigt das Programm dabei keine aktive Internetverbindung. Unterstützt werden WebKit-basierte Browser wie etwa
 
 - Google Chrome
 - Chromium
@@ -40,7 +40,7 @@ Auch bei den offiziell unterstützen Browsern kann es zu Fehlermeldungen oder Bu
 
 Nach der Installation kann *OpenRefine* gestartet werden. Es öffnet sich ein Terminal-Fenster (bzw. ein Anwendungsindikator im macOS Dock), das für die eigentliche Arbeit mit dem Programm nicht relevant ist, jedoch geöffnet bleiben muss. Die Benutzeroberfläche von *OpenRefine* wird über die Server-Adresse <a href="http://127.0.0.1:3333/" class="external-link" target="_blank">http://127.0.0.1:3333/</a> in einem Tab des Browsers geöffnet, beim Start des Programms geschieht dies in der Regel automatisch. 
 
-Zum Beenden von *OpenRefine* schließen Sie zunächst alle Tabs des Browsers in denen das Programm ausgeführt wird. Anschließen klicken Sie bei Windows auf das geöffnete Terminal-Fenster und schließen dieses mit der Tasenkombibation `Strg` + `C`. Unter macOS schließen Sie *OpenRefine*, indem Sie es im Dock auswählen und mit `cmd` + `Q` beenden. Durch diese Art des Beendens des Programms wird gewährleistet, dass alle Änderungen die mit *OpenRefine* durchgeführt wurden auch sicher abgespeichert werden.
+Zum Beenden von *OpenRefine* schließen Sie zunächst alle Tabs des Browsers in denen das Programm ausgeführt wird. Anschließend klicken Sie bei Windows auf das geöffnete Terminal-Fenster und schließen dieses mit der Tastenkombination `Strg` + `C`. Unter macOS schließen Sie *OpenRefine*, indem Sie es im Dock auswählen und mit `cmd` + `Q` beenden. Durch diese Art des Beendens des Programms wird gewährleistet, dass alle Änderungen die mit *OpenRefine* durchgeführt wurden auch sicher abgespeichert werden.
 
 Zusätzliche Informationen zur Installationen und den Systemvoraussetzungen finden Sie auf <a href="https://openrefine.org/docs/manual/installing" class="external-link" target="_blank">dieser Seite der OpenRefine Dokumentation</a>.
 
