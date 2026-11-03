@@ -12,8 +12,8 @@ authorLIST:
 - familyName: Loist
   givenName: Skadi
   orcid: https://orcid.org/0000-0002-8299-4103
-  affiliation: Filmuniversität Babelsberg KONRAD WOLF / Norwegian University for Science and Technology
-    (NTNU)
+  affiliation: Filmuniversität Babelsberg KONRAD WOLF / Norwegian University for Science
+    and Technology (NTNU)
 - familyName: Gieseke
   givenName: Lena
   orcid: https://orcid.org/0000-0001-8421-103X
@@ -28,21 +28,28 @@ keywordLIST:
 - de: OpenRefine
 - de: Datenvisualisierung
 - de: Datenpublikation
-description: Diese Open Educational Resource (OER) stellt anhand einer Fallstudie dar, wie für die Bearbeitung
-  einer filmwissenschaftlichen Fragestellung digitale Verfahren eingesetzt werden können. Es werden studentische
-  Filme der Filmuniversität Babelsberg KONRAD WOLF aus den Jahren 1985 bis 1999 untersucht. Dabei wird
-  herausgearbeitet, welche Veränderungen sich bei den Filmen aus diesem Zeitraum erkennen lassen. Im Mittelpunkt
-  stehen Metadaten und filmografische Angaben zu den Filmen, Prozesse der Datenbereinigung mit OpenRefine
-  und Möglichkeiten der Datenvisualisierung.
-tableOfContents: |-
-  - Einstieg
+description: Diese Open Educational Resource (OER) stellt anhand einer Fallstudie
+  dar, wie für die Bearbeitung einer filmwissenschaftlichen Fragestellung digitale
+  Verfahren eingesetzt werden können. Es werden studentische Filme der Filmuniversität
+  Babelsberg KONRAD WOLF aus den Jahren 1985 bis 1999 untersucht. Dabei wird herausgearbeitet,
+  welche Veränderungen sich bei den Filmen aus diesem Zeitraum erkennen lassen. Im
+  Mittelpunkt stehen Metadaten und filmografische Angaben zu den Filmen, Prozesse
+  der Datenbereinigung mit OpenRefine und Möglichkeiten der Datenvisualisierung.
+tableOfContents: '- Einstieg
+
   - Digital Humanities und Filmwissenschaft
+
   - Vorarbeiten und Recherche
+
   - Datenerhebung und Datenbereinigung
+
   - Datenauswertung und Datenvisualisierung
+
   - Datenpublikation
+
   - Zusammenfassung und Reflexion
-  - Abschluss
+
+  - Abschluss'
 disciplineLIST:
 - Digital Humanities
 researchObjectTypeLIST:
@@ -72,8 +79,8 @@ identifierGit: https://github.com/quadriga-dk/Bewegtes-Bild-Fallstudie-2
 identifierOER: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/
 chapterLIST:
 - title: Einstieg
-  description: Einstieg der Fallstudie zu studentischen Filmen. Gibt grundlegende Informationen zu Lernzielen,
-    Voraussetzungen und Vorkenntnissen.
+  description: Einstieg der Fallstudie zu studentischen Filmen. Gibt grundlegende
+    Informationen zu Lernzielen, Voraussetzungen und Vorkenntnissen.
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/einstieg/toc.html
   timeRequired: PT10M
   learningGoal: Verständnis der Lernziele des Buchs
@@ -83,27 +90,30 @@ chapterLIST:
     dataFlow: übergreifend
     bloomsCategory: 1 Erinnern
 - title: Digital Humanities und Filmwissenschaft
-  description: Im folgenden Kapitel werden einige Grundzüge der Digital Humanities und deren Rolle in
-    der Filmwissenschaft vorgestellt. Dadurch sollen Grundlagen für das Verständnis der Fallstudie gelegt
-    werden, auf die sich die vorliegende Open Educational Resource bezieht.
+  description: Im folgenden Kapitel werden einige Grundzüge der Digital Humanities
+    und deren Rolle in der Filmwissenschaft vorgestellt. Dadurch sollen Grundlagen
+    für das Verständnis der Fallstudie gelegt werden, auf die sich die vorliegende
+    Open Educational Resource bezieht.
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/einleitung/toc.html
   timeRequired: PT45M
   learningGoal: Grundzüge der Digital Humanities und deren Rolle in der Filmwissenschaft
   learningObjectiveLIST:
-  - description: Verschiedene Definitionsansätze und Arbeitsbereiche der Digital Humanities können unterschieden
-      werden.
+  - description: Verschiedene Definitionsansätze und Arbeitsbereiche der Digital Humanities
+      können unterschieden werden.
     competency: Orientierungswissen
     dataFlow: übergreifend
     bloomsCategory: 1 Erinnern
 - title: Vorarbeiten und Recherche
-  description: Das zu untersuchende Filmkorpus wird durch eine Materialrecherche zur Forschungsfrage eingegrenzt.
-    Es wird definiert, was unter filmografischen Angaben bzw. Metadaten zu verstehen ist und erläutert,
-    auf welche Weise die Fragestellung operationalisiert werden kann.
+  description: Das zu untersuchende Filmkorpus wird durch eine Materialrecherche zur
+    Forschungsfrage eingegrenzt. Es wird definiert, was unter filmografischen Angaben
+    bzw. Metadaten zu verstehen ist und erläutert, auf welche Weise die Fragestellung
+    operationalisiert werden kann.
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/recherche/toc.html
   timeRequired: PT1H30M
   learningGoal: Schritte zur Findung einer Fragestellung
   learningObjectiveLIST:
-  - description: Das Vorgehen bei der Materialrecherche kann beschrieben und angewendet werden.
+  - description: Das Vorgehen bei der Materialrecherche kann beschrieben und angewendet
+      werden.
     competency: 1.1 Identifikation
     dataFlow: 1 Planung
     bloomsCategory: 1 Erinnern
@@ -120,8 +130,9 @@ chapterLIST:
     dataFlow: 1 Planung
     bloomsCategory: 3 Anwenden
 - title: Datenerhebung und Datenbereinigung
-  description: Die Rolle von Datenmodellen und einer guten Datenstruktur wird erläutert. Eine Datenquelle
-    wird analysiert und die Bereinigung eines Datensatzes mit dem Open Source Tool OpenRefine dargelegt.
+  description: Die Rolle von Datenmodellen und einer guten Datenstruktur wird erläutert.
+    Eine Datenquelle wird analysiert und die Bereinigung eines Datensatzes mit dem
+    Open Source Tool OpenRefine dargelegt.
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/bereinigung/toc.html
   timeRequired: PT2H
   learningGoal: Prozess der Datenerhebung und Datenbereinigung
@@ -130,7 +141,8 @@ chapterLIST:
     competency: 2.2 Validierung
     dataFlow: 2 Erhebung und Aufbereitung
     bloomsCategory: 1 Erinnern
-  - description: Die Fähigkeit zur Beschreibung und Analyse einer Datenquelle wird erworben.
+  - description: Die Fähigkeit zur Beschreibung und Analyse einer Datenquelle wird
+      erworben.
     competency: 2.2 Validierung
     dataFlow: 2 Erhebung und Aufbereitung
     bloomsCategory: 4 Analysieren
@@ -139,31 +151,32 @@ chapterLIST:
     dataFlow: 2 Erhebung und Aufbereitung
     bloomsCategory: 3 Anwenden
 - title: Datenauswertung und Datenvisualisierung
-  description: Es werden theoretische Grundlagen der Datenvisualisierung geklärt und mit Microsoft Excel
-    Visualisierungen zu einem Beispieldatensatz erstellt.
+  description: Es werden theoretische Grundlagen der Datenvisualisierung geklärt und
+    mit Microsoft Excel Visualisierungen zu einem Beispieldatensatz erstellt.
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/auswertung/toc.html
   timeRequired: PT1H40M
-  learningGoal: Datenauswertung und Datenvisualisierung mithilfe digitaler Ansätze und Werkzeuge
+  learningGoal: Datenauswertung und Datenvisualisierung mithilfe digitaler Ansätze
+    und Werkzeuge
   learningObjectiveLIST:
   - description: Die Grundlagen der Datenvisualisierung können beschrieben werden.
     competency: 4.2 Visualisierung
     dataFlow: 4 Analyse
     bloomsCategory: 1 Erinnern
-  - description: Die Schritte bei der Datenvisualisierung und Datenauswertung können anhand exemplarischer
-      Beispiele dargestellt werden.
+  - description: Die Schritte bei der Datenvisualisierung und Datenauswertung können
+      anhand exemplarischer Beispiele dargestellt werden.
     competency: 4.2 Visualisierung
     dataFlow: 4 Analyse
     bloomsCategory: 1 Erinnern
 - title: Datenpublikation
-  description: Es wird auf den Stand des Forschungsdatenmanagement in der Filmwissenschaft und mögliche
-    Problemfelder bei der Datenpublikation eingegangen. Ein besonderes Augenmerk liegt auf den rechtlichen
-    Rahmenbedingungen.
+  description: Es wird auf den Stand des Forschungsdatenmanagement in der Filmwissenschaft
+    und mögliche Problemfelder bei der Datenpublikation eingegangen. Ein besonderes
+    Augenmerk liegt auf den rechtlichen Rahmenbedingungen.
   url: https://quadriga-dk.github.io/Bewegtes-Bild-Fallstudie-2/publikation/toc.html
   timeRequired: PT1H20M
   learningGoal: Grundlagen für die Publikation von Forschungsdaten
   learningObjectiveLIST:
-  - description: Die Grundzüge des Forschungsdatenmanagements in der Filmwissenschaft können umrissen
-      werden.
+  - description: Die Grundzüge des Forschungsdatenmanagements in der Filmwissenschaft
+      können umrissen werden.
     competency: Orientierungswissen
     dataFlow: übergreifend
     bloomsCategory: 1 Erinnern
@@ -171,8 +184,8 @@ chapterLIST:
     competency: 5.2 Datenpublikation
     dataFlow: 5 Publikation und Nachnutzung
     bloomsCategory: 1 Erinnern
-  - description: Die Problemfelder und rechtliche Voraussetzungen bei der Datenpublikation können erläutert
-      werden.
+  - description: Die Problemfelder und rechtliche Voraussetzungen bei der Datenpublikation
+      können erläutert werden.
     competency: 1.3 Ethik und Recht
     dataFlow: 1 Planung
     bloomsCategory: 2 Verstehen
@@ -182,17 +195,19 @@ chapterLIST:
   timeRequired: PT15M
   learningGoal: Zusammenfassung und Reflexion der erlernten Inhalte
   learningObjectiveLIST:
-  - description: Die erlernten Inhalte können zusammengefasst und kritisch betrachtet werden.
+  - description: Die erlernten Inhalte können zusammengefasst und kritisch betrachtet
+      werden.
     competency: nicht anwendbar
     dataFlow: nicht anwendbar
     bloomsCategory: 5 Bewerten
 dateIssued: '2025-06-03'
 dateModified: '2026-04-14'
 version: 1.0.0
-contextOfCreation: |-
-  Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
+contextOfCreation: 'Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum
+  QUADRIGA erstellt.
 
-  Förderkennzeichen: 16DKZ2034
+
+  Förderkennzeichen: 16DKZ2034'
 qualityAssurance:
   description: https://doi.org/10.5281/zenodo.18953896
   date: '2026-04-14'
