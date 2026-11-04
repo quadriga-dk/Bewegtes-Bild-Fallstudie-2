@@ -32,7 +32,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```{literalinclude} /CITATION.bib
 :language: bibtex
 ```
-Schick, T., Winter, M., Loist, S. & Gieseke, L. (2026). _Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985–1999)_. https://doi.org/10.5281/zenodo.19571422
+Schick, T., Winter, M., Loist, S. & Gieseke, L. (2026). _Studentische Filme an der Filmuniversität Babelsberg zur Wendezeit (1985–1999). QUADRIGA Open Educational Resources: Bewegtes Bild 2_. https://doi.org/10.5281/zenodo.19571422
 
 ````
 `````
