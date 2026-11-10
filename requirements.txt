@@ -323,7 +323,7 @@ sphinx-inline-tabs==2025.12.21.14
     # via -r requirements.in
 sphinx-jupyterbook-latex==1.0.0
     # via jupyter-book
-sphinx-last-updated-by-git @ git+https://github.com/TeachBooks/sphinx-last-updated-by-git@999e82971daa4c6303fbe37a69e21e4c36aa66bf
+sphinx-last-updated-by-git @ git+https://github.com/TeachBooks/sphinx-last-updated-by-git@999e829
     # via teachbooks-favourites
 sphinx-launch-buttons==1.0.7
     # via teachbooks-favourites
@@ -343,7 +343,7 @@ sphinx-proof==0.4.0
     #   teachbooks-favourites
 sphinx-sticky-margin==1.1.4
     # via teachbooks-favourites
-sphinx-thebe @ git+https://github.com/TeachBooks/Sphinx-Thebe@1f3a80969622b7d63f48f05d8769f5cb933202a0
+sphinx-thebe @ git+https://github.com/TeachBooks/Sphinx-Thebe@1f3a809
     # via
     #   jupyter-book
     #   teachbooks-favourites
