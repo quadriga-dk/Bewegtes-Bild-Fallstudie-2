@@ -16,7 +16,7 @@ import sys
 sys.path.append("..")
 from quadriga import colors
 ```
-# 🏆Selbsttest: Wissen und Praxis
+# 🏆 Selbsttest: Wissen und Praxis
 
 ````{admonition} Wie nutze ich den Selbsttest?
 :class: hinweis, dropdown
@@ -121,7 +121,7 @@ create_answer_box('Assessment-1')
 
 **4. Erste Ergebnisbewertung:**
 - Interpretation der Trefferanzahl
-- Mehrfachkatalogisierung reflektieren (Anzahl der Such-Treffer muss nicht der Anzahl der vorhandenen Titel entsprechen)
+- Mehrfachkatalogisierung reflektieren (Anzahl der Suchtreffer muss nicht der Anzahl der vorhandenen Titel entsprechen)
 - Einschätzung der Materialmenge für die Fragestellung: sind genug Titel im Archiv vorhanden
 
 **5. Verfeinerte Suchstrategien:**

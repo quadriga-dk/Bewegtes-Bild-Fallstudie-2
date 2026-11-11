@@ -143,7 +143,7 @@ Bitte beachten Sie: Aus der _Liste aller Schlagworte alphabetisch_ (Zugang über
 align: left
 width: 100%
 name: opac_suche_Spielfilm
-alt: Darstellung der Anzeige Suche nach Schlagwort Spielfilm. Anzahl der Treffer ist 258.
+alt: Darstellung der Anzeige Suche nach Schlagwort Spielfilm. Anzahl der Treffer ist 268.
 ---
 Anzeige der Suche nach Schlagwort "Spielfilm"
 ```
@@ -177,7 +177,7 @@ Aus der Recherche im Bibliothekskatalog hat sich ein erster grober Überblick ü
 
 ### Auswahl der Filme
 
-Im nächsten Schritt werden wir einige exemplarische Filme sichten. Ziel der Sichtung ist es, einen ersten Eindruck von deren Gestaltungsweisen, Eigenheiten und möglichen Auffälligkeiten zu erlangen und daraufhin die Fragestellung verfeinern zu können. Für die Auswahl der Filme, die vom Forschungsteam der Fallstudie gemeinsam in einem Kinoraum angesehen und diskutiert werden sollen, greifen wir wiederum auf die Recherchemöglichkeiten im Bibliothekskatalog zurück. Gemäß der angedachten Fragestellung zum studentischen Filmschaffen zur Wendezeit bietet es sich an, im Bestand nach bestimmten Wörtern oder Wortgruppen zu suchen. Im Katalog haben wir z.B. die mit der Fragestellung verbundenen Begriffe _Mauer_, _Wende_ und _Grenze_ abgefragt. "Wende" ist dabei als eigenes Schlagwort vorhanden, Mauer und Grenze können u.a. auch in den Stichworten, Titeln oder Beschreibungstexten gesucht werden. Erwartungsgemäß ergab die Suche nach dem Begriff “Wende” wenig Treffer vor dem Jahr 1989.
+Im nächsten Schritt werden wir einige exemplarische Filme sichten. Ziel der Sichtung ist es, einen ersten Eindruck von deren Gestaltungsweisen, Eigenheiten und möglichen Auffälligkeiten zu erlangen und daraufhin die Fragestellung verfeinern zu können. Für die Auswahl der Filme, die vom Forschungsteam der Fallstudie gemeinsam in einem Kinoraum angesehen und diskutiert werden sollen, greifen wir wiederum auf die Recherchemöglichkeiten im Bibliothekskatalog zurück. Gemäß der angedachten Fragestellung zum studentischen Filmschaffen zur Wendezeit bietet es sich an, im Bestand nach bestimmten Wörtern oder Wortgruppen zu suchen. Im Katalog haben wir z.B. die mit der Fragestellung verbundenen Begriffe _Mauer_, _Wende_ und _Grenze_ abgefragt. "Wende" ist dabei als eigenes Schlagwort vorhanden, Mauer und Grenze können u.a. auch in den Stichworten, Titeln oder Beschreibungstexten gesucht werden. Erwartungsgemäß ergab die Suche nach dem Begriff "Wende" wenige Treffer vor dem Jahr 1989.
 
 Aus diesen Rechercheergebnissen wurden zufällig einzelne Filmtitel zur Sichtung ausgewählt. In dieser Zusammenstellung sind nun Filme enthalten, die hauptsächlich um das Jahr 1989 entstanden sind. Es wurden vier Dokumentar- und fünf Spielfilme einbezogen. 
 
@@ -209,7 +209,7 @@ Auffallend oft werden zudem dokumentarische Elemente in Spielfilmen eingesetzt; 
 
 ### Mögliche Parameter für weitere Untersuchungen
 
-Aus diesen ersten Beobachtungen ergibt sich die Frage, ob und wie wir diese Motive, Themen und Gestaltungselemente genauer betrachten können. Welches Material ist für die Untersuchung notwendig? Welche digitalen Tools können eingesetzt werden? Und wie muss die Forschungsfrage für diese Untersuchung spezifiziert werden? Da mit Verfahren der Digital Humanities gearbeitet wird muss weiterhin geklärt werden, wo und wie mit _quantitativen Auswertungen_ gearbeitet werden kann. Hierfür kommen verschiedene Parameter infrage:
+Aus diesen ersten Beobachtungen ergibt sich die Frage, ob und wie wir diese Motive, Themen und Gestaltungselemente genauer betrachten können. Welches Material ist für die Untersuchung notwendig? Welche digitalen Tools können eingesetzt werden? Und wie muss die Forschungsfrage für diese Untersuchung spezifiziert werden? Da mit Verfahren der Digital Humanities gearbeitet wird, muss weiterhin geklärt werden, wo und wie mit _quantitativen Auswertungen_ gearbeitet werden kann. Hierfür kommen verschiedene Parameter infrage:
 * Anzahl der entstandenen Filme im Untersuchungszeitraum, auch aufgeschlüsselt nach Spiel-, Dokumentar- und Animationsfilmen
 * Anzahl der Filme in einem Jahr
 * Anzahl der Projektarten (Diplomfilm, Übung etc.) und deren zeitliche Verteilung
@@ -228,7 +228,7 @@ Diese Auflistung erhebt keinen Anspruch auf Vollständigkeit und kann durch zahl
 
 In den oben erwähnten ersten Beobachtungen zu den gesichteten Filmen scheint aber auch bereits auf, dass eine rein quantitative Auswertung von Daten zu den Filmen nicht ausreichen wird, um erkannte Phänomene hinreichend zu klären. So müsste neben der Ermittlung der Anzahl von Filmen, in denen Übergänge von Traum und Realität oder Rückblenden vorkommen, zusätzlich geklärt werden, ob der Einsatz dieser Mittel eine individuelle künstlerische Entscheidung war oder etwa auf die Vorgaben einer Übungsaufgabe zurückgehen. Für die Interpretation der gewählten Gestaltungsmittel muss der Kontext also berücksichtigt werden. In vielen Fällen bietet es sich daher an, **quantitative Vorgehensweisen mit qualitativen zu ergänzen und zu kombinieren** – z.B. indem gesellschaftliche, ökonomische und politische Aspekte in den Forschungsprozess einbezogen werden. Durch die Auswertung der Schlagworte, Stichworte und Beschreibungstexte zu den Filmen mit digitalen Tools können sich Informationen zu möglichen Inhalten ergeben, die zueinander in Beziehung gesetzt werden können und anhand der Sichtung einzelner Werke verifiziert werden müssen. Aufgrund des beschränkten Umfangs dieser Fallstudie werden wir jedoch nur sehr punktuell auf diese Verbindung von quantitativen mit qualitativen Vorgehensweisen eingehen können.
 
-Ausgehend von diesen ersten Auffälligkeiten sind verschiedene Perspektiven denkbar, die den möglichen Fragestellungen zugrunde liegen können und auf die wir im Abschnitt zur [Operationalisierung der Fragestellung ](operationalisierung) noch genauer eingehen.
+Ausgehend von diesen ersten Auffälligkeiten sind verschiedene Perspektiven denkbar, die den möglichen Fragestellungen zugrunde liegen können und auf die wir im Abschnitt zur [Operationalisierung der Fragestellung](operationalisierung) noch genauer eingehen.
 
 Grundlage für die Beantwortung dieser und vieler anderer Fragen ist zunächst ein strukturierter Datensatz mit Informationen zu den Filmen aus dem Filmarchiv. Dieser muss noch aus den Einträgen zum Filmarchiv im Bibliothekskatalog erstellt werden, erst dann kann mit einer weiteren Auswertung begonnen werden. Wichtig für die Erhebung eines solchen Datensatzes ist ein Verständnis des Unterschiedes von Daten und Metadaten, das im folgenden Abschnitt behandelt wird.
 
