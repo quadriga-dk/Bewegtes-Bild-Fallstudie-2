@@ -6,11 +6,11 @@ Die vorliegende Fallstudie zu Studierendenfilmen im Archiv der Filmuniversität 
 Welche Veränderungen lassen sich in den studentischen Filmen der Jahre 1985 bis 1999 erkennen, die auf die deutsche Einheit verweisen?
 ```
 
-Die Zusammenstellung des Korpus und die hierfür durchgeführte [Recherche](material) haben ergeben, dass für den angedachten Untersuchungszeitraum ausreichend Werke vorhanden sind, um die Fragestellung zu bearbeiten. Die Anzahl der bibliografischen Einträgen zu studentischen Filmen im Bibliothekskatalog ist groß genug, um eine sinnvolle quantitative Auswertung der Filme bzw. der Metadaten zu den Filmen mit digitalen Tools zu ermöglichen. In einem nächsten Schritt soll nun die Fragestellung operationalisiert werden.
+Die Zusammenstellung des Korpus und die hierfür durchgeführte [Recherche](material) haben ergeben, dass für den angedachten Untersuchungszeitraum ausreichend Werke vorhanden sind, um die Fragestellung zu bearbeiten. Die Anzahl der bibliografischen Einträge zu studentischen Filmen im Bibliothekskatalog ist groß genug, um eine sinnvolle quantitative Auswertung der Filme bzw. der Metadaten zu den Filmen mit digitalen Tools zu ermöglichen. In einem nächsten Schritt soll nun die Fragestellung operationalisiert werden.
 
 Was ist damit gemeint? Allgemein gesprochen geht es darum, zu bestimmen, welche Daten für die Beantwortung einer Fragestellung hilfreich sind und ggf. erhoben werden müssen, und welche Variablen dabei eine Rolle spielen können. Wie können also verschiedene Aspekte der Fragestellung quantitativ erfassbar gemacht werden? Im Rahmen dieser Operationalisierung werden theoretische Ansätze berücksichtigt, gleichzeitig soll die Verbindung von quantitativen und qualitativen Herangehensweisen in die Überlegungen mit einbezogen werden.
 
-Durch die Operationalisierung wird die filmwissenschaftliche Fragestellung weiter konkretisiert und eingegrenzt. Dabei ist wichtig, dass _verschiedene Perspektiven_ und _film- und kulturwissenschaftliche Herangehensweisen_ eingenommen werden können, die sich auf unterschiedliche Daten beziehen, die für die Beantwortung der Fragestellung relevant sind. Die Daten können dabei aus verschiedenen Quellen stammen: Für die Auswertung ästhetischer Merkmale müssen mithilfe digitaler Tools Annotationen zu den Filmen erstellt werden, Daten zur Rezeption wie Besucher:innenzahlen können aus Datenbanken im Internet entnommen werden und mit den Metadaten aus dem OPAC der Filmuniversität kann etwa die Anzahl von Filmen in einem bestimmtem Zeitraum oder die Projektart von Filmen bestimmt werden.
+Durch die Operationalisierung wird die filmwissenschaftliche Fragestellung weiter konkretisiert und eingegrenzt. Dabei ist wichtig, dass _verschiedene Perspektiven_ und _film- und kulturwissenschaftliche Herangehensweisen_ eingenommen werden können, die sich auf unterschiedliche Daten beziehen, die für die Beantwortung der Fragestellung relevant sind. Die Daten können dabei aus verschiedenen Quellen stammen: Für die Auswertung ästhetischer Merkmale müssen mithilfe digitaler Tools Annotationen zu den Filmen erstellt werden, Daten zur Rezeption wie Besucher:innenzahlen können aus Datenbanken im Internet entnommen werden und mit den Metadaten aus dem OPAC der Filmuniversität kann etwa die Anzahl von Filmen in einem bestimmten Zeitraum oder die Projektart von Filmen bestimmt werden.
 
 Im Folgenden können diese unterschiedlichen Perspektiven nicht in der Tiefe betrachtet werden, sondern sie werden hier lediglich als Möglichkeiten angedeutet. Dabei weisen sie auch über unsere Fallstudie hinaus und sind nicht streng auf diese beschränkt. Der Fokus liegt dabei jeweils auf den potenziell notwendigen Daten und deren Struktur, also auf den _quantifizierbaren Aspekten_. Die angeführten Aspekte verstehen sich dabei jeweils als Beispiele, sie können durch zahlreiche weitere ergänzt werden und erheben keinen Anspruch auf Vollständigkeit.
 
@@ -35,7 +35,7 @@ Die quantitative Erfassung solcher Merkmale ermöglicht einen Vergleich verschie
 - An welchen Stellen treten Plot Points auf?
 
 
-Auch hier ist die Verbindung und das Zusammendenken mit _qualitativen Vorgehensweisen_ wichtig. Eine episodische, offene Erzählstruktur wird sich durch rein quantitative Verfahren nur schwer feststellen lassen, diese können jedoch deren Bestimmung und auch den Vergleich mit anderen Filmen unterstützten. Fehlen z.B. klare Aktstrukturen oder treten zahlreiche Figuren gleichberechtigt auf? Dies können Hinweise auf nicht-klassische Erzählweisen sein.
+Auch hier ist die Verbindung und das Zusammendenken mit _qualitativen Vorgehensweisen_ wichtig. Eine episodische, offene Erzählstruktur wird sich durch rein quantitative Verfahren nur schwer feststellen lassen, diese können jedoch deren Bestimmung und auch den Vergleich mit anderen Filmen unterstützen. Fehlen z.B. klare Aktstrukturen oder treten zahlreiche Figuren gleichberechtigt auf? Dies können Hinweise auf nicht-klassische Erzählweisen sein.
 
 ## Auteurtheorie
 
@@ -81,7 +81,7 @@ Wie deutlich geworden sein sollte, stehen diese Perspektiven nicht allein oder s
 ```{admonition} Aufgliederung der Fragestellung
 :class: keypoint
 
-Aufbauend auf den Erkenntnissen aus der Korpusbildung, der Recherche im Bibliothekskatalog und den ersten Sichtungen exemplarischer Filme (siehe Kapitel [Materialrecherche](material)) bieten sich für eine weitere Bearbeitung der grundlegenden Fragestellung der Fallstudie u.a. folgenden Teilfragen an. Diese sind auf _die Erfassung von quantitativen Aspekten_ auf der Grundlage der filmografischen Angaben, also den Metadaten aus dem Katalog, ausgerichtet:
+Aufbauend auf den Erkenntnissen aus der Korpusbildung, der Recherche im Bibliothekskatalog und den ersten Sichtungen exemplarischer Filme (siehe Kapitel [Materialrecherche](material)) bieten sich für eine weitere Bearbeitung der grundlegenden Fragestellung der Fallstudie u.a. folgende Teilfragen an. Diese sind auf _die Erfassung von quantitativen Aspekten_ auf der Grundlage der filmografischen Angaben, also den Metadaten aus dem Katalog, ausgerichtet:
 - Wie viele Filme sind zu welchen Zeitpunkten entstanden?
 - Welchen Gattungen (Spielfilm, Dokumentarfilm, Animationsfilm) können diese Filme zugeordnet werden?
 - Welchen Projektarten (Übung, Diplomfilm etc.) werden die Filme zugeordnet?
