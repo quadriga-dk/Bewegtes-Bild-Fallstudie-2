@@ -8,7 +8,7 @@ Informations- bzw. Datenvisualisierung ist nicht auf wissenschaftliche Erkenntni
 
 Visualisierungen sind keine Erfindung des digitalen Zeitalters, sondern haben eine lange Tradition. Formen von Balken- und Liniendiagrammen waren bereits im 18. Jahrhundert gebräuchlich {cite}`e-Drucker_2021`. Alles, was quantifiziert und in einen numerischen Wert gebracht werden kann, ist auch in einer Visualisierung darstellbar, z.B. als Graph oder Diagramm. Hierfür genügen auch 'analoge' Hilfsmittel wie Papier und Stift, digitale Tools vereinfachen und erweitern lediglich die Darstellungsmöglichkeiten. 
 
-Informationsvisualisierung wird häufig funktional definiert: Sie dient dazu, große Mengen abstrakter Daten so visuell so aufzuarbeiten, dass sie für Menschen erfassbar werden {cite}`e-Rehbein_2017`. Durch passende Visualisierungen von Daten ist es möglich, vorher verborgene Muster, Strukturen oder Auffälligkeiten zu erkennen.
+Informationsvisualisierung wird häufig funktional definiert: Sie dient dazu, große Mengen abstrakter Daten so visuell aufzuarbeiten, dass sie für Menschen erfassbar werden {cite}`e-Rehbein_2017`. Durch passende Visualisierungen von Daten ist es möglich, vorher verborgene Muster, Strukturen oder Auffälligkeiten zu erkennen.
 
 Rehbein unterscheidet dabei drei verschiedene Funktionen von Informationsvisualisierungen im Forschungsprozess:
 
@@ -77,7 +77,7 @@ Durch Klick auf die einzelnen Berufsbezeichnungen können weitere Untergruppen u
 align: left
 width: 100%
 name: wfpp_2
-alt: Screenshot aus dem Women Film Pioneers Explorer zur internationalen Verbindungslinien
+alt: Screenshot aus dem Women Film Pioneers Explorer zu den internationalen Verbindungslinien
 ---
 Screenshot Visualisierung "Map" Women Film Pioneers Explorer (<a href="https://www.informatik.uni-marburg.de/women-film-pioneers-explorer/Map.html" class="external-link" target="_blank">https://www.informatik.uni-marburg.de/women-film-pioneers-explorer/Map.html</a>)
 ```

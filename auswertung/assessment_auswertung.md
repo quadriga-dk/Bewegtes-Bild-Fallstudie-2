@@ -16,7 +16,7 @@ import sys
 sys.path.append("..")
 from quadriga import colors
 ```
-# 🏆Selbsttest: Wissen und Praxis
+# 🏆 Selbsttest: Wissen und Praxis
 
 ````{admonition} Wie nutze ich den Selbsttest?
 :class: hinweis, dropdown
