@@ -10,7 +10,7 @@ Als Orte für die langfristige Datenspeicherung bieten sich die im letzten Kapit
 * In einem Data Paper werden in einem Repositorium gespeicherte Daten ausführlich beschrieben und deren Potenzial analysiert.
 ```
 
-Diesen drei Formen werden im Folgenden betrachtet.
+Diese drei Formen werden im Folgenden betrachtet.
 
 ## Artikel mit Verweis auf Daten im Repositorium
 Wissenschaftliche Artikel, die Forschungsergebnisse darstellen und deren Qualität durch den Prozess eines Peer-Reviews sichergestellt wird, sind als Publikationsform etabliert. In einem solchen Beitrag können Daten bezüglich einer Forschungsfrage ausgewertet und die Datenanalyse in die Argumentation eingebaut werden. Im Artikel wird auf Daten verwiesen, die an einem öffentlich zugänglichen Speicherort wie einem Repositorium abgerufen werden können. Teilweise schreiben es die Regularien eines Publikationsmediums vor, dass zugehörige Daten für den Review-Prozess verfügbar sein und anschließend auch veröffentlicht werden müssen.
@@ -60,7 +60,7 @@ Screenshot der Rubrik <a href="https://necsus-ejms.org/portfolio/spring-2023_por
 
 Der Aufbau eines Data Papers kann variieren und wird häufig vom publizierenden Journal vorgegeben. Meist fokussiert sich ein Data Paper zunächst auf die Beschreibung des Datensatzes und dessen Struktur: Welche Dateien sind enthalten und wie ist die Beziehung zwischen den Dateien? Handelt es sich z.B. um einen Auszug aus einer Datenbank mit verschiedenen Tabellen, die untereinander mit eindeutigen Identifikatoren in Beziehung gesetzt werden können?
 
-Daran anschließend wird das Datenmodell beschrieben. Bei komplexen Datenmodellen werden auch grafische Darstellungen der Modelle eingefügt. Darauf aufbauend werden die Datenerhebung und die Datenquellen dargelegt. Wer hat die Daten in welchem Kontext erhoben? Wurden die Daten automatisch oder manuell erfasst? Welche Quellen wurden verwendet, z.B. Angaben aus Zeitungen, Handelsregistern, Förderinstitutionen oder Festivals-Archiven? Und falls mehrere Quellen ausgewertet wurden: Wie wurden diese zusammengeführt? Wie sah der Prozess der Standardisierung aus?
+Daran anschließend wird das Datenmodell beschrieben. Bei komplexen Datenmodellen werden auch grafische Darstellungen der Modelle eingefügt. Darauf aufbauend werden die Datenerhebung und die Datenquellen dargelegt. Wer hat die Daten in welchem Kontext erhoben? Wurden die Daten automatisch oder manuell erfasst? Welche Quellen wurden verwendet, z.B. Angaben aus Zeitungen, Handelsregistern, Förderinstitutionen oder Festivalarchiven? Und falls mehrere Quellen ausgewertet wurden: Wie wurden diese zusammengeführt? Wie sah der Prozess der Standardisierung aus?
 
 Im Diskussionsteil wird das Datenmodell ausführlich reflektiert (z.B. ob die Variablen und Feldnamen sinnvoll gewählt sind oder an welchen Stellen Lücken im Datensatz erkennbar sind), ebenso wie die Datenquellen (z.B. die Methoden der Datenerhebung, wo sind die Grenzen der Quellen, was kann mit ihnen erforscht werden). Auch die Möglichkeiten der Nachnutzung und der Erweiterung des Datensatzes sollten diskutiert werden.
 

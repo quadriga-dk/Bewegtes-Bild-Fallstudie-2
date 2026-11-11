@@ -17,7 +17,7 @@ sys.path.append("..")
 from quadriga import colors
 ```
 
-# 🏆Selbsttest: Wissen und Praxis
+# 🏆 Selbsttest: Wissen und Praxis
 
 ````{admonition} Wie nutze ich den Selbsttest?
 :class: hinweis, dropdown
@@ -154,7 +154,7 @@ true_false4 = [{
         {
             "answer": "Richtig",
             "correct": True,
-            "feedback": """✓ Korrekt: Was als Forschungsdaten verstanden wird hängt von den Kontexten und Disziplinen ab in denen sie entstehen, es werden verschiedene Perspektiven eingenommen."""
+            "feedback": """✓ Korrekt: Was als Forschungsdaten verstanden wird, hängt von den Kontexten und Disziplinen ab, in denen sie entstehen, es werden verschiedene Perspektiven eingenommen."""
         },
         {
             "answer": "Falsch",
@@ -217,7 +217,7 @@ quiz.create_matching_quiz(
     descriptions=[
         "Wissenschaftlicher Artikel mit Verweis auf extern gespeicherte Daten",
         "Datensatz mit kompakter Beschreibung in einem Repositorium",
-        "Ausführliche Beschreibung und Analyse des Datensatz-Potentials"
+        "Ausführliche Beschreibung und Analyse des Datensatzpotenzials"
     ],
     options=[
         "Data Paper",
@@ -228,7 +228,7 @@ quiz.create_matching_quiz(
     correct_mapping={
         "Wissenschaftlicher Artikel mit Verweis auf extern gespeicherte Daten": "Artikel mit Datenverweis",
         "Datensatz mit kompakter Beschreibung in einem Repositorium": "Reine Datenpublikation",
-        "Ausführliche Beschreibung und Analyse des Datensatz-Potentials": "Data Paper"
+        "Ausführliche Beschreibung und Analyse des Datensatzpotenzials": "Data Paper"
     }
 )
 ```
