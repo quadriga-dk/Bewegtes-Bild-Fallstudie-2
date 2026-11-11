@@ -25,7 +25,7 @@ Für die Bereinigung von Datensätzen müssen diese in das Programm importiert w
 Der folgende Text konzentriert sich auf die gängigen Formate **TSV**, **CSV** und **TXT**.
 Im Kapitel zum [Datenmodell](../modell.md#auszug-aus-der-datenbank-des-bibliothekskatalogs) wurde bereits kurz auf das Format *TSV* eingegangen.
 
-Im Grunde handelt es sich bei *TSV* und *CSV* ebenfalls um *TXT* Dateien, also einfache Textdateien, die jede Art von Zeichen und Text enthalten können, einschließlich unstrukturierter oder formatierter Daten.
+Im Grunde handelt es sich bei *TSV* und *CSV* ebenfalls um *TXT*-Dateien, also einfache Textdateien, die jede Art von Zeichen und Text enthalten können, einschließlich unstrukturierter oder formatierter Daten.
 Um Daten zu formatieren, müssen einzelne Einträge, wie etwa die einzelnen Zellen in einer Tabelle, im Text erkennbar voneinander getrennt werden. Zu diesem Zweck haben sich als gängige Trennzeichen (engl. **separator** oder konkreter **delimiter**) das Tabulatorzeichen und das Komma durchgesetzt. Aus ihnen erklären sich die Namen der anderen oben genannten Formate: "**T**ab **S**eparated **V**alues" und "**C**omma **S**eparated **V**alues".
 
 Für das Arbeiten mit Datensätzen, die ausschließlich aus Zahlen bestehen, ist das Komma als Trennzeichen vollkommen ausreichend. In den _Digital Humanities_ wird allerdings typischerweise mit Daten gearbeitet, die neben Zahlen auch Texte enthalten, etwa Filmtitel oder Beschreibungen. In einem _CSV_-Datensatz würde ein Filmtitel wie `The Good, the Bad and the Ugly` als zwei getrennte Einträge interpretiert werden, nämlich `The Good` und `the Bad and the Ugly`, da das Komma als Zeichen für einen neuen Eintrag gelesen würde. Daher ist zu empfehlen, stattdessen bei der Erstellung von Datensätzen ein eindeutiges, in Texten selten auftretendes Zeichen als Trennzeichen einzusetzen - wie etwa das Tabulatorzeichen oder den senkrechten Strich `|` (engl. **Pipe**). Unter Windows wird dieser senkrechte Strich mit der Tastenkombination `Alt Gr`+`<` erzeugt, auf dem Mac mit `option`+`7`.
@@ -64,7 +64,7 @@ Im Startmenü kann die Sprache von *OpenRefine* auf Deutsch geändert werden. Da
 
 ```{admonition} Hinweis
 :class: hinweis
-*OpenRefine* wird zwar über Ihren Browser gestartet und bedient, sämtliche importierte und bearbeitete Daten verbleiben jedoch **lokal auf Ihrem Rechner** und werden nur dort abgespeichert. Ein Upload auf externe Server findet nicht statt.
+*OpenRefine* wird zwar über Ihren Browser gestartet und bedient, sämtliche importierten und bearbeiteten Daten verbleiben jedoch **lokal auf Ihrem Rechner** und werden nur dort abgespeichert. Ein Upload auf externe Server findet nicht statt.
 ```
 
 Über den Startbildschirm von *OpenRefine* werden durch Anklicken von *Create Project* neue Projekte erstellt ({numref}`main_window_OpenRefine`). Neben lokalen Dateien (*Choose Files*) können über die Importoptionen *URLs*, *Database* und *Google Data* auch Datensätze aus dem Internet importiert werden. In der *Clipboard* Ansicht ist es möglich, ganze Datensätze per *Copy-and-Paste* über die Zwischenablage einzulesen.

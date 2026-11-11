@@ -32,7 +32,7 @@ Die Datenbasis für die Bereinigung bildet ein [Auszug aus der OPAC-Datenbank](/
 
 ```{admonition} Achtung
 :class: caution
-Nach der Bereinigung der Daten zu unserem Korpus stellte sich heraus, dass im finalen Datensatz personenbezogene Daten beinhaltet sind. Die filmografischen Daten enthalten Angaben zu den an den Filmen beteiligten Personen und welche Funktion sie jeweils übernommen haben.
+Nach der Bereinigung der Daten zu unserem Korpus stellte sich heraus, dass im finalen Datensatz personenbezogene Daten enthalten sind. Die filmografischen Daten enthalten Angaben zu den an den Filmen beteiligten Personen und welche Funktion sie jeweils übernommen haben.
 
 Da es sich um größtenteils unveröffentlichte, studentische Filmproduktionen handelt, kann leider nicht mit Sicherheit gewährleistet werden, dass alle am Film beteiligten und in den Daten genannten Personen der Veröffentlichung ihrer Daten zugestimmt haben. Zusätzlich müsste überprüft werden, ob die Funktion der Person korrekt wiedergegeben wird.
 

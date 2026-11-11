@@ -18,7 +18,7 @@ Im Folgenden soll auf das Vorgehen beim Export des Datensatzes als Textdatei ein
 Wird im oben gezeigten Menü der Export als **CSV**, also als Textdatei mit *Comma-separated values*, ausgewählt, ergänzt *OpenRefine* automatisch Anführungszeichen am Anfang und am Ende von Einträgen, die ebenfalls ein Komma enthalten. Ggf. werden diese aber von anderen Programmen nicht korrekt interpretiert. Daher ist der Export als **TSV** (*Tab-separated value*) die bessere Option. Bei der Auswertung des Datensatzes werden wir ebenfalls mit einer *TSV*-Datei arbeiten. Wählen Sie hierfür im *Export*-Menü den Punkt *Tab-separated value* aus. Es öffnet sich ein Downloadfenster, in dem Sie den Dateinamen und den Speicherort der *TSV*-Datei festlegen können.
 
 
-Alternativ kann auch mit einem ungewöhnlichem Sonderzeichen wie dem *Pipe* `|` als Trennungszeichen gearbeitet werden. Wählen Sie für letzteres den Menüpunkt *Custom tabular...* aus.
+Alternativ kann auch mit einem ungewöhnlichen Sonderzeichen wie dem *Pipe* `|` als Trennungszeichen gearbeitet werden. Wählen Sie für letzteres den Menüpunkt *Custom tabular...* aus.
 
 ```{figure} ../../assets/bereinigung/openRefine/export/export_2.png
 ---
@@ -38,7 +38,7 @@ Wählen Sie als *Line-based text format* die Option *custom separator* aus und e
 align: center
 width: 100%
 name: export_3
-alt: Das Menücustom tabular
+alt: Das Menü *custom tabular*
 ---
 Das Menü *custom tabular*
 ```

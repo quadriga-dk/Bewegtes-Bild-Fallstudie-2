@@ -10,7 +10,7 @@ Für das gesamte Korpus der Filme wäre diese Vorgehensweise nicht durchzuführe
 ````{margin} 
 ```{admonition} Hinweis
 :class: hinweis
-Eine Anleitung zu "Scarping als Methode zum Korpusaufbau" findet sich bei <a href="https://quadriga-dk.github.io/Text-Fallstudie-2/scraping_intro/scraping_intro.html" target="_blank">Fallstudie II - Text</a>.
+Eine Anleitung zu "Scraping als Methode zum Korpusaufbau" findet sich bei <a href="https://quadriga-dk.github.io/Text-Fallstudie-2/scraping_intro/scraping_intro.html" target="_blank">Fallstudie II - Text</a>.
 ```
 ````
 
@@ -30,7 +30,7 @@ Der Systembibliothekar der Filmuniversität erklärte sich bereit, für unsere F
 
 ```{admonition} Achtung
 :class: caution
-Bei unserer weiteren Arbeit mit dem auf dem Auszug basierenden Datensatz zu den studentischen Filmen zur Wendezeit stellte sich heraus, dass dieser in den filmografischen Angaben personenbezogene Daten enthält. Da für diese Angaben nicht gesichert ist, dass die betroffenen Personen einer Veröffentlichung zugestimmt haben, können wir diesen Datensatz nun nicht publizieren. Auf die genauen Probleme die sich ergeben haben und die geltenden rechtlichen Rahmenbedingungen gehen wir im Kapitel zu [Problemfeldern](/publikation/problemfelder) bei der Datenpublikation noch ein. Für die Veranschaulichung der weiteren Arbeitsschritte verwenden wir einen synthetischen Datensatz, der im Kapitel zur [Datenbereinigung](/bereinigung/openRefine/0_datenbereinigung) besprochen wird.
+Bei unserer weiteren Arbeit mit dem auf dem Auszug basierenden Datensatz zu den studentischen Filmen zur Wendezeit stellte sich heraus, dass dieser in den filmografischen Angaben personenbezogene Daten enthält. Da für diese Angaben nicht gesichert ist, dass die betroffenen Personen einer Veröffentlichung zugestimmt haben, können wir diesen Datensatz nun nicht publizieren. Auf die genauen Probleme, die sich ergeben haben, und die geltenden rechtlichen Rahmenbedingungen gehen wir im Kapitel zu [Problemfeldern](/publikation/problemfelder) bei der Datenpublikation noch ein. Für die Veranschaulichung der weiteren Arbeitsschritte verwenden wir einen synthetischen Datensatz, der im Kapitel zur [Datenbereinigung](/bereinigung/openRefine/0_datenbereinigung) besprochen wird.
 ```
 
 Auch wenn der originale Datensatz im Rahmen unserer Fallstudie nicht veröffentlicht werden kann, stellen wir im Folgenden dennoch unsere weitere Vorgehensweise dar. Als Screenshots werden Einträge zu einem Werk genutzt, das später auf DVD veröffentlicht wurde – Andreas Dresens Film "Stilles Land" (1992). In diesem Fall kann davon ausgegangen werden, dass die Zustimmung der beteiligten Mitwirkenden für eine Veröffentlichung ihrer personenbezogenen Daten erteilt wurde.
@@ -110,6 +110,6 @@ Bereitet man die Daten zu den Filmen in Form einer Tabelle auf, enthält eine Ze
 
 
 [^1]: Auf die genaue Funktionsweise von "Web Scraping" einzugehen, würde hier zu weit führen. Einen ersten Überblick liefert der <a href="https://de.wikipedia.org/wiki/Screen_Scraping" class="external-link" target="_blank">Wikipedia-Artikel</a> zum Thema.
-[^2]: Die genauen Unterschiede zwischen verschiedenen Dateitypen, in denen Datensätze vorliegen (z.B. csv oder tsv), werden hier nicht weiter behandelt. Im Abschnitt zur [Datenbereinigung](../bereinigung/openRefine/2_import.md/) werden diese noch genauer dargestellt.
+[^2]: Die genauen Unterschiede zwischen verschiedenen Dateitypen, in denen Datensätze vorliegen (z.B. csv oder tsv), werden hier nicht weiter behandelt. Im Abschnitt zur [Datenbereinigung](../bereinigung/openRefine/2_import.md) werden diese noch genauer dargestellt.
 
 

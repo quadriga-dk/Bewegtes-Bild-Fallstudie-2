@@ -99,7 +99,7 @@ Die *Undo / Redo* Liste
 ```
 ````
 
-Mit Klick auf einen vorherigen Schritt in der Liste kann zu einem früheren Arbeitsstand zurückgekehrt werden. In OpenRefine ist damit kein Wiederholen von *STRG Z* und *STRG Y* nötig wie man es aus anderen Programmen kennt.
+Mit Klick auf einen vorherigen Schritt in der Liste kann zu einem früheren Arbeitsstand zurückgekehrt werden. In OpenRefine ist damit kein Wiederholen von *STRG Z* und *STRG Y* nötig, wie man es aus anderen Programmen kennt.
 
 Außerdem lassen sich über das Feld *Extract* die aufgelisteten Arbeitsschritte im *JSON* Format extrahieren:
 
@@ -113,7 +113,7 @@ alt: Der Button zum Extrahieren der Arbeitsschritte
 Der Button zum Extrahieren der Arbeitsschritte
 ```
 
-In dem sich öffnenden *Extract*-Fenstern können durch das Setzen eines Hakens einzelne Schritte ausgewählt werden, die Teil des *JSON*-Exports auf der rechten Seite werden sollen. Standardmäßig werden alle Schritte ausgewählt. Durch einen Klick auf *Export* können Sie die *JSON*-Datei herunterladen. Alternativ können Sie den Inhalt im rechten Feld auch in die Zwischenablage kopieren, um ihn nach einem späteren oder früheren *Undo/Redo* Schritt anzuwenden oder in ein anderes *OpenRefine*-Projekt einzufügen.
+In dem sich öffnenden *Extract*-Fenster können durch das Setzen eines Hakens einzelne Schritte ausgewählt werden, die Teil des *JSON*-Exports auf der rechten Seite werden sollen. Standardmäßig werden alle Schritte ausgewählt. Durch einen Klick auf *Export* können Sie die *JSON*-Datei herunterladen. Alternativ können Sie den Inhalt im rechten Feld auch in die Zwischenablage kopieren, um ihn nach einem späteren oder früheren *Undo/Redo* Schritt anzuwenden oder in ein anderes *OpenRefine*-Projekt einzufügen.
 
 ```{figure} ../../assets/bereinigung/openRefine/spalten/undoRedo_extract.png
 ---
@@ -196,7 +196,7 @@ alt: Das Öffnen des Menüs zum Aufteilen von Spalten
 Das Öffnen des Menüs zum Aufteilen von Spalten
 ```
 
-Im anschließenden Fenster kann das Trennzeichen ausgewählt werden. Für die Spalte *Verlag* ist ` ; ` das passende Trennzeichen, also das Semikolon mit einem vorangestellten und folgenden Leerzeichen. Zwar würde auch `;`, also nur das Semikolon ohne die Leerzeichen, zu einem ähnlichen Ergebnis führen, allerdings blieben dabei die Leerzeichen am Anfang bzw. am Ende der getrennten Einträge enthalten. Ggf. ist es sinnvoll die Option *Remove this column* zu deaktivieren, um die ursprüngliche Spalte nach der Aufteilung zu erhalten. Die Option *Guess cell type* wählt für jeden Eintrag den passenden Dateityp aus, so werden Zahlen etwa automatisch als numerischer Dateityp interpretiert (siehe [Numeric Facet](./3_sichtung.md#numeric-facet)).
+Im anschließenden Fenster kann das Trennzeichen ausgewählt werden. Für die Spalte *Verlag* ist ` ; ` das passende Trennzeichen, also das Semikolon mit einem vorangestellten und folgenden Leerzeichen. Zwar würde auch `;`, also nur das Semikolon ohne die Leerzeichen, zu einem ähnlichen Ergebnis führen, allerdings blieben dabei die Leerzeichen am Anfang bzw. am Ende der getrennten Einträge enthalten. Ggf. ist es sinnvoll, die Option *Remove this column* zu deaktivieren, um die ursprüngliche Spalte nach der Aufteilung zu erhalten. Die Option *Guess cell type* wählt für jeden Eintrag den passenden Dateityp aus, so werden Zahlen etwa automatisch als numerischer Dateityp interpretiert (siehe [Numeric Facet](./3_sichtung.md#numeric-facet)).
 
 ```{figure} ../../assets/bereinigung/openRefine/spalten/split_column_2.png
 ---

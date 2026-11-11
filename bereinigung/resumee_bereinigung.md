@@ -12,7 +12,7 @@ Im Abschnitt zum [Datenmodell](./modell.md) wird geklärt, was unter diesem Begr
 
 **Analyse einer Datenquelle**
 
-Diese Analyse erfolgt in unserer Fallstudie im Abschnitt zur [Datenquelle](./datenquelle.md). Dort gehen wir dem Datenmodell nach, das dem Auszug der Daten zu unserem Filmkorpus aus dem OPAC zugrunde liegt. Dies geschieht u.a., indem wir den Eingabeprozess der filmografischen Angaben in die Datenbank des OPAC nachvollziehen und einzelne Eingabefelder besprechen. Dadurch wird die Struktur des Datenbankauszugs den wir von der Bibliothek erhalten haben besser verständlich und deutlich, welche Bereinigungsschritte für die weitere Arbeit mit den Daten notwendig sind.
+Diese Analyse erfolgt in unserer Fallstudie im Abschnitt zur [Datenquelle](./datenquelle.md). Dort gehen wir dem Datenmodell nach, das dem Auszug der Daten zu unserem Filmkorpus aus dem OPAC zugrunde liegt. Dies geschieht u.a., indem wir den Eingabeprozess der filmografischen Angaben in die Datenbank des OPAC nachvollziehen und einzelne Eingabefelder besprechen. Dadurch wird die Struktur des Datenbankauszugs, den wir von der Bibliothek erhalten haben, besser verständlich und es wird deutlich, welche Bereinigungsschritte für die weitere Arbeit mit den Daten notwendig sind.
 
 **Datenbereinigung mit der Software *OpenRefine***
 

@@ -17,7 +17,7 @@ sys.path.append("..")
 from quadriga import colors
 ```
 
-# 🏆Selbsttest: Wissen und Praxis
+# 🏆 Selbsttest: Wissen und Praxis
 
 ````{admonition} Wie nutze ich den Selbsttest?
 :class: hinweis, dropdown
@@ -377,8 +377,8 @@ create_answer_box('Assessment_-5')
 - Text Facet für Übersicht
 - Cluster für ähnliche Einträge
 - GREL-Funktionen für Bereinigungen (replace- und contains-Methode)
-- „Add column based on this column" für neue Spalte für Schätzungen
-- „Split into several columns" für Aufteilung in mehrere Spalten
+- "Add column based on this column" für neue Spalte für Schätzungen
+- "Split into several columns" für Aufteilung in mehrere Spalten
 ````
 
 ## Aufgabe 6
@@ -677,13 +677,13 @@ sys.path.append("..")
 from quadriga import colors
 
 true_false2 = [{
-    "question": """contains(„text") gibt immer einen Textwert zurück""",
+    "question": """contains("text") gibt immer einen Textwert zurück""",
     "type": "multiple_choice",
     "answers": [
         {
             "answer": "Falsch",
             "correct": True,
-            "feedback": """✓ Korrekt! contains() gibt Boolean-Werte zurück, also true oder false: value.contains(„ca.") → true/false"""
+            "feedback": """✓ Korrekt! contains() gibt Boolean-Werte zurück, also true oder false: value.contains("ca.") → true/false"""
         },
         {
             "answer": "Richtig",

@@ -40,7 +40,7 @@ Während Ihrer Arbeit an dem Datensatz möchten Sie ggf. einen Zwischenschritt d
 :class: caution
 Denken Sie daran, regelmäßig Zwischenstände Ihres Projekts als eigene *OpenRefine*-Projektdateien abzuspeichern. Diese sollten Sie so benennen, dass der Arbeitsstand aus dem Dateinamen ersichtlich ist (z.B. durch Einbindung des Bearbeitungsdatums, einer Versionsnummer, eines Kürzels der bearbeitenden Person etc.).
 
-In *OpenRefine* können zwar Bearbeitungsschritte relativ einfach rückgängig gemacht werden, dennoch kann es ggf. nützlich sein, auf eine älteren Version der Datenbereinigung zurückgreifen zu können. Insbesondere vor größeren Bearbeitungsschritten wie z.B. dem Löschen ganzer Spalten oder Zeilen ist das Speichern einer Zwischenversion des Projekts sinnvoll.
+In *OpenRefine* können zwar Bearbeitungsschritte relativ einfach rückgängig gemacht werden, dennoch kann es ggf. nützlich sein, auf eine ältere Version der Datenbereinigung zurückgreifen zu können. Insbesondere vor größeren Bearbeitungsschritten wie z.B. dem Löschen ganzer Spalten oder Zeilen ist das Speichern einer Zwischenversion des Projekts sinnvoll.
 ```
 
  Klicken Sie dazu auf das *Export* Dropdown-Menü in der oberen rechten Ecke der Benutzeroberfläche und wählen Sie den ersten Punkt *OpenRefine project archive to file*:
@@ -93,7 +93,7 @@ alt: Erstellung eines Text Facet
 ---
 Erstellung eines *Text Facet*
 ```
-Auf der linken Seite des Hauptfenster erscheint das erstellte *Text Facet*:
+Auf der linken Seite des Hauptfensters erscheint das erstellte *Text Facet*:
 
 ```{figure} ../../assets/bereinigung/openRefine/sichtung/textfacet_titel.png
 ---
@@ -213,7 +213,7 @@ alt: Die Transformation To Number
 Die Transformation *To Number*
 ```
 
-Auf die Spalte *Jahr* in ihrer aktuellen Form hat diese Transformation allerdings keine Wirkung. Die Einträge mit nicht-numerischen Zeichen wie Schrägstrichen werden weiterhin nicht als Zahlen erkannt, während jene Einträge, die nur aus Zahlen bestehen, bereits als solche während des Import des Datensatzes identifiziert wurden. Wie diese Schrägstriche und eckigen Klammern entfernt werden, wird im Abschnitt zur [Standardisierung der Jahresangaben](/bereinigung/openRefine/5.1_jahre.md) erklärt.
+Auf die Spalte *Jahr* in ihrer aktuellen Form hat diese Transformation allerdings keine Wirkung. Die Einträge mit nicht-numerischen Zeichen wie Schrägstrichen werden weiterhin nicht als Zahlen erkannt, während jene Einträge, die nur aus Zahlen bestehen, bereits als solche während des Imports des Datensatzes identifiziert wurden. Wie diese Schrägstriche und eckigen Klammern entfernt werden, wird im Abschnitt zur [Standardisierung der Jahresangaben](/bereinigung/openRefine/5.1_jahre.md) erklärt.
 
 ### Text filter
 Mit einem *Text Filter* können Sie Spalten nach einem Text durchsuchen und den Datensatz nach den Ergebnissen filtern. Der *Text Filter* findet sich im Dropdown-Menü der Spalten unter den *Facets*:
