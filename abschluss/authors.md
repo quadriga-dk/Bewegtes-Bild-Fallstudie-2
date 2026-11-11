@@ -45,11 +45,11 @@ lang: de-DE
 </tr>
 <tr>
 <td><b>Einrichtung:</b></td>
-<td>Filmuniversität Babelsberg KONRAD WOLF / Norwegian University for Science and Technology (NTNU)</td>
+<td>Filmuniversität Babelsberg KONRAD WOLF / Norwegian University of Science and Technology (NTNU)</td>
 </tr>
 <tr>
 <td><b>Website:</b></td>
-<td><a href="https://www.ntnu.edu/employees/skadi.loist" class="external-link" target="_blank">Mitarbeiter:innen-Seite Norwegian University for Science and Technology (NTNU)</a></td>
+<td><a href="https://www.ntnu.edu/employees/skadi.loist" class="external-link" target="_blank">Mitarbeiter:innen-Seite Norwegian University of Science and Technology (NTNU)</a></td>
 </tr>
 </table>
 
