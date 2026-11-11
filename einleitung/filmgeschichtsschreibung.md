@@ -11,7 +11,7 @@ alt: Darstellung eines Suchtreffers bei der Recherche in der MHDL mit Lantern.
 Screenshot Suche in der MHDL mit Lantern
 ```
 
-Die Weboberfläche <a href="https://lantern.mediahist.org/" class="external-link" target="_blank">Lantern</a> ermöglicht die Volltextsuchen im Bestand der MHDL (vgl. {numref}`lantern_caligari`). Entsprechende Treffer werden mit den Metadaten zur Publikation aufgeführt, das Digitalisat der Publikation - also der gescannte, mit Texterkennung bearbeitete Originaltext - und damit der Kontext des Such-Treffers kann direkt aufgerufen werden.
+Die Weboberfläche <a href="https://lantern.mediahist.org/" class="external-link" target="_blank">Lantern</a> ermöglicht die Volltextsuchen im Bestand der MHDL (vgl. {numref}`lantern_caligari`). Entsprechende Treffer werden mit den Metadaten zur Publikation aufgeführt, das Digitalisat der Publikation - also der gescannte, mit Texterkennung bearbeitete Originaltext - und damit der Kontext des Suchtreffers kann direkt aufgerufen werden.
 
 Ein weiteres Auswertungstool ist <a href="https://search.projectarclight.org/" class="external-link" target="_blank">Arclight</a>, das Visualisierungen zu Ergebnissen von Suchanfragen an die MHDL generiert (vgl. {numref}`arclight_caligari`). In dem Sammelband _The Arclight guidebook to media history and the digital humanities_ werden verschiedene medienhistorische Forschungsprojekte vorgestellt, die unter anderem mit der MHDL und Arclight realisiert wurden, aber auch weitere Tools und Methoden der Digital Humanities anwenden {cite}`ac-Acland_Hoyt_2016`.
 
