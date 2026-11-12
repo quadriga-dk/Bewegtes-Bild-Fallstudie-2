@@ -498,13 +498,13 @@ quiz.create_matching_quiz(
         "Gephi",
         "Excel",
         "Tableau",
-        "RAWGraph"
+        "RAWGraphs"
     ],
     correct_mapping={
         "Komplexe Netzwerk-Visualisierungen": "Gephi",
         "Einfache Diagramme und Tabellenkalkulation": "Excel",
         "Umfangreiche Datenauswertungen, Visualisierungen und komplexe Dashboards": "Tableau",
-        "Schnelle, webbasierte Visualisierungen verschiedener Datentypen": "RAWGraph"
+        "Schnelle, webbasierte Visualisierungen verschiedener Datentypen": "RAWGraphs"
     }
 )
 ```
